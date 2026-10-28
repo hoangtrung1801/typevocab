@@ -18,6 +18,15 @@ Logic gõ giống Monkeytype:
 - Từ vựng mục tiêu nào bị gõ sai sẽ được chọn sẵn trong danh sách ôn tập.
 - Âm thanh kiểu máy đánh chữ (phím, dấu cách, xoá, gõ sai, chuông khi xong) được tạo bằng Web Audio API, không cần file âm thanh. Bật/tắt bằng nút loa ở góc trên.
 
+## Ôn tập ngắt quãng
+
+Những từ đã chọn ôn được xếp lịch theo thuật toán SM-2 rút gọn (thuật toán của Anki), trong `src/lib/srs.ts`:
+
+- Thẻ ôn hiện nghĩa tiếng Việt và câu gốc trong đoạn văn với từ được để trống (gợi ý chữ cái đầu). Bạn gõ từ tiếng Anh; chấp nhận cả dạng trong câu (*cages*) lẫn dạng gốc (*cage*).
+- Sau khi xem đáp án, chọn mức nhớ bằng nút hoặc phím 1–4: **Quên** (ôn lại sau 10 phút, quay lại cuối buổi ôn), **Khó**, **Được**, **Dễ**. Gõ đúng thì app gợi ý sẵn "Được", gõ sai thì gợi ý "Quên".
+- Khoảng cách giãn dần: 1 ngày, 3 ngày, rồi nhân với hệ số dễ (bắt đầu 2,5; giảm khi chọn Khó/Quên, tăng khi chọn Dễ).
+- Mỗi buổi ôn tối đa 30 từ đến hạn. Trang chủ và trang "Từ cần ôn" hiện số từ đến hạn.
+
 ## Chạy dự án
 
 ```bash
@@ -48,9 +57,11 @@ src/
   lib/passage.ts                    tách đoạn văn thành ký tự / từ, đánh dấu từ vựng
   lib/typing.ts                     logic gõ kiểu Monkeytype
   lib/store.ts                      trạng thái lưu trong localStorage
+  lib/srs.ts, lib/review.ts         lịch ôn tập ngắt quãng, thẻ ôn có chỗ trống
   components/TypingBoard.tsx        trang giấy để gõ, con trỏ, tooltip từ vựng
   components/WordPicker.tsx         kết quả và chọn từ cần ôn
-  pages/Home.tsx, Practice.tsx, Review.tsx
+  pages/Home.tsx, Practice.tsx       chọn đoạn, gõ đoạn văn
+  pages/Review.tsx, ReviewSession.tsx  danh sách từ cần ôn, buổi ôn tập
 scripts/generate-passages.mjs       sinh đoạn văn bằng OpenAI API
 scripts/lib/passage-gen.mjs         prompt, kiểm tra và ghép kết quả của model
 ```

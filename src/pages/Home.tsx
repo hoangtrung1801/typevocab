@@ -4,13 +4,16 @@ import Paper from '../components/Paper'
 import { PASSAGES_BY_LEVEL } from '../data'
 import { TOPIC_TITLE } from '../data/topics'
 import { LEVEL_NAMES, LEVELS } from '../data/types'
-import { setLastLevel, useStore } from '../lib/store'
+import { isDue } from '../lib/srs'
+import { cardOf, setLastLevel, useStore } from '../lib/store'
+import { useNow } from '../lib/useNow'
 
 export default function Home() {
   const level = useStore((s) => s.lastLevel)
   const progress = useStore((s) => s.progress)
   const review = useStore((s) => s.review)
-  const reviewCount = Object.keys(review).length
+  const now = useNow()
+  const dueCount = Object.values(review).filter((w) => isDue(cardOf(w), now)).length
 
   const passages = PASSAGES_BY_LEVEL[level]
   const doneCount = passages.filter((p) => progress[p.id]).length
@@ -21,7 +24,7 @@ export default function Home() {
       <header className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
         <h1 className="m-0 text-[30px] font-semibold italic tracking-tight">TypeVocab</h1>
         <Link to="/review" className="inline-flex min-h-11 items-center text-base text-pencil underline underline-offset-4">
-          Từ cần ôn · {reviewCount}
+          {dueCount > 0 ? `Ôn tập · ${dueCount} từ đến hạn` : 'Từ cần ôn'}
         </Link>
       </header>
       <p className="m-0 -mt-2 text-base text-pencil">Gõ tiếng Anh, học từ vựng ngay trong đoạn văn.</p>

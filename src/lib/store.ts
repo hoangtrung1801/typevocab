@@ -1,5 +1,6 @@
 import { useSyncExternalStore } from 'react'
 import type { Level } from '../data/types'
+import { newCard, schedule, type Grade, type SrsCard } from './srs'
 
 export type PassageResult = {
   wpm: number
@@ -17,6 +18,8 @@ export type ReviewWord = {
   level: Level
   passageId: string
   addedAt: string
+  /** Spaced repetition state; missing until the word is first reviewed. */
+  srs?: SrsCard
 }
 
 export type State = {
@@ -106,6 +109,19 @@ export function removeReview(key: string) {
     const review = { ...s.review }
     delete review[key]
     return { ...s, review }
+  })
+}
+
+/** The word's review card; a word never reviewed is due from when it was saved. */
+export function cardOf(word: ReviewWord): SrsCard {
+  return word.srs ?? newCard(word.addedAt)
+}
+
+export function gradeReview(key: string, grade: Grade, now: number) {
+  setState((s) => {
+    const word = s.review[key]
+    if (!word) return s
+    return { ...s, review: { ...s.review, [key]: { ...word, srs: schedule(cardOf(word), grade, now) } } }
   })
 }
 
