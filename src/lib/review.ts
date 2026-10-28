@@ -27,15 +27,35 @@ export function clozeFor(sentences: { en: string; vi: string }[], key: string): 
   return null
 }
 
-const normalize = (s: string) => s.trim().toLowerCase().replace(/\s+/g, ' ')
-
-/** The form used in the sentence and the dictionary form are both accepted. */
-export function isCorrectAnswer(input: string, answer: string, lemma: string): boolean {
-  const typed = normalize(input)
-  return typed !== '' && (typed === normalize(answer) || typed === normalize(lemma))
+/**
+ * The characters to type, one box each. Spaces in a phrase are gaps, not
+ * boxes, so "ice cream" is 8 letters typed as "icecream".
+ */
+export function answerLetters(answer: string): string {
+  return answer.replace(/ /g, '')
 }
 
-/** "cages" -> "c____": the first letter as a hint, one underscore per other letter. */
-export function blankHint(answer: string): string {
-  return answer.charAt(0) + answer.slice(1).replace(/[^ ]/g, '_')
+const same = (a: string | undefined, b: string | undefined) => a?.toLowerCase() === b?.toLowerCase()
+
+/** True when every box holds the right letter (case does not matter). */
+export function isCorrectLetters(typed: string, letters: string): boolean {
+  return typed.length === letters.length && [...letters].every((c, i) => same(typed[i], c))
+}
+
+/**
+ * One more letter of help: keeps the correct start of what was typed, fixes
+ * the first wrong letter or adds the next one, and drops anything after it.
+ * Returns the new input and the position that was revealed (-1 when complete).
+ */
+export function nextHint(typed: string, letters: string): { value: string; revealed: number } {
+  let i = 0
+  while (i < letters.length && same(typed[i], letters[i])) i++
+  if (i >= letters.length) return { value: typed.slice(0, letters.length), revealed: -1 }
+  return { value: typed.slice(0, i) + letters[i], revealed: i }
+}
+
+/** Splits an answer into boxes and gaps, with each box's index in the letters. */
+export function answerSlots(answer: string): ({ gap: true } | { gap: false; index: number })[] {
+  let index = 0
+  return [...answer].map((c) => (c === ' ' ? { gap: true as const } : { gap: false as const, index: index++ }))
 }

@@ -1,10 +1,11 @@
-import { useEffect, useRef, useState, type FormEvent } from 'react'
+import { useEffect, useRef, useState, type KeyboardEvent as ReactKeyboardEvent } from 'react'
 import { Link } from 'react-router-dom'
 import BackLink from '../components/BackLink'
 import Page from '../components/Page'
+import LetterBoxes from '../components/LetterBoxes'
 import Paper from '../components/Paper'
 import { getPassage } from '../data'
-import { blankHint, clozeFor, isCorrectAnswer } from '../lib/review'
+import { answerLetters, clozeFor, isCorrectLetters, nextHint } from '../lib/review'
 import { play } from '../lib/sound'
 import { formatDuration, GRADES, isDue, previewGrades, type Grade } from '../lib/srs'
 import { cardOf, getState, gradeReview, useStore, type ReviewWord } from '../lib/store'
@@ -35,6 +36,7 @@ export default function ReviewSession() {
   const [queue, setQueue] = useState(() => dueQueue(getState().review, Date.now()))
   const [index, setIndex] = useState(0)
   const [input, setInput] = useState('')
+  const [hinted, setHinted] = useState<Set<number>>(() => new Set())
   const [revealed, setRevealed] = useState<null | { correct: boolean; at: number }>(null)
   const [counts, setCounts] = useState<Record<Grade, number>>({ again: 0, hard: 0, good: 0, easy: 0 })
   const [finishedAt, setFinishedAt] = useState<number | null>(null)
@@ -47,7 +49,10 @@ export default function ReviewSession() {
   const passage = word ? getPassage(word.passageId) : undefined
   const cloze = word && passage ? clozeFor(passage.sentences, word.word.toLowerCase()) : null
   const answer = cloze?.answer ?? word?.word ?? ''
-  const suggested: Grade = revealed?.correct ? 'good' : 'again'
+  const letters = answerLetters(answer)
+  // Hints lower the suggested grade; needing every letter counts as forgotten.
+  const suggested: Grade =
+    !revealed?.correct || hinted.size >= letters.length ? 'again' : hinted.size > 0 ? 'hard' : 'good'
 
   useEffect(() => {
     if (revealed) defaultButton.current?.focus()
@@ -59,10 +64,27 @@ export default function ReviewSession() {
     if (soundOn) play(correct ? 'bell' : 'error')
   }
 
-  const submit = (e: FormEvent) => {
-    e.preventDefault()
-    if (!word || revealed || !input.trim()) return
-    reveal(isCorrectAnswer(input, answer, word.word))
+  const check = () => {
+    if (!word || revealed || !input) return
+    reveal(isCorrectLetters(input, letters))
+  }
+
+  const hint = () => {
+    if (revealed) return
+    const { value, revealed: at } = nextHint(input, letters)
+    setInput(value)
+    if (at >= 0) setHinted((h) => new Set(h).add(at))
+    inputRef.current?.focus()
+  }
+
+  const onKeyDown = (e: ReactKeyboardEvent<HTMLInputElement>) => {
+    if (e.key === 'Enter') {
+      e.preventDefault()
+      check()
+    } else if (e.key === 'Tab' && !e.shiftKey) {
+      e.preventDefault()
+      hint()
+    }
   }
 
   const grade = (g: Grade) => {
@@ -73,6 +95,7 @@ export default function ReviewSession() {
     if (g === 'again') setQueue((q) => [...q, key])
     setRevealed(null)
     setInput('')
+    setHinted(new Set())
     if (index + 1 >= queue.length && g !== 'again') setFinishedAt(now)
     setIndex((i) => i + 1)
   }
@@ -114,7 +137,7 @@ export default function ReviewSession() {
           <div key={`${key}-${index}`} className="fade-up flex flex-col gap-6">
             <div className="flex flex-col gap-2">
               <span className="font-mono text-[13px] font-bold tracking-wider text-red uppercase">
-                Gõ từ tiếng Anh · {word.level}
+                Nghĩa · {word.level}
               </span>
               <p lang="vi" className="m-0 text-[28px] leading-tight font-semibold">
                 {word.vi}
@@ -123,11 +146,12 @@ export default function ReviewSession() {
             </div>
 
             {cloze && (
-              <div className="flex flex-col gap-1.5 border-t border-dashed border-rule pt-4">
-                <p className="m-0 font-mono text-[19px] leading-relaxed text-ink-soft sm:text-[21px]">
+              <div className="flex flex-col gap-1.5 rounded-[4px] border border-note-border bg-note px-5 py-4">
+                <span className="font-mono text-[13px] font-bold tracking-wider text-red uppercase">Câu tham khảo</span>
+                <p lang="en" className="m-0 font-mono text-[18px] leading-relaxed text-ink sm:text-[20px]">
                   {cloze.before}
-                  <span className={`px-0.5 ${revealed ? 'mark-full text-ink' : 'mark-soft tracking-widest'}`}>
-                    {revealed ? cloze.answer : blankHint(cloze.answer)}
+                  <span className={`px-0.5 ${revealed ? 'mark-full' : 'mark-soft tracking-widest text-pencil'}`}>
+                    {revealed ? cloze.answer : cloze.answer.replace(/[^ ]/g, '_')}
                   </span>
                   {cloze.after}
                 </p>
@@ -137,21 +161,39 @@ export default function ReviewSession() {
               </div>
             )}
 
+            <div className="flex flex-col gap-2">
+              <span className="font-mono text-[13px] font-bold tracking-wider text-red uppercase">
+                Gõ từ tiếng Anh · {letters.length} ký tự
+              </span>
+              <LetterBoxes
+                answer={answer}
+                letters={letters}
+                typed={input}
+                hinted={hinted}
+                revealed={Boolean(revealed)}
+                onChange={setInput}
+                onKeyDown={onKeyDown}
+                inputRef={inputRef}
+              />
+            </div>
+
             {!revealed ? (
-              <form onSubmit={submit} className="flex flex-col gap-4">
-                <input
-                  ref={inputRef}
-                  value={input}
-                  onChange={(e) => setInput(e.target.value)}
-                  aria-label="Gõ từ tiếng Anh"
-                  placeholder="gõ từ rồi nhấn Enter"
-                  autoComplete="off"
-                  autoCorrect="off"
-                  autoCapitalize="off"
-                  spellCheck={false}
-                  className="w-full border-0 border-b-2 border-rule bg-transparent py-2 font-mono text-[26px] text-ink outline-none placeholder:text-untyped focus:border-ink focus-visible:outline-none"
-                />
-                <div className="flex flex-wrap items-center justify-between gap-3">
+              <div className="flex flex-wrap items-center justify-between gap-3">
+                <div className="flex flex-wrap items-center gap-x-5 gap-y-1">
+                  <button
+                    type="button"
+                    onMouseDown={(e) => e.preventDefault()}
+                    onClick={hint}
+                    disabled={hinted.size >= letters.length}
+                    className="inline-flex min-h-11 cursor-pointer items-center gap-2 rounded-[3px] border border-rule bg-card px-4 font-serif text-base text-ink hover:border-ink disabled:cursor-default disabled:opacity-40"
+                  >
+                    Gợi ý một chữ <span className="font-mono text-xs text-pencil">Tab</span>
+                  </button>
+                  {hinted.size > 0 && (
+                    <span className="font-mono text-sm text-pencil">
+                      đã gợi ý {hinted.size}/{letters.length}
+                    </span>
+                  )}
                   <button
                     type="button"
                     onClick={() => reveal(false)}
@@ -159,20 +201,28 @@ export default function ReviewSession() {
                   >
                     Không nhớ, xem đáp án
                   </button>
-                  <button
-                    type="submit"
-                    disabled={!input.trim()}
-                    className="inline-flex min-h-11 cursor-pointer items-center rounded-[3px] border-0 bg-ink px-5 font-serif text-[17px] font-medium text-paper hover:bg-ink-soft disabled:cursor-default disabled:opacity-40"
-                  >
-                    Kiểm tra
-                  </button>
                 </div>
-              </form>
+                <button
+                  type="button"
+                  onMouseDown={(e) => e.preventDefault()}
+                  onClick={check}
+                  disabled={!input}
+                  className="inline-flex min-h-11 cursor-pointer items-center gap-2 rounded-[3px] border-0 bg-ink px-5 font-serif text-[17px] font-medium text-paper hover:bg-ink-soft disabled:cursor-default disabled:opacity-40"
+                >
+                  Kiểm tra <span className="font-mono text-xs opacity-70">Enter</span>
+                </button>
+              </div>
             ) : (
               <div className="flex flex-col gap-5">
                 <div className="flex flex-wrap items-baseline gap-x-4 gap-y-1">
                   <span className={`font-mono text-[15px] font-bold ${revealed.correct ? 'text-ink' : 'text-red'}`}>
-                    {revealed.correct ? '✓ Đúng' : input.trim() ? `✗ Bạn gõ “${input.trim()}”` : '✗ Chưa nhớ'}
+                    {revealed.correct
+                      ? hinted.size > 0
+                        ? `✓ Đúng, dùng ${hinted.size} gợi ý`
+                        : '✓ Đúng'
+                      : input
+                        ? `✗ Bạn gõ “${input}”`
+                        : '✗ Chưa nhớ'}
                   </span>
                   <span className="text-[26px] font-semibold">{word.word}</span>
                   {word.ipa && <span className="font-mono text-[15px] text-pencil">{word.ipa}</span>}
