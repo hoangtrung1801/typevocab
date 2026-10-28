@@ -7,7 +7,7 @@ import TypingBoard from '../components/TypingBoard'
 import WordPicker from '../components/WordPicker'
 import { getPassage, nextPassage, PASSAGES_BY_LEVEL } from '../data'
 import type { Passage } from '../data/types'
-import { formatTime, parsePassage } from '../lib/passage'
+import { formatTime, parsePassage, revealedWordCount } from '../lib/passage'
 import { play } from '../lib/sound'
 import { saveResult, setLastLevel, setShowTranslation, setSoundOn, useStore } from '../lib/store'
 import { backspace, initTyping, stats, typeChar, type TypingState } from '../lib/typing'
@@ -102,6 +102,15 @@ function PracticeSession({ passage }: { passage: Passage }) {
   const live = stats(typing, typing.finishedAt ?? now)
   const wordsDone = typing.current + (done ? 1 : 0)
   const sentence = parsed.chars[parsed.words[typing.current].chars[0]].sentence
+
+  // Reveal the translation word by word as the English sentence is typed.
+  const currentWord = parsed.words[typing.current]
+  const caret = currentWord.chars[0] + Math.min(typing.typed[typing.current].length, currentWord.chars.length)
+  const sentenceStart = parsed.sentenceStarts[sentence]
+  const nextStart = parsed.sentenceStarts[sentence + 1]
+  const sentenceEnd = nextStart === undefined ? parsed.text.length : nextStart - 1
+  const viWords = passage.sentences[sentence].vi.split(' ')
+  const shownWords = done ? viWords.length : revealedWordCount(viWords.length, caret - sentenceStart, sentenceEnd - sentenceStart)
   const mistyped = useMemo(
     () => [...new Set(typing.errorWords.map((i) => parsed.words[i].vocab).filter((v): v is string => v !== null))],
     [typing.errorWords, parsed],
@@ -200,8 +209,15 @@ function PracticeSession({ passage }: { passage: Passage }) {
                   </button>
                 </div>
                 {showTranslation ? (
-                  <p key={sentence} lang="vi" aria-live="polite" className="fade-up m-0 text-[21px] leading-snug font-medium text-ink sm:text-2xl">
-                    {passage.sentences[sentence].vi}
+                  <p key={sentence} lang="vi" className="m-0 text-[21px] leading-snug font-medium text-ink sm:text-2xl">
+                    <span className="sr-only">{passage.sentences[sentence].vi}</span>
+                    <span aria-hidden="true">
+                      {viWords.map((w, i) => (
+                        <span key={i}>
+                          <span className={`vi-word ${i < shownWords ? 'vi-word-shown' : ''}`}>{w}</span>{' '}
+                        </span>
+                      ))}
+                    </span>
                   </p>
                 ) : (
                   <p className="m-0 text-lg text-pencil italic">Bản dịch đang ẩn: tự đoán nghĩa câu này trước nhé.</p>

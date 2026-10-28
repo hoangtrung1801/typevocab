@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { markupKeys, parsePassage, stripMarkup } from '../lib/passage'
+import { markupKeys, parsePassage, revealedWordCount, stripMarkup } from '../lib/passage'
 import { PASSAGES_BY_LEVEL } from '.'
 import { LEVELS } from './types'
 
@@ -70,5 +70,19 @@ describe('parsePassage', () => {
   it('assigns the space between sentences to the earlier sentence', () => {
     expect(parsed.chars[29].ch).toBe(' ')
     expect(parsed.chars[29].sentence).toBe(0)
+  })
+})
+
+describe('revealedWordCount', () => {
+  it('shows nothing before typing and everything once the sentence is typed', () => {
+    expect(revealedWordCount(8, 0, 40)).toBe(0)
+    expect(revealedWordCount(8, 40, 40)).toBe(8)
+    expect(revealedWordCount(8, 55, 40)).toBe(8)
+  })
+
+  it('reveals words in proportion to progress, starting on the first keystroke', () => {
+    expect(revealedWordCount(8, 1, 40)).toBe(1)
+    expect(revealedWordCount(8, 20, 40)).toBe(4)
+    expect(revealedWordCount(8, 39, 40)).toBe(8)
   })
 })

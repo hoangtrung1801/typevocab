@@ -130,7 +130,28 @@ a:hover {
   pointer-events: none;
 }
 
+/* Translation words wait invisible (keeping their space) until revealed. */
+.vi-word {
+  display: inline-block;
+  opacity: 0;
+}
+
+.vi-word-shown {
+  opacity: 1;
+}
+
 @media (prefers-reduced-motion: no-preference) {
+  .vi-word {
+    transform: translateY(6px);
+    transition:
+      opacity 220ms ease-out,
+      transform 220ms ease-out;
+  }
+
+  .vi-word-shown {
+    transform: none;
+  }
+
   .letter {
     transition: color 80ms ease-out;
   }

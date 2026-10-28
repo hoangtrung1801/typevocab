@@ -97,3 +97,14 @@ export function formatTime(seconds: number): string {
   const s = Math.max(0, Math.floor(seconds))
   return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`
 }
+
+/**
+ * How many words of a translation to show when `typed` of the original
+ * sentence's `length` characters have been typed. Words appear in proportion
+ * to progress and the whole translation shows once the sentence is typed.
+ */
+export function revealedWordCount(totalWords: number, typed: number, length: number): number {
+  if (length <= 0 || typed >= length) return totalWords
+  if (typed <= 0) return 0
+  return Math.min(totalWords, Math.ceil((typed / length) * totalWords))
+}
