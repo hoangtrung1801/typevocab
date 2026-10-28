@@ -1,6 +1,6 @@
 # TypeVocab
 
-Luyện gõ tiếng Anh và học từ vựng cùng lúc. Bạn gõ lại một đoạn văn tiếng Anh. Các từ vựng mục tiêu trong đoạn được tô như bút dạ quang, và khi gõ tới (hoặc rê chuột vào) sẽ hiện nghĩa tiếng Việt, phiên âm và loại từ. Bản dịch tiếng Việt của câu đang gõ hiện dần ngay bên dưới: gõ xong cụm tiếng Anh nào thì cụm tiếng Việt tương ứng hiện ra. Gõ xong, bạn chọn những từ muốn ôn lại.
+Luyện gõ tiếng Anh và học từ vựng cùng lúc. Bạn gõ lại một đoạn văn tiếng Anh. Các từ vựng mục tiêu trong đoạn được tô như bút dạ quang, và khi gõ tới (hoặc rê chuột vào) sẽ hiện nghĩa tiếng Việt, phiên âm và loại từ. Bản dịch tiếng Việt của câu đang gõ hiện dần ngay bên dưới: gõ tới cụm tiếng Anh nào thì cụm tiếng Việt tương ứng hiện ra từng từ. Gõ xong, bạn chọn những từ muốn ôn lại.
 
 - 50 đoạn văn, 10 đoạn cho mỗi trình độ A1, A2, B1, B2, C1.
 - Từ vựng mục tiêu lấy theo cấp độ của danh sách Oxford 3000/5000.
