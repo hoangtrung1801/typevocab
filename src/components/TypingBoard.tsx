@@ -117,7 +117,7 @@ export default function TypingBoard({ passage, parsed, state, onChar, onBackspac
     const caret = caretRef.current
     const wrapper = wrapperRef.current
     if (!lines || !caret || !wrapper) return
-    const lineHeight = parseFloat(getComputedStyle(lines).lineHeight) || 52
+    const lineHeight = parseFloat(getComputedStyle(lines).lineHeight) || 60
 
     const word = lines.querySelector<HTMLElement>(`[data-word="${state.current}"]`)
     if (!word) return
@@ -225,7 +225,7 @@ export default function TypingBoard({ passage, parsed, state, onChar, onBackspac
         className={`typing-viewport relative overflow-hidden transition-[filter,opacity] duration-200 ${focused ? '' : 'opacity-50 blur-[3px]'}`}
         aria-hidden="true"
       >
-        <div ref={linesRef} className="ruled relative font-mono text-[19px] sm:text-2xl">
+        <div ref={linesRef} className="ruled relative font-mono text-[21px] sm:text-[28px]">
           {wordMeta.map(({ vocab, first, letterVocab, sentence }, i) => {
             const wrong = isWordWrong(state, i)
             const inSentence = sentence === currentSentence

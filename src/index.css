@@ -12,7 +12,8 @@
   --color-ink-soft: #4a443c;
   --color-pencil: #6b6357;
   --color-faint: #766e62;
-  --color-faint-light: #958d80;
+  --color-untyped: #b9b1a3;
+  --color-untyped-current: #9d9588;
   --color-red: #a8402e;
   --color-red-dark: #7a2a1d;
   --color-marker: #f2dc8a;
@@ -51,37 +52,37 @@ a:hover {
 
 /* Ruled notebook lines behind the passage text; must match the line-height. */
 .ruled {
-  line-height: 52px;
+  line-height: 60px;
   background-image: repeating-linear-gradient(
     to bottom,
     transparent 0,
-    transparent 51px,
-    var(--color-line) 51px,
-    var(--color-line) 52px
+    transparent 59px,
+    var(--color-line) 59px,
+    var(--color-line) 60px
   );
 }
 
 @media (max-width: 640px) {
   .ruled {
-    line-height: 40px;
+    line-height: 44px;
     background-image: repeating-linear-gradient(
       to bottom,
       transparent 0,
-      transparent 39px,
-      var(--color-line) 39px,
-      var(--color-line) 40px
+      transparent 43px,
+      var(--color-line) 43px,
+      var(--color-line) 44px
     );
   }
 }
 
 /* Three ruled lines are visible at a time; the rest scroll into view. */
 .typing-viewport {
-  height: 156px;
+  height: 180px;
 }
 
 @media (max-width: 640px) {
   .typing-viewport {
-    height: 120px;
+    height: 132px;
   }
 }
 
@@ -95,12 +96,12 @@ a:hover {
 }
 
 .letter-untyped {
-  color: var(--color-faint-light);
+  color: var(--color-untyped);
 }
 
 /* Upcoming letters of the sentence being typed read darker than the rest. */
 .word-current-sentence .letter-untyped {
-  color: var(--color-pencil);
+  color: var(--color-untyped-current);
 }
 
 .letter-correct {
