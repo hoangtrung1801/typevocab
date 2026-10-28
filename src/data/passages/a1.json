@@ -1,0 +1,198 @@
+[
+  {
+    "title": "My Family",
+    "titleVi": "Gia đình tôi",
+    "sentences": [
+      { "en": "My name is Lan, and I live with my [family] in a small house.", "vi": "Tên tôi là Lan, và tôi sống cùng gia đình trong một ngôi nhà nhỏ." },
+      { "en": "I have one [brother] and two [sisters|sister].", "vi": "Tôi có một anh trai và hai chị gái." },
+      { "en": "My [parents|parent] are teachers at a school near our home.", "vi": "Bố mẹ tôi là giáo viên ở một trường học gần nhà." },
+      { "en": "Every evening, we cook dinner [together] in the [kitchen].", "vi": "Mỗi tối, cả nhà cùng nhau nấu bữa tối trong bếp." },
+      { "en": "I [love] my family very much.", "vi": "Tôi rất yêu gia đình mình." }
+    ],
+    "vocab": {
+      "family": { "word": "family", "pos": "noun", "ipa": "/ˈfæməli/", "vi": "gia đình" },
+      "brother": { "word": "brother", "pos": "noun", "ipa": "/ˈbrʌðə(r)/", "vi": "anh trai, em trai" },
+      "sister": { "word": "sister", "pos": "noun", "ipa": "/ˈsɪstə(r)/", "vi": "chị gái, em gái" },
+      "parent": { "word": "parent", "pos": "noun", "ipa": "/ˈpeərənt/", "vi": "bố hoặc mẹ; (số nhiều) bố mẹ" },
+      "together": { "word": "together", "pos": "adverb", "ipa": "/təˈɡeðə(r)/", "vi": "cùng nhau" },
+      "kitchen": { "word": "kitchen", "pos": "noun", "ipa": "/ˈkɪtʃɪn/", "vi": "nhà bếp" },
+      "love": { "word": "love", "pos": "verb", "ipa": "/lʌv/", "vi": "yêu, yêu thích" }
+    }
+  },
+  {
+    "title": "My Morning",
+    "titleVi": "Buổi sáng của tôi",
+    "sentences": [
+      { "en": "Every [morning], I get up [early] at six o'clock.", "vi": "Mỗi sáng, tôi dậy sớm lúc sáu giờ." },
+      { "en": "I take a quick [shower] and get dressed.", "vi": "Tôi tắm nhanh rồi mặc quần áo." },
+      { "en": "For [breakfast], I [usually] eat [bread] and drink milk.", "vi": "Bữa sáng, tôi thường ăn bánh mì và uống sữa." },
+      { "en": "Then I take the [bus] to school with my friends.", "vi": "Sau đó tôi đi xe buýt đến trường cùng các bạn." }
+    ],
+    "vocab": {
+      "morning": { "word": "morning", "pos": "noun", "ipa": "/ˈmɔːnɪŋ/", "vi": "buổi sáng" },
+      "early": { "word": "early", "pos": "adverb", "ipa": "/ˈɜːli/", "vi": "sớm" },
+      "shower": { "word": "shower", "pos": "noun", "ipa": "/ˈʃaʊə(r)/", "vi": "sự tắm vòi sen; vòi hoa sen" },
+      "breakfast": { "word": "breakfast", "pos": "noun", "ipa": "/ˈbrekfəst/", "vi": "bữa sáng" },
+      "usually": { "word": "usually", "pos": "adverb", "ipa": "/ˈjuːʒuəli/", "vi": "thường thường" },
+      "bread": { "word": "bread", "pos": "noun", "ipa": "/bred/", "vi": "bánh mì" },
+      "bus": { "word": "bus", "pos": "noun", "ipa": "/bʌs/", "vi": "xe buýt" }
+    }
+  },
+  {
+    "title": "At the Market",
+    "titleVi": "Ở chợ",
+    "sentences": [
+      { "en": "On Sunday, my mother and I go to the [market].", "vi": "Vào Chủ nhật, mẹ và tôi đi chợ." },
+      { "en": "We [buy] fresh [fruit] and [vegetables|vegetable] for the week.", "vi": "Chúng tôi mua trái cây và rau tươi cho cả tuần." },
+      { "en": "The [apples|apple] are red and very [cheap] today.", "vi": "Hôm nay táo đỏ và rất rẻ." },
+      { "en": "I carry a big [bag] for her.", "vi": "Tôi xách một cái túi to giúp mẹ." },
+      { "en": "Shopping with my mum is fun.", "vi": "Đi mua sắm với mẹ thật vui." }
+    ],
+    "vocab": {
+      "market": { "word": "market", "pos": "noun", "ipa": "/ˈmɑːkɪt/", "vi": "chợ" },
+      "buy": { "word": "buy", "pos": "verb", "ipa": "/baɪ/", "vi": "mua" },
+      "fruit": { "word": "fruit", "pos": "noun", "ipa": "/fruːt/", "vi": "trái cây, hoa quả" },
+      "vegetable": { "word": "vegetable", "pos": "noun", "ipa": "/ˈvedʒtəbl/", "vi": "rau, củ" },
+      "apple": { "word": "apple", "pos": "noun", "ipa": "/ˈæpl/", "vi": "quả táo" },
+      "cheap": { "word": "cheap", "pos": "adjective", "ipa": "/tʃiːp/", "vi": "rẻ" },
+      "bag": { "word": "bag", "pos": "noun", "ipa": "/bæɡ/", "vi": "cái túi" }
+    }
+  },
+  {
+    "title": "My Best Friend",
+    "titleVi": "Bạn thân của tôi",
+    "sentences": [
+      { "en": "My best [friend] is called Minh.", "vi": "Bạn thân nhất của tôi tên là Minh." },
+      { "en": "He is [tall] and has short black [hair].", "vi": "Cậu ấy cao và có mái tóc đen ngắn." },
+      { "en": "Minh is very [funny], and he always makes me [laugh].", "vi": "Minh rất vui tính, và cậu ấy luôn làm tôi cười." },
+      { "en": "We both like [sport], so we play football at the [weekend].", "vi": "Cả hai chúng tôi đều thích thể thao, nên chúng tôi chơi bóng đá vào cuối tuần." }
+    ],
+    "vocab": {
+      "friend": { "word": "friend", "pos": "noun", "ipa": "/frend/", "vi": "bạn, bạn bè" },
+      "tall": { "word": "tall", "pos": "adjective", "ipa": "/tɔːl/", "vi": "cao" },
+      "hair": { "word": "hair", "pos": "noun", "ipa": "/heə(r)/", "vi": "tóc" },
+      "funny": { "word": "funny", "pos": "adjective", "ipa": "/ˈfʌni/", "vi": "buồn cười, vui tính" },
+      "laugh": { "word": "laugh", "pos": "verb", "ipa": "/lɑːf/", "vi": "cười (thành tiếng)" },
+      "sport": { "word": "sport", "pos": "noun", "ipa": "/spɔːt/", "vi": "thể thao" },
+      "weekend": { "word": "weekend", "pos": "noun", "ipa": "/ˌwiːkˈend/", "vi": "cuối tuần" }
+    }
+  },
+  {
+    "title": "The Weather Today",
+    "titleVi": "Thời tiết hôm nay",
+    "sentences": [
+      { "en": "Today the [weather] is [beautiful].", "vi": "Hôm nay thời tiết thật đẹp." },
+      { "en": "It is [hot] in the morning, and the sky is blue.", "vi": "Buổi sáng trời nóng, và bầu trời trong xanh." },
+      { "en": "But the radio says it will [rain] in the afternoon.", "vi": "Nhưng đài phát thanh nói buổi chiều trời sẽ mưa." },
+      { "en": "So I put an [umbrella] in my bag.", "vi": "Vì vậy tôi bỏ một chiếc ô vào túi." },
+      { "en": "In [winter], it is often [cold] here.", "vi": "Vào mùa đông, ở đây trời thường lạnh." }
+    ],
+    "vocab": {
+      "weather": { "word": "weather", "pos": "noun", "ipa": "/ˈweðə(r)/", "vi": "thời tiết" },
+      "beautiful": { "word": "beautiful", "pos": "adjective", "ipa": "/ˈbjuːtɪfl/", "vi": "đẹp" },
+      "hot": { "word": "hot", "pos": "adjective", "ipa": "/hɒt/", "vi": "nóng" },
+      "rain": { "word": "rain", "pos": "verb", "ipa": "/reɪn/", "vi": "mưa" },
+      "umbrella": { "word": "umbrella", "pos": "noun", "ipa": "/ʌmˈbrelə/", "vi": "cái ô, cái dù" },
+      "winter": { "word": "winter", "pos": "noun", "ipa": "/ˈwɪntə(r)/", "vi": "mùa đông" },
+      "cold": { "word": "cold", "pos": "adjective", "ipa": "/kəʊld/", "vi": "lạnh" }
+    }
+  },
+  {
+    "title": "My Bedroom",
+    "titleVi": "Phòng ngủ của tôi",
+    "sentences": [
+      { "en": "My [bedroom] is [small], but I like it a lot.", "vi": "Phòng ngủ của tôi nhỏ, nhưng tôi rất thích nó." },
+      { "en": "There is a [bed] next to the [window].", "vi": "Có một chiếc giường cạnh cửa sổ." },
+      { "en": "I do my homework at a [desk] in the corner.", "vi": "Tôi làm bài tập ở chiếc bàn học trong góc phòng." },
+      { "en": "On the [wall], there is a [picture] of my family.", "vi": "Trên tường có một bức ảnh gia đình tôi." }
+    ],
+    "vocab": {
+      "bedroom": { "word": "bedroom", "pos": "noun", "ipa": "/ˈbedruːm/", "vi": "phòng ngủ" },
+      "small": { "word": "small", "pos": "adjective", "ipa": "/smɔːl/", "vi": "nhỏ" },
+      "bed": { "word": "bed", "pos": "noun", "ipa": "/bed/", "vi": "cái giường" },
+      "window": { "word": "window", "pos": "noun", "ipa": "/ˈwɪndəʊ/", "vi": "cửa sổ" },
+      "desk": { "word": "desk", "pos": "noun", "ipa": "/desk/", "vi": "bàn học, bàn làm việc" },
+      "wall": { "word": "wall", "pos": "noun", "ipa": "/wɔːl/", "vi": "bức tường" },
+      "picture": { "word": "picture", "pos": "noun", "ipa": "/ˈpɪktʃə(r)/", "vi": "bức tranh, bức ảnh" }
+    }
+  },
+  {
+    "title": "A Birthday Party",
+    "titleVi": "Bữa tiệc sinh nhật",
+    "sentences": [
+      { "en": "Yesterday was my sister's [birthday].", "vi": "Hôm qua là sinh nhật của em gái tôi." },
+      { "en": "We had a [party] at home with ten of her friends.", "vi": "Chúng tôi tổ chức tiệc ở nhà với mười người bạn của em." },
+      { "en": "Mum made a big chocolate [cake].", "vi": "Mẹ làm một chiếc bánh sô-cô-la thật to." },
+      { "en": "Everyone [sang|sing] a [song], and my sister opened her [presents|present].", "vi": "Mọi người cùng hát một bài, và em gái tôi mở quà." },
+      { "en": "She was very [happy].", "vi": "Em ấy rất vui." }
+    ],
+    "vocab": {
+      "birthday": { "word": "birthday", "pos": "noun", "ipa": "/ˈbɜːθdeɪ/", "vi": "sinh nhật" },
+      "party": { "word": "party", "pos": "noun", "ipa": "/ˈpɑːti/", "vi": "bữa tiệc" },
+      "cake": { "word": "cake", "pos": "noun", "ipa": "/keɪk/", "vi": "bánh ngọt" },
+      "sing": { "word": "sing", "pos": "verb", "ipa": "/sɪŋ/", "vi": "hát" },
+      "song": { "word": "song", "pos": "noun", "ipa": "/sɒŋ/", "vi": "bài hát" },
+      "present": { "word": "present", "pos": "noun", "ipa": "/ˈpreznt/", "vi": "món quà" },
+      "happy": { "word": "happy", "pos": "adjective", "ipa": "/ˈhæpi/", "vi": "vui vẻ, hạnh phúc" }
+    }
+  },
+  {
+    "title": "At School",
+    "titleVi": "Ở trường",
+    "sentences": [
+      { "en": "I am a [student] at Hoa Sen School.", "vi": "Tôi là học sinh trường Hoa Sen." },
+      { "en": "There are thirty children in my [class].", "vi": "Lớp tôi có ba mươi bạn." },
+      { "en": "Our English [teacher] is kind and clever.", "vi": "Cô giáo tiếng Anh của chúng tôi hiền và giỏi." },
+      { "en": "Today we [learned|learn] new words in the English [lesson].", "vi": "Hôm nay chúng tôi học từ mới trong giờ tiếng Anh." },
+      { "en": "After school, I read a book in the [library].", "vi": "Sau giờ học, tôi đọc sách trong thư viện." }
+    ],
+    "vocab": {
+      "student": { "word": "student", "pos": "noun", "ipa": "/ˈstjuːdnt/", "vi": "học sinh, sinh viên" },
+      "class": { "word": "class", "pos": "noun", "ipa": "/klɑːs/", "vi": "lớp học" },
+      "teacher": { "word": "teacher", "pos": "noun", "ipa": "/ˈtiːtʃə(r)/", "vi": "giáo viên" },
+      "learn": { "word": "learn", "pos": "verb", "ipa": "/lɜːn/", "vi": "học, học được" },
+      "lesson": { "word": "lesson", "pos": "noun", "ipa": "/ˈlesn/", "vi": "bài học, tiết học" },
+      "library": { "word": "library", "pos": "noun", "ipa": "/ˈlaɪbrəri/", "vi": "thư viện" }
+    }
+  },
+  {
+    "title": "My Favourite Food",
+    "titleVi": "Món ăn yêu thích",
+    "sentences": [
+      { "en": "My [favourite] [food] is chicken rice.", "vi": "Món ăn yêu thích của tôi là cơm gà." },
+      { "en": "My grandmother cooks [rice] with [chicken] and vegetables.", "vi": "Bà tôi nấu cơm với gà và rau." },
+      { "en": "It is really [delicious].", "vi": "Món đó thật sự rất ngon." },
+      { "en": "Sometimes we eat it at a small [restaurant] near the river.", "vi": "Thỉnh thoảng chúng tôi ăn ở một nhà hàng nhỏ gần bờ sông." },
+      { "en": "When I am [hungry], I always think of this dish.", "vi": "Mỗi khi đói, tôi luôn nghĩ đến món này." }
+    ],
+    "vocab": {
+      "favourite": { "word": "favourite", "pos": "adjective", "ipa": "/ˈfeɪvərɪt/", "vi": "yêu thích nhất" },
+      "food": { "word": "food", "pos": "noun", "ipa": "/fuːd/", "vi": "đồ ăn, thức ăn" },
+      "rice": { "word": "rice", "pos": "noun", "ipa": "/raɪs/", "vi": "gạo, cơm" },
+      "chicken": { "word": "chicken", "pos": "noun", "ipa": "/ˈtʃɪkɪn/", "vi": "gà, thịt gà" },
+      "delicious": { "word": "delicious", "pos": "adjective", "ipa": "/dɪˈlɪʃəs/", "vi": "ngon" },
+      "restaurant": { "word": "restaurant", "pos": "noun", "ipa": "/ˈrestrɒnt/", "vi": "nhà hàng" },
+      "hungry": { "word": "hungry", "pos": "adjective", "ipa": "/ˈhʌŋɡri/", "vi": "đói" }
+    }
+  },
+  {
+    "title": "A Day in the Park",
+    "titleVi": "Một ngày ở công viên",
+    "sentences": [
+      { "en": "On Saturday, my family went to the [park].", "vi": "Vào thứ Bảy, gia đình tôi đi công viên." },
+      { "en": "We [walked|walk] under the big green [trees|tree].", "vi": "Chúng tôi đi dạo dưới những tán cây xanh lớn." },
+      { "en": "My little brother [played|play] with a friendly [dog].", "vi": "Em trai tôi chơi với một chú chó thân thiện." },
+      { "en": "Then Dad bought us some [ice cream].", "vi": "Sau đó bố mua kem cho chúng tôi." },
+      { "en": "It was a [great] day.", "vi": "Đó là một ngày tuyệt vời." }
+    ],
+    "vocab": {
+      "park": { "word": "park", "pos": "noun", "ipa": "/pɑːk/", "vi": "công viên" },
+      "walk": { "word": "walk", "pos": "verb", "ipa": "/wɔːk/", "vi": "đi bộ, đi dạo" },
+      "tree": { "word": "tree", "pos": "noun", "ipa": "/triː/", "vi": "cái cây" },
+      "play": { "word": "play", "pos": "verb", "ipa": "/pleɪ/", "vi": "chơi" },
+      "dog": { "word": "dog", "pos": "noun", "ipa": "/dɒɡ/", "vi": "con chó" },
+      "ice cream": { "word": "ice cream", "pos": "noun", "ipa": "/ˌaɪs ˈkriːm/", "vi": "kem" },
+      "great": { "word": "great", "pos": "adjective", "ipa": "/ɡreɪt/", "vi": "tuyệt vời" }
+    }
+  }
+]

@@ -1,0 +1,96 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-desk: #efe9dc;
+  --color-paper: #fbf8f1;
+  --color-card: #fffdf7;
+  --color-border: #e4dccb;
+  --color-rule: #d9cfbc;
+  --color-line: #e8e1d2;
+  --color-margin: #e4b9ac;
+  --color-ink: #2a2622;
+  --color-ink-soft: #4a443c;
+  --color-pencil: #6b6357;
+  --color-faint: #766e62;
+  --color-red: #a8402e;
+  --color-marker: #f2dc8a;
+  --color-marker-soft: #f7ebc0;
+
+  --font-serif: 'Newsreader', Georgia, 'Times New Roman', serif;
+  --font-mono: 'Courier Prime', 'Courier New', monospace;
+
+  --shadow-paper: 0 1px 2px rgb(60 50 30 / 0.08), 0 14px 34px rgb(60 50 30 / 0.1);
+  --shadow-card: 0 10px 24px rgb(60 50 30 / 0.16);
+}
+
+html {
+  background: var(--color-desk);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--color-desk);
+  color: var(--color-ink);
+  font-family: var(--font-serif);
+  -webkit-font-smoothing: antialiased;
+}
+
+a:hover {
+  color: var(--color-red);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-red);
+  outline-offset: 2px;
+}
+
+/* Ruled notebook lines behind the passage text; must match the line-height. */
+.ruled {
+  line-height: 52px;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent 0,
+    transparent 51px,
+    var(--color-line) 51px,
+    var(--color-line) 52px
+  );
+}
+
+@media (max-width: 640px) {
+  .ruled {
+    line-height: 40px;
+    background-image: repeating-linear-gradient(
+      to bottom,
+      transparent 0,
+      transparent 39px,
+      var(--color-line) 39px,
+      var(--color-line) 40px
+    );
+  }
+}
+
+/* Highlighter-pen marks on target vocabulary. */
+.mark-soft {
+  background: linear-gradient(transparent 58%, var(--color-marker) 58%, var(--color-marker) 90%, transparent 90%);
+}
+
+.mark-full {
+  background: linear-gradient(transparent 14%, var(--color-marker) 14%, var(--color-marker) 90%, transparent 90%);
+}
+
+.caret {
+  box-shadow: inset 2px 0 0 var(--color-red);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .caret-blink {
+    animation: caret-blink 1s steps(1) infinite;
+  }
+}
+
+@keyframes caret-blink {
+  50% {
+    box-shadow: inset 2px 0 0 transparent;
+  }
+}
