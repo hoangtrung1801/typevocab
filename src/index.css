@@ -12,10 +12,13 @@
   --color-ink-soft: #4a443c;
   --color-pencil: #6b6357;
   --color-faint: #766e62;
+  --color-faint-light: #958d80;
   --color-red: #a8402e;
   --color-red-dark: #7a2a1d;
   --color-marker: #f2dc8a;
   --color-marker-soft: #f7ebc0;
+  --color-note: #f5edd6;
+  --color-note-border: #e6d9b5;
 
   --font-serif: 'Newsreader', Georgia, 'Times New Roman', serif;
   --font-mono: 'Courier Prime', 'Courier New', monospace;
@@ -92,7 +95,12 @@ a:hover {
 }
 
 .letter-untyped {
-  color: var(--color-faint);
+  color: var(--color-faint-light);
+}
+
+/* Upcoming letters of the sentence being typed read darker than the rest. */
+.word-current-sentence .letter-untyped {
+  color: var(--color-pencil);
 }
 
 .letter-correct {

@@ -24,6 +24,7 @@ export type State = {
   /** Keyed by reviewKey(level, word). */
   review: Record<string, ReviewWord>
   showTranslation: boolean
+  soundOn: boolean
   lastLevel: Level
 }
 
@@ -33,6 +34,7 @@ const DEFAULT_STATE: State = {
   progress: {},
   review: {},
   showTranslation: true,
+  soundOn: true,
   lastLevel: 'A1',
 }
 
@@ -109,6 +111,10 @@ export function removeReview(key: string) {
 
 export function setShowTranslation(show: boolean) {
   setState((s) => ({ ...s, showTranslation: show }))
+}
+
+export function setSoundOn(on: boolean) {
+  setState((s) => ({ ...s, soundOn: on }))
 }
 
 export function setLastLevel(level: Level) {

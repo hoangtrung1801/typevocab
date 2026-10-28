@@ -16,6 +16,7 @@ Logic gõ giống Monkeytype:
 - Esc hoặc Tab để gõ lại từ đầu. Gõ xong nhấn Enter để xem kết quả.
 - Kết quả: **wpm** (chỉ tính các từ gõ đúng), **acc** (phím đúng / tổng số phím), **raw** (mọi ký tự đã gõ) và thời gian.
 - Từ vựng mục tiêu nào bị gõ sai sẽ được chọn sẵn trong danh sách ôn tập.
+- Âm thanh kiểu máy đánh chữ (phím, dấu cách, xoá, gõ sai, chuông khi xong) được tạo bằng Web Audio API, không cần file âm thanh. Bật/tắt bằng nút loa ở góc trên.
 
 ## Chạy dự án
 

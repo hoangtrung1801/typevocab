@@ -179,9 +179,12 @@ export default function TypingBoard({ passage, parsed, state, onChar, onBackspac
         first: w.isFirst,
         // Per letter, so punctuation next to a target word stays unmarked.
         letterVocab: w.chars.map((c) => parsed.chars[c].vocab),
+        sentence: parsed.chars[w.chars[0]].sentence,
       })),
     [parsed],
   )
+
+  const currentSentence = wordMeta[state.current].sentence
 
   const setFocus = (f: boolean) => {
     setFocused(f)
@@ -223,8 +226,9 @@ export default function TypingBoard({ passage, parsed, state, onChar, onBackspac
         aria-hidden="true"
       >
         <div ref={linesRef} className="ruled relative font-mono text-[19px] sm:text-2xl">
-          {wordMeta.map(({ vocab, first, letterVocab }, i) => {
+          {wordMeta.map(({ vocab, first, letterVocab, sentence }, i) => {
             const wrong = isWordWrong(state, i)
+            const inSentence = sentence === currentSentence
             const mark = vocab ? (vocab === tipKey ? 'mark-full' : 'mark-soft') : ''
             return (
               <span key={i}>
@@ -233,7 +237,7 @@ export default function TypingBoard({ passage, parsed, state, onChar, onBackspac
                   data-vocab-first={first && vocab ? vocab : undefined}
                   onMouseEnter={vocab ? () => setHover(vocab) : undefined}
                   onMouseLeave={vocab ? () => setHover(null) : undefined}
-                  className={`inline-block ${wrong ? 'word-error' : ''}`}
+                  className={`inline-block ${wrong ? 'word-error' : ''} ${inSentence ? 'word-current-sentence' : ''}`}
                 >
                   {letters(state, i).map((l, j) => (
                     <span key={j} data-letter="" className={`letter letter-${l.state} ${letterVocab[j] ? mark : ''}`}>

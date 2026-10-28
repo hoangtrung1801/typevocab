@@ -8,8 +8,9 @@ import WordPicker from '../components/WordPicker'
 import { getPassage, nextPassage, PASSAGES_BY_LEVEL } from '../data'
 import type { Passage } from '../data/types'
 import { formatTime, parsePassage } from '../lib/passage'
-import { saveResult, setLastLevel, setShowTranslation, useStore } from '../lib/store'
-import { backspace, initTyping, stats, typeChar } from '../lib/typing'
+import { play } from '../lib/sound'
+import { saveResult, setLastLevel, setShowTranslation, setSoundOn, useStore } from '../lib/store'
+import { backspace, initTyping, stats, typeChar, type TypingState } from '../lib/typing'
 
 export default function Practice() {
   const { id = '' } = useParams()
@@ -23,6 +24,7 @@ function PracticeSession({ passage }: { passage: Passage }) {
   const parsed = useMemo(() => parsePassage(passage.sentences), [passage])
   const words = useMemo(() => parsed.text.split(' '), [parsed])
   const showTranslation = useStore((s) => s.showTranslation)
+  const soundOn = useStore((s) => s.soundOn)
 
   const [typing, setTyping] = useState(() => initTyping(words))
   const [now, setNow] = useState(() => Date.now())
@@ -55,15 +57,47 @@ function PracticeSession({ passage }: { passage: Passage }) {
     })
   }, [typing, passage.id])
 
-  const onChar = useCallback((ch: string) => {
-    const t = Date.now()
-    setTyping((s) => typeChar(s, ch, t))
+  // Keystrokes are discrete events, so React renders between them; keeping the
+  // latest state in a ref lets each handler see what the keystroke changed and
+  // pick a sound without side effects inside a state updater.
+  const typingRef = useRef(typing)
+  const soundRef = useRef(soundOn)
+  useEffect(() => {
+    soundRef.current = soundOn
+  }, [soundOn])
+
+  const commit = useCallback((next: TypingState) => {
+    typingRef.current = next
+    setTyping(next)
   }, [])
-  const onBackspace = useCallback((whole: boolean) => setTyping((s) => backspace(s, whole)), [])
+
+  const onChar = useCallback(
+    (ch: string) => {
+      const prev = typingRef.current
+      const next = typeChar(prev, ch, Date.now())
+      if (next === prev) return
+      commit(next)
+      if (!soundRef.current) return
+      if (ch === ' ') play('space')
+      else play(next.correctKeystrokes > prev.correctKeystrokes ? 'key' : 'error')
+      if (next.finishedAt !== null) play('bell')
+    },
+    [commit],
+  )
+  const onBackspace = useCallback(
+    (whole: boolean) => {
+      const prev = typingRef.current
+      const next = backspace(prev, whole)
+      if (next === prev) return
+      commit(next)
+      if (soundRef.current) play('backspace')
+    },
+    [commit],
+  )
   const restart = useCallback(() => {
-    setTyping(initTyping(words))
+    commit(initTyping(words))
     setPicking(false)
-  }, [words])
+  }, [words, commit])
 
   const live = stats(typing, typing.finishedAt ?? now)
   const wordsDone = typing.current + (done ? 1 : 0)
@@ -79,9 +113,25 @@ function PracticeSession({ passage }: { passage: Passage }) {
         <BackLink to="/">
           {passage.level} · Đoạn {passage.number}/{total}
         </BackLink>
-        <span className="font-mono text-base text-pencil">
-          {wordsDone}/{words.length} từ · {formatTime(live.seconds)}
-        </span>
+        <div className="flex items-center gap-2">
+          <span className="font-mono text-base text-pencil">
+            {wordsDone}/{words.length} từ · {formatTime(live.seconds)}
+          </span>
+          <button
+            type="button"
+            aria-pressed={soundOn}
+            aria-label={soundOn ? 'Tắt âm thanh' : 'Bật âm thanh'}
+            title={soundOn ? 'Tắt âm thanh' : 'Bật âm thanh'}
+            onMouseDown={(e) => e.preventDefault()}
+            onClick={() => setSoundOn(!soundOn)}
+            className="inline-flex size-11 cursor-pointer items-center justify-center rounded-[3px] border-0 bg-transparent text-pencil hover:text-ink"
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <path d="M11 5 6 9H3v6h3l5 4z" />
+              {soundOn ? <path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13" /> : <path d="m16 9 5 6M21 9l-5 6" />}
+            </svg>
+          </button>
+        </div>
       </div>
 
       {picking ? (
@@ -115,9 +165,9 @@ function PracticeSession({ passage }: { passage: Passage }) {
               onFocusChange={setFocused}
             />
 
-            <div className="mt-6 flex min-h-14 flex-wrap items-start justify-between gap-4 border-t border-dashed border-rule pt-4">
-              {done ? (
-                <p className="fade-up m-0 flex flex-[1_1_400px] flex-wrap items-baseline gap-x-6 gap-y-1 font-mono text-pencil">
+            {done ? (
+              <div className="mt-6 flex flex-wrap items-center justify-between gap-4 border-t border-dashed border-rule pt-4">
+                <p className="fade-up m-0 flex flex-wrap items-baseline gap-x-6 gap-y-1 font-mono text-pencil">
                   <span>
                     <span className="text-[32px] font-bold text-ink">{live.wpm}</span> wpm
                   </span>
@@ -125,19 +175,6 @@ function PracticeSession({ passage }: { passage: Passage }) {
                     <span className="text-[32px] font-bold text-ink">{live.acc}%</span> acc
                   </span>
                 </p>
-              ) : showTranslation ? (
-                <p key={sentence} lang="vi" className="fade-up m-0 min-w-0 flex-[1_1_400px] text-[19px] leading-normal text-ink-soft italic sm:text-[21px]">
-                  <span className="mr-2.5 font-mono text-sm text-red not-italic">
-                    {sentence + 1}/{passage.sentences.length}
-                  </span>
-                  {passage.sentences[sentence].vi}
-                </p>
-              ) : (
-                <p className="m-0 flex-[1_1_400px] text-lg text-pencil italic">
-                  Bản dịch đang ẩn: tự đoán nghĩa câu {sentence + 1}/{passage.sentences.length} trước nhé.
-                </p>
-              )}
-              {done ? (
                 <button
                   type="button"
                   onClick={() => setPicking(true)}
@@ -145,18 +182,32 @@ function PracticeSession({ passage }: { passage: Passage }) {
                 >
                   Chọn từ cần ôn →
                 </button>
-              ) : (
-                <button
-                  type="button"
-                  aria-pressed={showTranslation}
-                  onMouseDown={(e) => e.preventDefault()}
-                  onClick={() => setShowTranslation(!showTranslation)}
-                  className="min-h-11 cursor-pointer border-0 bg-transparent px-1 font-serif text-base text-pencil underline underline-offset-4"
-                >
-                  {showTranslation ? 'Ẩn bản dịch' : 'Hiện bản dịch'}
-                </button>
-              )}
-            </div>
+              </div>
+            ) : (
+              <section aria-label="Bản dịch câu đang gõ" className="mt-6 rounded-[4px] border border-note-border bg-note px-5 pt-3 pb-4 sm:px-6">
+                <div className="flex items-center justify-between gap-3">
+                  <span className="font-mono text-[13px] font-bold tracking-wider text-red uppercase">
+                    Câu {sentence + 1}/{passage.sentences.length}
+                  </span>
+                  <button
+                    type="button"
+                    aria-pressed={showTranslation}
+                    onMouseDown={(e) => e.preventDefault()}
+                    onClick={() => setShowTranslation(!showTranslation)}
+                    className="min-h-11 cursor-pointer border-0 bg-transparent px-1 font-serif text-[15px] text-pencil underline underline-offset-4 hover:text-ink"
+                  >
+                    {showTranslation ? 'Ẩn bản dịch' : 'Hiện bản dịch'}
+                  </button>
+                </div>
+                {showTranslation ? (
+                  <p key={sentence} lang="vi" aria-live="polite" className="fade-up m-0 text-[21px] leading-snug font-medium text-ink sm:text-2xl">
+                    {passage.sentences[sentence].vi}
+                  </p>
+                ) : (
+                  <p className="m-0 text-lg text-pencil italic">Bản dịch đang ẩn: tự đoán nghĩa câu này trước nhé.</p>
+                )}
+              </section>
+            )}
           </Paper>
 
           <p className="m-0 min-h-6 text-center text-[15px] text-pencil italic">
