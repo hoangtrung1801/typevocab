@@ -40,7 +40,7 @@ export default function Review() {
                       <span className="text-[15px] text-pencil italic">{w.pos}</span>
                       <span className="font-mono text-sm font-bold text-red">{w.level}</span>
                     </span>
-                    <span className="font-mono text-sm text-pencil">{w.ipa}</span>
+                    {w.ipa && <span className="font-mono text-sm text-pencil">{w.ipa}</span>}
                   </span>
                   <span className="flex min-w-0 flex-[1_1_240px] flex-col gap-0.5">
                     <span lang="vi" className="text-[19px]">

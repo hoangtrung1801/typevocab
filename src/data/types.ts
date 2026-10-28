@@ -1,4 +1,4 @@
-export const LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1'] as const
+export const LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'] as const
 export type Level = (typeof LEVELS)[number]
 
 export const LEVEL_NAMES: Record<Level, string> = {
@@ -7,12 +7,14 @@ export const LEVEL_NAMES: Record<Level, string> = {
   B1: 'Trung cấp',
   B2: 'Trung cao cấp',
   C1: 'Cao cấp',
+  C2: 'Thành thạo',
 }
 
 export type VocabEntry = {
   /** Dictionary form, e.g. "cage" even when the text says "cages". */
   word: string
   pos: string
+  /** May be empty: a few words in the vocabulary have no transcription. */
   ipa: string
   vi: string
 }
@@ -39,6 +41,11 @@ export type Sentence = {
 }
 
 export type RawPassage = {
+  /** Stable id such as "b1-u012-2" (level, vocabulary unit, part). */
+  id: string
+  unit: number
+  /** Topic key, see topics.ts. */
+  topic: string
   title: string
   titleVi: string
   sentences: RawSentence[]
@@ -47,7 +54,6 @@ export type RawPassage = {
 
 export type Passage = Omit<RawPassage, 'sentences'> & {
   sentences: Sentence[]
-  id: string
   level: Level
   /** 1-based position within its level. */
   number: number

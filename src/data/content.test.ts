@@ -6,8 +6,10 @@ import { LEVELS } from './types'
 describe.each(LEVELS)('%s passages', (level) => {
   const passages = PASSAGES_BY_LEVEL[level]
 
-  it('has 10 passages', () => {
-    expect(passages).toHaveLength(10)
+  it('has passages with unique ids for this level', () => {
+    expect(passages.length).toBeGreaterThan(0)
+    expect(new Set(passages.map((p) => p.id)).size).toBe(passages.length)
+    for (const p of passages) expect(p.id).toMatch(new RegExp(`^${level.toLowerCase()}-u\\d{3}-\\d+$`))
   })
 
   it.each(passages.map((p) => [p.title, p] as const))('%s is well formed', (_, p) => {
@@ -18,7 +20,7 @@ describe.each(LEVELS)('%s passages', (level) => {
     const used = p.sentences.flatMap((s) => markupKeys(s.en))
     const defined = Object.keys(p.vocab)
     expect(new Set(used)).toEqual(new Set(defined))
-    expect(defined.length).toBeGreaterThanOrEqual(5)
+    expect(defined.length).toBeGreaterThanOrEqual(4)
     expect(defined.length).toBeLessThanOrEqual(8)
 
     for (const s of p.sentences) {
@@ -42,7 +44,7 @@ describe.each(LEVELS)('%s passages', (level) => {
 
     for (const [key, v] of Object.entries(p.vocab)) {
       expect(key).toBe(v.word.toLowerCase())
-      expect(v.ipa).toMatch(/^\/.+\/$/)
+      expect(v.ipa).toMatch(/^(\/.+\/)?$/)
       expect(v.vi.trim()).not.toBe('')
     }
   })

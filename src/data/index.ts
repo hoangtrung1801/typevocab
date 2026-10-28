@@ -3,11 +3,12 @@ import a2 from './passages/a2.json'
 import b1 from './passages/b1.json'
 import b2 from './passages/b2.json'
 import c1 from './passages/c1.json'
+import c2 from './passages/c2.json'
 import { stripMarkup } from '../lib/passage'
 import { LEVELS, type Level, type Passage, type RawPassage, type RawSentence, type Sentence } from './types'
 
 // JSON imports infer a union of literal shapes; the content test checks the real structure.
-const RAW = { A1: a1, A2: a2, B1: b1, B2: b2, C1: c1 } as unknown as Record<Level, RawPassage[]>
+const RAW = { A1: a1, A2: a2, B1: b1, B2: b2, C1: c1, C2: c2 } as unknown as Record<Level, RawPassage[]>
 
 export const CHUNK_SEPARATOR = ' / '
 
@@ -25,7 +26,6 @@ export const PASSAGES_BY_LEVEL: Record<Level, Passage[]> = Object.fromEntries(
       sentences: p.sentences.map(toSentence),
       level,
       number: i + 1,
-      id: `${level.toLowerCase()}-${String(i + 1).padStart(2, '0')}`,
     })),
   ]),
 ) as Record<Level, Passage[]>

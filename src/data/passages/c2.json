@@ -1,0 +1,44 @@
+[
+  {
+    "id": "c2-u001-1",
+    "unit": 1,
+    "topic": "fam",
+    "title": "The Man on the Hill",
+    "titleVi": "Người đàn ông trên đồi",
+    "sentences": [
+      { "en": "For decades, / the old man on the hill / lived as a [hermit], / rarely speaking to anyone in the valley below.", "vi": "Suốt nhiều thập kỷ, / ông lão trên đồi / sống như một ẩn sĩ, / hiếm khi trò chuyện với ai dưới thung lũng." },
+      { "en": "Rumours spread / that the [recluse] was cursed, / and one superstitious family / even hired an [exorcist] to visit him.", "vi": "Tin đồn lan ra / rằng người ẩn dật ấy bị nguyền rủa, / và một gia đình mê tín / thậm chí còn thuê một thầy trừ tà đến gặp ông." },
+      { "en": "When a [vandal] smashed his windows, / the mayor and his [cronies|crony] / did nothing at all.", "vi": "Khi một kẻ phá hoại đập vỡ cửa sổ nhà ông, / ông thị trưởng và đám bạn bè thân cánh hẩu / chẳng làm gì cả." },
+      { "en": "Only a young teacher, / a passionate [apostle] of tolerance, / climbed the hill to help him repair the damage.", "vi": "Chỉ có một thầy giáo trẻ, / một tông đồ nhiệt thành của lòng khoan dung, / leo lên đồi giúp ông sửa chữa thiệt hại." }
+    ],
+    "vocab": {
+      "crony": { "word": "crony", "pos": "noun", "ipa": "/ˈkɹoʊni/", "vi": "bạn bè thân cánh hẩu" },
+      "hermit": { "word": "hermit", "pos": "noun", "ipa": "/ˈhɝmɪt/", "vi": "ẩn sĩ" },
+      "vandal": { "word": "vandal", "pos": "noun", "ipa": "/ˈvændəl/", "vi": "kẻ phá hoại" },
+      "apostle": { "word": "apostle", "pos": "noun", "ipa": "/əˈpɑsl̩/", "vi": "tông đồ" },
+      "recluse": { "word": "recluse", "pos": "noun", "ipa": "/ɹɪˈklus/", "vi": "người ẩn dật" },
+      "exorcist": { "word": "exorcist", "pos": "noun", "ipa": "/ˈɛk.sɔː.sɪst/", "vi": "thầy trừ tà" }
+    }
+  },
+  {
+    "id": "c2-u001-2",
+    "unit": 1,
+    "topic": "fam",
+    "title": "A Late Start",
+    "titleVi": "Bắt đầu muộn màng",
+    "sentences": [
+      { "en": "At eighty-two, / my grandmother is a cheerful [octogenarian] / who has just taken up oil painting.", "vi": "Ở tuổi tám mươi hai, / bà tôi là một cụ bà ngoài tám mươi vui tính / vừa mới bắt đầu học vẽ sơn dầu." },
+      { "en": "For most of her life / she was the family's [breadwinner], / with no time for hobbies.", "vi": "Phần lớn cuộc đời mình, / bà là trụ cột gia đình, / không có thời gian cho sở thích riêng." },
+      { "en": "As a [neophyte], / she makes plenty of mistakes, / but she laughs them off.", "vi": "Là người mới vào nghề, / bà mắc khá nhiều lỗi, / nhưng bà chỉ cười xòa." },
+      { "en": "My uncle, / a self-confessed [philistine] who prefers football to art, / calls her pictures \"colourful messes\".", "vi": "Chú tôi, / một kẻ phàm tục tự nhận là thích bóng đá hơn nghệ thuật, / gọi tranh của bà là \"những mớ lộn xộn sặc sỡ\"." },
+      { "en": "She insists, / with a grin, / that [posterity] will judge her work more kindly.", "vi": "Bà khẳng định, / với nụ cười tinh nghịch, / rằng hậu thế sẽ đánh giá tác phẩm của bà tử tế hơn." }
+    ],
+    "vocab": {
+      "neophyte": { "word": "neophyte", "pos": "noun", "ipa": "/ˈniː.əˌfaɪt/", "vi": "người mới vào nghề" },
+      "posterity": { "word": "posterity", "pos": "noun", "ipa": "/pɒˈstɛɹɪti/", "vi": "hậu thế" },
+      "philistine": { "word": "philistine", "pos": "noun", "ipa": "/ˈfɪlɪˌstaɪn/", "vi": "kẻ phàm tục" },
+      "breadwinner": { "word": "breadwinner", "pos": "noun", "ipa": "/ˈbɹɛdˌwɪnɚ/", "vi": "trụ cột gia đình" },
+      "octogenarian": { "word": "octogenarian", "pos": "noun", "ipa": "/ˌɑktəd͡ʒɪˈnɛɹiən/", "vi": "người tám mươi tuổi" }
+    }
+  }
+]

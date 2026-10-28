@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import Page from '../components/Page'
 import Paper from '../components/Paper'
 import { PASSAGES_BY_LEVEL } from '../data'
+import { TOPIC_TITLE } from '../data/topics'
 import { LEVEL_NAMES, LEVELS } from '../data/types'
 import { setLastLevel, useStore } from '../lib/store'
 
@@ -51,12 +52,19 @@ export default function Home() {
           </span>
         </div>
         <ol className="m-0 list-none p-0">
-          {passages.map((p) => {
+          {passages.map((p, i) => {
             const done = Boolean(progress[p.id])
+            // A heading whenever the vocabulary topic changes.
+            const newTopic = i === 0 || passages[i - 1].topic !== p.topic
             return (
               <li key={p.id} className="border-b border-line">
+                {newTopic && (
+                  <h3 className={`m-0 font-mono text-[13px] font-bold tracking-wider text-red uppercase ${i === 0 ? 'pt-1' : 'pt-7'} pb-1`}>
+                    {TOPIC_TITLE[p.topic] ?? p.topic}
+                  </h3>
+                )}
                 <Link to={`/p/${p.id}`} className="flex min-h-11 items-center gap-4 py-3.5 text-ink no-underline sm:gap-5">
-                  <span className="w-7 shrink-0 font-mono text-[15px] text-faint">{String(p.number).padStart(2, '0')}</span>
+                  <span className="w-9 shrink-0 font-mono text-[15px] text-faint">{String(p.number).padStart(2, '0')}</span>
                   <span className="flex min-w-0 flex-auto flex-wrap items-baseline gap-x-3">
                     <span className="text-xl font-medium">{p.title}</span>
                     <span className="text-base text-pencil italic">{p.titleVi}</span>

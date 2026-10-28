@@ -1,200 +1,43 @@
 [
   {
-    "title": "A Meaningful Summer",
-    "titleVi": "Một mùa hè ý nghĩa",
+    "id": "b1-u001-1",
+    "unit": 1,
+    "topic": "fam",
+    "title": "A Village Love Story",
+    "titleVi": "Chuyện tình làng quê",
     "sentences": [
-      { "en": "Last summer, / I decided / to [volunteer] / at an animal shelter / in my [neighbourhood].", "vi": "Mùa hè năm ngoái, / tôi quyết định / làm tình nguyện / ở một trại cứu hộ động vật / trong khu phố." },
-      { "en": "At first, / cleaning the cages every morning / was not very [pleasant].", "vi": "Lúc đầu, / việc dọn chuồng mỗi sáng / không dễ chịu lắm." },
-      { "en": "However, / the [staff] were kind / and always [encouraged|encourage] me.", "vi": "Tuy nhiên, / các nhân viên rất tốt bụng / và luôn động viên tôi." },
-      { "en": "Taking care of the animals / taught me a lot / about [responsibility].", "vi": "Việc chăm sóc các con vật / đã dạy tôi nhiều điều / về tinh thần trách nhiệm." },
-      { "en": "I am really [proud] / of what I did / that summer.", "vi": "Tôi thật sự tự hào / về những gì mình đã làm / mùa hè ấy." }
+      { "en": "My grandparents met in their [youth], / in a small village in the north.", "vi": "Ông bà tôi gặp nhau khi còn trẻ, / ở một ngôi làng nhỏ phía bắc." },
+      { "en": "Both of them were [native] speakers / of a local language.", "vi": "Cả hai đều là người bản ngữ / của một thứ tiếng địa phương." },
+      { "en": "Their families had been [enemies|enemy] / for many years.", "vi": "Gia đình hai bên từng là kẻ thù / suốt nhiều năm." },
+      { "en": "Even so, / on the wedding day, / the [bride] looked calm and happy.", "vi": "Dù vậy, / vào ngày cưới, / cô dâu trông bình thản và hạnh phúc." },
+      { "en": "When my grandfather gave her a [kiss], / everyone started to cheer.", "vi": "Khi ông trao cho bà một nụ hôn, / mọi người bắt đầu reo hò." }
     ],
     "vocab": {
-      "volunteer": { "word": "volunteer", "pos": "verb", "ipa": "/ˌvɒlənˈtɪə(r)/", "vi": "tình nguyện, xung phong làm" },
-      "neighbourhood": { "word": "neighbourhood", "pos": "noun", "ipa": "/ˈneɪbəhʊd/", "vi": "khu phố, vùng lân cận" },
-      "pleasant": { "word": "pleasant", "pos": "adjective", "ipa": "/ˈpleznt/", "vi": "dễ chịu, thú vị" },
-      "staff": { "word": "staff", "pos": "noun", "ipa": "/stɑːf/", "vi": "đội ngũ nhân viên" },
-      "encourage": { "word": "encourage", "pos": "verb", "ipa": "/ɪnˈkʌrɪdʒ/", "vi": "khuyến khích, động viên" },
-      "responsibility": { "word": "responsibility", "pos": "noun", "ipa": "/rɪˌspɒnsəˈbɪləti/", "vi": "trách nhiệm" },
-      "proud": { "word": "proud", "pos": "adjective", "ipa": "/praʊd/", "vi": "tự hào" }
+      "kiss": { "word": "kiss", "pos": "noun, verb", "ipa": "/kɪs/", "vi": "nụ hôn; hôn" },
+      "bride": { "word": "bride", "pos": "noun", "ipa": "/bɹaɪd/", "vi": "cô dâu" },
+      "enemy": { "word": "enemy", "pos": "noun", "ipa": "/ˈɛnəmi/", "vi": "kẻ thù" },
+      "youth": { "word": "youth", "pos": "noun", "ipa": "/juθ/", "vi": "tuổi trẻ, thanh niên" },
+      "native": { "word": "native", "pos": "adjective, noun", "ipa": "/ˈneɪtəv/", "vi": "bản địa; người bản xứ" }
     }
   },
   {
-    "title": "The Job Interview",
-    "titleVi": "Buổi phỏng vấn xin việc",
+    "id": "b1-u001-2",
+    "unit": 1,
+    "topic": "fam",
+    "title": "The Prince and the Servant",
+    "titleVi": "Hoàng tử và người hầu",
     "sentences": [
-      { "en": "Last month, / I sent an [application] / for a job at a travel company.", "vi": "Tháng trước, / tôi gửi đơn ứng tuyển / vào một công ty du lịch." },
-      { "en": "A week later, / they invited me / for an interview.", "vi": "Một tuần sau, / họ mời tôi / đến phỏng vấn." },
-      { "en": "There were five other [candidates|candidate], / and all of them looked very [experienced].", "vi": "Có năm ứng viên khác, / và ai trông cũng rất có kinh nghiệm." },
-      { "en": "I tried to stay [calm] / and give [honest] answers.", "vi": "Tôi cố giữ bình tĩnh / và trả lời trung thực." },
-      { "en": "At the end, / the manager said / that my [qualifications|qualification] were good / and that I had made a great [impression].", "vi": "Cuối buổi, / người quản lý nói / rằng bằng cấp của tôi tốt / và tôi đã để lại ấn tượng rất tốt." }
+      { "en": "In the old story, / a young [prince] / fell in love with a [servant] in the palace.", "vi": "Trong câu chuyện xưa, / một hoàng tử trẻ / đem lòng yêu một người hầu trong cung điện." },
+      { "en": "However, / he was already [engaged] / to a princess from another country.", "vi": "Tuy nhiên, / chàng đã đính hôn / với một công chúa nước khác." },
+      { "en": "The king believed / that a royal [marriage] / would bring peace.", "vi": "Nhà vua tin rằng / một cuộc hôn nhân hoàng gia / sẽ mang lại hòa bình." },
+      { "en": "In the end, / the servant became the [victim] / of the king's anger.", "vi": "Cuối cùng, / người hầu trở thành nạn nhân / của cơn giận nhà vua." }
     ],
     "vocab": {
-      "application": { "word": "application", "pos": "noun", "ipa": "/ˌæplɪˈkeɪʃn/", "vi": "đơn xin, đơn ứng tuyển" },
-      "candidate": { "word": "candidate", "pos": "noun", "ipa": "/ˈkændɪdət/", "vi": "ứng viên" },
-      "experienced": { "word": "experienced", "pos": "adjective", "ipa": "/ɪkˈspɪəriənst/", "vi": "có kinh nghiệm" },
-      "calm": { "word": "calm", "pos": "adjective", "ipa": "/kɑːm/", "vi": "bình tĩnh" },
-      "honest": { "word": "honest", "pos": "adjective", "ipa": "/ˈɒnɪst/", "vi": "trung thực, thành thật" },
-      "qualification": { "word": "qualification", "pos": "noun", "ipa": "/ˌkwɒlɪfɪˈkeɪʃn/", "vi": "bằng cấp, trình độ chuyên môn" },
-      "impression": { "word": "impression", "pos": "noun", "ipa": "/ɪmˈpreʃn/", "vi": "ấn tượng" }
-    }
-  },
-  {
-    "title": "Saving Money",
-    "titleVi": "Tiết kiệm tiền",
-    "sentences": [
-      { "en": "When I started university, / I realized / that I could not [afford] / to buy everything I wanted.", "vi": "Khi vào đại học, / tôi nhận ra / mình không đủ tiền / mua mọi thứ mình muốn." },
-      { "en": "So / I opened a bank [account] / just for my savings.", "vi": "Vì vậy / tôi mở một tài khoản ngân hàng / chỉ để tiết kiệm." },
-      { "en": "Now / I keep every [receipt] / and write down my daily [spending].", "vi": "Giờ / tôi giữ lại mọi hóa đơn / và ghi lại chi tiêu hằng ngày." },
-      { "en": "I only buy new clothes / when there is a [discount].", "vi": "Tôi chỉ mua quần áo mới / khi có giảm giá." },
-      { "en": "Eating out / has become a [luxury] for me, / so I usually cook at home.", "vi": "Ăn ở ngoài / đã trở thành một thứ xa xỉ với tôi, / nên tôi thường nấu ở nhà." }
-    ],
-    "vocab": {
-      "afford": { "word": "afford", "pos": "verb", "ipa": "/əˈfɔːd/", "vi": "có đủ khả năng (chi trả)" },
-      "account": { "word": "account", "pos": "noun", "ipa": "/əˈkaʊnt/", "vi": "tài khoản" },
-      "receipt": { "word": "receipt", "pos": "noun", "ipa": "/rɪˈsiːt/", "vi": "hóa đơn, biên lai" },
-      "spending": { "word": "spending", "pos": "noun", "ipa": "/ˈspendɪŋ/", "vi": "khoản chi tiêu" },
-      "discount": { "word": "discount", "pos": "noun", "ipa": "/ˈdɪskaʊnt/", "vi": "sự giảm giá" },
-      "luxury": { "word": "luxury", "pos": "noun", "ipa": "/ˈlʌkʃəri/", "vi": "sự xa xỉ, thứ xa xỉ" }
-    }
-  },
-  {
-    "title": "A Trip to the Mountains",
-    "titleVi": "Chuyến đi lên núi",
-    "sentences": [
-      { "en": "Our [destination] was / a small village / in the mountains of Ha Giang.", "vi": "Điểm đến của chúng tôi là / một ngôi làng nhỏ / trên vùng núi Hà Giang." },
-      { "en": "The village is so [remote] / that there is no bus to get there.", "vi": "Ngôi làng hẻo lánh đến mức / không có xe buýt nào đi tới." },
-      { "en": "We walked for hours / along a narrow [path].", "vi": "Chúng tôi đi bộ hàng giờ / trên một con đường mòn hẹp." },
-      { "en": "When we reached the top, / the [sight] of the valley below / was amazing.", "vi": "Khi lên tới đỉnh, / cảnh thung lũng bên dưới / thật tuyệt vời." },
-      { "en": "That night, / we slept in a [tent] / under the stars.", "vi": "Đêm đó, / chúng tôi ngủ trong lều / dưới bầu trời đầy sao." },
-      { "en": "It was the most [peaceful] place / I have ever visited.", "vi": "Đó là nơi yên bình nhất / mà tôi từng đến." }
-    ],
-    "vocab": {
-      "destination": { "word": "destination", "pos": "noun", "ipa": "/ˌdestɪˈneɪʃn/", "vi": "điểm đến" },
-      "remote": { "word": "remote", "pos": "adjective", "ipa": "/rɪˈməʊt/", "vi": "xa xôi, hẻo lánh" },
-      "path": { "word": "path", "pos": "noun", "ipa": "/pɑːθ/", "vi": "đường mòn, lối đi" },
-      "sight": { "word": "sight", "pos": "noun", "ipa": "/saɪt/", "vi": "cảnh tượng; thị lực" },
-      "tent": { "word": "tent", "pos": "noun", "ipa": "/tent/", "vi": "cái lều" },
-      "peaceful": { "word": "peaceful", "pos": "adjective", "ipa": "/ˈpiːsfl/", "vi": "yên bình" }
-    }
-  },
-  {
-    "title": "Online Shopping",
-    "titleVi": "Mua sắm trực tuyến",
-    "sentences": [
-      { "en": "Online shopping is [convenient] / because you can buy things / without leaving home.", "vi": "Mua sắm trực tuyến rất tiện lợi / vì bạn có thể mua đồ / mà không cần ra khỏi nhà." },
-      { "en": "Last week, / I ordered a pair of headphones / from a popular website.", "vi": "Tuần trước, / tôi đặt mua một chiếc tai nghe / trên một trang web nổi tiếng." },
-      { "en": "The company promised / to [deliver] them / in two days.", "vi": "Công ty hứa / sẽ giao hàng / trong hai ngày." },
-      { "en": "However, / when the [package] arrived, / the box was badly [damaged|damage].", "vi": "Tuy nhiên, / khi gói hàng đến nơi, / chiếc hộp bị hư hỏng nặng." },
-      { "en": "I made a [complaint], / and they sent me a new pair immediately.", "vi": "Tôi gửi khiếu nại, / và họ gửi ngay cho tôi một chiếc mới." },
-      { "en": "Since then, / I only buy / from [reliable] shops.", "vi": "Từ đó, / tôi chỉ mua / ở những cửa hàng đáng tin cậy." }
-    ],
-    "vocab": {
-      "convenient": { "word": "convenient", "pos": "adjective", "ipa": "/kənˈviːniənt/", "vi": "tiện lợi" },
-      "deliver": { "word": "deliver", "pos": "verb", "ipa": "/dɪˈlɪvə(r)/", "vi": "giao (hàng), chuyển phát" },
-      "package": { "word": "package", "pos": "noun", "ipa": "/ˈpækɪdʒ/", "vi": "gói hàng, bưu kiện" },
-      "damage": { "word": "damage", "pos": "verb", "ipa": "/ˈdæmɪdʒ/", "vi": "làm hư hại, gây thiệt hại" },
-      "complaint": { "word": "complaint", "pos": "noun", "ipa": "/kəmˈpleɪnt/", "vi": "lời phàn nàn, khiếu nại" },
-      "reliable": { "word": "reliable", "pos": "adjective", "ipa": "/rɪˈlaɪəbl/", "vi": "đáng tin cậy" }
-    }
-  },
-  {
-    "title": "Staying Healthy",
-    "titleVi": "Giữ gìn sức khỏe",
-    "sentences": [
-      { "en": "Many people think / that [fitness] / is only about going to the gym.", "vi": "Nhiều người nghĩ / rằng rèn luyện thể chất / chỉ là đi tập gym." },
-      { "en": "But a healthy life / is really about [balance].", "vi": "Nhưng một cuộc sống khỏe mạnh / thực ra là về sự cân bằng." },
-      { "en": "I try to exercise [regularly], / eat well, / and sleep at least seven hours a night.", "vi": "Tôi cố gắng tập thể dục đều đặn, / ăn uống tốt / và ngủ ít nhất bảy tiếng mỗi đêm." },
-      { "en": "Running makes my [muscles|muscle] stronger, / and yoga helps me / [breathe] more slowly.", "vi": "Chạy bộ giúp cơ bắp tôi khỏe hơn, / còn yoga giúp tôi / thở chậm hơn." },
-      { "en": "Good [mental] health / is just as important / as a strong body.", "vi": "Sức khỏe tinh thần tốt / cũng quan trọng / như một cơ thể khỏe mạnh." }
-    ],
-    "vocab": {
-      "fitness": { "word": "fitness", "pos": "noun", "ipa": "/ˈfɪtnəs/", "vi": "sự khỏe mạnh, thể lực" },
-      "balance": { "word": "balance", "pos": "noun", "ipa": "/ˈbæləns/", "vi": "sự cân bằng" },
-      "regularly": { "word": "regularly", "pos": "adverb", "ipa": "/ˈreɡjələli/", "vi": "đều đặn, thường xuyên" },
-      "muscle": { "word": "muscle", "pos": "noun", "ipa": "/ˈmʌsl/", "vi": "cơ bắp" },
-      "breathe": { "word": "breathe", "pos": "verb", "ipa": "/briːð/", "vi": "thở, hít thở" },
-      "mental": { "word": "mental", "pos": "adjective", "ipa": "/ˈmentl/", "vi": "thuộc về tinh thần, trí óc" }
-    }
-  },
-  {
-    "title": "A Lost Wallet",
-    "titleVi": "Chiếc ví bị mất",
-    "sentences": [
-      { "en": "Yesterday, / I left my wallet / on the bus by mistake.", "vi": "Hôm qua, / tôi để quên ví / trên xe buýt." },
-      { "en": "It had / all my money and my [identity] card in it.", "vi": "Trong đó có / toàn bộ tiền và thẻ căn cước của tôi." },
-      { "en": "I felt really [upset] / and did not know what to do.", "vi": "Tôi thấy rất buồn bực / và không biết phải làm gì." },
-      { "en": "In the evening, / a [stranger] [contacted|contact] me / on social media.", "vi": "Buổi tối, / một người lạ liên lạc với tôi / qua mạng xã hội." },
-      { "en": "She had found my wallet / and brought it to my house.", "vi": "Cô ấy đã nhặt được ví / và mang đến tận nhà tôi." },
-      { "en": "Nothing was missing, / and I was so [grateful] / that I could [hardly] speak.", "vi": "Không thiếu thứ gì, / và tôi biết ơn đến mức / gần như không nói nên lời." }
-    ],
-    "vocab": {
-      "identity": { "word": "identity", "pos": "noun", "ipa": "/aɪˈdentəti/", "vi": "danh tính, nhân dạng" },
-      "upset": { "word": "upset", "pos": "adjective", "ipa": "/ʌpˈset/", "vi": "buồn bực, khó chịu" },
-      "stranger": { "word": "stranger", "pos": "noun", "ipa": "/ˈstreɪndʒə(r)/", "vi": "người lạ" },
-      "contact": { "word": "contact", "pos": "verb", "ipa": "/ˈkɒntækt/", "vi": "liên lạc, liên hệ" },
-      "grateful": { "word": "grateful", "pos": "adjective", "ipa": "/ˈɡreɪtfl/", "vi": "biết ơn" },
-      "hardly": { "word": "hardly", "pos": "adverb", "ipa": "/ˈhɑːdli/", "vi": "hầu như không" }
-    }
-  },
-  {
-    "title": "Moving to a New City",
-    "titleVi": "Chuyển đến thành phố mới",
-    "sentences": [
-      { "en": "Two years ago, / my family moved / from a small town / to Ho Chi Minh City.", "vi": "Hai năm trước, / gia đình tôi chuyển / từ một thị trấn nhỏ / đến Thành phố Hồ Chí Minh." },
-      { "en": "At first, / I felt [lonely] / because I had no friends there.", "vi": "Lúc đầu, / tôi thấy cô đơn / vì không có người bạn nào ở đó." },
-      { "en": "I often got [confused] in the busy streets, / and even the local [customs|custom] / seemed strange.", "vi": "Tôi thường bị lạc hướng giữa những con phố đông đúc, / và ngay cả phong tục địa phương / cũng có vẻ lạ lẫm." },
-      { "en": "The lively [atmosphere] of the city / was exciting but also tiring.", "vi": "Bầu không khí sôi động của thành phố / vừa thú vị vừa mệt mỏi." },
-      { "en": "Little by little, / the streets became [familiar] to me.", "vi": "Dần dần, / những con phố trở nên quen thuộc với tôi." },
-      { "en": "[Eventually], / I made new friends / and started to love my new home.", "vi": "Cuối cùng, / tôi có những người bạn mới / và bắt đầu yêu ngôi nhà mới của mình." }
-    ],
-    "vocab": {
-      "lonely": { "word": "lonely", "pos": "adjective", "ipa": "/ˈləʊnli/", "vi": "cô đơn" },
-      "confused": { "word": "confused", "pos": "adjective", "ipa": "/kənˈfjuːzd/", "vi": "bối rối, lúng túng" },
-      "custom": { "word": "custom", "pos": "noun", "ipa": "/ˈkʌstəm/", "vi": "phong tục, tập quán" },
-      "atmosphere": { "word": "atmosphere", "pos": "noun", "ipa": "/ˈætməsfɪə(r)/", "vi": "bầu không khí" },
-      "familiar": { "word": "familiar", "pos": "adjective", "ipa": "/fəˈmɪliə(r)/", "vi": "quen thuộc" },
-      "eventually": { "word": "eventually", "pos": "adverb", "ipa": "/ɪˈventʃuəli/", "vi": "cuối cùng, rốt cuộc" }
-    }
-  },
-  {
-    "title": "My Grandfather's Stories",
-    "titleVi": "Những câu chuyện của ông",
-    "sentences": [
-      { "en": "My grandfather loves telling stories / about his [childhood].", "vi": "Ông tôi rất thích kể chuyện / về thời thơ ấu của mình." },
-      { "en": "He grew up in [poverty] / during a difficult time in our history.", "vi": "Ông lớn lên trong cảnh nghèo khó / vào một giai đoạn gian khổ của lịch sử." },
-      { "en": "Many families had to work very hard / just to [survive].", "vi": "Nhiều gia đình phải làm việc rất vất vả / chỉ để sống sót." },
-      { "en": "His stories help my [generation] / understand how lucky we are today.", "vi": "Những câu chuyện của ông giúp thế hệ chúng tôi / hiểu mình may mắn thế nào." },
-      { "en": "I often [wonder] / how he managed to stay so [cheerful] / through it all.", "vi": "Tôi thường tự hỏi / làm sao ông có thể luôn vui vẻ như vậy / qua bao khó khăn." }
-    ],
-    "vocab": {
-      "childhood": { "word": "childhood", "pos": "noun", "ipa": "/ˈtʃaɪldhʊd/", "vi": "thời thơ ấu" },
-      "poverty": { "word": "poverty", "pos": "noun", "ipa": "/ˈpɒvəti/", "vi": "sự nghèo đói" },
-      "survive": { "word": "survive", "pos": "verb", "ipa": "/səˈvaɪv/", "vi": "sống sót, tồn tại" },
-      "generation": { "word": "generation", "pos": "noun", "ipa": "/ˌdʒenəˈreɪʃn/", "vi": "thế hệ" },
-      "wonder": { "word": "wonder", "pos": "verb", "ipa": "/ˈwʌndə(r)/", "vi": "tự hỏi, thắc mắc" },
-      "cheerful": { "word": "cheerful", "pos": "adjective", "ipa": "/ˈtʃɪəfl/", "vi": "vui vẻ, phấn khởi" }
-    }
-  },
-  {
-    "title": "A Cooking Class",
-    "titleVi": "Lớp học nấu ăn",
-    "sentences": [
-      { "en": "Last Saturday, / my sister and I / joined a cooking class.", "vi": "Thứ Bảy tuần trước, / chị tôi và tôi / tham gia một lớp học nấu ăn." },
-      { "en": "The chef showed us / how to [bake] bread.", "vi": "Đầu bếp chỉ cho chúng tôi / cách nướng bánh mì." },
-      { "en": "First, / we [mixed|mix] / [flour], water and a little salt.", "vi": "Đầu tiên, / chúng tôi trộn / bột mì, nước và một chút muối." },
-      { "en": "While the bread was in the oven, / we cut some vegetables / into thin [slices|slice].", "vi": "Trong lúc bánh trong lò, / chúng tôi thái rau / thành những lát mỏng." },
-      { "en": "Then / we cooked them in a [pan] / with garlic and a [spicy] sauce.", "vi": "Sau đó / chúng tôi xào rau trong chảo / với tỏi và nước sốt cay." },
-      { "en": "The chef said / that fresh [ingredients|ingredient] / make all the difference.", "vi": "Đầu bếp nói / rằng nguyên liệu tươi / tạo nên sự khác biệt." }
-    ],
-    "vocab": {
-      "bake": { "word": "bake", "pos": "verb", "ipa": "/beɪk/", "vi": "nướng (bằng lò)" },
-      "mix": { "word": "mix", "pos": "verb", "ipa": "/mɪks/", "vi": "trộn, pha" },
-      "flour": { "word": "flour", "pos": "noun", "ipa": "/ˈflaʊə(r)/", "vi": "bột mì" },
-      "slice": { "word": "slice", "pos": "noun", "ipa": "/slaɪs/", "vi": "lát (mỏng)" },
-      "pan": { "word": "pan", "pos": "noun", "ipa": "/pæn/", "vi": "cái chảo" },
-      "spicy": { "word": "spicy", "pos": "adjective", "ipa": "/ˈspaɪsi/", "vi": "cay" },
-      "ingredient": { "word": "ingredient", "pos": "noun", "ipa": "/ɪnˈɡriːdiənt/", "vi": "nguyên liệu, thành phần" }
+      "prince": { "word": "prince", "pos": "noun", "ipa": "/pɹɪns/", "vi": "hoàng tử" },
+      "victim": { "word": "victim", "pos": "noun", "ipa": "/ˈvɪktɪm/", "vi": "nạn nhân" },
+      "engaged": { "word": "engaged", "pos": "adjective", "ipa": "/ɪnˈɡeɪd͡ʒd/", "vi": "đã đính hôn; bận" },
+      "servant": { "word": "servant", "pos": "noun", "ipa": "/ˈsɝvənt/", "vi": "người hầu" },
+      "marriage": { "word": "marriage", "pos": "noun", "ipa": "/ˈmæɹɪd͡ʒ/", "vi": "hôn nhân" }
     }
   }
 ]

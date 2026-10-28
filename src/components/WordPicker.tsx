@@ -97,7 +97,7 @@ export default function WordPicker({ passage, vocabOrder, mistyped, stats, onRet
                     <span className="text-[15px] text-pencil italic">{w.pos}</span>
                     {w.mistyped && <span className="font-mono text-[13px] text-red">gõ sai</span>}
                   </span>
-                  <span className="font-mono text-sm text-pencil">{w.ipa}</span>
+                  {w.ipa && <span className="font-mono text-sm text-pencil">{w.ipa}</span>}
                 </span>
                 <span lang="vi" className="min-w-0 flex-[1_1_240px] pl-10 text-[19px] sm:pl-0">
                   {w.vi}

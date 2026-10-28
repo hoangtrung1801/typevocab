@@ -274,7 +274,7 @@ export default function TypingBoard({ passage, parsed, state, onChar, onBackspac
               <span className="font-mono text-sm font-bold text-red">{passage.level}</span>
             </span>
             <span className="font-mono text-sm text-pencil">
-              {tip.ipa} · {tip.pos}
+              {tip.ipa ? `${tip.ipa} · ${tip.pos}` : tip.pos}
             </span>
             <span lang="vi" className="text-lg">
               {tip.vi}

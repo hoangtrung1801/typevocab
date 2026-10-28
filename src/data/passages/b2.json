@@ -1,206 +1,47 @@
 [
   {
-    "title": "Working from Home",
-    "titleVi": "Làm việc tại nhà",
+    "id": "b2-u001-1",
+    "unit": 1,
+    "topic": "fam",
+    "title": "A Debate About Freedom",
+    "titleVi": "Cuộc tranh luận về tự do",
     "sentences": [
-      { "en": "Since the pandemic, / many companies have become more [flexible] / about where their employees work.", "vi": "Kể từ đại dịch, / nhiều công ty đã linh hoạt hơn / về nơi làm việc của nhân viên." },
-      { "en": "Working from home saves time, / but it also brings new challenges.", "vi": "Làm việc tại nhà tiết kiệm thời gian, / nhưng cũng mang lại những thách thức mới." },
-      { "en": "Some people find / that they are [constantly] [distracted|distract] / by noise, housework or social media.", "vi": "Một số người thấy / mình liên tục bị phân tâm / bởi tiếng ồn, việc nhà hoặc mạng xã hội." },
-      { "en": "Others [struggle] / to separate their working hours / from their free time.", "vi": "Những người khác lại chật vật / tách bạch giờ làm việc / với thời gian rảnh." },
-      { "en": "To [cope] with this, / experts recommend / a clear schedule / and a fixed [deadline] for each task.", "vi": "Để đối phó với điều này, / các chuyên gia khuyên nên có / lịch trình rõ ràng / và hạn chót cố định cho từng việc." },
-      { "en": "With good habits, / working from home / can be just as [efficient] / as working in an office.", "vi": "Với thói quen tốt, / làm việc tại nhà / có thể hiệu quả không kém / làm việc ở văn phòng." }
+      { "en": "Last weekend, / our town held a debate / about history and freedom.", "vi": "Cuối tuần trước, / thị trấn chúng tôi tổ chức một buổi tranh luận / về lịch sử và tự do." },
+      { "en": "One [participant], / an [elderly] teacher, / described how local [lords|lord] once owned huge areas of land.", "vi": "Một người tham gia, / một thầy giáo cao tuổi, / kể lại việc các lãnh chúa địa phương từng sở hữu những vùng đất rộng lớn." },
+      { "en": "The poorest workers / lived almost like [slaves|slave], / with no rights at all.", "vi": "Những người lao động nghèo nhất / sống gần như nô lệ, / hoàn toàn không có quyền gì." },
+      { "en": "Today, / every [citizen] can vote, / and that is a huge change.", "vi": "Ngày nay, / mọi công dân đều có thể bỏ phiếu, / và đó là một thay đổi rất lớn." },
+      { "en": "He asked his [fellow] speakers / to remember that freedom / is part of our sense of [self].", "vi": "Ông đề nghị những người cùng phát biểu / hãy nhớ rằng tự do / là một phần trong ý thức về bản thân của chúng ta." }
     ],
     "vocab": {
-      "flexible": { "word": "flexible", "pos": "adjective", "ipa": "/ˈfleksəbl/", "vi": "linh hoạt" },
-      "constantly": { "word": "constantly", "pos": "adverb", "ipa": "/ˈkɒnstəntli/", "vi": "liên tục, không ngừng" },
-      "distract": { "word": "distract", "pos": "verb", "ipa": "/dɪˈstrækt/", "vi": "làm xao nhãng, làm phân tâm" },
-      "struggle": { "word": "struggle", "pos": "verb", "ipa": "/ˈstrʌɡl/", "vi": "vật lộn, chật vật" },
-      "cope": { "word": "cope", "pos": "verb", "ipa": "/kəʊp/", "vi": "đối phó, xoay xở" },
-      "deadline": { "word": "deadline", "pos": "noun", "ipa": "/ˈdedlaɪn/", "vi": "hạn chót" },
-      "efficient": { "word": "efficient", "pos": "adjective", "ipa": "/ɪˈfɪʃnt/", "vi": "hiệu quả (ít tốn thời gian, công sức)" }
+      "lord": { "word": "lord", "pos": "noun", "ipa": "/loɹd/", "vi": "chúa, lãnh chúa" },
+      "self": { "word": "self", "pos": "noun", "ipa": "/ˈsɛlf/", "vi": "bản thân" },
+      "slave": { "word": "slave", "pos": "noun", "ipa": "/sleɪv/", "vi": "nô lệ" },
+      "fellow": { "word": "fellow", "pos": "adjective", "ipa": "/ˈfɛ.loʊ/", "vi": "cùng cảnh, đồng nghiệp" },
+      "citizen": { "word": "citizen", "pos": "noun", "ipa": "/ˈsɪtɪzən/", "vi": "công dân" },
+      "elderly": { "word": "elderly", "pos": "adjective", "ipa": "/ˈɛldɚli/", "vi": "cao tuổi" },
+      "participant": { "word": "participant", "pos": "noun", "ipa": "/pɑːˈtɪsɪpənt/", "vi": "người tham gia" }
     }
   },
   {
-    "title": "The Rise of Electric Cars",
-    "titleVi": "Sự trỗi dậy của xe điện",
+    "id": "b2-u001-2",
+    "unit": 1,
+    "topic": "body",
+    "title": "Inside the Human Body",
+    "titleVi": "Bên trong cơ thể con người",
     "sentences": [
-      { "en": "Electric cars / are becoming more popular / around the world.", "vi": "Xe điện / ngày càng phổ biến / trên khắp thế giới." },
-      { "en": "Because they produce no [emissions|emission] while driving, / they are seen / as a cleaner alternative to petrol cars.", "vi": "Vì không thải khí khi chạy, / chúng được xem / là lựa chọn sạch hơn so với xe chạy xăng." },
-      { "en": "In the past, / they were too expensive for most families, / but prices have [gradually] fallen.", "vi": "Trước đây, / chúng quá đắt với phần lớn các gia đình, / nhưng giá đã dần giảm xuống." },
-      { "en": "Today, / many models are much more [affordable] / than they were ten years ago.", "vi": "Ngày nay, / nhiều mẫu xe có giá phải chăng hơn nhiều / so với mười năm trước." },
-      { "en": "However, / the charging [infrastructure] in many countries / is still [limited].", "vi": "Tuy nhiên, / hạ tầng sạc ở nhiều quốc gia / vẫn còn hạn chế." },
-      { "en": "Governments will need / to invest [significantly] / to support this [transition].", "vi": "Các chính phủ sẽ cần / đầu tư đáng kể / để hỗ trợ quá trình chuyển đổi này." }
+      { "en": "Doctors have made huge progress / in understanding the human body.", "vi": "Các bác sĩ đã có những tiến bộ lớn / trong việc tìm hiểu cơ thể con người." },
+      { "en": "Every organ, / from the [lungs|lung] to the skin, / is made of millions of [cells|cell].", "vi": "Mọi cơ quan, / từ phổi đến da, / đều được tạo thành từ hàng triệu tế bào." },
+      { "en": "Some injuries are surprisingly painful: / a damaged [nerve] in the [heel] / can make walking almost impossible.", "vi": "Một số chấn thương đau đến bất ngờ: / một dây thần kinh bị tổn thương ở gót chân / có thể khiến việc đi lại gần như không thể." },
+      { "en": "Scientists are also testing new treatments / that may help some [blind] people / see again.", "vi": "Các nhà khoa học cũng đang thử nghiệm những phương pháp điều trị mới / có thể giúp một số người mù / nhìn thấy trở lại." },
+      { "en": "There is still no [cure] / for many diseases, / but research continues.", "vi": "Vẫn chưa có cách chữa / cho nhiều căn bệnh, / nhưng nghiên cứu vẫn tiếp tục." }
     ],
     "vocab": {
-      "emission": { "word": "emission", "pos": "noun", "ipa": "/iˈmɪʃn/", "vi": "khí thải, sự phát thải" },
-      "gradually": { "word": "gradually", "pos": "adverb", "ipa": "/ˈɡrædʒuəli/", "vi": "dần dần" },
-      "affordable": { "word": "affordable", "pos": "adjective", "ipa": "/əˈfɔːdəbl/", "vi": "giá cả phải chăng" },
-      "infrastructure": { "word": "infrastructure", "pos": "noun", "ipa": "/ˈɪnfrəstrʌktʃə(r)/", "vi": "cơ sở hạ tầng" },
-      "limited": { "word": "limited", "pos": "adjective", "ipa": "/ˈlɪmɪtɪd/", "vi": "có hạn, hạn chế" },
-      "significantly": { "word": "significantly", "pos": "adverb", "ipa": "/sɪɡˈnɪfɪkəntli/", "vi": "một cách đáng kể" },
-      "transition": { "word": "transition", "pos": "noun", "ipa": "/trænˈzɪʃn/", "vi": "sự chuyển đổi, quá độ" }
-    }
-  },
-  {
-    "title": "Social Media and Teenagers",
-    "titleVi": "Mạng xã hội và tuổi teen",
-    "sentences": [
-      { "en": "Most teenagers today / spend several hours a day / on social media.", "vi": "Hầu hết thanh thiếu niên ngày nay / dành vài giờ mỗi ngày / cho mạng xã hội." },
-      { "en": "While it helps them / stay in touch with friends, / it can also be [harmful].", "vi": "Dù giúp các em / giữ liên lạc với bạn bè, / nó cũng có thể gây hại." },
-      { "en": "Some young people develop a kind of [addiction] / and cannot stop checking their phones.", "vi": "Một số bạn trẻ hình thành một kiểu nghiện / và không thể ngừng kiểm tra điện thoại." },
-      { "en": "Comparing themselves with others online / can lead to stress and [anxiety].", "vi": "Việc so sánh bản thân với người khác trên mạng / có thể dẫn đến căng thẳng và lo âu." },
-      { "en": "Many also share personal information / without thinking about their [privacy].", "vi": "Nhiều em còn chia sẻ thông tin cá nhân / mà không nghĩ đến quyền riêng tư." },
-      { "en": "Schools are now trying / to raise [awareness] of these risks, / because social media can be [beneficial] / when it is used wisely.", "vi": "Các trường học đang cố gắng / nâng cao nhận thức về những rủi ro này, / vì mạng xã hội có thể có ích / khi được dùng một cách khôn ngoan." }
-    ],
-    "vocab": {
-      "harmful": { "word": "harmful", "pos": "adjective", "ipa": "/ˈhɑːmfl/", "vi": "có hại" },
-      "addiction": { "word": "addiction", "pos": "noun", "ipa": "/əˈdɪkʃn/", "vi": "sự nghiện" },
-      "anxiety": { "word": "anxiety", "pos": "noun", "ipa": "/æŋˈzaɪəti/", "vi": "sự lo âu" },
-      "privacy": { "word": "privacy", "pos": "noun", "ipa": "/ˈprɪvəsi/", "vi": "sự riêng tư, quyền riêng tư" },
-      "awareness": { "word": "awareness", "pos": "noun", "ipa": "/əˈweənəs/", "vi": "nhận thức, sự hiểu biết" },
-      "beneficial": { "word": "beneficial", "pos": "adjective", "ipa": "/ˌbenɪˈfɪʃl/", "vi": "có lợi, có ích" }
-    }
-  },
-  {
-    "title": "Learning a Second Language",
-    "titleVi": "Học một ngôn ngữ thứ hai",
-    "sentences": [
-      { "en": "Learning a second language as an adult / is [challenging], / but it is far from impossible.", "vi": "Học ngôn ngữ thứ hai khi đã trưởng thành / là một thử thách, / nhưng hoàn toàn không phải là không thể." },
-      { "en": "The most effective [approach] / is to combine regular study / with real conversations.", "vi": "Cách tiếp cận hiệu quả nhất / là kết hợp học đều đặn / với những cuộc trò chuyện thực tế." },
-      { "en": "Daily [exposure] to the language, / through films, podcasts or books, / makes a huge difference.", "vi": "Việc tiếp xúc với ngôn ngữ hằng ngày, / qua phim, podcast hay sách, / tạo ra khác biệt rất lớn." },
-      { "en": "Many learners worry about their [accent], / but being understood matters more / than sounding like a native speaker.", "vi": "Nhiều người học lo lắng về giọng của mình, / nhưng việc được hiểu quan trọng hơn / là nói giống người bản xứ." },
-      { "en": "Mistakes are a natural part of the process, / and every conversation builds your [confidence].", "vi": "Mắc lỗi là một phần tự nhiên của quá trình, / và mỗi cuộc trò chuyện đều giúp bạn tự tin hơn." },
-      { "en": "Above all, / being [consistent] is more important / than studying for many hours at once.", "vi": "Trên hết, / sự kiên trì đều đặn quan trọng hơn / việc học nhiều giờ liền một lúc." }
-    ],
-    "vocab": {
-      "challenging": { "word": "challenging", "pos": "adjective", "ipa": "/ˈtʃælɪndʒɪŋ/", "vi": "đầy thử thách" },
-      "approach": { "word": "approach", "pos": "noun", "ipa": "/əˈprəʊtʃ/", "vi": "cách tiếp cận, phương pháp" },
-      "exposure": { "word": "exposure", "pos": "noun", "ipa": "/ɪkˈspəʊʒə(r)/", "vi": "sự tiếp xúc" },
-      "accent": { "word": "accent", "pos": "noun", "ipa": "/ˈæksent/", "vi": "giọng (địa phương, nước ngoài)" },
-      "confidence": { "word": "confidence", "pos": "noun", "ipa": "/ˈkɒnfɪdəns/", "vi": "sự tự tin" },
-      "consistent": { "word": "consistent", "pos": "adjective", "ipa": "/kənˈsɪstənt/", "vi": "kiên định, nhất quán" }
-    }
-  },
-  {
-    "title": "The Housing Problem",
-    "titleVi": "Vấn đề nhà ở",
-    "sentences": [
-      { "en": "In many big cities, / [housing] has become a real [crisis].", "vi": "Ở nhiều thành phố lớn, / nhà ở đã trở thành một cuộc khủng hoảng thực sự." },
-      { "en": "As more people move to [urban] areas for work, / property prices keep rising.", "vi": "Khi ngày càng nhiều người chuyển đến khu vực đô thị để làm việc, / giá bất động sản không ngừng tăng." },
-      { "en": "For young people with an average [income], / buying a flat / seems almost impossible.", "vi": "Với những người trẻ có thu nhập trung bình, / mua một căn hộ / dường như là điều gần như không thể." },
-      { "en": "Many are forced to live far from the centre, / which adds the [expense] and stress / of a long journey every day.", "vi": "Nhiều người buộc phải sống xa trung tâm, / kéo theo chi phí và căng thẳng / của những chuyến đi dài mỗi ngày." },
-      { "en": "Some local [residents|resident] also complain / that their neighbourhoods / are changing too quickly.", "vi": "Một số cư dân địa phương cũng phàn nàn / rằng khu phố của họ / đang thay đổi quá nhanh." },
-      { "en": "Experts argue / that the government must [ensure] / that new homes stay within reach of ordinary families.", "vi": "Các chuyên gia cho rằng / chính phủ phải bảo đảm / nhà ở mới vẫn nằm trong khả năng của các gia đình bình thường." }
-    ],
-    "vocab": {
-      "housing": { "word": "housing", "pos": "noun", "ipa": "/ˈhaʊzɪŋ/", "vi": "nhà ở" },
-      "crisis": { "word": "crisis", "pos": "noun", "ipa": "/ˈkraɪsɪs/", "vi": "cuộc khủng hoảng" },
-      "urban": { "word": "urban", "pos": "adjective", "ipa": "/ˈɜːbən/", "vi": "thuộc đô thị, thành thị" },
-      "income": { "word": "income", "pos": "noun", "ipa": "/ˈɪnkʌm/", "vi": "thu nhập" },
-      "expense": { "word": "expense", "pos": "noun", "ipa": "/ɪkˈspens/", "vi": "chi phí, phí tổn" },
-      "resident": { "word": "resident", "pos": "noun", "ipa": "/ˈrezɪdənt/", "vi": "cư dân" },
-      "ensure": { "word": "ensure", "pos": "verb", "ipa": "/ɪnˈʃʊə(r)/", "vi": "bảo đảm" }
-    }
-  },
-  {
-    "title": "An Accident on the Mountain",
-    "titleVi": "Tai nạn trên núi",
-    "sentences": [
-      { "en": "Last spring, / my friend Nam and I / went hiking / in a national park.", "vi": "Mùa xuân năm ngoái, / tôi và bạn tôi là Nam / đi leo núi / ở một vườn quốc gia." },
-      { "en": "On the way down, / the path became very [steep] and wet.", "vi": "Trên đường xuống, / con đường trở nên rất dốc và trơn ướt." },
-      { "en": "Nam [slipped|slip] on a rock / and fell heavily.", "vi": "Nam trượt chân trên một tảng đá / và ngã mạnh." },
-      { "en": "His ankle was badly hurt, / and he could not walk at all.", "vi": "Mắt cá chân của cậu ấy bị thương nặng, / và cậu không thể đi lại được." },
-      { "en": "Fortunately, / my phone had a signal, / so I called the [rescue] team.", "vi": "May mắn là / điện thoại của tôi có sóng, / nên tôi gọi cho đội cứu hộ." },
-      { "en": "They arrived within an hour / and carried him / to a waiting [ambulance].", "vi": "Họ đến trong vòng một giờ / và khiêng cậu ấy / đến chiếc xe cứu thương đang chờ." },
-      { "en": "The doctor said / the injury was not [severe], / which was a huge [relief] for both of us.", "vi": "Bác sĩ nói / chấn thương không nghiêm trọng, / điều đó khiến cả hai chúng tôi nhẹ nhõm vô cùng." }
-    ],
-    "vocab": {
-      "steep": { "word": "steep", "pos": "adjective", "ipa": "/stiːp/", "vi": "dốc" },
-      "slip": { "word": "slip", "pos": "verb", "ipa": "/slɪp/", "vi": "trượt chân, trượt ngã" },
-      "rescue": { "word": "rescue", "pos": "noun", "ipa": "/ˈreskjuː/", "vi": "sự cứu hộ, giải cứu" },
-      "ambulance": { "word": "ambulance", "pos": "noun", "ipa": "/ˈæmbjələns/", "vi": "xe cứu thương" },
-      "severe": { "word": "severe", "pos": "adjective", "ipa": "/sɪˈvɪə(r)/", "vi": "nghiêm trọng, dữ dội" },
-      "relief": { "word": "relief", "pos": "noun", "ipa": "/rɪˈliːf/", "vi": "sự nhẹ nhõm, sự an tâm" }
-    }
-  },
-  {
-    "title": "Why Reading Still Matters",
-    "titleVi": "Vì sao đọc sách vẫn quan trọng",
-    "sentences": [
-      { "en": "In a world full of short videos, / reading a whole book / can feel old-fashioned.", "vi": "Trong một thế giới đầy video ngắn, / đọc trọn một cuốn sách / có thể bị xem là lỗi thời." },
-      { "en": "Yet reading has many benefits / that are easy to forget.", "vi": "Thế nhưng đọc sách có nhiều lợi ích / mà ta dễ quên." },
-      { "en": "Novels develop our [imagination] / and let us see the world / from a different [perspective].", "vi": "Tiểu thuyết phát triển trí tưởng tượng / và cho ta nhìn thế giới / từ một góc nhìn khác." },
-      { "en": "Non-fiction gives us valuable [insight] / into history, science and human behaviour.", "vi": "Sách phi hư cấu cho ta những hiểu biết sâu sắc quý giá / về lịch sử, khoa học và hành vi con người." },
-      { "en": "Reading regularly also improves [concentration], / which is becoming rare / in the digital [era].", "vi": "Đọc sách thường xuyên còn cải thiện khả năng tập trung, / thứ đang ngày càng hiếm / trong kỷ nguyên số." },
-      { "en": "If you find it hard to start, / try a [genre] / that you already enjoy in films.", "vi": "Nếu thấy khó bắt đầu, / hãy thử một thể loại / mà bạn vốn thích khi xem phim." }
-    ],
-    "vocab": {
-      "imagination": { "word": "imagination", "pos": "noun", "ipa": "/ɪˌmædʒɪˈneɪʃn/", "vi": "trí tưởng tượng" },
-      "perspective": { "word": "perspective", "pos": "noun", "ipa": "/pəˈspektɪv/", "vi": "góc nhìn, quan điểm" },
-      "insight": { "word": "insight", "pos": "noun", "ipa": "/ˈɪnsaɪt/", "vi": "sự hiểu biết sâu sắc" },
-      "concentration": { "word": "concentration", "pos": "noun", "ipa": "/ˌkɒnsnˈtreɪʃn/", "vi": "sự tập trung" },
-      "era": { "word": "era", "pos": "noun", "ipa": "/ˈɪərə/", "vi": "kỷ nguyên, thời đại" },
-      "genre": { "word": "genre", "pos": "noun", "ipa": "/ˈʒɒnrə/", "vi": "thể loại" }
-    }
-  },
-  {
-    "title": "The Cost of Fast Fashion",
-    "titleVi": "Cái giá của thời trang nhanh",
-    "sentences": [
-      { "en": "Fast fashion brands / produce cheap clothes very quickly / to follow the latest trends.", "vi": "Các thương hiệu thời trang nhanh / sản xuất quần áo giá rẻ rất nhanh / để chạy theo xu hướng mới nhất." },
-      { "en": "Because prices are so low, / many shoppers [purchase] far more / than they need.", "vi": "Vì giá quá rẻ, / nhiều người mua sắm nhiều hơn hẳn / mức họ cần." },
-      { "en": "However, / this level of [consumption] / has a high environmental cost.", "vi": "Tuy nhiên, / mức tiêu thụ này / phải trả giá đắt về môi trường." },
-      { "en": "Producing [fabric] / uses huge amounts of water and chemicals.", "vi": "Việc sản xuất vải / tiêu tốn lượng nước và hóa chất khổng lồ." },
-      { "en": "In addition, / many factory workers / are paid extremely low [wages|wage].", "vi": "Ngoài ra, / nhiều công nhân nhà máy / bị trả lương cực kỳ thấp." },
-      { "en": "More and more consumers / are now choosing [ethical] brands, / even if they cost [considerably] more.", "vi": "Ngày càng nhiều người tiêu dùng / chọn các thương hiệu có đạo đức, / dù giá cao hơn đáng kể." }
-    ],
-    "vocab": {
-      "purchase": { "word": "purchase", "pos": "verb", "ipa": "/ˈpɜːtʃəs/", "vi": "mua, mua sắm" },
-      "consumption": { "word": "consumption", "pos": "noun", "ipa": "/kənˈsʌmpʃn/", "vi": "sự tiêu thụ" },
-      "fabric": { "word": "fabric", "pos": "noun", "ipa": "/ˈfæbrɪk/", "vi": "vải" },
-      "wage": { "word": "wage", "pos": "noun", "ipa": "/weɪdʒ/", "vi": "tiền công, tiền lương" },
-      "ethical": { "word": "ethical", "pos": "adjective", "ipa": "/ˈeθɪkl/", "vi": "có đạo đức, hợp đạo lý" },
-      "considerably": { "word": "considerably", "pos": "adverb", "ipa": "/kənˈsɪdərəbli/", "vi": "đáng kể" }
-    }
-  },
-  {
-    "title": "Farmers and a Changing Climate",
-    "titleVi": "Nông dân và khí hậu biến đổi",
-    "sentences": [
-      { "en": "In [rural] areas of Vietnam, / many families depend on [agriculture] for their living.", "vi": "Ở các vùng nông thôn Việt Nam, / nhiều gia đình sống dựa vào nông nghiệp." },
-      { "en": "In recent years, / the weather has become much harder to predict.", "vi": "Những năm gần đây, / thời tiết trở nên khó dự đoán hơn nhiều." },
-      { "en": "Long periods of [drought] / are often followed / by heavy rain and floods.", "vi": "Những đợt hạn hán kéo dài / thường đi kèm sau đó / là mưa lớn và lũ lụt." },
-      { "en": "As a result, / many farmers have lost their [crops|crop].", "vi": "Hậu quả là / nhiều nông dân đã mất trắng mùa màng." },
-      { "en": "To [adapt], / some are switching / to plants that need less water.", "vi": "Để thích nghi, / một số người đang chuyển sang trồng / những loại cây cần ít nước hơn." },
-      { "en": "Scientists warn that, / without action, / climate change will remain / a serious [threat] to food supplies.", "vi": "Các nhà khoa học cảnh báo rằng / nếu không hành động, / biến đổi khí hậu sẽ vẫn là / mối đe dọa nghiêm trọng đối với nguồn lương thực." }
-    ],
-    "vocab": {
-      "rural": { "word": "rural", "pos": "adjective", "ipa": "/ˈrʊərəl/", "vi": "thuộc nông thôn" },
-      "agriculture": { "word": "agriculture", "pos": "noun", "ipa": "/ˈæɡrɪkʌltʃə(r)/", "vi": "nông nghiệp" },
-      "drought": { "word": "drought", "pos": "noun", "ipa": "/draʊt/", "vi": "hạn hán" },
-      "crop": { "word": "crop", "pos": "noun", "ipa": "/krɒp/", "vi": "cây trồng, vụ mùa" },
-      "adapt": { "word": "adapt", "pos": "verb", "ipa": "/əˈdæpt/", "vi": "thích nghi, điều chỉnh" },
-      "threat": { "word": "threat", "pos": "noun", "ipa": "/θret/", "vi": "mối đe dọa" }
-    }
-  },
-  {
-    "title": "Artificial Intelligence at Work",
-    "titleVi": "Trí tuệ nhân tạo trong công việc",
-    "sentences": [
-      { "en": "[Artificial] intelligence / is changing the way many people work.", "vi": "Trí tuệ nhân tạo / đang thay đổi cách làm việc của nhiều người." },
-      { "en": "Programs can now [automatically] / write emails, translate documents and analyse data.", "vi": "Các chương trình giờ đây có thể tự động / viết email, dịch tài liệu và phân tích dữ liệu." },
-      { "en": "This raises an obvious [concern]: / will machines take our jobs?", "vi": "Điều này làm dấy lên một mối lo ngại hiển nhiên: / liệu máy móc có cướp mất việc làm của chúng ta?" },
-      { "en": "Some routine tasks will certainly disappear, / but new roles are also [emerging|emerge].", "vi": "Một số công việc lặp đi lặp lại chắc chắn sẽ biến mất, / nhưng những vai trò mới cũng đang xuất hiện." },
-      { "en": "Many experts believe / that AI will [enhance] human work / rather than replace it.", "vi": "Nhiều chuyên gia tin rằng / AI sẽ nâng cao công việc của con người / thay vì thay thế nó." },
-      { "en": "To make the most of its [potential], / workers will need / to keep learning new skills.", "vi": "Để tận dụng tối đa tiềm năng của nó, / người lao động sẽ cần / không ngừng học kỹ năng mới." }
-    ],
-    "vocab": {
-      "artificial": { "word": "artificial", "pos": "adjective", "ipa": "/ˌɑːtɪˈfɪʃl/", "vi": "nhân tạo" },
-      "automatically": { "word": "automatically", "pos": "adverb", "ipa": "/ˌɔːtəˈmætɪkli/", "vi": "một cách tự động" },
-      "concern": { "word": "concern", "pos": "noun", "ipa": "/kənˈsɜːn/", "vi": "mối lo ngại, sự quan tâm" },
-      "emerge": { "word": "emerge", "pos": "verb", "ipa": "/iˈmɜːdʒ/", "vi": "nổi lên, xuất hiện" },
-      "enhance": { "word": "enhance", "pos": "verb", "ipa": "/ɪnˈhɑːns/", "vi": "nâng cao, tăng cường" },
-      "potential": { "word": "potential", "pos": "noun", "ipa": "/pəˈtenʃl/", "vi": "tiềm năng" }
+      "cell": { "word": "cell", "pos": "noun", "ipa": "/sɛl/", "vi": "tế bào" },
+      "cure": { "word": "cure", "pos": "noun, verb", "ipa": "/kjʊɹ/", "vi": "cách chữa; chữa khỏi" },
+      "heel": { "word": "heel", "pos": "noun", "ipa": "/hiːl/", "vi": "gót chân" },
+      "lung": { "word": "lung", "pos": "noun", "ipa": "/ˈlʌŋ/", "vi": "phổi" },
+      "blind": { "word": "blind", "pos": "adjective", "ipa": "/ˈblaɪ̯nd/", "vi": "mù" },
+      "nerve": { "word": "nerve", "pos": "noun", "ipa": "/nɝv/", "vi": "dây thần kinh" }
     }
   }
 ]
