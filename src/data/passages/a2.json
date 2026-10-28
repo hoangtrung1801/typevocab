@@ -41,5 +41,2833 @@
       "divorced": { "word": "divorced", "pos": "adjective", "ipa": "/dɪˈvɔː(ɹ)st/", "vi": "đã ly hôn" },
       "relationship": { "word": "relationship", "pos": "noun", "ipa": "/ɹɪˈleɪʃ(ə)nˌʃɪp/", "vi": "mối quan hệ" }
     }
+  },
+  {
+    "id": "a2-u002-1",
+    "unit": 2,
+    "topic": "body",
+    "title": "A Week of Feeling Sick",
+    "titleVi": "Một tuần bị ốm",
+    "sentences": [
+      { "en": "Mia felt [ill], / so she stayed home from school today.", "vi": "Mia cảm thấy ốm, / nên hôm nay cô ấy ở nhà thay vì đến trường." },
+      { "en": "The doctor said she had the [flu] / and needed rest.", "vi": "Bác sĩ nói cô ấy bị cúm / và cần nghỉ ngơi." },
+      { "en": "Her [neck] and [knee] hurt, / but no [bone] was broken.", "vi": "Cổ và đầu gối của cô ấy đau, / nhưng không có xương nào bị gãy." },
+      { "en": "The doctor gave her a [drug] / for the [pain] after lunch.", "vi": "Bác sĩ cho cô ấy một loại thuốc / để giảm cơn đau sau bữa trưa." },
+      { "en": "By Friday, / she felt better and returned to her normal routine.", "vi": "Đến thứ Sáu, / cô ấy thấy khỏe hơn và trở lại sinh hoạt bình thường." }
+    ],
+    "vocab": {
+      "flu": { "word": "flu", "pos": "noun", "ipa": "/fluː/", "vi": "bệnh cúm" },
+      "ill": { "word": "ill", "pos": "adjective", "ipa": "/ɪl/", "vi": "ốm" },
+      "bone": { "word": "bone", "pos": "noun", "ipa": "/boʊn/", "vi": "xương" },
+      "drug": { "word": "drug", "pos": "noun", "ipa": "/ˈdɹʌɡ/", "vi": "thuốc; ma túy" },
+      "knee": { "word": "knee", "pos": "noun", "ipa": "/niː/", "vi": "đầu gối" },
+      "neck": { "word": "neck", "pos": "noun", "ipa": "/ˈnɛk/", "vi": "cái cổ" },
+      "pain": { "word": "pain", "pos": "noun", "ipa": "/ˈpeɪ̯n/", "vi": "cơn đau" }
+    }
+  },
+  {
+    "id": "a2-u002-2",
+    "unit": 2,
+    "topic": "body",
+    "title": "Taking Care of Our Bodies",
+    "titleVi": "Chăm sóc cơ thể",
+    "sentences": [
+      { "en": "My [skin] / gets dry in winter, / so I use lotion.", "vi": "Da của tôi / bị khô vào mùa đông, / nên tôi dùng kem dưỡng da." },
+      { "en": "I twisted my [ankle] / while walking to school / yesterday.", "vi": "Tôi bị trẹo mắt cá chân / khi đang đi bộ đến trường / hôm qua." },
+      { "en": "The doctor checked my [blood] / and said / everything looked fine.", "vi": "Bác sĩ đã kiểm tra máu của tôi / và nói rằng / mọi thứ đều ổn." },
+      { "en": "Water and sleep / help my [brain] work well / every day.", "vi": "Nước và giấc ngủ / giúp bộ não của tôi hoạt động tốt / mỗi ngày." },
+      { "en": "Her [curly] hair / bounced / as she ran around the park.", "vi": "Mái tóc xoăn của cô ấy / nhún lên / khi cô ấy chạy quanh công viên." },
+      { "en": "A [virus] made him tired, / and his [heart] beat faster.", "vi": "Một vi-rút khiến cậu ấy mệt mỏi, / và tim cậu ấy đập nhanh hơn." }
+    ],
+    "vocab": {
+      "skin": { "word": "skin", "pos": "noun", "ipa": "/skɪn/", "vi": "làn da" },
+      "ankle": { "word": "ankle", "pos": "noun", "ipa": "/ˈeɪ̯ŋ.kəl/", "vi": "mắt cá chân" },
+      "blood": { "word": "blood", "pos": "noun", "ipa": "/blʌd/", "vi": "máu" },
+      "brain": { "word": "brain", "pos": "noun", "ipa": "/ˈbɹeɪ̯n/", "vi": "bộ não" },
+      "curly": { "word": "curly", "pos": "adjective", "ipa": "/ˈkɝli/", "vi": "xoăn" },
+      "heart": { "word": "heart", "pos": "noun", "ipa": "/hɑɹt/", "vi": "trái tim" },
+      "virus": { "word": "virus", "pos": "noun", "ipa": "/ˈvaɪ.ɹəs/", "vi": "vi-rút" }
+    }
+  },
+  {
+    "id": "a2-u003-1",
+    "unit": 3,
+    "topic": "body",
+    "title": "A Visit to the Doctor",
+    "titleVi": "Lần đến gặp bác sĩ",
+    "sentences": [
+      { "en": "Mia's [voice] / sounded weak after her long day at work.", "vi": "Giọng nói của Mia / nghe yếu sau một ngày làm việc dài." },
+      { "en": "She hurt one [finger] / while making dinner / for her family.", "vi": "Cô ấy bị đau một ngón tay / khi nấu bữa tối / cho gia đình." },
+      { "en": "The doctor checked / her [height] and [weight] / during the visit.", "vi": "Bác sĩ kiểm tra / chiều cao và cân nặng của cô ấy / trong buổi khám." },
+      { "en": "The doctor explained / that her [injury] was not a [disease].", "vi": "Bác sĩ giải thích / rằng vết thương của cô ấy không phải là bệnh." },
+      { "en": "She rested at home / until her [illness] went away completely.", "vi": "Cô ấy nghỉ ngơi ở nhà / cho đến khi bệnh của cô ấy khỏi hẳn." }
+    ],
+    "vocab": {
+      "voice": { "word": "voice", "pos": "noun", "ipa": "/vɔɪs/", "vi": "giọng nói" },
+      "finger": { "word": "finger", "pos": "noun", "ipa": "/ˈfɪŋɡɚ/", "vi": "ngón tay" },
+      "height": { "word": "height", "pos": "noun", "ipa": "/haɪt/", "vi": "chiều cao" },
+      "injury": { "word": "injury", "pos": "noun", "ipa": "/ˈɪn.d͡ʒə.ɹi/", "vi": "vết thương" },
+      "weight": { "word": "weight", "pos": "noun", "ipa": "/weɪt/", "vi": "cân nặng" },
+      "disease": { "word": "disease", "pos": "noun", "ipa": "/dɪˈziz/", "vi": "bệnh tật" },
+      "illness": { "word": "illness", "pos": "noun", "ipa": "/ˈɪl.nəs/", "vi": "bệnh tật" }
+    }
+  },
+  {
+    "id": "a2-u003-2",
+    "unit": 3,
+    "topic": "body",
+    "title": "A Visit to the Clinic",
+    "titleVi": "Một lần đến phòng khám",
+    "sentences": [
+      { "en": "Maria was a [patient] / at the small town clinic.", "vi": "Maria là một bệnh nhân / ở phòng khám nhỏ trong thị trấn." },
+      { "en": "Yesterday, / she had a [stomach] ache / and a [headache].", "vi": "Hôm qua, / cô ấy bị đau bụng / và đau đầu." },
+      { "en": "The nurse gave her [medicine] / and checked her [shoulder].", "vi": "Y tá đưa thuốc cho cô ấy / và kiểm tra vai cô ấy." },
+      { "en": "Her [appearance] looked tired, / but she smiled at her family.", "vi": "Vẻ ngoài của cô ấy trông mệt mỏi, / nhưng cô ấy mỉm cười với gia đình." },
+      { "en": "After rest, / she felt better and walked home slowly.", "vi": "Sau khi nghỉ ngơi, / cô ấy thấy khỏe hơn và từ từ đi bộ về nhà." }
+    ],
+    "vocab": {
+      "patient": { "word": "patient", "pos": "noun", "ipa": "/ˈpeɪ̯ʃənt/", "vi": "bệnh nhân; kiên nhẫn" },
+      "stomach": { "word": "stomach", "pos": "noun", "ipa": "/ˈstʌmək/", "vi": "dạ dày, bụng" },
+      "headache": { "word": "headache", "pos": "noun", "ipa": "/ˈhɛdeɪk/", "vi": "chứng đau đầu" },
+      "medicine": { "word": "medicine", "pos": "noun", "ipa": "/ˈmɛd.ɪ.sɪn/", "vi": "thuốc; y học" },
+      "shoulder": { "word": "shoulder", "pos": "noun", "ipa": "/ˈʃoʊldɚ/", "vi": "bờ vai" },
+      "appearance": { "word": "appearance", "pos": "noun", "ipa": "/əˈpiɹ.əns/", "vi": "vẻ bề ngoài" }
+    }
+  },
+  {
+    "id": "a2-u004-1",
+    "unit": 4,
+    "topic": "food",
+    "title": "A Day of Food",
+    "titleVi": "Một ngày ăn uống",
+    "sentences": [
+      { "en": "At breakfast, / I ate bread with [jam] and [nuts|nut].", "vi": "Vào bữa sáng, / tôi ăn bánh mì với mứt và các loại hạt." },
+      { "en": "For lunch, / Dad cooked [beef] with [beans|bean] and rice.", "vi": "Vào bữa trưa, / bố nấu thịt bò với đậu và cơm." },
+      { "en": "Mom used [oil] / to cook fresh vegetables in a pan.", "vi": "Mẹ dùng dầu / để nấu rau tươi trong chảo." },
+      { "en": "After school, / I shared [chips|chip] with my friend.", "vi": "Sau giờ học, / tôi chia sẻ khoai tây chiên với bạn." }
+    ],
+    "vocab": {
+      "jam": { "word": "jam", "pos": "noun", "ipa": "/ˈd͡ʒæm/", "vi": "mứt" },
+      "nut": { "word": "nut", "pos": "noun", "ipa": "/nʌt/", "vi": "hạt (quả hạch)" },
+      "oil": { "word": "oil", "pos": "noun", "ipa": "/ɔɪl/", "vi": "dầu" },
+      "bean": { "word": "bean", "pos": "noun", "ipa": "/ˈbi(ː)n/", "vi": "hạt đậu" },
+      "beef": { "word": "beef", "pos": "noun", "ipa": "/bif/", "vi": "thịt bò" },
+      "chip": { "word": "chip", "pos": "noun", "ipa": "/t͡ʃɪp/", "vi": "khoai tây chiên" }
+    }
+  },
+  {
+    "id": "a2-u004-2",
+    "unit": 4,
+    "topic": "food",
+    "title": "A Lemon Cake",
+    "titleVi": "Bánh chanh",
+    "sentences": [
+      { "en": "I found / a simple [recipe] / for [lemon] cake / online.", "vi": "Tôi tìm thấy / một công thức đơn giản / cho bánh chanh / trên mạng." },
+      { "en": "Mom made / a [sweet] lemon [sauce] / for the cake.", "vi": "Mẹ làm / một loại nước sốt chanh ngọt / cho chiếc bánh." },
+      { "en": "Then I [tasted|taste] it, / and the taste / was fresh.", "vi": "Sau đó, tôi nếm thử nó, / và vị của nó / thì tươi mới." },
+      { "en": "After dinner, / we ate [biscuits|biscuit] / and drank tea together.", "vi": "Sau bữa tối, / chúng tôi ăn bánh quy / và cùng nhau uống trà." }
+    ],
+    "vocab": {
+      "lemon": { "word": "lemon", "pos": "noun", "ipa": "/ˈlɛmən/", "vi": "quả chanh vàng" },
+      "sauce": { "word": "sauce", "pos": "noun", "ipa": "/sɔs/", "vi": "nước sốt" },
+      "sweet": { "word": "sweet", "pos": "adjective, noun", "ipa": "/swit/", "vi": "ngọt" },
+      "taste": { "word": "taste", "pos": "noun, verb", "ipa": "/teɪst/", "vi": "vị; nếm" },
+      "recipe": { "word": "recipe", "pos": "noun", "ipa": "/ˈɹɛs.ɪ.pi/", "vi": "công thức nấu ăn" },
+      "biscuit": { "word": "biscuit", "pos": "noun", "ipa": "/ˈbɪs.kɪt/", "vi": "bánh quy" }
+    }
+  },
+  {
+    "id": "a2-u005-1",
+    "unit": 5,
+    "topic": "home",
+    "title": "Things at Home",
+    "titleVi": "Đồ dùng trong nhà",
+    "sentences": [
+      { "en": "I put / the [bowl] and [fork] / on the kitchen table.", "vi": "Tôi đặt / cái bát và cái nĩa / lên bàn bếp." },
+      { "en": "After dinner, / I put food scraps / in the [bin].", "vi": "Sau bữa tối, / tôi bỏ thức ăn thừa / vào thùng rác." },
+      { "en": "My father uses [gas] / to cook soup / every evening.", "vi": "Bố tôi dùng khí ga / để nấu súp / mỗi tối." },
+      { "en": "We open / the [gate] / when our friends come to visit.", "vi": "Chúng tôi mở / cánh cổng / khi bạn bè đến thăm." },
+      { "en": "The [hall] / is near / the front door / of our home.", "vi": "Sảnh / nằm gần / cửa trước / nhà chúng tôi." }
+    ],
+    "vocab": {
+      "bin": { "word": "bin", "pos": "noun", "ipa": "/ˈbɪn/", "vi": "thùng rác" },
+      "gas": { "word": "gas", "pos": "noun", "ipa": "/ɡæs/", "vi": "khí ga" },
+      "bowl": { "word": "bowl", "pos": "noun", "ipa": "/boʊl/", "vi": "cái bát" },
+      "fork": { "word": "fork", "pos": "noun", "ipa": "/fɔɹk/", "vi": "cái nĩa" },
+      "gate": { "word": "gate", "pos": "noun", "ipa": "/ˈɡeɪ̯t/", "vi": "cổng" },
+      "hall": { "word": "hall", "pos": "noun", "ipa": "/hɔl/", "vi": "hội trường; sảnh" }
+    }
+  },
+  {
+    "id": "a2-u005-2",
+    "unit": 5,
+    "topic": "home",
+    "title": "A Busy Home",
+    "titleVi": "Ngôi nhà bận rộn",
+    "sentences": [
+      { "en": "I turned on / the [lamp] beside my bed / last night.", "vi": "Tôi bật / chiếc đèn cạnh giường tôi / tối qua." },
+      { "en": "Dad fixed / the [lock] / on our front door / yesterday.", "vi": "Bố sửa / ổ khóa / ở cửa trước nhà chúng tôi / hôm qua." },
+      { "en": "Mom used / the [oven] / to bake bread / for breakfast.", "vi": "Mẹ dùng / lò nướng / để nướng bánh mì / cho bữa sáng." },
+      { "en": "We put / a new [roof] / on the small house / this summer.", "vi": "Chúng tôi lợp / một mái nhà mới / lên căn nhà nhỏ / vào mùa hè này." },
+      { "en": "I washed my hands / with [soap] / and cleaned the [brush] / after lunch.", "vi": "Tôi rửa tay / bằng xà phòng / rồi làm sạch chiếc bàn chải / sau bữa trưa." }
+    ],
+    "vocab": {
+      "lamp": { "word": "lamp", "pos": "noun", "ipa": "/ˈlæ̝mp/", "vi": "cái đèn" },
+      "lock": { "word": "lock", "pos": "noun, verb", "ipa": "/lɑk/", "vi": "ổ khóa; khóa lại" },
+      "oven": { "word": "oven", "pos": "noun", "ipa": "/ˈʌ.vn̩/", "vi": "lò nướng" },
+      "roof": { "word": "roof", "pos": "noun", "ipa": "/ɹuːf/", "vi": "mái nhà" },
+      "soap": { "word": "soap", "pos": "noun", "ipa": "/soʊp/", "vi": "xà phòng" },
+      "brush": { "word": "brush", "pos": "noun, verb", "ipa": "/bɹʌʃ/", "vi": "cái bàn chải; chải" }
+    }
+  },
+  {
+    "id": "a2-u006-1",
+    "unit": 6,
+    "topic": "home",
+    "title": "A Busy Evening at Home",
+    "titleVi": "Một buổi tối bận rộn ở nhà",
+    "sentences": [
+      { "en": "Mia put / a clean [plate] / on the kitchen table.", "vi": "Mia đặt / một cái đĩa sạch / lên bàn bếp." },
+      { "en": "She used a [knife] / to cut bread / for dinner.", "vi": "Cô ấy dùng một con dao / để cắt bánh mì / cho bữa tối." },
+      { "en": "Her brother brought a [spoon] / and a glass of water.", "vi": "Anh trai cô ấy mang một cái thìa / và một cốc nước." },
+      { "en": "They climbed the [stairs|stair] slowly / and went to bed.", "vi": "Họ từ từ bước lên các bậc thang / rồi đi ngủ." },
+      { "en": "Mom changed the [sheet] / and left a [towel] nearby.", "vi": "Mẹ thay ga giường / và để một chiếc khăn tắm ở gần đó." }
+    ],
+    "vocab": {
+      "knife": { "word": "knife", "pos": "noun", "ipa": "/ˈnaɪ̯f/", "vi": "con dao" },
+      "plate": { "word": "plate", "pos": "noun", "ipa": "/ˈpleɪ̯t/", "vi": "cái đĩa" },
+      "sheet": { "word": "sheet", "pos": "noun", "ipa": "/ʃiːt/", "vi": "tờ giấy; ga giường" },
+      "spoon": { "word": "spoon", "pos": "noun", "ipa": "/spuːn/", "vi": "cái thìa" },
+      "stair": { "word": "stair", "pos": "noun", "ipa": "/stɛɚ/", "vi": "bậc thang" },
+      "towel": { "word": "towel", "pos": "noun", "ipa": "/ˈtaʊ̯əl/", "vi": "khăn tắm" }
+    }
+  },
+  {
+    "id": "a2-u006-2",
+    "unit": 6,
+    "topic": "home",
+    "title": "A Tidy Home",
+    "titleVi": "Ngôi nhà gọn gàng",
+    "sentences": [
+      { "en": "The [carpet] in our living room / is soft and clean.", "vi": "Tấm thảm trong phòng khách nhà tôi / mềm và sạch." },
+      { "en": "Our [cooker] / is a useful [device] / in the small kitchen.", "vi": "Bếp nấu của chúng tôi / là một thiết bị hữu ích / trong căn bếp nhỏ." },
+      { "en": "The [fridge] / keeps milk and fruit / cold all day.", "vi": "Tủ lạnh / giữ cho sữa và trái cây / luôn lạnh cả ngày." },
+      { "en": "My [laptop] / is on the table / beside a [mirror].", "vi": "Máy tính xách tay của tôi / ở trên bàn / cạnh một cái gương." },
+      { "en": "I clean the carpet and cooker / every Saturday morning.", "vi": "Tôi lau thảm và bếp nấu / vào mỗi sáng thứ Bảy." }
+    ],
+    "vocab": {
+      "carpet": { "word": "carpet", "pos": "noun", "ipa": "/ˈkɑɹ.pət/", "vi": "tấm thảm" },
+      "cooker": { "word": "cooker", "pos": "noun", "ipa": "/ˈkʊkɚ/", "vi": "bếp nấu" },
+      "device": { "word": "device", "pos": "noun", "ipa": "/dɪˈvaɪs/", "vi": "thiết bị" },
+      "fridge": { "word": "fridge", "pos": "noun", "ipa": "/fɹɪd͡ʒ/", "vi": "tủ lạnh" },
+      "laptop": { "word": "laptop", "pos": "noun", "ipa": "/ˈlæp.tɒp/", "vi": "máy tính xách tay" },
+      "mirror": { "word": "mirror", "pos": "noun", "ipa": "/ˈmiɹɚ/", "vi": "cái gương" }
+    }
+  },
+  {
+    "id": "a2-u007-1",
+    "unit": 7,
+    "topic": "home",
+    "title": "Things in Our Home",
+    "titleVi": "Đồ dùng trong nhà chúng tôi",
+    "sentences": [
+      { "en": "My sister put a [poster] / above the desk / in our room.", "vi": "Chị gái tôi treo một tấm áp phích / phía trên bàn học / trong phòng chúng tôi." },
+      { "en": "The [screen] on her [tablet] / shows a family photo.", "vi": "Màn hình máy tính bảng của chị ấy / hiển thị một bức ảnh gia đình." },
+      { "en": "Mom uses the [printer] / to make labels / for kitchen jars.", "vi": "Mẹ dùng máy in / để làm nhãn / cho những chiếc lọ trong bếp." },
+      { "en": "We put [rubbish] / in a small bin / after dinner.", "vi": "Chúng tôi bỏ rác / vào một cái thùng nhỏ / sau bữa tối." },
+      { "en": "My brother plays music through the [speaker] / while he cleans.", "vi": "Em trai tôi mở nhạc qua loa / trong khi em ấy dọn dẹp." }
+    ],
+    "vocab": {
+      "poster": { "word": "poster", "pos": "noun", "ipa": "/ˈpoʊstɚ/", "vi": "áp phích" },
+      "screen": { "word": "screen", "pos": "noun", "ipa": "/ˈskɹiːn/", "vi": "màn hình" },
+      "tablet": { "word": "tablet", "pos": "noun", "ipa": "/ˈtæblət/", "vi": "máy tính bảng; viên thuốc" },
+      "printer": { "word": "printer", "pos": "noun", "ipa": "/ˈpɹɪntɚ/", "vi": "máy in" },
+      "rubbish": { "word": "rubbish", "pos": "noun", "ipa": "/ˈɹʌbɪʃ/", "vi": "rác" },
+      "speaker": { "word": "speaker", "pos": "noun", "ipa": "/ˈspikɚ/", "vi": "người nói; cái loa" }
+    }
+  },
+  {
+    "id": "a2-u007-2",
+    "unit": 7,
+    "topic": "home",
+    "title": "At Home",
+    "titleVi": "Ở nhà",
+    "sentences": [
+      { "en": "I put / the [washing] in the machine / after breakfast.", "vi": "Tôi cho / đồ giặt vào máy giặt / sau bữa sáng." },
+      { "en": "The [cupboard] is next to the table / in our kitchen.", "vi": "Cái tủ chén ở cạnh bàn / trong bếp nhà tôi." },
+      { "en": "Our [furniture] is old, / but it is clean and comfortable.", "vi": "Đồ nội thất nhà tôi đã cũ, / nhưng sạch sẽ và thoải mái." },
+      { "en": "Mom uses her [smartphone] / to check the lights at home.", "vi": "Mẹ dùng điện thoại thông minh của mình / để kiểm tra đèn trong nhà." },
+      { "en": "We save [electricity] / by turning off lights before bed.", "vi": "Chúng tôi tiết kiệm điện / bằng cách tắt đèn trước khi đi ngủ." }
+    ],
+    "vocab": {
+      "washing": { "word": "washing", "pos": "noun", "ipa": "/ˈwɑʃ.ɪŋ/", "vi": "đồ giặt" },
+      "cupboard": { "word": "cupboard", "pos": "noun", "ipa": "/ˈkʌbəɹd/", "vi": "tủ chén" },
+      "furniture": { "word": "furniture", "pos": "noun", "ipa": "/ˈfɜː.nɪ.t͡ʃə/", "vi": "đồ nội thất" },
+      "smartphone": { "word": "smartphone", "pos": "noun", "ipa": "/ˈsmɑːtfəʊn/", "vi": "điện thoại thông minh" },
+      "electricity": { "word": "electricity", "pos": "noun", "ipa": "/ˌiːlɛkˈtɹɪsɪti/", "vi": "điện" }
+    }
+  },
+  {
+    "id": "a2-u008-1",
+    "unit": 8,
+    "topic": "cloth",
+    "title": "A Trip to the Shops",
+    "titleVi": "Một chuyến đi mua sắm",
+    "sentences": [
+      { "en": "Ben wore / a [suit] and a blue [tie] / to work.", "vi": "Ben mặc / bộ com-lê và chiếc cà vạt xanh / đi làm." },
+      { "en": "He bought / a [belt] and two [socks|sock] / at the [sale].", "vi": "Anh ấy mua / một chiếc thắt lưng và hai chiếc tất / trong đợt giảm giá." },
+      { "en": "The [size] was right, / so he paid / with [cash].", "vi": "Kích cỡ vừa vặn, / nên anh ấy thanh toán / bằng tiền mặt." },
+      { "en": "At home, / his phone [rang|ring] / while he tried on his new clothes.", "vi": "Ở nhà, / điện thoại của anh ấy reo / khi anh ấy thử quần áo mới." }
+    ],
+    "vocab": {
+      "tie": { "word": "tie", "pos": "noun, verb", "ipa": "/taɪ/", "vi": "cà vạt; buộc" },
+      "belt": { "word": "belt", "pos": "noun", "ipa": "/ˈbɛlt/", "vi": "thắt lưng" },
+      "cash": { "word": "cash", "pos": "noun", "ipa": "/ˈkæʃ/", "vi": "tiền mặt" },
+      "ring": { "word": "ring", "pos": "noun, verb", "ipa": "/ɹɪŋ/", "vi": "chiếc nhẫn; reo" },
+      "sale": { "word": "sale", "pos": "noun", "ipa": "/seːl/", "vi": "sự giảm giá; bán hàng" },
+      "size": { "word": "size", "pos": "noun", "ipa": "/saɪz/", "vi": "kích cỡ" },
+      "sock": { "word": "sock", "pos": "noun", "ipa": "/sɑk/", "vi": "chiếc tất" },
+      "suit": { "word": "suit", "pos": "noun", "ipa": "/sut/", "vi": "bộ com-lê" }
+    }
+  },
+  {
+    "id": "a2-u009-1",
+    "unit": 9,
+    "topic": "cloth",
+    "title": "A Day at the Shops",
+    "titleVi": "Một ngày đi mua sắm",
+    "sentences": [
+      { "en": "I bought / new [pants] / at the shop yesterday.", "vi": "Tôi đã mua / một chiếc quần dài mới / ở cửa hàng hôm qua." },
+      { "en": "She found a [penny] / in her [pocket] / while shopping.", "vi": "Cô ấy tìm thấy một đồng xu nhỏ / trong túi áo của mình / khi đang mua sắm." },
+      { "en": "The store accepts / [credit] cards / for most [clothing] items.", "vi": "Cửa hàng chấp nhận / thẻ tín dụng / cho hầu hết các mặt hàng quần áo." },
+      { "en": "My brother likes [fashion], / but he wears a [uniform] / at work.", "vi": "Anh trai tôi thích thời trang, / nhưng anh ấy mặc đồng phục / ở chỗ làm." },
+      { "en": "Mom bought [jewellery] / as a gift / for Grandma.", "vi": "Mẹ mua đồ trang sức / làm quà / tặng bà." }
+    ],
+    "vocab": {
+      "pants": { "word": "pants", "pos": "noun", "ipa": "/pænts/", "vi": "quần dài" },
+      "penny": { "word": "penny", "pos": "noun", "ipa": "/ˈpɛni/", "vi": "đồng xu nhỏ" },
+      "credit": { "word": "credit", "pos": "noun", "ipa": "/ˈkɹɛdɪt/", "vi": "tín dụng" },
+      "pocket": { "word": "pocket", "pos": "noun", "ipa": "/ˈpɑ.kɪt/", "vi": "cái túi áo" },
+      "fashion": { "word": "fashion", "pos": "noun", "ipa": "/ˈfæʃ.ən/", "vi": "thời trang" },
+      "uniform": { "word": "uniform", "pos": "noun", "ipa": "/ˈjuːnɪfɔːm/", "vi": "đồng phục" },
+      "clothing": { "word": "clothing", "pos": "noun", "ipa": "/ˈkloʊðɪŋ/", "vi": "trang phục" },
+      "jewellery": { "word": "jewellery", "pos": "noun", "ipa": "/ˈd͡ʒuː(ə)lɹi/", "vi": "đồ trang sức" }
+    }
+  },
+  {
+    "id": "a2-u010-1",
+    "unit": 10,
+    "topic": "nat",
+    "title": "A Walk Near the Lake",
+    "titleVi": "Chuyến đi dạo gần hồ",
+    "sentences": [
+      { "en": "My [pet] cat / likes to sit / by the window.", "vi": "Con mèo cưng của tôi / thích ngồi / bên cửa sổ." },
+      { "en": "At night, / the [moon] shines / above the [hill] / near our home.", "vi": "Vào ban đêm, / mặt trăng tỏa sáng / trên ngọn đồi / gần nhà chúng tôi." },
+      { "en": "We walk to a [lake] / and watch a [frog] / jump.", "vi": "Chúng tôi đi bộ đến một cái hồ / và nhìn một con ếch / nhảy." },
+      { "en": "A [bear] drinks water / under the trees, / far from us.", "vi": "Một con gấu uống nước / dưới những tán cây, / cách xa chúng tôi." },
+      { "en": "The [sky] turns pink, / and we go home / together.", "vi": "Bầu trời chuyển sang màu hồng, / và chúng tôi về nhà / cùng nhau." }
+    ],
+    "vocab": {
+      "pet": { "word": "pet", "pos": "noun", "ipa": "/pɛt/", "vi": "thú cưng" },
+      "sky": { "word": "sky", "pos": "noun", "ipa": "/skaɪ/", "vi": "bầu trời" },
+      "bear": { "word": "bear", "pos": "noun", "ipa": "/bɛɚ/", "vi": "con gấu" },
+      "frog": { "word": "frog", "pos": "noun", "ipa": "/fɹɔɡ/", "vi": "con ếch" },
+      "hill": { "word": "hill", "pos": "noun", "ipa": "/hɪl/", "vi": "ngọn đồi" },
+      "lake": { "word": "lake", "pos": "noun", "ipa": "/leɪk/", "vi": "cái hồ" },
+      "moon": { "word": "moon", "pos": "noun", "ipa": "/mun/", "vi": "mặt trăng" }
+    }
+  },
+  {
+    "id": "a2-u010-2",
+    "unit": 10,
+    "topic": "nat",
+    "title": "A Day by the Sea",
+    "titleVi": "Một ngày bên bờ biển",
+    "sentences": [
+      { "en": "Last Saturday, / Mia walked along the [coast] / with her family.", "vi": "Thứ Bảy tuần trước, / Mia đi dọc bờ biển / cùng gia đình." },
+      { "en": "They saw / a large [rock] / beside the blue water.", "vi": "Họ nhìn thấy / một tảng đá lớn / bên làn nước xanh." },
+      { "en": "A small [wave] touched their feet, / and they laughed.", "vi": "Một con sóng nhỏ chạm vào chân họ, / và họ bật cười." },
+      { "en": "Near the coast, / Dad found dry [wood] / for a fire.", "vi": "Gần bờ biển, / bố tìm thấy gỗ khô / để nhóm lửa." },
+      { "en": "In the morning, / they walked across a green [field] covered with [grass].", "vi": "Vào buổi sáng, / họ đi băng qua một cánh đồng xanh phủ đầy cỏ." },
+      { "en": "At night, / they talked about the [earth] and stars.", "vi": "Vào ban đêm, / họ nói về Trái Đất và những vì sao." }
+    ],
+    "vocab": {
+      "rock": { "word": "rock", "pos": "noun", "ipa": "/ɹɑk/", "vi": "tảng đá; nhạc rock" },
+      "wave": { "word": "wave", "pos": "noun", "ipa": "/weɪv/", "vi": "con sóng; vẫy tay" },
+      "wood": { "word": "wood", "pos": "noun", "ipa": "/wʊd/", "vi": "gỗ" },
+      "coast": { "word": "coast", "pos": "noun", "ipa": "/koʊst/", "vi": "bờ biển" },
+      "earth": { "word": "earth", "pos": "noun", "ipa": "/ɝθ/", "vi": "trái đất" },
+      "field": { "word": "field", "pos": "noun", "ipa": "/ˈfi(ː)ld/", "vi": "cánh đồng" },
+      "grass": { "word": "grass", "pos": "noun", "ipa": "/ɡɹɑːs/", "vi": "cỏ" }
+    }
+  },
+  {
+    "id": "a2-u011-1",
+    "unit": 11,
+    "topic": "nat",
+    "title": "A Nature Book",
+    "titleVi": "Cuốn Sách Thiên Nhiên",
+    "sentences": [
+      { "en": "We saw / the [ocean] / in a large nature book.", "vi": "Chúng tôi nhìn thấy / đại dương / trong một cuốn sách lớn về thiên nhiên." },
+      { "en": "A [monkey] / climbed through trees / in a picture of the [forest].", "vi": "Một con khỉ / leo qua các cành cây / trong bức tranh về khu rừng." },
+      { "en": "A small [insect] / crawled over / a [stone] / on the [ground].", "vi": "Một con côn trùng nhỏ / bò qua / một hòn đá / trên mặt đất." },
+      { "en": "The [desert] picture / showed hot sand / and a camel.", "vi": "Bức tranh sa mạc / cho thấy cát nóng / và một con lạc đà." },
+      { "en": "We enjoyed learning / about animals and places / together.", "vi": "Chúng tôi thích tìm hiểu / về các loài động vật và địa điểm / cùng nhau." }
+    ],
+    "vocab": {
+      "ocean": { "word": "ocean", "pos": "noun", "ipa": "/ˈəʊ.ʃən/", "vi": "đại dương" },
+      "stone": { "word": "stone", "pos": "noun", "ipa": "/stoʊ̯n/", "vi": "hòn đá" },
+      "desert": { "word": "desert", "pos": "noun", "ipa": "/ˈdɛz.ɚt/", "vi": "sa mạc" },
+      "forest": { "word": "forest", "pos": "noun", "ipa": "/ˈfɔɹəst/", "vi": "khu rừng" },
+      "ground": { "word": "ground", "pos": "noun", "ipa": "/ɡɹaʊnd/", "vi": "mặt đất" },
+      "insect": { "word": "insect", "pos": "noun", "ipa": "/ˈɪn.sɛkt/", "vi": "côn trùng" },
+      "monkey": { "word": "monkey", "pos": "noun", "ipa": "/ˈmʌŋki/", "vi": "con khỉ" }
+    }
+  },
+  {
+    "id": "a2-u011-2",
+    "unit": 11,
+    "topic": "nat",
+    "title": "A Walk Outdoors",
+    "titleVi": "Một chuyến đi dạo ngoài trời",
+    "sentences": [
+      { "en": "We saw / a small [spider] / near the river yesterday.", "vi": "Chúng tôi thấy / một con nhện nhỏ / gần con sông hôm qua." },
+      { "en": "Our [planet] / has beautiful [nature] / in many places.", "vi": "Hành tinh của chúng ta / có thiên nhiên tươi đẹp / ở nhiều nơi." },
+      { "en": "Last summer, / we walked through / a green [valley].", "vi": "Mùa hè năm ngoái, / chúng tôi đi bộ qua / một thung lũng xanh." },
+      { "en": "Asia / is a large [continent] / with many wild animals.", "vi": "Châu Á / là một châu lục rộng lớn / có nhiều động vật hoang dã." },
+      { "en": "We should reduce / [pollution] / to protect our [environment].", "vi": "Chúng ta nên giảm / ô nhiễm / để bảo vệ môi trường của chúng ta." }
+    ],
+    "vocab": {
+      "nature": { "word": "nature", "pos": "noun", "ipa": "/ˈneɪ̯.t͡ʃəɹ/", "vi": "thiên nhiên" },
+      "planet": { "word": "planet", "pos": "noun", "ipa": "/ˈplænət/", "vi": "hành tinh" },
+      "spider": { "word": "spider", "pos": "noun", "ipa": "/ˈspaɪ̯dɚ/", "vi": "con nhện" },
+      "valley": { "word": "valley", "pos": "noun", "ipa": "/ˈvæli/", "vi": "thung lũng" },
+      "continent": { "word": "continent", "pos": "noun", "ipa": "/ˈkɑntɪnənt/", "vi": "châu lục" },
+      "pollution": { "word": "pollution", "pos": "noun", "ipa": "/pəˈljuːʃən/", "vi": "ô nhiễm" },
+      "environment": { "word": "environment", "pos": "noun", "ipa": "/ɪnˈvaɪ.ɚn.mənt/", "vi": "môi trường" }
+    }
+  },
+  {
+    "id": "a2-u012-1",
+    "unit": 12,
+    "topic": "wthr",
+    "title": "A Day of Weather and Color",
+    "titleVi": "Một ngày thời tiết và sắc màu",
+    "sentences": [
+      { "en": "After the rain, / my shoes were [wet].", "vi": "Sau cơn mưa, / giày của tôi bị ướt." },
+      { "en": "At sunset, / the sky turned [gold] / above our small town.", "vi": "Vào lúc hoàng hôn, / bầu trời chuyển sang màu vàng / phía trên thị trấn nhỏ của chúng tôi." },
+      { "en": "The afternoon [heat] / made us sit / under a tree.", "vi": "Cái nóng buổi chiều / khiến chúng tôi ngồi / dưới một cái cây." },
+      { "en": "Then / a cool [wind] / came from the river.", "vi": "Sau đó / một cơn gió mát / thổi từ phía con sông." },
+      { "en": "One white [cloud] / moved slowly / across the blue sky.", "vi": "Một đám mây trắng / chậm rãi trôi / qua bầu trời xanh." }
+    ],
+    "vocab": {
+      "wet": { "word": "wet", "pos": "adjective", "ipa": "/wɛt/", "vi": "ướt" },
+      "gold": { "word": "gold", "pos": "adjective, noun", "ipa": "/ɡoʊld/", "vi": "vàng" },
+      "heat": { "word": "heat", "pos": "noun, verb", "ipa": "/hit/", "vi": "sức nóng" },
+      "wind": { "word": "wind", "pos": "noun", "ipa": "/ˈwɪnd/", "vi": "gió" },
+      "cloud": { "word": "cloud", "pos": "noun", "ipa": "/ˈklaʊ̯d/", "vi": "đám mây" }
+    }
+  },
+  {
+    "id": "a2-u012-2",
+    "unit": 12,
+    "topic": "wthr",
+    "title": "Weather After Rain",
+    "titleVi": "Thời tiết sau cơn mưa",
+    "sentences": [
+      { "en": "In the rainy [season], / dark clouds / covered our town.", "vi": "Vào mùa mưa, / những đám mây đen / bao phủ thị trấn của chúng tôi." },
+      { "en": "A strong [storm] / came at night / and brought heavy rain.", "vi": "Một cơn bão mạnh / ập đến vào ban đêm / và mang theo mưa lớn." },
+      { "en": "The next morning, / [silver] puddles / shone beside the blue road.", "vi": "Sáng hôm sau, / những vũng nước màu bạc / lấp lánh bên con đường màu xanh." },
+      { "en": "The [climate] here is warm, / but the [temperature] drops / after rain.", "vi": "Khí hậu ở đây ấm áp, / nhưng nhiệt độ giảm xuống / sau cơn mưa." },
+      { "en": "We wore bright clothes / and enjoyed / the cool evening air.", "vi": "Chúng tôi mặc quần áo sặc sỡ / và tận hưởng / không khí mát mẻ buổi tối." }
+    ],
+    "vocab": {
+      "storm": { "word": "storm", "pos": "noun", "ipa": "/stoɹm/", "vi": "cơn bão" },
+      "season": { "word": "season", "pos": "noun", "ipa": "", "vi": "mùa" },
+      "silver": { "word": "silver", "pos": "adjective, noun", "ipa": "/ˈsɪl.vɚ/", "vi": "bạc" },
+      "climate": { "word": "climate", "pos": "noun", "ipa": "/ˈklaɪ.mɪt/", "vi": "khí hậu" },
+      "temperature": { "word": "temperature", "pos": "noun", "ipa": "/ˈtɛm.pɚ.(ə)ˌt͡ʃɚ/", "vi": "nhiệt độ" }
+    }
+  },
+  {
+    "id": "a2-u013-1",
+    "unit": 13,
+    "topic": "time",
+    "title": "Time and Numbers",
+    "titleVi": "Thời gian và số đếm",
+    "sentences": [
+      { "en": "At midnight, / the clock showed [zero] / on its screen.", "vi": "Vào lúc nửa đêm, / đồng hồ hiển thị số không / trên màn hình." },
+      { "en": "Our [schedule] / listed three meetings / before lunch / on Monday.", "vi": "Lịch trình của chúng tôi / ghi ba cuộc họp / trước bữa trưa / vào thứ Hai." },
+      { "en": "A [bar] near the station / opened at six / each evening.", "vi": "Một quán bar gần nhà ga / mở cửa lúc sáu giờ / mỗi buổi tối." },
+      { "en": "My uncle / met friends / at a [pub] / after work yesterday.", "vi": "Chú tôi / gặp bạn bè / ở một quán rượu / sau giờ làm hôm qua." },
+      { "en": "The [site] / showed that / one [billion] / is very large.", "vi": "Trang web / cho thấy rằng / một tỷ / là rất lớn." }
+    ],
+    "vocab": {
+      "zero": { "word": "zero", "pos": "number", "ipa": "/ˈzɪɹoʊ/", "vi": "số không" },
+      "billion": { "word": "billion", "pos": "number", "ipa": "/ˈbɪljən/", "vi": "tỷ" },
+      "schedule": { "word": "schedule", "pos": "noun", "ipa": "/ˈskɛd͡ʒ.ʊl/", "vi": "lịch trình" },
+      "bar": { "word": "bar", "pos": "noun", "ipa": "/bɑɹ/", "vi": "quán bar" },
+      "pub": { "word": "pub", "pos": "noun", "ipa": "/pʌb/", "vi": "quán rượu" },
+      "site": { "word": "site", "pos": "noun", "ipa": "/saɪt/", "vi": "địa điểm; trang web" }
+    }
+  },
+  {
+    "id": "a2-u013-2",
+    "unit": 13,
+    "topic": "place",
+    "title": "A Weekend in the City",
+    "titleVi": "Cuối Tuần Ở Thành Phố",
+    "sentences": [
+      { "en": "We spent a weekend / in a nearby [state].", "vi": "Chúng tôi đã dành một ngày cuối tuần / ở một bang gần đó." },
+      { "en": "On Saturday, / we walked to / a busy [store] / near downtown.", "vi": "Vào thứ Bảy, / chúng tôi đi bộ đến / một cửa hàng đông khách / gần trung tâm thành phố." },
+      { "en": "We saw / a tall [tower] / and took / many photos.", "vi": "Chúng tôi nhìn thấy / một tòa tháp cao / và chụp / nhiều bức ảnh." },
+      { "en": "Then / we crossed / an old [bridge] / over the river.", "vi": "Sau đó / chúng tôi đi qua / một cây cầu cũ / bắc qua sông." },
+      { "en": "At night, / we ate dinner / beside / a beautiful [castle].", "vi": "Buổi tối, / chúng tôi ăn tối / bên cạnh / một lâu đài xinh đẹp." }
+    ],
+    "vocab": {
+      "state": { "word": "state", "pos": "noun", "ipa": "/steɪt/", "vi": "bang, tiểu bang" },
+      "store": { "word": "store", "pos": "noun", "ipa": "/stɔɹ/", "vi": "cửa hàng; lưu trữ" },
+      "tower": { "word": "tower", "pos": "noun", "ipa": "/ˈtaʊɚ/", "vi": "tòa tháp" },
+      "bridge": { "word": "bridge", "pos": "noun", "ipa": "/bɹɪd͡ʒ/", "vi": "cây cầu" },
+      "castle": { "word": "castle", "pos": "noun", "ipa": "/ˈkæsəl/", "vi": "lâu đài" }
+    }
+  },
+  {
+    "id": "a2-u014-1",
+    "unit": 14,
+    "topic": "place",
+    "title": "A Day in Town",
+    "titleVi": "Một ngày trong thị trấn",
+    "sentences": [
+      { "en": "We visited / the [palace] / near the river / on Saturday.", "vi": "Chúng tôi đã thăm / cung điện / gần con sông / vào thứ Bảy." },
+      { "en": "A [church] / stood on the [corner] / of Main Street.", "vi": "Một nhà thờ / nằm ở góc / phố Main Street." },
+      { "en": "We sat / in the [middle] / of the busy town square.", "vi": "Chúng tôi ngồi / ở giữa / quảng trường đông đúc của thị trấn." },
+      { "en": "Our guide showed us / the old [prison] / beside the city wall.", "vi": "Hướng dẫn viên đưa chúng tôi xem / nhà tù cũ / bên cạnh bức tường thành." },
+      { "en": "Then we walked home / through streets / full of friendly people.", "vi": "Sau đó chúng tôi đi bộ về nhà / qua những con phố / đầy những người thân thiện." }
+    ],
+    "vocab": {
+      "church": { "word": "church", "pos": "noun", "ipa": "/t͡ʃɝt͡ʃ/", "vi": "nhà thờ" },
+      "corner": { "word": "corner", "pos": "noun", "ipa": "/ˈkɔɹnɚ/", "vi": "góc" },
+      "middle": { "word": "middle", "pos": "adjective, noun", "ipa": "/ˈmɪdl̩/", "vi": "ở giữa" },
+      "palace": { "word": "palace", "pos": "noun", "ipa": "/ˈpæləs/", "vi": "cung điện" },
+      "prison": { "word": "prison", "pos": "noun", "ipa": "/ˈpɹɪzn̩/", "vi": "nhà tù" }
+    }
+  },
+  {
+    "id": "a2-u014-2",
+    "unit": 14,
+    "topic": "place",
+    "title": "A Town Visit",
+    "titleVi": "Chuyến thăm thị trấn",
+    "sentences": [
+      { "en": "Our [region] is small, / but its town [square] is busy every day.", "vi": "Vùng của chúng tôi nhỏ, / nhưng quảng trường của thị trấn luôn đông đúc mỗi ngày." },
+      { "en": "A [factory] near the river / makes tables for local shops.", "vi": "Một nhà máy gần con sông / sản xuất bàn cho các cửa hàng địa phương." },
+      { "en": "On weekends, / we visit an art [gallery] in the center.", "vi": "Vào cuối tuần, / chúng tôi ghé thăm một phòng trưng bày nghệ thuật ở trung tâm." },
+      { "en": "The [population] is growing, / so new homes are being built.", "vi": "Dân số đang tăng, / nên những ngôi nhà mới đang được xây dựng." },
+      { "en": "A square clock / hangs above a small cafe there.", "vi": "Một chiếc đồng hồ hình vuông / treo phía trên một quán cà phê nhỏ ở đó." }
+    ],
+    "vocab": {
+      "region": { "word": "region", "pos": "noun", "ipa": "/ˈɹi.d͡ʒən/", "vi": "vùng" },
+      "square": { "word": "square", "pos": "adjective, noun", "ipa": "/skwɜː(ɹ)/", "vi": "hình vuông; quảng trường" },
+      "factory": { "word": "factory", "pos": "noun", "ipa": "/ˈfæk.tɚ.i/", "vi": "nhà máy" },
+      "gallery": { "word": "gallery", "pos": "noun", "ipa": "/ˈɡæləɹi/", "vi": "phòng trưng bày" },
+      "population": { "word": "population", "pos": "noun", "ipa": "/ˌpɒp.jʊˈleɪ.ʃən/", "vi": "dân số" }
+    }
+  },
+  {
+    "id": "a2-u015-1",
+    "unit": 15,
+    "topic": "trav",
+    "title": "A Trip to the Port",
+    "titleVi": "Chuyến đi đến cảng",
+    "sentences": [
+      { "en": "Our [van] / took us / from the hotel / to the port.", "vi": "Xe tải nhỏ của chúng tôi / đưa chúng tôi / từ khách sạn / đến cảng." },
+      { "en": "We found / a [seat] / near the window / on the [ship].", "vi": "Chúng tôi tìm thấy / một chỗ ngồi / gần cửa sổ / trên con tàu." },
+      { "en": "The [tour] began early, / and our [guide] / shared local stories.", "vi": "Chuyến tham quan bắt đầu sớm, / và người hướng dẫn của chúng tôi / kể những câu chuyện địa phương." },
+      { "en": "Our guide / helped guide us / through the market.", "vi": "Người hướng dẫn của chúng tôi / giúp hướng dẫn chúng tôi / qua khu chợ." },
+      { "en": "We returned / to the hotel / by bus / before sunset.", "vi": "Chúng tôi trở về / khách sạn / bằng xe buýt / trước khi mặt trời lặn." }
+    ],
+    "vocab": {
+      "van": { "word": "van", "pos": "noun", "ipa": "/væn/", "vi": "xe tải nhỏ" },
+      "seat": { "word": "seat", "pos": "noun", "ipa": "/siːt/", "vi": "chỗ ngồi" },
+      "ship": { "word": "ship", "pos": "noun", "ipa": "/ˈʃɪp/", "vi": "con tàu" },
+      "tour": { "word": "tour", "pos": "noun", "ipa": "/tɔː(ɹ)/", "vi": "chuyến tham quan" },
+      "guide": { "word": "guide", "pos": "noun, verb", "ipa": "/ɡaɪd/", "vi": "người hướng dẫn; hướng dẫn" }
+    }
+  },
+  {
+    "id": "a2-u015-2",
+    "unit": 15,
+    "topic": "trav",
+    "title": "A Family Trip",
+    "titleVi": "Chuyến đi của gia đình",
+    "sentences": [
+      { "en": "Last summer, / our family / took a bus / along a quiet [route].", "vi": "Mùa hè năm ngoái, / gia đình tôi / đi xe buýt / trên một tuyến đường yên tĩnh." },
+      { "en": "A [lorry] / carried our bags / to the small hotel.", "vi": "Một chiếc xe tải / chở hành lý của chúng tôi / đến khách sạn nhỏ." },
+      { "en": "The driver / kept a safe [speed] / near the busy town.", "vi": "Người lái xe / giữ tốc độ an toàn / gần thị trấn đông đúc." },
+      { "en": "We saw a [track] / beside the road / and a [truck] nearby.", "vi": "Chúng tôi thấy một đường ray / bên cạnh con đường / và một chiếc xe tải ở gần đó." }
+    ],
+    "vocab": {
+      "lorry": { "word": "lorry", "pos": "noun", "ipa": "/ˈlɔɹi/", "vi": "xe tải" },
+      "route": { "word": "route", "pos": "noun", "ipa": "/ɹut/", "vi": "tuyến đường" },
+      "speed": { "word": "speed", "pos": "noun", "ipa": "/spiːd/", "vi": "tốc độ" },
+      "track": { "word": "track", "pos": "noun", "ipa": "/ˈtɹæk/", "vi": "đường ray; theo dõi" },
+      "truck": { "word": "truck", "pos": "noun", "ipa": "/tɹʌk/", "vi": "xe tải" }
+    }
+  },
+  {
+    "id": "a2-u016-1",
+    "unit": 16,
+    "topic": "trav",
+    "title": "A Trip Abroad",
+    "titleVi": "Một chuyến đi nước ngoài",
+    "sentences": [
+      { "en": "Last summer, / we went [abroad] / by bus / with our friends.", "vi": "Mùa hè năm ngoái, / chúng tôi đi nước ngoài / bằng xe buýt / cùng bạn bè." },
+      { "en": "The bus had a flat [wheel], / so we waited outside.", "vi": "Xe buýt bị xẹp một bánh, / nên chúng tôi chờ ở bên ngoài." },
+      { "en": "A mechanic checked the [engine] / while we bought water.", "vi": "Một người thợ máy đã kiểm tra động cơ / trong khi chúng tôi mua nước." },
+      { "en": "We talked about [flying] home, / but the tickets were expensive.", "vi": "Chúng tôi bàn về việc bay về nhà, / nhưng vé rất đắt." },
+      { "en": "Our taxi stopped / for [petrol] / before taking us / to the airport.", "vi": "Xe taxi của chúng tôi dừng lại / để đổ xăng / trước khi chở chúng tôi / đến sân bay." }
+    ],
+    "vocab": {
+      "wheel": { "word": "wheel", "pos": "noun", "ipa": "/ˈwiːl/", "vi": "bánh xe" },
+      "abroad": { "word": "abroad", "pos": "adverb", "ipa": "/əˈbɹɔd/", "vi": "ở nước ngoài" },
+      "engine": { "word": "engine", "pos": "noun", "ipa": "/ˈɛnd͡ʒən/", "vi": "động cơ" },
+      "flying": { "word": "flying", "pos": "adjective, noun", "ipa": "/ˈflaɪ.ɪŋ/", "vi": "việc bay" },
+      "petrol": { "word": "petrol", "pos": "noun", "ipa": "/ˈpɛt.ɹəl/", "vi": "xăng" }
+    }
+  },
+  {
+    "id": "a2-u016-2",
+    "unit": 16,
+    "topic": "trav",
+    "title": "A Trip by Train",
+    "titleVi": "Chuyến đi bằng tàu hỏa",
+    "sentences": [
+      { "en": "Our [airline] / sent us a message / about the flight.", "vi": "Hãng hàng không của chúng tôi / đã gửi cho chúng tôi một tin nhắn / về chuyến bay." },
+      { "en": "[Driving|driving] to the airport / took too much time / this morning.", "vi": "Việc lái xe đến sân bay / đã mất quá nhiều thời gian / sáng nay." },
+      { "en": "[Parking|parking] near the station / was easy / before our train arrived.", "vi": "Việc đỗ xe gần nhà ga / rất dễ dàng / trước khi tàu của chúng tôi đến." },
+      { "en": "The [railway] / connects small towns / with the busy city center.", "vi": "Đường sắt / kết nối các thị trấn nhỏ / với trung tâm thành phố nhộn nhịp." },
+      { "en": "[Tourism] brings many visitors, / so buses run often / in summer.", "vi": "Ngành du lịch thu hút nhiều du khách, / vì vậy xe buýt chạy thường xuyên / vào mùa hè." }
+    ],
+    "vocab": {
+      "airline": { "word": "airline", "pos": "noun", "ipa": "/ˈɛəˌlaɪn/", "vi": "hãng hàng không" },
+      "driving": { "word": "driving", "pos": "noun", "ipa": "/ˈdɹaɪvɪŋ/", "vi": "việc lái xe" },
+      "parking": { "word": "parking", "pos": "noun", "ipa": "/ˈpɑɹ.kɪŋ/", "vi": "việc đỗ xe" },
+      "railway": { "word": "railway", "pos": "noun", "ipa": "/ˈɹeɪlˌweɪ/", "vi": "đường sắt" },
+      "tourism": { "word": "tourism", "pos": "noun", "ipa": "/ˈtʊəɹɪzəm/", "vi": "ngành du lịch" }
+    }
+  },
+  {
+    "id": "a2-u017-1",
+    "unit": 17,
+    "topic": "trav",
+    "title": "A Train Ride",
+    "titleVi": "Chuyến đi bằng tàu hỏa",
+    "sentences": [
+      { "en": "Yesterday, / our [vehicle] / stopped near the station / after lunch.", "vi": "Hôm qua, / phương tiện của chúng tôi / dừng gần nhà ga / sau bữa trưa." },
+      { "en": "We walked / a short [distance] / to the train [platform].", "vi": "Chúng tôi đi bộ / một quãng đường ngắn / đến sân ga tàu." },
+      { "en": "A kind [passenger] / showed us / the right [direction].", "vi": "Một hành khách tốt bụng / chỉ cho chúng tôi / đúng hướng." },
+      { "en": "Then we waited together / and boarded the train / for home.", "vi": "Sau đó, chúng tôi cùng nhau chờ / và lên tàu / để về nhà." }
+    ],
+    "vocab": {
+      "vehicle": { "word": "vehicle", "pos": "noun", "ipa": "/ˈvi.ə.kəl/", "vi": "phương tiện" },
+      "distance": { "word": "distance", "pos": "noun", "ipa": "/ˈdɪst(ə)n(t)s/", "vi": "khoảng cách" },
+      "platform": { "word": "platform", "pos": "noun", "ipa": "/ˈplætfɔɹm/", "vi": "sân ga" },
+      "direction": { "word": "direction", "pos": "noun", "ipa": "/dɪˈɹɛk.ʃən/", "vi": "phương hướng" },
+      "passenger": { "word": "passenger", "pos": "noun", "ipa": "/ˈpæs.ɪn.d͡ʒɚ/", "vi": "hành khách" }
+    }
+  },
+  {
+    "id": "a2-u017-2",
+    "unit": 17,
+    "topic": "trav",
+    "title": "A Trip to the City",
+    "titleVi": "Chuyến đi đến thành phố",
+    "sentences": [
+      { "en": "At the hotel, / the [reception] desk helped / a tired [traveller].", "vi": "Ở khách sạn, / quầy lễ tân đã giúp đỡ / một du khách mệt mỏi." },
+      { "en": "The city has / good [transport] / for visitors and local people.", "vi": "Thành phố có / hệ thống giao thông vận tải tốt / cho du khách và người dân địa phương." },
+      { "en": "A [motorcycle] took us / from the station / to our hotel.", "vi": "Một chiếc xe máy chở chúng tôi / từ nhà ga / đến khách sạn." },
+      { "en": "We asked the driver / about buses / before visiting the old market.", "vi": "Chúng tôi hỏi người lái xe / về xe buýt / trước khi ghé thăm khu chợ cũ." }
+    ],
+    "vocab": {
+      "reception": { "word": "reception", "pos": "noun", "ipa": "/ɹɪˈsɛp.ʃn̩/", "vi": "lễ tân" },
+      "transport": { "word": "transport", "pos": "noun", "ipa": "/tɹænsˈpɔɹt/", "vi": "giao thông vận tải" },
+      "traveller": { "word": "traveller", "pos": "noun", "ipa": "/ˈtɹævələ/", "vi": "du khách" },
+      "motorcycle": { "word": "motorcycle", "pos": "noun", "ipa": "/ˈmoʊtɚˌsaɪkəl/", "vi": "xe máy" }
+    }
+  },
+  {
+    "id": "a2-u018-1",
+    "unit": 18,
+    "topic": "work",
+    "title": "School and Work",
+    "titleVi": "Trường học và công việc",
+    "sentences": [
+      { "en": "At school, / Mai worked in the [lab] / after lunch.", "vi": "Ở trường, / Mai làm việc trong phòng thí nghiệm / sau bữa trưa." },
+      { "en": "She collected [data] / for a science [task] / with her class.", "vi": "Cô ấy thu thập dữ liệu / cho một nhiệm vụ khoa học / cùng lớp của mình." },
+      { "en": "Her teacher / gave her a good [mark] / for the report.", "vi": "Giáo viên của cô ấy / đã cho cô ấy điểm tốt / về bài báo cáo." },
+      { "en": "After school, / she helped a [chef] / prepare dinner at work.", "vi": "Sau giờ học, / cô ấy giúp một đầu bếp / chuẩn bị bữa tối ở chỗ làm." },
+      { "en": "But her [boss] / asked her to clean / the kitchen first.", "vi": "Nhưng sếp của cô ấy / bảo cô ấy dọn / nhà bếp trước." }
+    ],
+    "vocab": {
+      "lab": { "word": "lab", "pos": "noun", "ipa": "/læːb/", "vi": "phòng thí nghiệm" },
+      "boss": { "word": "boss", "pos": "noun", "ipa": "/bɔs/", "vi": "ông chủ, sếp" },
+      "chef": { "word": "chef", "pos": "noun", "ipa": "/ʃɛf/", "vi": "đầu bếp" },
+      "data": { "word": "data", "pos": "noun", "ipa": "/ˈdeɪtə/", "vi": "dữ liệu" },
+      "mark": { "word": "mark", "pos": "noun, verb", "ipa": "/mɑɹk/", "vi": "dấu; điểm số" },
+      "task": { "word": "task", "pos": "noun", "ipa": "/tæsk/", "vi": "nhiệm vụ" }
+    }
+  },
+  {
+    "id": "a2-u018-2",
+    "unit": 18,
+    "topic": "work",
+    "title": "A Busy School Week",
+    "titleVi": "Một tuần học bận rộn",
+    "sentences": [
+      { "en": "Our new [term] / starts next week, / so I bought a notebook.", "vi": "Học kỳ mới của chúng tôi / bắt đầu vào tuần tới, / nên tôi đã mua một quyển vở." },
+      { "en": "The teacher used a [tool] / to fix the broken desk.", "vi": "Giáo viên dùng một dụng cụ / để sửa chiếc bàn học bị hỏng." },
+      { "en": "Our first [unit] / teaches us how to write / clear notes.", "vi": "Bài học đầu tiên của chúng tôi / dạy chúng tôi cách viết / ghi chú rõ ràng." },
+      { "en": "The class wrote answers / on the [board] / before lunch.", "vi": "Cả lớp viết câu trả lời / lên bảng / trước bữa trưa." },
+      { "en": "Our class took a [coach] / to the museum / on Friday.", "vi": "Lớp chúng tôi đi xe khách / đến bảo tàng / vào thứ Sáu." },
+      { "en": "I wrote about the busy day / in my [diary] tonight.", "vi": "Tôi viết về ngày bận rộn / trong nhật ký của mình tối nay." }
+    ],
+    "vocab": {
+      "term": { "word": "term", "pos": "noun", "ipa": "/tɜɹm/", "vi": "học kỳ; thuật ngữ" },
+      "tool": { "word": "tool", "pos": "noun", "ipa": "/tuːl/", "vi": "dụng cụ" },
+      "unit": { "word": "unit", "pos": "noun", "ipa": "/ˈjuː.nɪt/", "vi": "đơn vị; bài học" },
+      "board": { "word": "board", "pos": "noun", "ipa": "/bɔɹd/", "vi": "cái bảng" },
+      "coach": { "word": "coach", "pos": "noun", "ipa": "/kəʊtʃ/", "vi": "huấn luyện viên; xe khách" },
+      "diary": { "word": "diary", "pos": "noun", "ipa": "/ˈdaɪ.ə.ɹi/", "vi": "nhật ký" }
+    }
+  },
+  {
+    "id": "a2-u019-1",
+    "unit": 19,
+    "topic": "work",
+    "title": "School and Work",
+    "titleVi": "Trường học và công việc",
+    "sentences": [
+      { "en": "Mai wrote / an [essay] / about her favorite [maths] teacher.", "vi": "Mai đã viết / một bài luận / về người giáo viên toán mà cô yêu thích." },
+      { "en": "Her father is the [owner] / of a small bookshop.", "vi": "Bố cô là chủ / của một hiệu sách nhỏ." },
+      { "en": "Her uncle works as a [pilot] / and travels to many cities.", "vi": "Chú của cô làm phi công / và đi đến nhiều thành phố." },
+      { "en": "At school, Mai met an [author] / who spoke about his work.", "vi": "Ở trường, Mai gặp một tác giả / người đã kể về công việc của ông ấy." },
+      { "en": "She hopes to get a [degree] / in education one day.", "vi": "Cô hy vọng sẽ lấy được bằng / về giáo dục vào một ngày nào đó." }
+    ],
+    "vocab": {
+      "essay": { "word": "essay", "pos": "noun", "ipa": "/ˈɛs.eɪ/", "vi": "bài luận" },
+      "maths": { "word": "maths", "pos": "noun", "ipa": "/mæs/", "vi": "môn toán" },
+      "owner": { "word": "owner", "pos": "noun", "ipa": "/ˈoʊnɚ/", "vi": "chủ sở hữu" },
+      "pilot": { "word": "pilot", "pos": "noun", "ipa": "/ˈpaɪ̯.lət/", "vi": "phi công" },
+      "author": { "word": "author", "pos": "noun", "ipa": "/ˈɔ.θɚ/", "vi": "tác giả" },
+      "degree": { "word": "degree", "pos": "noun", "ipa": "/dɪˈɡɹiː/", "vi": "bằng cấp; độ" }
+    }
+  },
+  {
+    "id": "a2-u019-2",
+    "unit": 19,
+    "topic": "work",
+    "title": "At School and Work",
+    "titleVi": "Ở trường và nơi làm việc",
+    "sentences": [
+      { "en": "At our school, / an [expert] / teaches law to older students.", "vi": "Ở trường chúng tôi, / một chuyên gia / dạy luật cho các học sinh lớn tuổi." },
+      { "en": "Her brother is a [lawyer] / who visits our class every month.", "vi": "Anh trai cô ấy là luật sư / đến thăm lớp chúng tôi mỗi tháng." },
+      { "en": "Ms. Lan is the [leader] / of our small work team.", "vi": "Cô Lan là người lãnh đạo / của nhóm làm việc nhỏ của chúng tôi." },
+      { "en": "After class, / we [review] new words / before the test.", "vi": "Sau giờ học, / chúng tôi ôn lại từ mới / trước bài kiểm tra." },
+      { "en": "Her [salary] is fair, / and she gives a short [speech] / on Friday.", "vi": "Mức lương của cô ấy khá tốt, / và cô ấy có một bài phát biểu ngắn / vào thứ Sáu." }
+    ],
+    "vocab": {
+      "expert": { "word": "expert", "pos": "adjective, noun", "ipa": "/ˈɛk.spɜɹt/", "vi": "chuyên gia" },
+      "lawyer": { "word": "lawyer", "pos": "noun", "ipa": "/ˈlɔɪ.əɹ/", "vi": "luật sư" },
+      "leader": { "word": "leader", "pos": "noun", "ipa": "/ˈliː.də(ɹ)/", "vi": "người lãnh đạo" },
+      "review": { "word": "review", "pos": "noun, verb", "ipa": "/ɹɪˈvjuː/", "vi": "bài đánh giá; ôn lại" },
+      "salary": { "word": "salary", "pos": "noun", "ipa": "/ˈsæləɹi/", "vi": "tiền lương" },
+      "speech": { "word": "speech", "pos": "noun", "ipa": "/spiːt͡ʃ/", "vi": "bài phát biểu" }
+    }
+  },
+  {
+    "id": "a2-u020-1",
+    "unit": 20,
+    "topic": "work",
+    "title": "Jobs and School",
+    "titleVi": "Nghề nghiệp và trường học",
+    "sentences": [
+      { "en": "Our class / did a [survey] / about jobs / last week.", "vi": "Lớp chúng tôi / đã thực hiện một cuộc khảo sát / về các nghề nghiệp / vào tuần trước." },
+      { "en": "Many students chose [biology] / because they enjoy learning / about animals.", "vi": "Nhiều học sinh chọn môn sinh học / vì các bạn ấy thích tìm hiểu / về động vật." },
+      { "en": "One student wants / to become a [dentist] / and help children.", "vi": "Một học sinh muốn / trở thành nha sĩ / và giúp trẻ em." },
+      { "en": "Then, our teacher gave / a [lecture] / about [farming] and food.", "vi": "Sau đó, giáo viên của chúng tôi đã trình bày / một bài giảng / về nghề nông và thực phẩm." },
+      { "en": "My mother is a [manager] / at a farm, / and she hires workers.", "vi": "Mẹ tôi là quản lý / tại một trang trại, / và bà thuê công nhân." }
+    ],
+    "vocab": {
+      "survey": { "word": "survey", "pos": "noun", "ipa": "/ˈsɜːveɪ/", "vi": "cuộc khảo sát" },
+      "biology": { "word": "biology", "pos": "noun", "ipa": "/baɪˈɑ.lə.d͡ʒi/", "vi": "sinh học" },
+      "dentist": { "word": "dentist", "pos": "noun", "ipa": "/ˈdɛntɪst/", "vi": "nha sĩ" },
+      "farming": { "word": "farming", "pos": "noun", "ipa": "/ˈfɑɹmɪŋ/", "vi": "nghề nông" },
+      "lecture": { "word": "lecture", "pos": "noun, verb", "ipa": "/ˈlɛk.t͡ʃɚ/", "vi": "bài giảng" },
+      "manager": { "word": "manager", "pos": "noun", "ipa": "/ˈmæn.ə.dʒəɹ/", "vi": "quản lý" }
+    }
+  },
+  {
+    "id": "a2-u020-2",
+    "unit": 20,
+    "topic": "work",
+    "title": "People at School",
+    "titleVi": "Mọi người ở trường",
+    "sentences": [
+      { "en": "Our school [officer] / helps students find / the right classroom.", "vi": "Viên chức trường chúng tôi / giúp học sinh tìm / đúng phòng học." },
+      { "en": "She teaches [physics] / and explains how / simple machines work.", "vi": "Cô ấy dạy vật lý / và giải thích cách / những máy móc đơn giản hoạt động." },
+      { "en": "Yesterday, a [soldier] / visited our class / and shared stories.", "vi": "Hôm qua, một người lính / đến thăm lớp chúng tôi / và kể chuyện." },
+      { "en": "Our sports [trainer] / showed us / safe exercises / after school.", "vi": "Huấn luyện viên thể thao của chúng tôi / chỉ cho chúng tôi / các bài tập an toàn / sau giờ học." },
+      { "en": "A [designer] and a [director] / planned the school play / together.", "vi": "Một nhà thiết kế và một đạo diễn / đã lên kế hoạch cho vở kịch của trường / cùng nhau." }
+    ],
+    "vocab": {
+      "officer": { "word": "officer", "pos": "noun", "ipa": "/ˈɔ.fɪ.sɚ/", "vi": "sĩ quan; viên chức" },
+      "physics": { "word": "physics", "pos": "noun", "ipa": "/ˈfɪz.ɪks/", "vi": "vật lý" },
+      "soldier": { "word": "soldier", "pos": "noun", "ipa": "/ˈsoʊld͡ʒɚ/", "vi": "người lính" },
+      "trainer": { "word": "trainer", "pos": "noun", "ipa": "/ˈtɹeɪnə/", "vi": "huấn luyện viên; giày thể thao" },
+      "designer": { "word": "designer", "pos": "noun", "ipa": "/dɪˈzaɪnɚ/", "vi": "nhà thiết kế" },
+      "director": { "word": "director", "pos": "noun", "ipa": "/dɪˈɹɛk.tɚ/", "vi": "giám đốc; đạo diễn" }
+    }
+  },
+  {
+    "id": "a2-u021-1",
+    "unit": 21,
+    "topic": "work",
+    "title": "School and Work",
+    "titleVi": "Trường học và công việc",
+    "sentences": [
+      { "en": "At school, / Mai reads a [document] / about the energy [industry].", "vi": "Ở trường, / Mai đọc một tài liệu / về ngành năng lượng." },
+      { "en": "Her teacher says / [learning] new skills helps students find jobs.", "vi": "Giáo viên của cô ấy nói rằng / việc học các kỹ năng mới giúp học sinh tìm việc." },
+      { "en": "Her uncle works as an [engineer] / at a small city office.", "vi": "Chú của cô ấy làm kỹ sư / tại một văn phòng nhỏ trong thành phố." },
+      { "en": "The [employer] thanks each [employee] / for careful work.", "vi": "Người sử dụng lao động cảm ơn từng nhân viên / vì đã làm việc cẩn thận." }
+    ],
+    "vocab": {
+      "document": { "word": "document", "pos": "noun", "ipa": "/ˈdɒkjʊmənt/", "vi": "tài liệu" },
+      "employee": { "word": "employee", "pos": "noun", "ipa": "/ˌɛm.plɔɪˈiː/", "vi": "nhân viên" },
+      "employer": { "word": "employer", "pos": "noun", "ipa": "/ɪmˈplɔɪ.ɚ/", "vi": "người sử dụng lao động" },
+      "engineer": { "word": "engineer", "pos": "noun", "ipa": "/ˌɛnd͡ʒɪˈnɪ(ə)ɹ/", "vi": "kỹ sư" },
+      "industry": { "word": "industry", "pos": "noun", "ipa": "/ˈɪn.də.stɹi/", "vi": "ngành công nghiệp" },
+      "learning": { "word": "learning", "pos": "noun", "ipa": "/ˈlɝnɪŋ/", "vi": "việc học" }
+    }
+  },
+  {
+    "id": "a2-u021-2",
+    "unit": 21,
+    "topic": "work",
+    "title": "People at School and Work",
+    "titleVi": "Mọi người ở trường học và nơi làm việc",
+    "sentences": [
+      { "en": "Our school invited / a [reporter] / to speak about her job.", "vi": "Trường chúng tôi đã mời / một phóng viên / đến nói về công việc của cô ấy." },
+      { "en": "She shared her [research] / on local schools / with our class.", "vi": "Cô ấy chia sẻ nghiên cứu của mình / về các trường học địa phương / với lớp chúng tôi." },
+      { "en": "My aunt chose / [teaching] / after years of helping / young students.", "vi": "Dì tôi chọn / nghề dạy học / sau nhiều năm giúp đỡ / các học sinh nhỏ tuổi." },
+      { "en": "She completed [training] / at work / before leading her first lesson.", "vi": "Cô ấy hoàn thành khóa đào tạo / tại nơi làm việc / trước khi dạy bài học đầu tiên." },
+      { "en": "An [architect] also visited our class / with his [assistant] / last Friday.", "vi": "Một kiến trúc sư cũng đến thăm lớp chúng tôi / cùng với trợ lý của ông ấy / vào thứ Sáu tuần trước." }
+    ],
+    "vocab": {
+      "reporter": { "word": "reporter", "pos": "noun", "ipa": "/ɹɪˈpoɹ.tɚ/", "vi": "phóng viên" },
+      "research": { "word": "research", "pos": "noun, verb", "ipa": "/ˈɹiˌsɝt͡ʃ/", "vi": "nghiên cứu" },
+      "teaching": { "word": "teaching", "pos": "noun", "ipa": "/ˈtiːt͡ʃɪŋ/", "vi": "nghề dạy học" },
+      "training": { "word": "training", "pos": "noun", "ipa": "/ˈtɹeɪnɪŋ/", "vi": "sự huấn luyện" },
+      "architect": { "word": "architect", "pos": "noun", "ipa": "/ˈɑː.kɪˌtɛkt/", "vi": "kiến trúc sư" },
+      "assistant": { "word": "assistant", "pos": "adjective, noun", "ipa": "/əˈsɪstənt/", "vi": "trợ lý" }
+    }
+  },
+  {
+    "id": "a2-u022-1",
+    "unit": 22,
+    "topic": "work",
+    "title": "School and Work",
+    "titleVi": "Trường học và công việc",
+    "sentences": [
+      { "en": "At school, / our [chemistry] teacher / showed us / the new [equipment].", "vi": "Ở trường, / giáo viên hóa học của chúng tôi / đã cho chúng tôi xem / thiết bị mới." },
+      { "en": "My [colleague] / used / the equipment / at work yesterday.", "vi": "Đồng nghiệp của tôi / đã dùng / thiết bị / ở chỗ làm hôm qua." },
+      { "en": "Her [education] / gave her / useful [knowledge] / about chemistry.", "vi": "Việc học của cô ấy / đã mang lại cho cô ấy / kiến thức hữu ích / về hóa học." },
+      { "en": "After class, / we read a story / about a [detective].", "vi": "Sau giờ học, / chúng tôi đọc một câu chuyện / về một thám tử." }
+    ],
+    "vocab": {
+      "chemistry": { "word": "chemistry", "pos": "noun", "ipa": "/ˈkɛm.ɪ.stɹi/", "vi": "hóa học" },
+      "colleague": { "word": "colleague", "pos": "noun", "ipa": "/ˈkɒliːɡ/", "vi": "đồng nghiệp" },
+      "detective": { "word": "detective", "pos": "noun", "ipa": "/dɪˈtɛktɪv/", "vi": "thám tử" },
+      "education": { "word": "education", "pos": "noun", "ipa": "/ˌɛd͡ʒ.əˈkeɪ.ʃən/", "vi": "giáo dục" },
+      "equipment": { "word": "equipment", "pos": "noun", "ipa": "/ɪˈkwɪpmənt/", "vi": "thiết bị" },
+      "knowledge": { "word": "knowledge", "pos": "noun", "ipa": "/ˈnɑ.lɪdʒ/", "vi": "kiến thức" }
+    }
+  },
+  {
+    "id": "a2-u022-2",
+    "unit": 22,
+    "topic": "work",
+    "title": "At School and Work",
+    "titleVi": "Ở trường và nơi làm việc",
+    "sentences": [
+      { "en": "The club [president] / planned a meeting / with her [professor].", "vi": "Chủ tịch câu lạc bộ / đã lên kế hoạch cho một cuộc họp / với giáo sư của cô ấy." },
+      { "en": "She asked the [secretary] / to print the schedule.", "vi": "Cô ấy nhờ thư ký / in lịch trình." },
+      { "en": "The [department] / invited the club / to a [conference] / on Friday.", "vi": "Phòng ban / đã mời câu lạc bộ / đến một hội nghị / vào thứ Sáu." },
+      { "en": "They presented their project / there and answered questions.", "vi": "Họ đã trình bày dự án của mình / ở đó và trả lời các câu hỏi." },
+      { "en": "Her professor / praised the team / after the event.", "vi": "Giáo sư của cô ấy / đã khen cả nhóm / sau sự kiện." }
+    ],
+    "vocab": {
+      "president": { "word": "president", "pos": "noun", "ipa": "/ˈpɹɛz.ɪ.dənt/", "vi": "tổng thống; chủ tịch" },
+      "professor": { "word": "professor", "pos": "noun", "ipa": "/pɹəˈfɛs.ɚ/", "vi": "giáo sư" },
+      "secretary": { "word": "secretary", "pos": "noun", "ipa": "/ˈsɛk.(ɹ)əˌtɛɹ.i/", "vi": "thư ký" },
+      "conference": { "word": "conference", "pos": "noun", "ipa": "/ˈkɑn.f(ə.)ɹəns/", "vi": "hội nghị" },
+      "department": { "word": "department", "pos": "noun", "ipa": "/dɪˈpɑɹtmənt/", "vi": "phòng ban" }
+    }
+  },
+  {
+    "id": "a2-u023-1",
+    "unit": 23,
+    "topic": "work",
+    "title": "A Day at School and Work",
+    "titleVi": "Một ngày ở trường và nơi làm việc",
+    "sentences": [
+      { "en": "The [instructor] / showed our class / a simple [experiment] / today.", "vi": "Người hướng dẫn / đã trình bày cho lớp chúng tôi xem / một thí nghiệm đơn giản / hôm nay." },
+      { "en": "A [researcher] / used new [technology] / to study clean water.", "vi": "Một nhà nghiên cứu / đã dùng công nghệ mới / để nghiên cứu nước sạch." },
+      { "en": "My sister is a [journalist] / at a small town newspaper.", "vi": "Chị gái tôi là một nhà báo / ở một tờ báo nhỏ của thị trấn." },
+      { "en": "She writes about school and work / for local readers.", "vi": "Cô ấy viết về trường học và công việc / cho độc giả địa phương." },
+      { "en": "[Advertising|advertising] helps the company / tell people / about its new course.", "vi": "Ngành quảng cáo giúp công ty / thông báo cho mọi người / về khóa học mới của mình." }
+    ],
+    "vocab": {
+      "experiment": { "word": "experiment", "pos": "noun", "ipa": "/ɪkˈspɛɹ.ɪ.mənt/", "vi": "thí nghiệm" },
+      "instructor": { "word": "instructor", "pos": "noun", "ipa": "/ɪnˈstɹʌktɚ/", "vi": "người hướng dẫn" },
+      "journalist": { "word": "journalist", "pos": "noun", "ipa": "/ˈd͡ʒɝnəlɪst/", "vi": "nhà báo" },
+      "researcher": { "word": "researcher", "pos": "noun", "ipa": "/ˈɹiˌsɝ.t͡ʃɚ/", "vi": "nhà nghiên cứu" },
+      "technology": { "word": "technology", "pos": "noun", "ipa": "/tɛkˈnɑ.lə.dʒi/", "vi": "công nghệ" },
+      "advertising": { "word": "advertising", "pos": "noun", "ipa": "/ˈædvɚˌtaɪzɪŋ/", "vi": "ngành quảng cáo" }
+    }
+  },
+  {
+    "id": "a2-u023-2",
+    "unit": 23,
+    "topic": "work",
+    "title": "A Visit to School",
+    "titleVi": "Một chuyến thăm trường",
+    "sentences": [
+      { "en": "My uncle / is a [businessman] / who visits our school each year.", "vi": "Chú của tôi / là một doanh nhân / đến thăm trường chúng tôi mỗi năm." },
+      { "en": "He gives an [instruction] / about planning a small business.", "vi": "Ông ấy đưa ra một hướng dẫn / về việc lập kế hoạch cho một doanh nghiệp nhỏ." },
+      { "en": "Our [mathematics] teacher / helps us solve problems / after lunch.", "vi": "Giáo viên toán của chúng tôi / giúp chúng tôi giải bài tập / sau bữa trưa." },
+      { "en": "She teaches [architecture] / through drawings of simple homes.", "vi": "Cô ấy dạy kiến trúc / thông qua các bản vẽ những ngôi nhà đơn giản." },
+      { "en": "A local [organization] / visits our school / and shares job ideas.", "vi": "Một tổ chức địa phương / đến thăm trường chúng tôi / và chia sẻ các ý tưởng nghề nghiệp." }
+    ],
+    "vocab": {
+      "businessman": { "word": "businessman", "pos": "noun", "ipa": "/ˈbɪznəsmən/", "vi": "doanh nhân" },
+      "instruction": { "word": "instruction", "pos": "noun", "ipa": "/ɪnˈstɹʌkʃən/", "vi": "hướng dẫn" },
+      "mathematics": { "word": "mathematics", "pos": "noun", "ipa": "/mæθ(.ə)ˈmæt.ɪks/", "vi": "toán học" },
+      "architecture": { "word": "architecture", "pos": "noun", "ipa": "/ˈɑɹ.kɪˌtɛk.t͡ʃɚ/", "vi": "kiến trúc" },
+      "organization": { "word": "organization", "pos": "noun", "ipa": "/ˌoɹ.ɡə.nɪˈzeɪ.ʃən/", "vi": "tổ chức" }
+    }
+  },
+  {
+    "id": "a2-u024-1",
+    "unit": 24,
+    "topic": "fun",
+    "title": "A Fun Sunday",
+    "titleVi": "Một ngày Chủ nhật vui vẻ",
+    "sentences": [
+      { "en": "Mai used a music [app] / to play [pop] songs after school.", "vi": "Mai dùng một ứng dụng nghe nhạc / để phát những bài nhạc pop sau giờ học." },
+      { "en": "Her brother is a big [fan] / of a famous singer.", "vi": "Em trai cô ấy là người hâm mộ cuồng nhiệt / của một ca sĩ nổi tiếng." },
+      { "en": "They watched a sports game / on the [web] last night.", "vi": "Họ đã xem một trận đấu thể thao / trên mạng vào tối qua." },
+      { "en": "On Sunday, Mai tried to [ski] / at an indoor sports center.", "vi": "Vào Chủ nhật, Mai đã thử trượt tuyết / tại một trung tâm thể thao trong nhà." },
+      { "en": "She won a small [toy] / in a fun game there.", "vi": "Cô ấy thắng được một món đồ chơi nhỏ / trong một trò chơi vui ở đó." }
+    ],
+    "vocab": {
+      "app": { "word": "app", "pos": "noun", "ipa": "/æp/", "vi": "ứng dụng" },
+      "fan": { "word": "fan", "pos": "noun", "ipa": "/fæn/", "vi": "người hâm mộ; cái quạt" },
+      "pop": { "word": "pop", "pos": "adjective, noun", "ipa": "/pɒp/", "vi": "nhạc pop" },
+      "ski": { "word": "ski", "pos": "adjective, noun, verb", "ipa": "/skiː/", "vi": "trượt tuyết" },
+      "toy": { "word": "toy", "pos": "adjective, noun", "ipa": "/taɪ/", "vi": "đồ chơi" },
+      "web": { "word": "web", "pos": "noun", "ipa": "/wɛb/", "vi": "mạng; mạng nhện" }
+    }
+  },
+  {
+    "id": "a2-u024-2",
+    "unit": 24,
+    "topic": "fun",
+    "title": "A Weekend Outdoors",
+    "titleVi": "Một cuối tuần ngoài trời",
+    "sentences": [
+      { "en": "Our family / [camped|camp] by the lake / last weekend.", "vi": "Gia đình chúng tôi / đã cắm trại bên hồ / vào cuối tuần trước." },
+      { "en": "We played / a small soccer game / after lunch.", "vi": "Chúng tôi đã chơi / một trận bóng đá nhỏ / sau bữa trưa." },
+      { "en": "Mia scored / a [goal] / and became our [hero].", "vi": "Mia ghi / một bàn thắng / và trở thành người hùng của chúng tôi." },
+      { "en": "After the game, / Dad gave Mia / a [gift].", "vi": "Sau trận đấu, / Bố tặng Mia / một món quà." },
+      { "en": "That night, / we listened to [jazz] / beside the fire.", "vi": "Tối hôm đó, / chúng tôi nghe nhạc jazz / bên đống lửa." },
+      { "en": "On Sunday, / Dad played [golf] / with his friends.", "vi": "Vào Chủ nhật, / Bố chơi môn gôn / với bạn bè của mình." }
+    ],
+    "vocab": {
+      "camp": { "word": "camp", "pos": "noun, verb", "ipa": "/ˈkæmp/", "vi": "trại; cắm trại" },
+      "gift": { "word": "gift", "pos": "noun", "ipa": "/ɡɪft/", "vi": "món quà" },
+      "goal": { "word": "goal", "pos": "noun", "ipa": "/ɡoʊl/", "vi": "bàn thắng; mục tiêu" },
+      "golf": { "word": "golf", "pos": "noun", "ipa": "/ɡɑlf/", "vi": "môn gôn" },
+      "hero": { "word": "hero", "pos": "noun", "ipa": "/ˈhɪɹ.oʊ/", "vi": "anh hùng" },
+      "jazz": { "word": "jazz", "pos": "noun", "ipa": "/d͡ʒæz/", "vi": "nhạc jazz" }
+    }
+  },
+  {
+    "id": "a2-u025-1",
+    "unit": 25,
+    "topic": "fun",
+    "title": "A Fun Sports Day",
+    "titleVi": "Một ngày thể thao vui vẻ",
+    "sentences": [
+      { "en": "After practice, / Mia told a [joke] / to her team.", "vi": "Sau buổi tập, / Mia kể một câu chuyện cười / cho cả đội." },
+      { "en": "She [mailed|mail] her team / a funny postcard / after practice.", "vi": "Cô gửi cho đội mình / một tấm bưu thiếp vui nhộn / sau buổi tập." },
+      { "en": "The [race] started early, / and a [user] shared its results online.", "vi": "Cuộc đua bắt đầu sớm, / và một người dùng chia sẻ kết quả của nó lên mạng." },
+      { "en": "Mia won an [award] / for running fast at school.", "vi": "Mia giành được một giải thưởng / vì chạy nhanh ở trường." },
+      { "en": "That evening, / they watched a short [drama] / about a sports team.", "vi": "Tối hôm đó, / họ xem một vở kịch ngắn / về một đội thể thao." }
+    ],
+    "vocab": {
+      "joke": { "word": "joke", "pos": "noun, verb", "ipa": "/ˈd͡ʒoʊ̯k/", "vi": "câu chuyện cười" },
+      "mail": { "word": "mail", "pos": "noun, verb", "ipa": "/meɪl/", "vi": "thư; gửi thư" },
+      "race": { "word": "race", "pos": "noun, verb", "ipa": "/ɹeɪs/", "vi": "cuộc đua" },
+      "user": { "word": "user", "pos": "noun", "ipa": "/ˈjuzɚ/", "vi": "người dùng" },
+      "award": { "word": "award", "pos": "noun", "ipa": "/əˈwɔɹd/", "vi": "giải thưởng" },
+      "drama": { "word": "drama", "pos": "noun", "ipa": "/ˈdɹɑmə/", "vi": "kịch, phim chính kịch" }
+    }
+  },
+  {
+    "id": "a2-u025-2",
+    "unit": 25,
+    "topic": "fun",
+    "title": "A Night of Football",
+    "titleVi": "Một buổi tối xem bóng đá",
+    "sentences": [
+      { "en": "Last night, / I saw / an [image] / of my favorite team.", "vi": "Tối qua, / tôi thấy / một hình ảnh / về đội bóng yêu thích của tôi." },
+      { "en": "Sports [media] / showed / the final [scene] / after the game.", "vi": "Truyền thông thể thao / đã chiếu / cảnh cuối cùng / sau trận đấu." },
+      { "en": "I read / a short [novel] / about a young football player.", "vi": "Tôi đọc / một cuốn tiểu thuyết ngắn / về một cầu thủ bóng đá trẻ." },
+      { "en": "He got / a [prize] / because his team / won the match.", "vi": "Anh ấy nhận được / một giải thưởng / vì đội của anh ấy / đã thắng trận đấu." },
+      { "en": "The final [score] / was 3-1, / and all fans cheered.", "vi": "Tỷ số cuối cùng / là 3-1, / và tất cả người hâm mộ reo hò." }
+    ],
+    "vocab": {
+      "image": { "word": "image", "pos": "noun", "ipa": "/ˈɪm.ɪd͡ʒ/", "vi": "hình ảnh" },
+      "media": { "word": "media", "pos": "noun", "ipa": "/ˈmi.di.ə/", "vi": "truyền thông" },
+      "novel": { "word": "novel", "pos": "noun", "ipa": "/ˈnɑvəl/", "vi": "tiểu thuyết" },
+      "prize": { "word": "prize", "pos": "noun", "ipa": "/ˈpɹaɪ̯z/", "vi": "giải thưởng" },
+      "scene": { "word": "scene", "pos": "noun", "ipa": "/siːn/", "vi": "cảnh" },
+      "score": { "word": "score", "pos": "noun, verb", "ipa": "/skoɹ/", "vi": "điểm số" }
+    }
+  },
+  {
+    "id": "a2-u026-1",
+    "unit": 26,
+    "topic": "fun",
+    "title": "A Weekend of Fun",
+    "titleVi": "Một Cuối Tuần Vui Vẻ",
+    "sentences": [
+      { "en": "We watched / a [comedy] / after dinner / at home.", "vi": "Chúng tôi xem / một bộ phim hài / sau bữa tối / ở nhà." },
+      { "en": "Then we watched / one more episode / of our favorite [series].", "vi": "Sau đó, chúng tôi xem / thêm một tập / của loạt phim yêu thích." },
+      { "en": "My brother played [hockey] / with friends / at the local rink.", "vi": "Anh trai tôi chơi môn khúc côn cầu / cùng bạn bè / ở sân băng gần nhà." },
+      { "en": "The [runner] walked onto / the [stage] / to receive his prize.", "vi": "Người chạy bộ bước lên / sân khấu / để nhận giải thưởng." },
+      { "en": "We tried [skiing] last winter / and enjoyed / the snowy slopes.", "vi": "Mùa đông năm ngoái, chúng tôi thử trượt tuyết / và thích thú với / những sườn dốc phủ tuyết." }
+    ],
+    "vocab": {
+      "stage": { "word": "stage", "pos": "noun", "ipa": "/steɪd͡ʒ/", "vi": "sân khấu; giai đoạn" },
+      "comedy": { "word": "comedy", "pos": "noun", "ipa": "/ˈkɑmədi/", "vi": "phim hài" },
+      "hockey": { "word": "hockey", "pos": "noun", "ipa": "/ˈhɑ.ki/", "vi": "môn khúc côn cầu" },
+      "runner": { "word": "runner", "pos": "noun", "ipa": "/ˈɹʌnɚ/", "vi": "người chạy bộ" },
+      "series": { "word": "series", "pos": "noun", "ipa": "/ˈsɪɹ.iz/", "vi": "loạt phim" },
+      "skiing": { "word": "skiing", "pos": "noun", "ipa": "/ˈski.ɪŋ/", "vi": "môn trượt tuyết" }
+    }
+  },
+  {
+    "id": "a2-u026-2",
+    "unit": 26,
+    "topic": "fun",
+    "title": "A Fun Saturday",
+    "titleVi": "Thứ Bảy vui vẻ",
+    "sentences": [
+      { "en": "Last Saturday / our [soccer] team / played a game / in the park.", "vi": "Thứ Bảy tuần trước / đội bóng đá của chúng tôi / đã thi đấu một trận / ở công viên." },
+      { "en": "The [winner] / was an [athlete] / from our school.", "vi": "Người thắng cuộc / là một vận động viên / của trường chúng tôi." },
+      { "en": "After the game, / we talked about [camping] / near the lake.", "vi": "Sau trận đấu, / chúng tôi nói về việc cắm trại / gần hồ." },
+      { "en": "At home, / my brother / watched a funny [cartoon] / with me.", "vi": "Ở nhà, / anh trai tôi / xem một bộ phim hoạt hình vui nhộn / cùng tôi." }
+    ],
+    "vocab": {
+      "soccer": { "word": "soccer", "pos": "noun", "ipa": "/ˈsɒk.ə/", "vi": "bóng đá" },
+      "winner": { "word": "winner", "pos": "noun", "ipa": "/ˈwɪnə/", "vi": "người thắng cuộc" },
+      "athlete": { "word": "athlete", "pos": "noun", "ipa": "/ˈæθ.lit/", "vi": "vận động viên" },
+      "camping": { "word": "camping", "pos": "noun", "ipa": "/ˈkæmp.ɪŋ/", "vi": "việc cắm trại" },
+      "cartoon": { "word": "cartoon", "pos": "noun", "ipa": "/kɑɹˈtun/", "vi": "phim hoạt hình" }
+    }
+  },
+  {
+    "id": "a2-u027-1",
+    "unit": 27,
+    "topic": "fun",
+    "title": "A Weekend of Art and Sport",
+    "titleVi": "Cuối tuần với nghệ thuật và thể thao",
+    "sentences": [
+      { "en": "After school, / Linh made a [drawing] / of her favorite soccer player.", "vi": "Sau giờ học, / Linh đã vẽ một bức vẽ / về cầu thủ bóng đá yêu thích của cô ấy." },
+      { "en": "Her brother read [fiction] / while she watched a funny game.", "vi": "Anh trai cô ấy đọc tiểu thuyết hư cấu / trong khi cô ấy xem một trận đấu vui." },
+      { "en": "Dad enjoyed [fishing] / after his football practice / on Sunday.", "vi": "Bố thích câu cá / sau buổi tập bóng đá / vào Chủ nhật." },
+      { "en": "The [painter] / shared her [profile] / with a local art [network].", "vi": "Họa sĩ / chia sẻ hồ sơ cá nhân của mình / với một mạng lưới nghệ thuật địa phương." },
+      { "en": "Her friends liked the picture / and invited her to play volleyball.", "vi": "Bạn bè cô ấy thích bức tranh / và mời cô ấy chơi bóng chuyền." }
+    ],
+    "vocab": {
+      "drawing": { "word": "drawing", "pos": "noun", "ipa": "/ˈdɹɑ.ɪŋ/", "vi": "bức vẽ" },
+      "fiction": { "word": "fiction", "pos": "noun", "ipa": "/ˈfɪkʃən/", "vi": "tiểu thuyết hư cấu" },
+      "fishing": { "word": "fishing", "pos": "noun", "ipa": "/ˈfɪʃɪŋ/", "vi": "việc câu cá" },
+      "network": { "word": "network", "pos": "noun", "ipa": "/ˈnɛt.wɝk/", "vi": "mạng lưới" },
+      "painter": { "word": "painter", "pos": "noun", "ipa": "/ˈpeɪntə/", "vi": "họa sĩ" },
+      "profile": { "word": "profile", "pos": "noun", "ipa": "/ˈpɹoʊ.faɪl/", "vi": "hồ sơ cá nhân" }
+    }
+  },
+  {
+    "id": "a2-u027-2",
+    "unit": 27,
+    "topic": "fun",
+    "title": "A Fun School Week",
+    "titleVi": "Một tuần vui ở trường",
+    "sentences": [
+      { "en": "Our school [program] / showed a short film / after lunch.", "vi": "Chương trình của trường chúng tôi / đã chiếu một bộ phim ngắn / sau bữa trưa." },
+      { "en": "Many students enjoy [running] / in the park after class.", "vi": "Nhiều học sinh thích môn chạy bộ / ở công viên sau giờ học." },
+      { "en": "On Sunday, / my uncle tried [sailing] / with his friends.", "vi": "Vào Chủ nhật, / chú tôi đã thử môn chèo thuyền / cùng bạn bè." },
+      { "en": "The children enjoyed [singing] / before the school show.", "vi": "Bọn trẻ thích việc ca hát / trước buổi biểu diễn ở trường." },
+      { "en": "The [audience] / clapped loudly / during the music show.", "vi": "Khán giả / vỗ tay thật to / trong buổi biểu diễn âm nhạc." }
+    ],
+    "vocab": {
+      "program": { "word": "program", "pos": "noun", "ipa": "/ˈpɹoʊ̯ˌɡɹæm/", "vi": "chương trình" },
+      "running": { "word": "running", "pos": "noun", "ipa": "/ˈɹʌnɪŋ/", "vi": "môn chạy bộ" },
+      "sailing": { "word": "sailing", "pos": "noun", "ipa": "/ˈseɪ.lɪŋ/", "vi": "môn chèo thuyền" },
+      "singing": { "word": "singing", "pos": "noun", "ipa": "/ˈsɪŋɪŋ/", "vi": "việc ca hát" },
+      "audience": { "word": "audience", "pos": "noun", "ipa": "/ˈɔ.di.əns/", "vi": "khán giả" }
+    }
+  },
+  {
+    "id": "a2-u028-1",
+    "unit": 28,
+    "topic": "fun",
+    "title": "A Fun Saturday",
+    "titleVi": "Một ngày thứ Bảy vui vẻ",
+    "sentences": [
+      { "en": "On Saturday, / we played [baseball] / at the park / after lunch.", "vi": "Vào thứ Bảy, / chúng tôi đã chơi bóng chày / ở công viên / sau bữa trưa." },
+      { "en": "A [listener] / called the music show / and won two tickets.", "vi": "Một người nghe / gọi đến chương trình âm nhạc / và thắng hai vé." },
+      { "en": "A local [musician] / played happy songs / before the game.", "vi": "Một nhạc sĩ địa phương / đã chơi những bài hát vui vẻ / trước trận đấu." },
+      { "en": "After the game, / we watched / an [adventure] movie / about a brave girl.", "vi": "Sau trận đấu, / chúng tôi xem / một bộ phim phiêu lưu / về một cô bé dũng cảm." },
+      { "en": "The [celebrity] / played a funny [character] / in the film.", "vi": "Người nổi tiếng đó / đóng một nhân vật hài hước / trong bộ phim." }
+    ],
+    "vocab": {
+      "baseball": { "word": "baseball", "pos": "noun", "ipa": "/ˈbeɪs.bɔːl/", "vi": "bóng chày" },
+      "listener": { "word": "listener", "pos": "noun", "ipa": "/ˈlɪs(ə)nɚ/", "vi": "người nghe" },
+      "musician": { "word": "musician", "pos": "noun", "ipa": "/mjuˈzɪʃən/", "vi": "nhạc sĩ" },
+      "adventure": { "word": "adventure", "pos": "noun", "ipa": "/ədˈvɛn.t͡ʃɚ/", "vi": "cuộc phiêu lưu" },
+      "celebrity": { "word": "celebrity", "pos": "noun", "ipa": "/səˈlɛb.ɹɪ.ɾi/", "vi": "người nổi tiếng" },
+      "character": { "word": "character", "pos": "noun", "ipa": "/ˈkæɹ(ə)ktɚ/", "vi": "nhân vật; tính cách" }
+    }
+  },
+  {
+    "id": "a2-u028-2",
+    "unit": 28,
+    "topic": "fun",
+    "title": "A Fun School Event",
+    "titleVi": "Một sự kiện vui ở trường",
+    "sentences": [
+      { "en": "An [advertisement] on the bus / announced a school [competition].", "vi": "Một mẩu quảng cáo trên xe buýt / thông báo về một cuộc thi ở trường." },
+      { "en": "Mai joined a [basketball] game / with her friends there.", "vi": "Mai tham gia một trận bóng rổ / cùng bạn bè ở đó." },
+      { "en": "Her brother brought an [instrument] / and played cheerful music.", "vi": "Anh trai cô ấy mang theo một nhạc cụ / và chơi những giai điệu vui tươi." },
+      { "en": "Afterward, / Mai listened to a [recording] of his song.", "vi": "Sau đó, / Mai nghe bản ghi âm bài hát của anh trai mình." },
+      { "en": "They enjoyed the fun day / together after the event.", "vi": "Họ đã có một ngày vui / bên nhau sau sự kiện." }
+    ],
+    "vocab": {
+      "recording": { "word": "recording", "pos": "noun", "ipa": "/ɹɪˈkɔː(ɹ)dɪŋ/", "vi": "bản ghi âm" },
+      "basketball": { "word": "basketball", "pos": "noun", "ipa": "/ˈbɑːs.kɪt.bɔːl/", "vi": "bóng rổ" },
+      "instrument": { "word": "instrument", "pos": "noun", "ipa": "/ˈɪnstɹəmənt/", "vi": "nhạc cụ; dụng cụ" },
+      "competition": { "word": "competition", "pos": "noun", "ipa": "/ˌkɑm.pəˈtɪʃ.ən/", "vi": "cuộc thi" },
+      "advertisement": { "word": "advertisement", "pos": "noun", "ipa": "/ˈædvɚˌtaɪzmənt/", "vi": "mẩu quảng cáo" }
+    }
+  },
+  {
+    "id": "a2-u029-1",
+    "unit": 29,
+    "topic": "feel",
+    "title": "A Piano Lesson",
+    "titleVi": "Buổi học piano",
+    "sentences": [
+      { "en": "Mia felt [fear] / before her first piano lesson.", "vi": "Mia cảm thấy sợ hãi / trước buổi học piano đầu tiên của mình." },
+      { "en": "She was [scared] / when the teacher asked her / to play.", "vi": "Cô ấy sợ hãi / khi giáo viên yêu cầu cô ấy / chơi đàn." },
+      { "en": "The [stress] / made her hands shake, / but she kept trying.", "vi": "Sự căng thẳng / khiến tay cô ấy run lên, / nhưng cô ấy vẫn tiếp tục cố gắng." },
+      { "en": "She felt [nervous] at first, / but soon / she relaxed.", "vi": "Lúc đầu cô ấy cảm thấy lo lắng, / nhưng chẳng bao lâu / cô ấy bình tĩnh lại." },
+      { "en": "Her mother was [pleased] / with her brave effort.", "vi": "Mẹ cô ấy hài lòng / với nỗ lực dũng cảm của cô ấy." },
+      { "en": "Mia had felt [unhappy] before class, / but now / she smiled.", "vi": "Trước buổi học, Mia đã cảm thấy không vui, / nhưng giờ đây / cô ấy mỉm cười." }
+    ],
+    "vocab": {
+      "fear": { "word": "fear", "pos": "noun", "ipa": "/fɪɚ/", "vi": "nỗi sợ" },
+      "scared": { "word": "scared", "pos": "adjective", "ipa": "/skɛ(ə)ɹd/", "vi": "sợ hãi" },
+      "stress": { "word": "stress", "pos": "noun, verb", "ipa": "/stɹɛs/", "vi": "căng thẳng" },
+      "nervous": { "word": "nervous", "pos": "adjective", "ipa": "/ˈnɝvəs/", "vi": "lo lắng" },
+      "pleased": { "word": "pleased", "pos": "adjective", "ipa": "/pliːzd/", "vi": "hài lòng" },
+      "unhappy": { "word": "unhappy", "pos": "adjective", "ipa": "/ʌnˈhæpi/", "vi": "không vui" }
+    }
+  },
+  {
+    "id": "a2-u029-2",
+    "unit": 29,
+    "topic": "feel",
+    "title": "A Happy Surprise",
+    "titleVi": "Điều bất ngờ vui vẻ",
+    "sentences": [
+      { "en": "Mia felt [worried] / before her first school meeting.", "vi": "Mia cảm thấy lo lắng / trước buổi họp đầu tiên của cô ở trường." },
+      { "en": "Then her friend / planned a small [surprise] / for her.", "vi": "Sau đó, bạn của cô / đã chuẩn bị một điều bất ngờ nhỏ / cho cô." },
+      { "en": "Mia was [surprised] / when everyone welcomed her / with [laughter].", "vi": "Mia ngạc nhiên / khi mọi người chào đón cô / bằng tiếng cười." },
+      { "en": "Her friendly [personality] / helped Mia feel calm and happy.", "vi": "Tính cách thân thiện của cô / giúp Mia cảm thấy bình tĩnh và vui vẻ." },
+      { "en": "Soon, her laughter filled the room, / and she smiled.", "vi": "Chẳng mấy chốc, tiếng cười của cô vang khắp căn phòng, / và cô mỉm cười." }
+    ],
+    "vocab": {
+      "worried": { "word": "worried", "pos": "adjective", "ipa": "/ˈwʌɹid/", "vi": "lo lắng" },
+      "laughter": { "word": "laughter", "pos": "noun", "ipa": "/ˈlæftɚ/", "vi": "tiếng cười" },
+      "surprise": { "word": "surprise", "pos": "noun, verb", "ipa": "/sɚˈpɹaɪ̯z/", "vi": "điều bất ngờ" },
+      "surprised": { "word": "surprised", "pos": "adjective", "ipa": "/sɚˈpɹaɪzd/", "vi": "ngạc nhiên" },
+      "personality": { "word": "personality", "pos": "noun", "ipa": "/ˌpɜɹ.səˈnæ.lə.ti/", "vi": "tính cách" }
+    }
+  },
+  {
+    "id": "a2-u030-1",
+    "unit": 30,
+    "topic": "verb",
+    "title": "A Day at Home and School",
+    "titleVi": "Một ngày ở nhà và trường học",
+    "sentences": [
+      { "en": "At school, / Mia [acted|act] in a play / and felt happy.", "vi": "Ở trường, / Mia diễn trong một vở kịch / và cảm thấy vui." },
+      { "en": "Her brother [cried|cry] / when he [hit] his knee against the door.", "vi": "Em trai cô bé khóc / khi cậu ấy va đầu gối vào cửa." },
+      { "en": "After class, / Dad [fixed|fix] her bike, / and she [beat] him at cards.", "vi": "Sau giờ học, / bố sửa xe đạp cho cô bé, / và cô bé thắng bố khi chơi bài." },
+      { "en": "Mom [blew|blow] on the hot soup / before she ate.", "vi": "Mẹ thổi vào món súp nóng / trước khi ăn." },
+      { "en": "Then she [boiled|boil] water for tea / while we played.", "vi": "Sau đó, mẹ đun nước pha trà / trong khi chúng tôi chơi." }
+    ],
+    "vocab": {
+      "act": { "word": "act", "pos": "verb", "ipa": "/ækt/", "vi": "hành động; diễn" },
+      "cry": { "word": "cry", "pos": "verb", "ipa": "/kɹaɪ/", "vi": "khóc" },
+      "fix": { "word": "fix", "pos": "verb", "ipa": "/fɪks/", "vi": "sửa chữa" },
+      "hit": { "word": "hit", "pos": "noun, verb", "ipa": "/hɪt/", "vi": "đánh, va vào" },
+      "beat": { "word": "beat", "pos": "verb", "ipa": "/biːt/", "vi": "đánh bại; nhịp" },
+      "blow": { "word": "blow", "pos": "verb", "ipa": "/bloʊ/", "vi": "thổi" },
+      "boil": { "word": "boil", "pos": "verb", "ipa": "/bɔɪ(ə)l/", "vi": "đun sôi" }
+    }
+  },
+  {
+    "id": "a2-u030-2",
+    "unit": 30,
+    "topic": "verb",
+    "title": "Common Verbs",
+    "titleVi": "Động từ thường gặp",
+    "sentences": [
+      { "en": "After dinner, / we [burn] dry leaves / in the garden.", "vi": "Sau bữa tối, / chúng tôi đốt lá khô / trong vườn." },
+      { "en": "My sister likes to [chat] / with her friends / after school.", "vi": "Chị gái tôi thích trò chuyện / với bạn bè / sau giờ học." },
+      { "en": "She can [copy] the recipe / into her small notebook.", "vi": "Cô ấy có thể chép công thức / vào cuốn sổ nhỏ của mình." },
+      { "en": "We [deal] with small problems together / at home.", "vi": "Chúng tôi cùng nhau xử lý những vấn đề nhỏ / ở nhà." },
+      { "en": "I [drop] my keys, / then find them / under the chair.", "vi": "Tôi làm rơi chìa khóa, / rồi tìm thấy chúng / dưới ghế." },
+      { "en": "My father [earns|earn] extra money / by fixing bikes / on weekends.", "vi": "Bố tôi kiếm thêm tiền / bằng cách sửa xe đạp / vào cuối tuần." }
+    ],
+    "vocab": {
+      "burn": { "word": "burn", "pos": "verb", "ipa": "/bɝn/", "vi": "đốt cháy" },
+      "chat": { "word": "chat", "pos": "noun, verb", "ipa": "/ˈt͡ʃæt/", "vi": "trò chuyện" },
+      "copy": { "word": "copy", "pos": "noun, verb", "ipa": "/ˈkɑpi/", "vi": "bản sao; sao chép" },
+      "deal": { "word": "deal", "pos": "verb", "ipa": "/ˈdiːl/", "vi": "giao dịch; xử lý" },
+      "drop": { "word": "drop", "pos": "verb", "ipa": "/dɹɑp/", "vi": "làm rơi; giọt" },
+      "earn": { "word": "earn", "pos": "verb", "ipa": "/ɜːn/", "vi": "kiếm được" }
+    }
+  },
+  {
+    "id": "a2-u031-1",
+    "unit": 31,
+    "topic": "verb",
+    "title": "Mia and the Cat",
+    "titleVi": "Mia và con mèo",
+    "sentences": [
+      { "en": "Mia [feeds|feed] her cat / before school / every morning.", "vi": "Mia cho mèo ăn / trước khi đi học / mỗi buổi sáng." },
+      { "en": "The cat [hides|hide] / under the table / when it hears thunder.", "vi": "Con mèo ẩn nấp / dưới bàn / khi nghe thấy tiếng sấm." },
+      { "en": "Mia [holds|hold] a toy, / and the cat makes a big [jump].", "vi": "Mia cầm một món đồ chơi, / và con mèo thực hiện một cú nhảy lớn." },
+      { "en": "It jumps onto the sofa / and hides there.", "vi": "Nó nhảy lên ghế sofa / và trốn ở đó." },
+      { "en": "She [fails|fail] her math quiz / and feels sad.", "vi": "Cô ấy trượt bài kiểm tra toán / và cảm thấy buồn." },
+      { "en": "Its bite [hurts|hurt] her, / so she [kills|kill] the mosquito.", "vi": "Vết cắn của nó làm cô ấy đau, / nên cô ấy giết con muỗi." }
+    ],
+    "vocab": {
+      "fail": { "word": "fail", "pos": "verb", "ipa": "/feɪl/", "vi": "thất bại, trượt" },
+      "feed": { "word": "feed", "pos": "verb", "ipa": "/fiːd/", "vi": "cho ăn" },
+      "hide": { "word": "hide", "pos": "verb", "ipa": "/haɪd/", "vi": "ẩn nấp" },
+      "hold": { "word": "hold", "pos": "verb", "ipa": "/hoʊld/", "vi": "cầm, giữ" },
+      "hurt": { "word": "hurt", "pos": "adjective, verb", "ipa": "/hɝt/", "vi": "đau; làm đau" },
+      "jump": { "word": "jump", "pos": "noun, verb", "ipa": "/d͡ʒʌmp/", "vi": "nhảy" },
+      "kill": { "word": "kill", "pos": "verb", "ipa": "/ˈkɪʊ̯/", "vi": "giết" }
+    }
+  },
+  {
+    "id": "a2-u031-2",
+    "unit": 31,
+    "topic": "verb",
+    "title": "Common Everyday Verbs",
+    "titleVi": "Những động từ thường gặp",
+    "sentences": [
+      { "en": "Our teacher / [led|lead] the class / to the city museum.", "vi": "Cô giáo của chúng tôi / dẫn dắt cả lớp / đến bảo tàng thành phố." },
+      { "en": "Mina / [lent|lend] me her small bag / for the trip.", "vi": "Mina / cho tôi mượn chiếc túi nhỏ của cô ấy / cho chuyến đi." },
+      { "en": "We took the [lift] upstairs / and [packed|pack] our lunch there.", "vi": "Chúng tôi đi thang máy lên tầng trên / rồi đóng gói bữa trưa ở đó." },
+      { "en": "At lunch, / I [passed|pass] my water bottle to Sam.", "vi": "Vào bữa trưa, / tôi đưa chai nước của mình cho Sam." },
+      { "en": "After the walk, / we [picked|pick] apples from a low tree.", "vi": "Sau chuyến đi bộ, / chúng tôi hái táo từ một cái cây thấp." }
+    ],
+    "vocab": {
+      "lead": { "word": "lead", "pos": "verb", "ipa": "/ˈlɛd/", "vi": "dẫn dắt" },
+      "lend": { "word": "lend", "pos": "verb", "ipa": "/ˈlɛnd/", "vi": "cho mượn" },
+      "lift": { "word": "lift", "pos": "noun, verb", "ipa": "/lɪft/", "vi": "thang máy; nâng lên" },
+      "pack": { "word": "pack", "pos": "verb", "ipa": "/pæk/", "vi": "đóng gói" },
+      "pass": { "word": "pass", "pos": "verb", "ipa": "/pɑːs/", "vi": "vượt qua; đưa" },
+      "pick": { "word": "pick", "pos": "verb", "ipa": "/pɪk/", "vi": "chọn; hái" }
+    }
+  },
+  {
+    "id": "a2-u032-1",
+    "unit": 32,
+    "topic": "verb",
+    "title": "A Day by the Lake",
+    "titleVi": "Một ngày bên hồ",
+    "sentences": [
+      { "en": "After work, / I [rest] for an hour / before dinner.", "vi": "Sau giờ làm, / tôi nghỉ ngơi trong một giờ / trước bữa tối." },
+      { "en": "Then I / [pull] the old chair closer / and [push] the table away.", "vi": "Sau đó, tôi / kéo chiếc ghế cũ lại gần / và đẩy cái bàn ra xa." },
+      { "en": "The sun will [rise] soon, / and we will [sail] across the lake.", "vi": "Mặt trời sẽ sớm mọc, / và chúng tôi sẽ đi thuyền qua hồ." },
+      { "en": "I put / the rest of our lunch / in a small bag.", "vi": "Tôi cho / phần còn lại của bữa trưa / vào một chiếc túi nhỏ." },
+      { "en": "The trip / [seems|seem] easy, / and we can [save] some money.", "vi": "Chuyến đi / có vẻ dễ dàng, / và chúng tôi có thể tiết kiệm một ít tiền." },
+      { "en": "Our guide / can save a child / who falls into the water.", "vi": "Người hướng dẫn của chúng tôi / có thể cứu một đứa trẻ / bị ngã xuống nước." }
+    ],
+    "vocab": {
+      "pull": { "word": "pull", "pos": "verb", "ipa": "/pʊl/", "vi": "kéo" },
+      "push": { "word": "push", "pos": "verb", "ipa": "/pʊʃ/", "vi": "đẩy" },
+      "rest": { "word": "rest", "pos": "noun, verb", "ipa": "/ɹɛst/", "vi": "nghỉ ngơi; phần còn lại" },
+      "rise": { "word": "rise", "pos": "verb", "ipa": "/ɹaɪz/", "vi": "tăng lên; mọc" },
+      "sail": { "word": "sail", "pos": "verb", "ipa": "/seɪl/", "vi": "đi thuyền" },
+      "save": { "word": "save", "pos": "verb", "ipa": "/seɪv/", "vi": "tiết kiệm; cứu" },
+      "seem": { "word": "seem", "pos": "linking verb", "ipa": "/ˈsiːm/", "vi": "có vẻ" }
+    }
+  },
+  {
+    "id": "a2-u032-2",
+    "unit": 32,
+    "topic": "verb",
+    "title": "A New Job",
+    "titleVi": "Một công việc mới",
+    "sentences": [
+      { "en": "Mia [shut] the window / before she left for work.", "vi": "Mia đóng cửa sổ lại / trước khi cô ấy đi làm." },
+      { "en": "The cafe was shut / when she arrived that morning.", "vi": "Quán cà phê đã đóng cửa / khi cô ấy đến vào buổi sáng hôm đó." },
+      { "en": "A [sign] outside the cafe / showed where to [apply] for jobs.", "vi": "Một biển báo bên ngoài quán cà phê / cho biết nơi nộp đơn xin việc." },
+      { "en": "Her [wish] was to work there / and apply its rules fairly.", "vi": "Điều ước của cô ấy là được làm việc ở đó / và áp dụng các quy định của quán một cách công bằng." },
+      { "en": "Mia signed her name, / and the manager [allowed|allow] her to start.", "vi": "Mia ký tên, / và người quản lý cho phép cô ấy bắt đầu làm việc." },
+      { "en": "They [argued|argue] about the schedule, / then wished each other a good day.", "vi": "Họ tranh cãi về lịch làm việc, / rồi chúc nhau một ngày tốt lành." }
+    ],
+    "vocab": {
+      "shut": { "word": "shut", "pos": "adjective, verb", "ipa": "/ʃʌt/", "vi": "đóng lại" },
+      "sign": { "word": "sign", "pos": "noun, verb", "ipa": "/saɪn/", "vi": "biển báo; ký tên" },
+      "wish": { "word": "wish", "pos": "noun, verb", "ipa": "/ˈwɪʃ/", "vi": "điều ước; ước" },
+      "allow": { "word": "allow", "pos": "verb", "ipa": "/əˈlaʊ/", "vi": "cho phép" },
+      "apply": { "word": "apply", "pos": "verb", "ipa": "/əˈplaɪ/", "vi": "nộp đơn; áp dụng" },
+      "argue": { "word": "argue", "pos": "verb", "ipa": "/ˈɑɹ.ɡju/", "vi": "tranh cãi" }
+    }
+  },
+  {
+    "id": "a2-u033-1",
+    "unit": 33,
+    "topic": "verb",
+    "title": "Mina's Workday",
+    "titleVi": "Ngày làm việc của Mina",
+    "sentences": [
+      { "en": "A red [cross] hangs by the clinic door / each morning.", "vi": "Một chữ thập đỏ treo bên cửa phòng khám / mỗi buổi sáng." },
+      { "en": "Her work [cycle] begins / before the clinic opens / every day.", "vi": "Chu kỳ làm việc của cô bắt đầu / trước khi phòng khám mở cửa / mỗi ngày." },
+      { "en": "Mina cycles to work / each morning / to [avoid] heavy traffic.", "vi": "Mina đạp xe đi làm / mỗi buổi sáng / để tránh giao thông đông đúc." },
+      { "en": "On rainy days, / she [catches|catch] an early bus / to work.", "vi": "Vào những ngày mưa, / cô ấy đón một chuyến xe buýt sớm / để đi làm." },
+      { "en": "At work, / she [counts|count] boxes / and [covers|cover] them with clean cloths.", "vi": "Ở chỗ làm, / cô đếm các hộp / và phủ chúng bằng những tấm vải sạch." },
+      { "en": "After work, / she crosses the street / and has a [dream] of home.", "vi": "Sau giờ làm, / cô băng qua đường / và có một giấc mơ về mái ấm." }
+    ],
+    "vocab": {
+      "avoid": { "word": "avoid", "pos": "verb", "ipa": "/əˈvɔɪd/", "vi": "tránh" },
+      "catch": { "word": "catch", "pos": "verb", "ipa": "/kæt͡ʃ/", "vi": "bắt, đón" },
+      "count": { "word": "count", "pos": "verb", "ipa": "/kaʊnt/", "vi": "đếm" },
+      "cover": { "word": "cover", "pos": "verb", "ipa": "/ˈkʌvɚ/", "vi": "che phủ" },
+      "cross": { "word": "cross", "pos": "noun, verb", "ipa": "/kɹɔs/", "vi": "chữ thập; băng qua" },
+      "cycle": { "word": "cycle", "pos": "noun, verb", "ipa": "/ˈsaɪ.kəl/", "vi": "chu kỳ; đạp xe" },
+      "dream": { "word": "dream", "pos": "noun, verb", "ipa": "/ˈdɹim/", "vi": "giấc mơ; mơ" }
+    }
+  },
+  {
+    "id": "a2-u033-2",
+    "unit": 33,
+    "topic": "verb",
+    "title": "Everyday Actions",
+    "titleVi": "Những hành động thường ngày",
+    "sentences": [
+      { "en": "I [knocked|knock] on the door / before I [entered|enter].", "vi": "Tôi gõ cửa / trước khi đi vào." },
+      { "en": "Mia [greeted|greet] her neighbor / and asked about his day.", "vi": "Mia chào hỏi người hàng xóm / và hỏi thăm ngày hôm đó của ông ấy." },
+      { "en": "A [fight] started between two boys / after school.", "vi": "Một cuộc đánh nhau bắt đầu giữa hai cậu bé / sau giờ học." },
+      { "en": "[Focus|focus] on your homework, / and finish it before dinner.", "vi": "Hãy tập trung làm bài tập / và hoàn thành trước bữa tối." },
+      { "en": "Some animals [exist] only in cold places / far from cities.", "vi": "Một số loài động vật chỉ tồn tại ở những nơi lạnh / xa thành phố." }
+    ],
+    "vocab": {
+      "enter": { "word": "enter", "pos": "verb", "ipa": "/ˈɛntɚ/", "vi": "đi vào" },
+      "exist": { "word": "exist", "pos": "verb", "ipa": "/ɪɡˈzɪst/", "vi": "tồn tại" },
+      "fight": { "word": "fight", "pos": "noun, verb", "ipa": "/faɪt/", "vi": "cuộc chiến; đánh nhau" },
+      "focus": { "word": "focus", "pos": "noun, verb", "ipa": "/ˈfoʊ̯.kəs/", "vi": "sự tập trung" },
+      "greet": { "word": "greet", "pos": "verb", "ipa": "/ɡɹiːt/", "vi": "chào hỏi" },
+      "knock": { "word": "knock", "pos": "verb", "ipa": "/nɑk/", "vi": "gõ cửa" }
+    }
+  },
+  {
+    "id": "a2-u034-1",
+    "unit": 34,
+    "topic": "verb",
+    "title": "Common Everyday Verbs",
+    "titleVi": "Các động từ thường gặp",
+    "sentences": [
+      { "en": "Mia and Tom / [married|marry] last year / at the town hall.", "vi": "Mia và Tom / đã kết hôn vào năm ngoái / tại tòa thị chính." },
+      { "en": "The shop owner / [offered|offer] me / a paper bag / for my apples.", "vi": "Chủ cửa hàng / đề nghị đưa tôi / một túi giấy / để đựng táo của tôi." },
+      { "en": "I / [printed|print] the school notice / at home / this morning.", "vi": "Tôi / đã in thông báo của trường / ở nhà / sáng nay." },
+      { "en": "Dad / [raised|raise] his hand / to ask a question / in class.", "vi": "Bố / đã giơ tay / để hỏi một câu / trong lớp." },
+      { "en": "We / [reached|reach] the bus stop / just before / the rain started.", "vi": "Chúng tôi / đã đến trạm xe buýt / ngay trước khi / trời bắt đầu mưa." },
+      { "en": "Lena / [reacted|react] calmly / when her little brother / broke a cup.", "vi": "Lena / đã bình tĩnh phản ứng / khi em trai nhỏ của cô / làm vỡ một chiếc cốc." }
+    ],
+    "vocab": {
+      "marry": { "word": "marry", "pos": "verb", "ipa": "/ˈmæɹi/", "vi": "kết hôn" },
+      "offer": { "word": "offer", "pos": "noun, verb", "ipa": "/ˈɔfɚ/", "vi": "đề nghị" },
+      "print": { "word": "print", "pos": "verb", "ipa": "/pɹɪnt/", "vi": "in ấn" },
+      "raise": { "word": "raise", "pos": "verb", "ipa": "/ɹeɪz/", "vi": "nâng lên" },
+      "reach": { "word": "reach", "pos": "verb", "ipa": "/ɹiːt͡ʃ/", "vi": "với tới; đến" },
+      "react": { "word": "react", "pos": "verb", "ipa": "/ɹiːˈækt/", "vi": "phản ứng" }
+    }
+  },
+  {
+    "id": "a2-u034-2",
+    "unit": 34,
+    "topic": "verb",
+    "title": "Cooking Together",
+    "titleVi": "Cùng nấu ăn",
+    "sentences": [
+      { "en": "At lunch, / Mia [refers|refer] to a recipe / before she cooks.", "vi": "Vào bữa trưa, / Mia tham khảo một công thức / trước khi nấu ăn." },
+      { "en": "She [replies|reply] kindly, / and her reply / makes him smile.", "vi": "Cô ấy trả lời tử tế, / và câu trả lời của cô ấy / khiến cậu ấy mỉm cười." },
+      { "en": "They [serve] soup and bread, / and Dad gives a short reply.", "vi": "Họ phục vụ súp và bánh mì, / còn bố đưa ra một câu trả lời ngắn." },
+      { "en": "Dad [shakes|shake] pepper over soup, / and its [smell] fills the room.", "vi": "Bố rắc tiêu lên súp, / và mùi của súp lan khắp phòng." },
+      { "en": "The children give a happy [shout] / when they smell the soup.", "vi": "Bọn trẻ reo lên vui vẻ / khi ngửi thấy mùi súp." }
+    ],
+    "vocab": {
+      "refer": { "word": "refer", "pos": "verb", "ipa": "/ɹɪˈfɝ/", "vi": "tham khảo" },
+      "reply": { "word": "reply", "pos": "noun, verb", "ipa": "/ɹɪˈplaɪ/", "vi": "trả lời" },
+      "serve": { "word": "serve", "pos": "verb", "ipa": "/sɜːv/", "vi": "phục vụ" },
+      "shake": { "word": "shake", "pos": "verb", "ipa": "/ˈʃeɪk/", "vi": "lắc" },
+      "shout": { "word": "shout", "pos": "noun, verb", "ipa": "/ʃaʊt/", "vi": "la hét" },
+      "smell": { "word": "smell", "pos": "noun, verb", "ipa": "/smɛl/", "vi": "mùi; ngửi" }
+    }
+  },
+  {
+    "id": "a2-u035-1",
+    "unit": 35,
+    "topic": "verb",
+    "title": "Everyday Actions",
+    "titleVi": "Những việc thường ngày",
+    "sentences": [
+      { "en": "Mia [smiled|smile] at the shopkeeper / and showed a warm smile.", "vi": "Mia mỉm cười với người bán hàng / và nở một nụ cười ấm áp." },
+      { "en": "Gray [smoke] rose from the stove, / so Dad opened a window.", "vi": "Khói xám bốc lên từ bếp, / nên bố mở một cửa sổ." },
+      { "en": "Dad smoked outside after dinner, / but he never smoked indoors.", "vi": "Bố hút thuốc ở bên ngoài sau bữa tối, / nhưng ông không bao giờ hút thuốc trong nhà." },
+      { "en": "We [solved|solve] the little problem / by asking our neighbor for help.", "vi": "Chúng tôi đã giải quyết vấn đề nhỏ đó / bằng cách nhờ người hàng xóm giúp đỡ." },
+      { "en": "A boy tried to [steal] a ball, / but returned it.", "vi": "Một cậu bé đã cố ăn cắp một quả bóng, / nhưng đã trả lại nó." },
+      { "en": "Please do not [throw] stones / or [touch] the flowers in the park.", "vi": "Xin đừng ném đá / hay chạm vào những bông hoa trong công viên." }
+    ],
+    "vocab": {
+      "smile": { "word": "smile", "pos": "noun, verb", "ipa": "/ˈsmaɪl/", "vi": "nụ cười; mỉm cười" },
+      "smoke": { "word": "smoke", "pos": "noun, verb", "ipa": "/smoʊk/", "vi": "khói; hút thuốc" },
+      "solve": { "word": "solve", "pos": "verb", "ipa": "/sɑlv/", "vi": "giải quyết" },
+      "steal": { "word": "steal", "pos": "verb", "ipa": "/stiːl/", "vi": "ăn cắp" },
+      "throw": { "word": "throw", "pos": "verb", "ipa": "/θɹoʊ/", "vi": "ném" },
+      "touch": { "word": "touch", "pos": "verb", "ipa": "/tʌt͡ʃ/", "vi": "chạm vào" }
+    }
+  },
+  {
+    "id": "a2-u035-2",
+    "unit": 35,
+    "topic": "verb",
+    "title": "A New Student at School",
+    "titleVi": "Một học sinh mới ở trường",
+    "sentences": [
+      { "en": "Mai / did not [worry] / about her first day at school.", "vi": "Mai / đã không lo lắng / về ngày đầu tiên đi học của mình." },
+      { "en": "A new student / [appeared|appear] at the door / before class began.", "vi": "Một học sinh mới / xuất hiện ở cửa / trước khi buổi học bắt đầu." },
+      { "en": "The teacher / [accepted|accept] her apology / and showed her the room.", "vi": "Cô giáo / đã chấp nhận lời xin lỗi của bạn ấy / và chỉ cho bạn ấy căn phòng." },
+      { "en": "She / [attended|attend] a small class meeting / after lunch.", "vi": "Bạn ấy / đã tham dự một buổi họp lớp nhỏ / sau bữa trưa." },
+      { "en": "The noisy room / [affected|affect] her, / but everyone / [behaved|behave] kindly.", "vi": "Căn phòng ồn ào / đã ảnh hưởng đến bạn ấy, / nhưng mọi người / đều cư xử tử tế." }
+    ],
+    "vocab": {
+      "worry": { "word": "worry", "pos": "verb", "ipa": "/ˈwɝ.i/", "vi": "lo lắng" },
+      "accept": { "word": "accept", "pos": "verb", "ipa": "/əkˈsɛpt/", "vi": "chấp nhận" },
+      "affect": { "word": "affect", "pos": "verb", "ipa": "/əˈfɛkt/", "vi": "ảnh hưởng đến" },
+      "appear": { "word": "appear", "pos": "verb", "ipa": "/əˈpɪɹ/", "vi": "xuất hiện" },
+      "attend": { "word": "attend", "pos": "verb", "ipa": "/əˈtɛnd/", "vi": "tham dự" },
+      "behave": { "word": "behave", "pos": "verb", "ipa": "/bɪˈheɪv/", "vi": "cư xử" }
+    }
+  },
+  {
+    "id": "a2-u036-1",
+    "unit": 36,
+    "topic": "verb",
+    "title": "Useful Everyday Verbs",
+    "titleVi": "Những động từ thường dùng",
+    "sentences": [
+      { "en": "These books [belong] / to the small town library.", "vi": "Những cuốn sách này thuộc về / thư viện nhỏ của thị trấn." },
+      { "en": "I [borrow] one book / when I need a recipe.", "vi": "Tôi mượn một cuốn sách / khi cần một công thức nấu ăn." },
+      { "en": "Our plans [depend] / on the weather this weekend.", "vi": "Kế hoạch của chúng tôi phụ thuộc / vào thời tiết cuối tuần này." },
+      { "en": "The cafe will [employ] two students / during summer.", "vi": "Quán cà phê sẽ thuê hai sinh viên / vào mùa hè." },
+      { "en": "We [expect] good weather, / so we plan a picnic.", "vi": "Chúng tôi mong thời tiết đẹp, / nên chúng tôi lên kế hoạch đi dã ngoại." },
+      { "en": "Mia [invented|invent] a simple game / for her younger brother.", "vi": "Mia đã phát minh ra một trò chơi đơn giản / cho em trai của cô ấy." }
+    ],
+    "vocab": {
+      "belong": { "word": "belong", "pos": "verb", "ipa": "/bɪˈlɒŋ/", "vi": "thuộc về" },
+      "borrow": { "word": "borrow", "pos": "verb", "ipa": "/ˈbɑɹ.oʊ/", "vi": "mượn" },
+      "depend": { "word": "depend", "pos": "verb", "ipa": "/dɪˈpɛnd/", "vi": "phụ thuộc" },
+      "employ": { "word": "employ", "pos": "verb", "ipa": "/ɪmˈplɔɪ/", "vi": "thuê, tuyển dụng" },
+      "expect": { "word": "expect", "pos": "verb", "ipa": "/ɪkˈspɛkt/", "vi": "mong đợi" },
+      "invent": { "word": "invent", "pos": "verb", "ipa": "/ɪnˈvɛnt/", "vi": "phát minh" }
+    }
+  },
+  {
+    "id": "a2-u036-2",
+    "unit": 36,
+    "topic": "verb",
+    "title": "A Small Shop",
+    "titleVi": "Một cửa hàng nhỏ",
+    "sentences": [
+      { "en": "Yesterday, / I [invited|invite] my friend / to dinner at home.", "vi": "Hôm qua, / tôi đã mời bạn mình / đến ăn tối ở nhà." },
+      { "en": "My sister [manages|manage] / a small shop near our house.", "vi": "Chị tôi quản lý / một cửa hàng nhỏ gần nhà chúng tôi." },
+      { "en": "She [notices|notice] what customers need / and [records|record] their requests.", "vi": "Chị ấy để ý những gì khách hàng cần / và ghi lại yêu cầu của họ." },
+      { "en": "She [reduces|reduce] waste / by using old bags again.", "vi": "Chị ấy giảm rác thải / bằng cách dùng lại những chiếc túi cũ." },
+      { "en": "But she [refuses|refuse] plastic bags / when customers ask for them.", "vi": "Nhưng chị ấy từ chối túi nhựa / khi khách hàng xin túi." }
+    ],
+    "vocab": {
+      "invite": { "word": "invite", "pos": "verb", "ipa": "/ɪnˈvaɪt/", "vi": "mời" },
+      "manage": { "word": "manage", "pos": "verb", "ipa": "/ˈmæn.ɪd͡ʒ/", "vi": "quản lý" },
+      "notice": { "word": "notice", "pos": "noun, verb", "ipa": "/ˈnoʊ.tɪs/", "vi": "để ý" },
+      "record": { "word": "record", "pos": "noun, verb", "ipa": "/ˈɹɛk.ɚd/", "vi": "bản ghi; ghi lại" },
+      "reduce": { "word": "reduce", "pos": "verb", "ipa": "/ɹɪˈd(j)us/", "vi": "giảm bớt" },
+      "refuse": { "word": "refuse", "pos": "verb", "ipa": "/ɹɪˈfjuz/", "vi": "từ chối" }
+    }
+  },
+  {
+    "id": "a2-u037-1",
+    "unit": 37,
+    "topic": "verb",
+    "title": "Useful Things We Do",
+    "titleVi": "Những việc hữu ích chúng ta làm",
+    "sentences": [
+      { "en": "I [remove] / old photos / from my phone every week.", "vi": "Tôi loại bỏ / những bức ảnh cũ / khỏi điện thoại mỗi tuần." },
+      { "en": "On Saturday, I [repair] / my bike / with my brother.", "vi": "Vào thứ Bảy, tôi sửa / xe đạp của mình / cùng anh trai." },
+      { "en": "We [search] / for a lost key / under the sofa.", "vi": "Chúng tôi tìm / một chiếc chìa khóa bị mất / dưới ghế sofa." },
+      { "en": "She hopes to [achieve] / her goal / before the summer ends.", "vi": "Cô ấy hy vọng đạt được / mục tiêu của mình / trước khi mùa hè kết thúc." },
+      { "en": "We [arrange] the books / and [collect] old stamps / at home.", "vi": "Chúng tôi sắp xếp sách / và sưu tầm tem cũ / ở nhà." }
+    ],
+    "vocab": {
+      "remove": { "word": "remove", "pos": "verb", "ipa": "/ɹɪˈmuv/", "vi": "loại bỏ" },
+      "repair": { "word": "repair", "pos": "verb", "ipa": "/ˈɹiːpɛɚ/", "vi": "sửa chữa" },
+      "search": { "word": "search", "pos": "noun, verb", "ipa": "/sɝt͡ʃ/", "vi": "tìm kiếm" },
+      "achieve": { "word": "achieve", "pos": "verb", "ipa": "/əˈt͡ʃiv/", "vi": "đạt được" },
+      "arrange": { "word": "arrange", "pos": "verb", "ipa": "/əˈɹeɪnd͡ʒ/", "vi": "sắp xếp" },
+      "collect": { "word": "collect", "pos": "verb", "ipa": "/ˈkɑlɪkt/", "vi": "thu thập, sưu tầm" }
+    }
+  },
+  {
+    "id": "a2-u037-2",
+    "unit": 37,
+    "topic": "verb",
+    "title": "Common Verbs",
+    "titleVi": "Những động từ thường gặp",
+    "sentences": [
+      { "en": "Last year, / our school teams [competed|compete] / in a small sports day.", "vi": "Năm ngoái, / các đội của trường chúng tôi đã thi đấu / trong một ngày hội thể thao nhỏ." },
+      { "en": "After the games, / we [connected|connect] the old computer / to a new screen.", "vi": "Sau các trận đấu, / chúng tôi đã kết nối máy tính cũ / với một màn hình mới." },
+      { "en": "The box [contained|contain] / cables, books, and a broken toy.", "vi": "Chiếc hộp chứa / dây cáp, sách và một món đồ chơi bị hỏng." },
+      { "en": "The workers had [control] of the fire / and saved nearby trees.", "vi": "Những công nhân đã kiểm soát được đám cháy / và cứu những cây ở gần." },
+      { "en": "A storm could [destroy] the garden, / but people repaired it.", "vi": "Một cơn bão có thể phá hủy khu vườn, / nhưng mọi người đã sửa sang lại nơi đó." },
+      { "en": "Together, neighbors helped the park [develop] / by planting new trees.", "vi": "Cùng nhau, những người hàng xóm đã giúp công viên phát triển / bằng cách trồng thêm cây mới." }
+    ],
+    "vocab": {
+      "compete": { "word": "compete", "pos": "verb", "ipa": "/kəmˈpiːt/", "vi": "thi đấu" },
+      "connect": { "word": "connect", "pos": "verb", "ipa": "/kəˈnɛkt/", "vi": "kết nối" },
+      "contain": { "word": "contain", "pos": "verb", "ipa": "/kənˈteɪn/", "vi": "chứa đựng" },
+      "control": { "word": "control", "pos": "noun, verb", "ipa": "/kənˈtɹəʊl/", "vi": "sự kiểm soát; kiểm soát" },
+      "destroy": { "word": "destroy", "pos": "verb", "ipa": "/dɪˈstɹɔɪ/", "vi": "phá hủy" },
+      "develop": { "word": "develop", "pos": "verb", "ipa": "/dɪˈvɛl.əp/", "vi": "phát triển" }
+    }
+  },
+  {
+    "id": "a2-u038-1",
+    "unit": 38,
+    "topic": "verb",
+    "title": "Useful Verbs at School",
+    "titleVi": "Những động từ hữu ích ở trường",
+    "sentences": [
+      { "en": "At school, / we [express] our ideas / in simple English.", "vi": "Ở trường, / chúng tôi bày tỏ ý tưởng / bằng tiếng Anh đơn giản." },
+      { "en": "Our class projects / [involve] reading, writing, and talking together.", "vi": "Các dự án của lớp chúng tôi / liên quan đến việc đọc, viết và trò chuyện cùng nhau." },
+      { "en": "Students [mention] new words / when they share their stories.", "vi": "Học sinh đề cập đến những từ mới / khi chia sẻ câu chuyện của mình." },
+      { "en": "On Friday, / two friends [perform] a song / for everyone.", "vi": "Vào thứ Sáu, / hai người bạn biểu diễn một bài hát / cho mọi người." },
+      { "en": "We [predict] the weather / and [prevent] problems / before our trip.", "vi": "Chúng tôi dự đoán thời tiết / và ngăn chặn vấn đề / trước chuyến đi của chúng tôi." }
+    ],
+    "vocab": {
+      "express": { "word": "express", "pos": "verb", "ipa": "/ɪkˈspɹɛs/", "vi": "bày tỏ" },
+      "involve": { "word": "involve", "pos": "verb", "ipa": "/ɪnˈvɑlv/", "vi": "liên quan đến" },
+      "mention": { "word": "mention", "pos": "verb", "ipa": "/ˈmɛnʃən/", "vi": "đề cập" },
+      "perform": { "word": "perform", "pos": "verb", "ipa": "/pɚˈfoɹm/", "vi": "biểu diễn" },
+      "predict": { "word": "predict", "pos": "verb", "ipa": "/pɹɪˈdɪkt/", "vi": "dự đoán" },
+      "prevent": { "word": "prevent", "pos": "verb", "ipa": "/pɹɪˈvɛnt/", "vi": "ngăn chặn" }
+    }
+  },
+  {
+    "id": "a2-u038-2",
+    "unit": 38,
+    "topic": "verb",
+    "title": "A Bakery Promise",
+    "titleVi": "Lời hứa ở tiệm bánh",
+    "sentences": [
+      { "en": "At our town bakery, / workers [produce] fresh bread / each morning.", "vi": "Tại tiệm bánh trong thị trấn của chúng tôi, / công nhân sản xuất bánh mì tươi / mỗi buổi sáng." },
+      { "en": "Workers [protect] the ingredients / and [provide] clean water / for baking.", "vi": "Công nhân bảo vệ các nguyên liệu / và cung cấp nước sạch / để làm bánh." },
+      { "en": "Last week, / I made a [promise] / to help my sister.", "vi": "Tuần trước, / tôi đã đưa ra lời hứa / là sẽ giúp em gái mình." },
+      { "en": "She will [publish] a small book / of recipes.", "vi": "Em ấy sẽ xuất bản một cuốn sách nhỏ / về các công thức nấu ăn." },
+      { "en": "Then I [realized|realize] her recipes / could help many families.", "vi": "Rồi tôi nhận ra các công thức của em ấy / có thể giúp nhiều gia đình." }
+    ],
+    "vocab": {
+      "produce": { "word": "produce", "pos": "verb", "ipa": "/pɹəˈd͡ʒuːs/", "vi": "sản xuất" },
+      "promise": { "word": "promise", "pos": "noun, verb", "ipa": "/ˈpɹɑmɪs/", "vi": "lời hứa; hứa" },
+      "protect": { "word": "protect", "pos": "verb", "ipa": "/pɹəˈtɛkt/", "vi": "bảo vệ" },
+      "provide": { "word": "provide", "pos": "verb", "ipa": "/pɹəˈvaɪd/", "vi": "cung cấp" },
+      "publish": { "word": "publish", "pos": "verb", "ipa": "/ˈpʌblɪʃ/", "vi": "xuất bản" },
+      "realize": { "word": "realize", "pos": "verb", "ipa": "/ˈɹi(.ə)ˌlaɪz/", "vi": "nhận ra" }
+    }
+  },
+  {
+    "id": "a2-u039-1",
+    "unit": 39,
+    "topic": "verb",
+    "title": "A Week of Small Tasks",
+    "titleVi": "Một tuần với những việc nhỏ",
+    "sentences": [
+      { "en": "Yesterday, / I [received|receive] a letter / from my cousin.", "vi": "Hôm qua, / tôi nhận được một lá thư / từ anh họ tôi." },
+      { "en": "At home, / we [recycle] old bottles / every Sunday.", "vi": "Ở nhà, / chúng tôi tái chế những chai cũ / vào mỗi Chủ nhật." },
+      { "en": "My sister will [replace] / the broken lamp / tomorrow.", "vi": "Chị tôi sẽ thay / chiếc đèn bị hỏng / vào ngày mai." },
+      { "en": "When I ask a question, / Dad [responds|respond] kindly.", "vi": "Khi tôi hỏi một câu, / bố phản hồi rất nhẹ nhàng." },
+      { "en": "At school, I [suggest] / a game to my friends.", "vi": "Ở trường, tôi đề nghị / bạn bè chơi một trò chơi." },
+      { "en": "After many tries, / we [succeeded|succeed] in fixing the bike.", "vi": "Sau nhiều lần thử, / chúng tôi đã thành công khi sửa chiếc xe đạp." }
+    ],
+    "vocab": {
+      "receive": { "word": "receive", "pos": "verb", "ipa": "/ɹɪˈsiv/", "vi": "nhận được" },
+      "recycle": { "word": "recycle", "pos": "verb", "ipa": "/ɹəˈsaɪkəl/", "vi": "tái chế" },
+      "replace": { "word": "replace", "pos": "verb", "ipa": "/ɹɪˈpleɪs/", "vi": "thay thế" },
+      "respond": { "word": "respond", "pos": "verb", "ipa": "/ɹɪˈspɑnd/", "vi": "phản hồi" },
+      "succeed": { "word": "succeed", "pos": "verb", "ipa": "/səkˈsiːd/", "vi": "thành công" },
+      "suggest": { "word": "suggest", "pos": "verb", "ipa": "/sə(ɡ)ˈd͡ʒɛst/", "vi": "đề nghị" }
+    }
+  },
+  {
+    "id": "a2-u039-2",
+    "unit": 39,
+    "topic": "verb",
+    "title": "Common Verbs",
+    "titleVi": "Những động từ thường gặp",
+    "sentences": [
+      { "en": "My family / gives me [support] / and supports my study plan.", "vi": "Gia đình tôi / cho tôi sự ủng hộ / và ủng hộ kế hoạch học tập của tôi." },
+      { "en": "I [suppose] / the bus will come soon, / so we wait.", "vi": "Tôi cho rằng / xe buýt sẽ sớm đến, / nên chúng tôi chờ." },
+      { "en": "Some people [complain] / about the noise, / but others stay calm.", "vi": "Một số người phàn nàn / về tiếng ồn, / nhưng những người khác vẫn bình tĩnh." },
+      { "en": "We [consider] / a new place / for dinner after work.", "vi": "Chúng tôi cân nhắc / một địa điểm mới / để ăn tối sau giờ làm." },
+      { "en": "Then we [continue] walking, / but my sister [disagrees|disagree] with me.", "vi": "Sau đó chúng tôi tiếp tục đi bộ, / nhưng em gái tôi không đồng ý với tôi." }
+    ],
+    "vocab": {
+      "support": { "word": "support", "pos": "noun, verb", "ipa": "/səˈpoɹt/", "vi": "sự ủng hộ" },
+      "suppose": { "word": "suppose", "pos": "verb", "ipa": "/səˈpəʊz/", "vi": "cho rằng" },
+      "complain": { "word": "complain", "pos": "verb", "ipa": "/kəmˈpleɪn/", "vi": "phàn nàn" },
+      "consider": { "word": "consider", "pos": "verb", "ipa": "/kənˈsɪd.əɹ/", "vi": "cân nhắc" },
+      "continue": { "word": "continue", "pos": "verb", "ipa": "/kənˈtɪn.ju/", "vi": "tiếp tục" },
+      "disagree": { "word": "disagree", "pos": "verb", "ipa": "/dɪsəˈɡɹi/", "vi": "không đồng ý" }
+    }
+  },
+  {
+    "id": "a2-u040-1",
+    "unit": 40,
+    "topic": "verb",
+    "title": "A Trip Around Town",
+    "titleVi": "Chuyến đi quanh thành phố",
+    "sentences": [
+      { "en": "Mia [discovered|discover] / a free map app / for her trip.", "vi": "Mia đã khám phá ra / một ứng dụng bản đồ miễn phí / cho chuyến đi của cô ấy." },
+      { "en": "She [downloaded|download] it / at home / before the bus arrived.", "vi": "Cô ấy đã tải nó xuống / ở nhà / trước khi xe buýt đến." },
+      { "en": "Her brother helped her / [identify] the right streets / on it.", "vi": "Anh trai cô ấy giúp cô ấy / xác định những con phố phù hợp / trên đó." },
+      { "en": "They [organized|organize] their day / and made a short list.", "vi": "Họ đã sắp xếp lịch trình trong ngày / và lập một danh sách ngắn." },
+      { "en": "A local shop [advertised|advertise] snacks, / so they stopped there.", "vi": "Một cửa hàng địa phương quảng cáo đồ ăn nhẹ, / nên họ đã ghé vào đó." },
+      { "en": "The shop expected an [increase] in visitors / during the holiday.", "vi": "Cửa hàng dự kiến lượng khách sẽ tăng / trong kỳ nghỉ." }
+    ],
+    "vocab": {
+      "discover": { "word": "discover", "pos": "verb", "ipa": "/dɪˈskʌvɚ/", "vi": "khám phá" },
+      "download": { "word": "download", "pos": "noun, verb", "ipa": "/ˈdaʊnˌləʊd/", "vi": "tải xuống" },
+      "identify": { "word": "identify", "pos": "verb", "ipa": "/aɪˈdɛn.tɪ.faɪ/", "vi": "nhận ra, xác định" },
+      "increase": { "word": "increase", "pos": "noun, verb", "ipa": "/ɪnˈkɹiːs/", "vi": "sự tăng; tăng lên" },
+      "organize": { "word": "organize", "pos": "verb", "ipa": "/ˈɔɹɡənaɪz/", "vi": "tổ chức, sắp xếp" },
+      "advertise": { "word": "advertise", "pos": "verb", "ipa": "/ˈædvɚˌtaɪ̯z/", "vi": "quảng cáo" }
+    }
+  },
+  {
+    "id": "a2-u040-2",
+    "unit": 40,
+    "topic": "verb",
+    "title": "Learning English Together",
+    "titleVi": "Cùng nhau học tiếng Anh",
+    "sentences": [
+      { "en": "We [celebrate] my sister's birthday / at home every year.", "vi": "Chúng tôi ăn mừng sinh nhật chị gái tôi / ở nhà mỗi năm." },
+      { "en": "She [pronounces|pronounce] new English words slowly / in class.", "vi": "Cô ấy phát âm những từ tiếng Anh mới một cách chậm rãi / trong lớp." },
+      { "en": "Sometimes, a word [disappears|disappear] / from my mind during a test.", "vi": "Đôi khi, một từ biến mất / khỏi trí nhớ của tôi trong lúc làm bài kiểm tra." },
+      { "en": "I [recognize] her voice, / and she [recommends|recommend] useful books.", "vi": "Tôi nhận ra giọng cô ấy, / và cô ấy giới thiệu những cuốn sách hữu ích." },
+      { "en": "We [communicate] in English / and practice together after school.", "vi": "Chúng tôi giao tiếp bằng tiếng Anh / và cùng nhau luyện tập sau giờ học." }
+    ],
+    "vocab": {
+      "celebrate": { "word": "celebrate", "pos": "verb", "ipa": "/ˈsɛl.ə.bɹeɪt/", "vi": "ăn mừng" },
+      "disappear": { "word": "disappear", "pos": "verb", "ipa": "/dɪsəˈpɪɹ/", "vi": "biến mất" },
+      "pronounce": { "word": "pronounce", "pos": "verb", "ipa": "/pɹəˈnaʊns/", "vi": "phát âm" },
+      "recognize": { "word": "recognize", "pos": "verb", "ipa": "/ˈɹɛk.əɡ.naɪz/", "vi": "nhận ra" },
+      "recommend": { "word": "recommend", "pos": "verb", "ipa": "/ˌɹɛkəˈmɛnd/", "vi": "giới thiệu, khuyên" },
+      "communicate": { "word": "communicate", "pos": "verb", "ipa": "/kəˈmjuːnɪkeɪt/", "vi": "giao tiếp" }
+    }
+  },
+  {
+    "id": "a2-u041-1",
+    "unit": 41,
+    "topic": "adj",
+    "title": "Everyday Adjectives",
+    "titleVi": "Tính từ thường gặp",
+    "sentences": [
+      { "en": "My shoes are / [dry], but they do not [fit] well.", "vi": "Đôi giày của tôi / đã khô, nhưng không vừa chân." },
+      { "en": "Please keep / the water level [low] / for the small child.", "vi": "Vui lòng giữ / mực nước thấp / cho đứa trẻ nhỏ." },
+      { "en": "She is [able] to swim / in the [deep] pool.", "vi": "Cô ấy có thể bơi / trong hồ bơi sâu." },
+      { "en": "The fish was [dead], / so Dad put it outside.", "vi": "Con cá đã chết, / nên bố đem nó ra ngoài." },
+      { "en": "The teacher was [fair] / when she chose teams.", "vi": "Cô giáo rất công bằng / khi cô chia đội." }
+    ],
+    "vocab": {
+      "dry": { "word": "dry", "pos": "adjective, verb", "ipa": "/ˈdɹaɪ̯/", "vi": "khô; làm khô" },
+      "fit": { "word": "fit", "pos": "adjective, verb", "ipa": "/fɪt/", "vi": "vừa vặn; khỏe mạnh" },
+      "low": { "word": "low", "pos": "adjective, adverb", "ipa": "/ˈləʊ/", "vi": "thấp" },
+      "able": { "word": "able", "pos": "adjective", "ipa": "/ˈeɪ.bl̩/", "vi": "có thể, có khả năng" },
+      "dead": { "word": "dead", "pos": "adjective", "ipa": "/dɛd/", "vi": "đã chết" },
+      "deep": { "word": "deep", "pos": "adjective", "ipa": "/diːp/", "vi": "sâu" },
+      "fair": { "word": "fair", "pos": "adjective", "ipa": "/ˈfɛɚ/", "vi": "công bằng" }
+    }
+  },
+  {
+    "id": "a2-u041-2",
+    "unit": 41,
+    "topic": "adj",
+    "title": "At the Zoo",
+    "titleVi": "Ở sở thú",
+    "sentences": [
+      { "en": "We saw / a [huge] elephant / at the city zoo.", "vi": "Chúng tôi nhìn thấy / một con voi rất lớn / ở sở thú thành phố." },
+      { "en": "A [male] lion slept / while its young cubs played.", "vi": "Một con sư tử đực ngủ / trong khi các con non của nó chơi đùa." },
+      { "en": "One [lazy] monkey / stayed still / beside the warm rocks.", "vi": "Một con khỉ lười biếng / vẫn nằm yên / bên những tảng đá ấm." },
+      { "en": "A [loud] child shouted, / and our little brother got [lost].", "vi": "Một đứa trẻ ồn ào la hét, / và em trai nhỏ của chúng tôi bị lạc." },
+      { "en": "A [rude] man pushed past us, / but Dad stayed calm.", "vi": "Một người đàn ông thô lỗ chen qua chúng tôi, / nhưng bố vẫn bình tĩnh." }
+    ],
+    "vocab": {
+      "huge": { "word": "huge", "pos": "adjective", "ipa": "/juːdʒ/", "vi": "rất lớn" },
+      "lazy": { "word": "lazy", "pos": "adjective", "ipa": "/ˈleɪ̯zi(ː)/", "vi": "lười biếng" },
+      "lost": { "word": "lost", "pos": "adjective", "ipa": "/lɒst/", "vi": "bị lạc" },
+      "loud": { "word": "loud", "pos": "adjective, adverb", "ipa": "/ˈlaʊ̯d/", "vi": "ồn ào, to" },
+      "male": { "word": "male", "pos": "adjective, noun", "ipa": "/meɪl/", "vi": "giống đực, nam" },
+      "rude": { "word": "rude", "pos": "adjective", "ipa": "/ɹud/", "vi": "thô lỗ" }
+    }
+  },
+  {
+    "id": "a2-u042-1",
+    "unit": 42,
+    "topic": "adj",
+    "title": "A Weekend in the Woods",
+    "titleVi": "Cuối tuần trong rừng",
+    "sentences": [
+      { "en": "Our [tidy] cabin / feels [safe], / with a [soft] rug inside.", "vi": "Căn nhà gỗ gọn gàng của chúng tôi / thật an toàn, / với một tấm thảm mềm bên trong." },
+      { "en": "At night, / I sleep under a [thin] blanket.", "vi": "Vào ban đêm, / tôi ngủ dưới một chiếc chăn mỏng." },
+      { "en": "On Sunday, / we walked along a [wide] path.", "vi": "Vào Chủ nhật, / chúng tôi đi bộ dọc theo một con đường rộng." },
+      { "en": "We saw a [wild] deer / near the tall trees.", "vi": "Chúng tôi nhìn thấy một con nai hoang dã / gần những cái cây cao." },
+      { "en": "After our walk, / my [weak] legs needed a short rest.", "vi": "Sau chuyến đi bộ, / đôi chân yếu của tôi cần nghỉ ngơi một lát." }
+    ],
+    "vocab": {
+      "safe": { "word": "safe", "pos": "adjective", "ipa": "/ˈseɪ̯f/", "vi": "an toàn" },
+      "soft": { "word": "soft", "pos": "adjective", "ipa": "/sɔft/", "vi": "mềm" },
+      "thin": { "word": "thin", "pos": "adjective", "ipa": "/ˈθɪn/", "vi": "mỏng, gầy" },
+      "tidy": { "word": "tidy", "pos": "adjective, verb", "ipa": "/ˈtaɪ.di/", "vi": "gọn gàng" },
+      "weak": { "word": "weak", "pos": "adjective", "ipa": "/wi(ː)k/", "vi": "yếu" },
+      "wide": { "word": "wide", "pos": "adjective", "ipa": "/waɪd/", "vi": "rộng" },
+      "wild": { "word": "wild", "pos": "adjective", "ipa": "/ˈwaɪ̯ld/", "vi": "hoang dã" }
+    }
+  },
+  {
+    "id": "a2-u042-2",
+    "unit": 42,
+    "topic": "adj",
+    "title": "Common Adjectives",
+    "titleVi": "Những tính từ thường gặp",
+    "sentences": [
+      { "en": "The small fish / was still [alive] / after the storm.", "vi": "Con cá nhỏ / vẫn còn sống / sau cơn bão." },
+      { "en": "I felt [alone] / in our quiet house / last night.", "vi": "Tôi cảm thấy một mình / trong ngôi nhà yên tĩnh của chúng tôi / vào tối qua." },
+      { "en": "The soup / tasted [awful] / because Dad forgot / the salt.", "vi": "Món súp / có vị tệ hại / vì bố quên / muối." },
+      { "en": "Our school play / is [based] on / a funny story.", "vi": "Vở kịch ở trường chúng tôi / dựa trên / một câu chuyện vui." },
+      { "en": "Please leave / the last line [blank] / on this page.", "vi": "Hãy để / dòng cuối cùng trống / trên trang này." },
+      { "en": "The teacher gave / [clear] advice / before our English test.", "vi": "Cô giáo đưa ra / lời khuyên rõ ràng / trước bài kiểm tra tiếng Anh của chúng tôi." }
+    ],
+    "vocab": {
+      "alive": { "word": "alive", "pos": "adjective", "ipa": "/əˈlaɪv/", "vi": "còn sống" },
+      "alone": { "word": "alone", "pos": "adjective, adverb", "ipa": "/əˈloʊn/", "vi": "một mình" },
+      "awful": { "word": "awful", "pos": "adjective", "ipa": "/ˈɔfəl/", "vi": "tệ hại, kinh khủng" },
+      "based": { "word": "based", "pos": "adjective", "ipa": "/beɪst/", "vi": "dựa trên" },
+      "blank": { "word": "blank", "pos": "adjective, noun", "ipa": "/blæŋk/", "vi": "trống, để trống" },
+      "clear": { "word": "clear", "pos": "adjective", "ipa": "/ˈklɪɚ/", "vi": "rõ ràng" }
+    }
+  },
+  {
+    "id": "a2-u043-1",
+    "unit": 43,
+    "topic": "adj",
+    "title": "A Trip to the Market",
+    "titleVi": "Chuyến đi chợ",
+    "sentences": [
+      { "en": "My [daily] walk / takes me to the small market.", "vi": "Cuộc đi bộ hằng ngày của tôi / đưa tôi đến khu chợ nhỏ." },
+      { "en": "Today, / I buy [fresh] fruit / and carry a [heavy] bag home.", "vi": "Hôm nay, / tôi mua trái cây tươi / và xách một chiếc túi nặng về nhà." },
+      { "en": "One shop / has an [empty] shelf, / so I ask the owner.", "vi": "Một cửa hàng / có một chiếc kệ trống, / nên tôi hỏi người chủ." },
+      { "en": "She gives me the [exact] price / and laughs at my [crazy] joke.", "vi": "Cô ấy cho tôi biết giá chính xác / và cười vì trò đùa điên rồ của tôi." },
+      { "en": "That quiet shop is [ideal] / for my daily food shopping.", "vi": "Cửa hàng yên tĩnh đó rất lý tưởng / cho việc mua thực phẩm hằng ngày của tôi." }
+    ],
+    "vocab": {
+      "crazy": { "word": "crazy", "pos": "adjective", "ipa": "/ˈkɹeɪ.zi/", "vi": "điên rồ" },
+      "daily": { "word": "daily", "pos": "adjective", "ipa": "/ˈdeɪli/", "vi": "hằng ngày" },
+      "empty": { "word": "empty", "pos": "adjective", "ipa": "/ˈɛm(p).ti/", "vi": "trống rỗng" },
+      "exact": { "word": "exact", "pos": "adjective", "ipa": "/ɪɡˈzækt/", "vi": "chính xác" },
+      "fresh": { "word": "fresh", "pos": "adjective", "ipa": "/fɹɛʃ/", "vi": "tươi" },
+      "heavy": { "word": "heavy", "pos": "adjective", "ipa": "/ˈhɛv.i/", "vi": "nặng" },
+      "ideal": { "word": "ideal", "pos": "adjective", "ipa": "/aɪˈdɪəl/", "vi": "lý tưởng" }
+    }
+  },
+  {
+    "id": "a2-u043-2",
+    "unit": 43,
+    "topic": "adj",
+    "title": "A Story at School",
+    "titleVi": "Một câu chuyện ở trường",
+    "sentences": [
+      { "en": "On Saturday, / I felt [lucky] / to find / a [thick] book.", "vi": "Vào thứ Bảy, / tôi cảm thấy may mắn / khi tìm thấy / một cuốn sách dày." },
+      { "en": "At school, / a [noisy] class / made reading difficult.", "vi": "Ở trường, / một lớp học ồn ào / khiến việc đọc trở nên khó khăn." },
+      { "en": "Our teacher said / reading is / a [major] part / of learning.", "vi": "Giáo viên của chúng tôi nói / việc đọc là / một phần quan trọng / của việc học." },
+      { "en": "We drew / a [round] moon / beside / a [scary] old house.", "vi": "Chúng tôi vẽ / một mặt trăng tròn / bên cạnh / một ngôi nhà cũ đáng sợ." },
+      { "en": "Then / we read the story together / and enjoyed it.", "vi": "Sau đó / chúng tôi cùng đọc câu chuyện / và thích câu chuyện ấy." }
+    ],
+    "vocab": {
+      "lucky": { "word": "lucky", "pos": "adjective", "ipa": "/ˈlʌki/", "vi": "may mắn" },
+      "major": { "word": "major", "pos": "adjective", "ipa": "/ˈmeɪ.d͡ʒə(ɹ)/", "vi": "chính, lớn" },
+      "noisy": { "word": "noisy", "pos": "adjective", "ipa": "/ˈnɔɪzi/", "vi": "ồn ào" },
+      "round": { "word": "round", "pos": "adjective, adverb, preposition", "ipa": "/ˈɹaʊ̯nd/", "vi": "tròn" },
+      "scary": { "word": "scary", "pos": "adjective", "ipa": "/ˈskɛə.ɹi/", "vi": "đáng sợ" },
+      "thick": { "word": "thick", "pos": "adjective", "ipa": "/θɪk/", "vi": "dày" }
+    }
+  },
+  {
+    "id": "a2-u044-1",
+    "unit": 44,
+    "topic": "adj",
+    "title": "A Difficult Day",
+    "titleVi": "Một ngày khó khăn",
+    "sentences": [
+      { "en": "My [usual] morning / is quiet / but today feels [worse].", "vi": "Buổi sáng thường lệ của tôi / yên tĩnh / nhưng hôm nay có vẻ tệ hơn." },
+      { "en": "The [whole] family / stayed home / because Dad felt sick.", "vi": "Cả gia đình / ở nhà / vì bố cảm thấy mệt." },
+      { "en": "At noon, / my [active] sister / played outside / with friends.", "vi": "Vào buổi trưa, / chị gái năng động của tôi / chơi bên ngoài / với bạn bè." },
+      { "en": "After lunch, / our baby / fell [asleep] / beside the window.", "vi": "Sau bữa trưa, / em bé nhà tôi / đã ngủ thiếp đi / bên cửa sổ." },
+      { "en": "That was the [worst] day, / but the [bright] sun / cheered us up.", "vi": "Đó là ngày tệ nhất, / nhưng mặt trời rực sáng / đã làm chúng tôi vui lên." }
+    ],
+    "vocab": {
+      "usual": { "word": "usual", "pos": "adjective", "ipa": "/ˈjuː.ʒʊəl/", "vi": "thường lệ" },
+      "whole": { "word": "whole", "pos": "adjective", "ipa": "/hoʊl/", "vi": "toàn bộ" },
+      "worse": { "word": "worse", "pos": "adjective", "ipa": "/wɜːs/", "vi": "tệ hơn" },
+      "worst": { "word": "worst", "pos": "adjective", "ipa": "/wɜɹst/", "vi": "tệ nhất" },
+      "active": { "word": "active", "pos": "adjective", "ipa": "/ˈæk.tɪv/", "vi": "năng động" },
+      "asleep": { "word": "asleep", "pos": "adjective", "ipa": "/əˈsliːp/", "vi": "đang ngủ" },
+      "bright": { "word": "bright", "pos": "adjective", "ipa": "/ˈbɹaɪ̯t/", "vi": "sáng, tươi" }
+    }
+  },
+  {
+    "id": "a2-u044-2",
+    "unit": 44,
+    "topic": "adj",
+    "title": "Common Adjectives",
+    "titleVi": "Những tính từ thường gặp",
+    "sentences": [
+      { "en": "The [clever] [female] student / gave a [direct] answer / in class.", "vi": "Nữ sinh thông minh / đưa ra câu trả lời trực tiếp / trong lớp." },
+      { "en": "Her phone was [broken] / after it fell from the table.", "vi": "Điện thoại của cô ấy bị hỏng / sau khi nó rơi khỏi bàn." },
+      { "en": "The shop was [closed], / so we walked to another one.", "vi": "Cửa hàng đã đóng cửa, / nên chúng tôi đi bộ đến một cửa hàng khác." },
+      { "en": "At lunch, she ordered / a [double] portion of soup.", "vi": "Vào bữa trưa, cô ấy gọi / một phần súp gấp đôi." }
+    ],
+    "vocab": {
+      "broken": { "word": "broken", "pos": "adjective", "ipa": "/ˈbɹoʊ.kɪn/", "vi": "bị vỡ, hỏng" },
+      "clever": { "word": "clever", "pos": "adjective", "ipa": "/ˈklɛv.ɚ/", "vi": "thông minh" },
+      "closed": { "word": "closed", "pos": "adjective", "ipa": "/kloʊzd/", "vi": "đã đóng cửa" },
+      "direct": { "word": "direct", "pos": "adjective", "ipa": "/daɪˈɹɛkt/", "vi": "trực tiếp" },
+      "double": { "word": "double", "pos": "adjective, determiner, pronoun, verb", "ipa": "/ˈdʌb.əl/", "vi": "gấp đôi" },
+      "female": { "word": "female", "pos": "adjective, noun", "ipa": "/ˈfiː.meɪl/", "vi": "giống cái, nữ" }
+    }
+  },
+  {
+    "id": "a2-u045-1",
+    "unit": 45,
+    "topic": "adj",
+    "title": "An Evening Out",
+    "titleVi": "Một buổi tối đi chơi",
+    "sentences": [
+      { "en": "My sister / wore a [formal] dress / to dinner last night.", "vi": "Chị tôi / mặc một chiếc váy trang trọng / tới bữa tối tối qua." },
+      { "en": "She said / the [lovely] little garden / made her happy.", "vi": "Cô ấy nói / khu vườn nhỏ đáng yêu / khiến cô ấy vui vẻ." },
+      { "en": "Rain is [likely] this afternoon, / so take your [mobile] phone.", "vi": "Chiều nay có khả năng trời mưa, / vì vậy hãy mang theo điện thoại di động của bạn." },
+      { "en": "The [narrow] street / was busy, but / everything seemed [normal].", "vi": "Con đường hẹp / đông đúc, nhưng / mọi thứ có vẻ bình thường." }
+    ],
+    "vocab": {
+      "formal": { "word": "formal", "pos": "adjective", "ipa": "/ˈfɔɹməl/", "vi": "trang trọng" },
+      "likely": { "word": "likely", "pos": "adjective", "ipa": "/ˈlaɪkli/", "vi": "có khả năng" },
+      "lovely": { "word": "lovely", "pos": "adjective", "ipa": "/ˈlʌv.li/", "vi": "đáng yêu" },
+      "mobile": { "word": "mobile", "pos": "adjective, noun", "ipa": "/ˈmoʊ.bil/", "vi": "di động" },
+      "narrow": { "word": "narrow", "pos": "adjective", "ipa": "/ˈnæɹoʊ/", "vi": "hẹp" },
+      "normal": { "word": "normal", "pos": "adjective", "ipa": "/ˈnoɹ.məl/", "vi": "bình thường" }
+    }
+  },
+  {
+    "id": "a2-u045-2",
+    "unit": 45,
+    "topic": "adj",
+    "title": "Common Adjectives",
+    "titleVi": "Những tính từ thường gặp",
+    "sentences": [
+      { "en": "At the [public] library, / a [polite] clerk / helped me yesterday.", "vi": "Ở thư viện công cộng, / một nhân viên lịch sự / đã giúp tôi hôm qua." },
+      { "en": "I read / a [recent] story / about a [single] father / there.", "vi": "Tôi đọc / một câu chuyện mới đây / về một người cha đơn thân / ở đó." },
+      { "en": "The story showed / how [social] rules / can affect family life.", "vi": "Câu chuyện cho thấy / cách các quy tắc xã hội / có thể ảnh hưởng đến cuộc sống gia đình." },
+      { "en": "After reading, / I made / a [simple] dinner / for my family.", "vi": "Sau khi đọc xong, / tôi nấu / một bữa tối đơn giản / cho gia đình tôi." }
+    ],
+    "vocab": {
+      "polite": { "word": "polite", "pos": "adjective", "ipa": "/pəˈlaɪt/", "vi": "lịch sự" },
+      "public": { "word": "public", "pos": "adjective, noun", "ipa": "/ˈpʌb.lɪk/", "vi": "công cộng" },
+      "recent": { "word": "recent", "pos": "adjective", "ipa": "/ˈɹi.sənt/", "vi": "gần đây" },
+      "simple": { "word": "simple", "pos": "adjective", "ipa": "/ˈsɪm.pəl/", "vi": "đơn giản" },
+      "single": { "word": "single", "pos": "adjective, noun", "ipa": "/ˈsɪŋɡəl/", "vi": "độc thân; đơn" },
+      "social": { "word": "social", "pos": "adjective", "ipa": "/ˈsəʊ.ʃəl/", "vi": "thuộc xã hội" }
+    }
+  },
+  {
+    "id": "a2-u046-1",
+    "unit": 46,
+    "topic": "adj",
+    "title": "Common Adjectives",
+    "titleVi": "Những tính từ thường gặp",
+    "sentences": [
+      { "en": "It was [stupid] / to leave our bags / by the door.", "vi": "Thật ngu ngốc / khi để túi của chúng tôi / cạnh cửa." },
+      { "en": "We sat at a [wooden] table / in the old cafe.", "vi": "Chúng tôi ngồi bên một chiếc bàn bằng gỗ / trong quán cà phê cũ." },
+      { "en": "The guide showed us / an [ancient] wall / near the town.", "vi": "Người hướng dẫn cho chúng tôi xem / một bức tường cổ xưa / gần thị trấn." },
+      { "en": "Yesterday, our [united] voices / chose the same song.", "vi": "Hôm qua, chúng tôi thống nhất / chọn cùng một bài hát." },
+      { "en": "The [average] price was low, / and the shop owner was [careful].", "vi": "Giá trung bình thấp, / và chủ cửa hàng rất cẩn thận." }
+    ],
+    "vocab": {
+      "stupid": { "word": "stupid", "pos": "adjective", "ipa": "/ˈstupɪd/", "vi": "ngu ngốc" },
+      "united": { "word": "united", "pos": "adjective", "ipa": "/juˈnaɪtɪd/", "vi": "thống nhất" },
+      "wooden": { "word": "wooden", "pos": "adjective", "ipa": "/ˈwʊdn̩/", "vi": "bằng gỗ" },
+      "ancient": { "word": "ancient", "pos": "adjective", "ipa": "/ˈeɪn.ʃənt/", "vi": "cổ xưa" },
+      "average": { "word": "average", "pos": "adjective, noun", "ipa": "/ˈæv.ɚ.ɪd͡ʒ/", "vi": "trung bình" },
+      "careful": { "word": "careful", "pos": "adjective", "ipa": "/ˈkɛɹfəl/", "vi": "cẩn thận" }
+    }
+  },
+  {
+    "id": "a2-u046-2",
+    "unit": 46,
+    "topic": "adj",
+    "title": "Common Adjectives",
+    "titleVi": "Các tính từ thường gặp",
+    "sentences": [
+      { "en": "I am [certain] / this [digital] map / shows the right road.", "vi": "Tôi chắc chắn / bản đồ kỹ thuật số này / cho thấy con đường đúng." },
+      { "en": "The bus was [crowded] / when we went home / after work.", "vi": "Xe buýt rất đông đúc / khi chúng tôi về nhà / sau giờ làm." },
+      { "en": "A [foreign] visitor / asked for help / at the train station.", "vi": "Một vị khách nước ngoài / đã nhờ giúp đỡ / ở nhà ga." },
+      { "en": "The weather was [extreme], / so we stayed inside / all day.", "vi": "Thời tiết rất khắc nghiệt, / nên chúng tôi ở trong nhà / suốt cả ngày." },
+      { "en": "We walked [further] / to find a quiet cafe / near the river.", "vi": "Chúng tôi đi xa hơn / để tìm một quán cà phê yên tĩnh / gần bờ sông." }
+    ],
+    "vocab": {
+      "certain": { "word": "certain", "pos": "adjective", "ipa": "/ˈsɝ.tən/", "vi": "chắc chắn" },
+      "crowded": { "word": "crowded", "pos": "adjective", "ipa": "/ˈkɹaʊdɪd/", "vi": "đông đúc" },
+      "digital": { "word": "digital", "pos": "adjective", "ipa": "/ˈdɪd͡ʒɪtl̩/", "vi": "kỹ thuật số" },
+      "extreme": { "word": "extreme", "pos": "adjective", "ipa": "/ɪkˈstɹim/", "vi": "cực độ" },
+      "foreign": { "word": "foreign", "pos": "adjective", "ipa": "/ˈfɔɹɪn/", "vi": "nước ngoài" },
+      "further": { "word": "further", "pos": "adjective", "ipa": "/ˈfəːvə/", "vi": "xa hơn" }
+    }
+  },
+  {
+    "id": "a2-u047-1",
+    "unit": 47,
+    "topic": "adj",
+    "title": "Common Adjectives",
+    "titleVi": "Các tính từ thường gặp",
+    "sentences": [
+      { "en": "Our teacher / gave / a [general] plan / for the class.", "vi": "Giáo viên của chúng tôi / đã đưa ra / một kế hoạch chung / cho lớp học." },
+      { "en": "The guide / gave / [helpful] [medical] information / to my family.", "vi": "Người hướng dẫn / đã cung cấp / thông tin y tế hữu ích / cho gia đình tôi." },
+      { "en": "We found / the [missing] key / beside our [musical] instrument.", "vi": "Chúng tôi tìm thấy / chiếc chìa khóa bị mất / bên cạnh nhạc cụ của chúng tôi." },
+      { "en": "She follows / a [regular] exercise routine / after dinner.", "vi": "Cô ấy duy trì / một thói quen tập thể dục đều đặn / sau bữa tối." },
+      { "en": "These adjectives / help us describe / everyday things clearly.", "vi": "Những tính từ này / giúp chúng ta miêu tả / những điều thường ngày một cách rõ ràng." }
+    ],
+    "vocab": {
+      "general": { "word": "general", "pos": "adjective", "ipa": "/ˈd͡ʒɛn.(ə.)ɹəl/", "vi": "chung, tổng quát" },
+      "helpful": { "word": "helpful", "pos": "adjective", "ipa": "/ˈhɛlp.fl̩/", "vi": "hữu ích" },
+      "medical": { "word": "medical", "pos": "adjective", "ipa": "/ˈmɛdɪkl̩/", "vi": "thuộc y tế" },
+      "missing": { "word": "missing", "pos": "adjective", "ipa": "/ˈmɪsɪŋ/", "vi": "bị mất, thiếu" },
+      "musical": { "word": "musical", "pos": "adjective", "ipa": "/ˈmju.zɪ.kəl/", "vi": "thuộc âm nhạc" },
+      "regular": { "word": "regular", "pos": "adjective", "ipa": "/ˈɹɛɡjʊlə/", "vi": "đều đặn" }
+    }
+  },
+  {
+    "id": "a2-u047-2",
+    "unit": 47,
+    "topic": "adj",
+    "title": "Common Adjectives at Home",
+    "titleVi": "Các tính từ thường gặp ở nhà",
+    "sentences": [
+      { "en": "My [teenage] brother / is [serious] about his schoolwork.", "vi": "Em trai tuổi thiếu niên của tôi / rất nghiêm túc với việc học của mình." },
+      { "en": "A [typical] morning for him / includes breakfast / and a short walk.", "vi": "Một buổi sáng điển hình của em ấy / bao gồm bữa sáng / và một cuộc đi bộ ngắn." },
+      { "en": "A [strange] sound / came from the old kitchen clock.", "vi": "Một âm thanh lạ lùng / phát ra từ chiếc đồng hồ nhà bếp cũ." },
+      { "en": "The [unusual] noise / stopped when Dad fixed the clock.", "vi": "Tiếng động khác thường / dừng lại khi bố sửa chiếc đồng hồ." },
+      { "en": "Dad is a [working] parent / who helps us at home.", "vi": "Bố là một người cha đang đi làm / và luôn giúp chúng tôi ở nhà." }
+    ],
+    "vocab": {
+      "serious": { "word": "serious", "pos": "adjective", "ipa": "/ˈsɪɹ.i.əs/", "vi": "nghiêm túc" },
+      "strange": { "word": "strange", "pos": "adjective", "ipa": "/stɹeɪnd͡ʒ/", "vi": "lạ lùng" },
+      "teenage": { "word": "teenage", "pos": "adjective", "ipa": "/ˈtiːneɪd͡ʒ/", "vi": "thuộc tuổi thiếu niên" },
+      "typical": { "word": "typical", "pos": "adjective", "ipa": "/ˈtɪp.ɪ.kəl/", "vi": "điển hình" },
+      "unusual": { "word": "unusual", "pos": "adjective", "ipa": "/ʌnˈjuːʒ(u)əl/", "vi": "khác thường" },
+      "working": { "word": "working", "pos": "adjective", "ipa": "/ˈwɝkɪŋ/", "vi": "đang làm việc" }
+    }
+  },
+  {
+    "id": "a2-u048-1",
+    "unit": 48,
+    "topic": "adj",
+    "title": "Common Adjectives",
+    "titleVi": "Các tính từ thường gặp",
+    "sentences": [
+      { "en": "My [creative] sister / painted a bright picture / for our kitchen.", "vi": "Chị gái sáng tạo của tôi / đã vẽ một bức tranh sáng màu / cho căn bếp của chúng tôi." },
+      { "en": "We bought an [electric] kettle / for our small apartment / yesterday.", "vi": "Chúng tôi đã mua một chiếc ấm đun nước chạy bằng điện / cho căn hộ nhỏ của chúng tôi / hôm qua." },
+      { "en": "An [enormous] tree / stood beside the bus stop / near our home.", "vi": "Một cái cây khổng lồ / đứng bên cạnh trạm xe buýt / gần nhà chúng tôi." },
+      { "en": "A small wallet / was [included] with this [everyday] bag.", "vi": "Một chiếc ví nhỏ / được kèm theo chiếc túi dùng hằng ngày này." },
+      { "en": "We use [informal] words / when we chat / with close friends.", "vi": "Chúng tôi dùng những từ ngữ thân mật / khi trò chuyện / với bạn thân." }
+    ],
+    "vocab": {
+      "creative": { "word": "creative", "pos": "adjective", "ipa": "/kɹiˈeɪtɪv/", "vi": "sáng tạo" },
+      "electric": { "word": "electric", "pos": "adjective", "ipa": "/ɪˈlɛktɹɪk/", "vi": "chạy bằng điện" },
+      "enormous": { "word": "enormous", "pos": "adjective", "ipa": "/ɪˈnɔː.məs/", "vi": "khổng lồ" },
+      "everyday": { "word": "everyday", "pos": "adjective", "ipa": "/ˈɛvɹiˌdeɪ/", "vi": "hằng ngày" },
+      "included": { "word": "included", "pos": "adjective", "ipa": "/ɪnˈkluːdɪd/", "vi": "được bao gồm" },
+      "informal": { "word": "informal", "pos": "adjective", "ipa": "/ɪnˈfɔɹ.m(ə)l/", "vi": "thân mật" }
+    }
+  },
+  {
+    "id": "a2-u048-2",
+    "unit": 48,
+    "topic": "adj",
+    "title": "Learning Common Adjectives",
+    "titleVi": "Học các tính từ thường gặp",
+    "sentences": [
+      { "en": "Today, / our teacher showed us / six common adjectives / in class.", "vi": "Hôm nay, / giáo viên của chúng tôi đã giới thiệu cho chúng tôi / sáu tính từ thường gặp / trong lớp." },
+      { "en": "The [national] team / played an [ordinary] game / on Saturday.", "vi": "Đội tuyển quốc gia / đã chơi một trận đấu bình thường / vào thứ Bảy." },
+      { "en": "Mia brought / the [original] photo / from her family album.", "vi": "Mia mang / bức ảnh gốc / từ cuốn album gia đình của cô ấy." },
+      { "en": "The class did [physical] exercises / at [separate] stations / in the gym.", "vi": "Cả lớp thực hiện các bài tập thể chất / tại các khu vực riêng biệt / trong phòng tập thể dục." },
+      { "en": "Each group / gave one [specific] example / for every adjective.", "vi": "Mỗi nhóm / đưa ra một ví dụ cụ thể / cho mỗi tính từ." }
+    ],
+    "vocab": {
+      "national": { "word": "national", "pos": "adjective", "ipa": "/ˈnaʃ.ə.nəl/", "vi": "thuộc quốc gia" },
+      "ordinary": { "word": "ordinary", "pos": "adjective", "ipa": "/ˈɔɹdɪnɛ(ə)ɹi/", "vi": "bình thường" },
+      "original": { "word": "original", "pos": "adjective", "ipa": "/əˈɹɪd͡ʒ.ɪ.nəl/", "vi": "nguyên bản" },
+      "physical": { "word": "physical", "pos": "adjective", "ipa": "/ˈfɪz.ɪ.kəl/", "vi": "thuộc thể chất" },
+      "separate": { "word": "separate", "pos": "adjective", "ipa": "/ˈsɛp.əˌɹeɪt/", "vi": "riêng biệt" },
+      "specific": { "word": "specific", "pos": "adjective", "ipa": "/spɪˈsɪf.ɪk/", "vi": "cụ thể" }
+    }
+  },
+  {
+    "id": "a2-u049-1",
+    "unit": 49,
+    "topic": "adj",
+    "title": "Useful Adjectives",
+    "titleVi": "Những tính từ thông dụng",
+    "sentences": [
+      { "en": "The road to the music shop / is [straight] and easy to follow.", "vi": "Con đường đến cửa hàng âm nhạc / thẳng và dễ đi theo." },
+      { "en": "Several seats are [available] / for the [classical] music show tonight.", "vi": "Vẫn còn một vài chỗ ngồi / cho buổi hòa nhạc cổ điển tối nay." },
+      { "en": "Outside, we saw a [brilliant] sunset / beside the old bridge.", "vi": "Bên ngoài, chúng tôi ngắm hoàng hôn rực rỡ / bên cây cầu cũ." },
+      { "en": "Inside, the speaker is [connected] / to my phone and has [excellent] sound.", "vi": "Bên trong, chiếc loa được kết nối / với điện thoại của tôi và có âm thanh tuyệt vời." }
+    ],
+    "vocab": {
+      "straight": { "word": "straight", "pos": "adjective, adverb", "ipa": "/stɹeɪt/", "vi": "thẳng" },
+      "available": { "word": "available", "pos": "adjective", "ipa": "/əˈveɪ.lə.bəl/", "vi": "có sẵn" },
+      "brilliant": { "word": "brilliant", "pos": "adjective", "ipa": "/ˈbɹɪl.jənt/", "vi": "rực rỡ, xuất sắc" },
+      "classical": { "word": "classical", "pos": "adjective", "ipa": "/ˈklæs.ɪ.k(ə)l/", "vi": "cổ điển" },
+      "connected": { "word": "connected", "pos": "adjective", "ipa": "/kəˈnɛktɪd/", "vi": "được kết nối" },
+      "excellent": { "word": "excellent", "pos": "adjective", "ipa": "/ˈɛk.sə.lənt/", "vi": "xuất sắc" }
+    }
+  },
+  {
+    "id": "a2-u049-2",
+    "unit": 49,
+    "topic": "adj",
+    "title": "Common Adjectives",
+    "titleVi": "Những tính từ thường gặp",
+    "sentences": [
+      { "en": "The [following] lesson / has useful words / for our English class.", "vi": "Bài học tiếp theo / có những từ hữu ích / cho lớp tiếng Anh của chúng tôi." },
+      { "en": "A bright lamp / is [necessary] / for reading at night.", "vi": "Một chiếc đèn sáng / là cần thiết / để đọc sách vào ban đêm." },
+      { "en": "The blue bag / looks [attractive] / and costs very little.", "vi": "Chiếc túi màu xanh / trông hấp dẫn / và có giá rất rẻ." },
+      { "en": "This [electrical] appliance / helps us cook dinner / every evening.", "vi": "Thiết bị điện này / giúp chúng tôi nấu bữa tối / mỗi buổi tối." },
+      { "en": "My [electronic] clock stopped, / so fixing it / was [impossible].", "vi": "Đồng hồ điện tử của tôi bị hỏng, / nên việc sửa nó / là không thể." }
+    ],
+    "vocab": {
+      "following": { "word": "following", "pos": "adjective", "ipa": "/ˈfɑloʊɪŋ/", "vi": "tiếp theo" },
+      "necessary": { "word": "necessary", "pos": "adjective", "ipa": "/ˈnɛs.əˌsɛ.ɹi/", "vi": "cần thiết" },
+      "attractive": { "word": "attractive", "pos": "adjective", "ipa": "/əˈtɹæktɪv/", "vi": "hấp dẫn" },
+      "electrical": { "word": "electrical", "pos": "adjective", "ipa": "/ɪˈlɛktɹɪkəl/", "vi": "thuộc về điện" },
+      "electronic": { "word": "electronic", "pos": "adjective", "ipa": "/ɪˌlɛkˈtɹɑ.nɪk/", "vi": "điện tử" },
+      "impossible": { "word": "impossible", "pos": "adjective", "ipa": "/ɪmˈpɒs.ɪ.bəl/", "vi": "không thể" }
+    }
+  },
+  {
+    "id": "a2-u050-1",
+    "unit": 50,
+    "topic": "adj",
+    "title": "Dinner at My Sister's Cafe",
+    "titleVi": "Bữa tối tại quán cà phê của chị tôi",
+    "sentences": [
+      { "en": "We heard / an [incredible] story / during our family dinner.", "vi": "Chúng tôi nghe / một câu chuyện không thể tin được / trong bữa tối gia đình." },
+      { "en": "Each [individual] / brought a [particular] dish / to share.", "vi": "Mỗi cá nhân / mang một món ăn cụ thể / để cùng chia sẻ." },
+      { "en": "My [successful] sister / hosted dinner / at her cafe.", "vi": "Chị gái thành đạt của tôi / đã tổ chức bữa tối / tại quán cà phê của chị ấy." },
+      { "en": "A [surprising] rain shower began, / but everyone stayed inside.", "vi": "Một cơn mưa rào bất ngờ bắt đầu, / nhưng mọi người vẫn ở bên trong." },
+      { "en": "Soft chairs kept everyone / [comfortable] during the long evening.", "vi": "Những chiếc ghế êm ái giúp mọi người cảm thấy / thoải mái suốt buổi tối dài." }
+    ],
+    "vocab": {
+      "incredible": { "word": "incredible", "pos": "adjective", "ipa": "/ɪŋˈkɹɛdɪbəl/", "vi": "không thể tin được" },
+      "individual": { "word": "individual", "pos": "adjective, noun", "ipa": "/ˌɪndɪˈvɪd͡ʒ(u)əl/", "vi": "cá nhân" },
+      "particular": { "word": "particular", "pos": "adjective", "ipa": "/pəˈtɪk.jə.lə/", "vi": "cụ thể" },
+      "successful": { "word": "successful", "pos": "adjective", "ipa": "/səkˈsɛs.fəl/", "vi": "thành công" },
+      "surprising": { "word": "surprising", "pos": "adjective", "ipa": "/sɚˈpɹaɪzɪŋ/", "vi": "đáng ngạc nhiên" },
+      "comfortable": { "word": "comfortable", "pos": "adjective", "ipa": "/ˈkʌm(p)f.tə.bəl/", "vi": "thoải mái" }
+    }
+  },
+  {
+    "id": "a2-u050-2",
+    "unit": 50,
+    "topic": "adj",
+    "title": "Common Adjectives in Daily Life",
+    "titleVi": "Tính từ thường gặp trong đời sống hằng ngày",
+    "sentences": [
+      { "en": "My [independent] sister / lives alone / and cooks dinner / every night.", "vi": "Chị gái độc lập của tôi / sống một mình / và nấu bữa tối / mỗi tối." },
+      { "en": "She is [intelligent] / and learns new things / very quickly.", "vi": "Cô ấy thông minh / và học những điều mới / rất nhanh." },
+      { "en": "Our town has / a [traditional] market / near the old station.", "vi": "Thị trấn của chúng tôi có / một khu chợ truyền thống / gần nhà ga cũ." },
+      { "en": "The [underground] train / takes workers / to the city center.", "vi": "Tàu điện ngầm / đưa người lao động / đến trung tâm thành phố." },
+      { "en": "A [professional] guide / helps [international] visitors / find local food.", "vi": "Một hướng dẫn viên chuyên nghiệp / giúp du khách quốc tế / tìm món ăn địa phương." }
+    ],
+    "vocab": {
+      "independent": { "word": "independent", "pos": "adjective", "ipa": "/ˌɪn.dɪˈpɛn.dənt/", "vi": "độc lập" },
+      "intelligent": { "word": "intelligent", "pos": "adjective", "ipa": "/ɪnˈtɛlɪd͡ʒənt/", "vi": "thông minh" },
+      "traditional": { "word": "traditional", "pos": "adjective", "ipa": "/tɹəˈdɪʃ.ə.nəl/", "vi": "truyền thống" },
+      "underground": { "word": "underground", "pos": "adjective, adverb", "ipa": "/ˌʌn.dəɹˈɡɹaʊnd/", "vi": "dưới lòng đất" },
+      "professional": { "word": "professional", "pos": "adjective", "ipa": "/pɹəˈfɛʃ.ə.nəl/", "vi": "chuyên nghiệp" },
+      "international": { "word": "international", "pos": "adjective", "ipa": "/ˌɪn.(t)ɚˈnæʃ.(ə.)n(ə)l/", "vi": "quốc tế" }
+    }
+  },
+  {
+    "id": "a2-u051-1",
+    "unit": 51,
+    "topic": "func",
+    "title": "At the Cafe",
+    "titleVi": "Ở quán cà phê",
+    "sentences": [
+      { "en": "[Ah|ah], / drinks cost two dollars [per] cup / at this cafe.", "vi": "À, / đồ uống có giá hai đô la mỗi cốc / ở quán cà phê này." },
+      { "en": "[Wow|wow], / this blue bag is [hers], / but that one is [mine].", "vi": "Ôi chao, / cái túi màu xanh này là của cô ấy, / còn cái kia là của tôi." },
+      { "en": "I have [less] time today, / so I have not ordered [yet].", "vi": "Hôm nay tôi có ít thời gian hơn, / nên tôi vẫn chưa gọi món." },
+      { "en": "Ah, / we can choose quickly / before our bus leaves.", "vi": "À, / chúng tôi có thể chọn nhanh / trước khi xe buýt đi." }
+    ],
+    "vocab": {
+      "ah": { "word": "ah", "pos": "exclamation", "ipa": "/ɑː/", "vi": "à, ồ" },
+      "per": { "word": "per", "pos": "preposition", "ipa": "/pɝ/", "vi": "mỗi" },
+      "wow": { "word": "wow", "pos": "exclamation", "ipa": "/waʊ/", "vi": "ôi chao" },
+      "yet": { "word": "yet", "pos": "adverb", "ipa": "/jɛt/", "vi": "vẫn chưa" },
+      "hers": { "word": "hers", "pos": "pronoun", "ipa": "/ˈhɜːz/", "vi": "của cô ấy" },
+      "less": { "word": "less", "pos": "adverb, determiner, pronoun", "ipa": "/lɛs/", "vi": "ít hơn" },
+      "mine": { "word": "mine", "pos": "pronoun", "ipa": "/maɪ̯n/", "vi": "của tôi; mỏ" }
+    }
+  },
+  {
+    "id": "a2-u051-2",
+    "unit": 51,
+    "topic": "func",
+    "title": "A Walk with a Small Dog",
+    "titleVi": "Đi dạo cùng chú chó nhỏ",
+    "sentences": [
+      { "en": "[None] of the children / climbed / [onto] the wet bench.", "vi": "Không đứa trẻ nào / trèo / lên chiếc ghế dài ướt." },
+      { "en": "It was [such] a small dog / that everyone smiled.", "vi": "Nó là một chú chó nhỏ đến mức / ai cũng mỉm cười." },
+      { "en": "[Along] the path, / we saw many red leaves today.", "vi": "Dọc theo con đường, / hôm nay chúng tôi thấy nhiều chiếc lá đỏ." },
+      { "en": "[Among] the old books, / Dad found a map for us.", "vi": "Trong đống sách cũ, / bố tìm thấy một tấm bản đồ cho chúng tôi." },
+      { "en": "The dog threw the ball [badly], / but the children laughed.", "vi": "Chú chó ném quả bóng rất tệ, / nhưng bọn trẻ bật cười." }
+    ],
+    "vocab": {
+      "none": { "word": "none", "pos": "pronoun", "ipa": "/nʌn/", "vi": "không cái nào" },
+      "onto": { "word": "onto", "pos": "preposition", "ipa": "/ˈɔn.tu/", "vi": "lên trên" },
+      "such": { "word": "such", "pos": "determiner, pronoun", "ipa": "/sʌt͡ʃ/", "vi": "như vậy" },
+      "along": { "word": "along", "pos": "adverb, preposition", "ipa": "/əˈlɔŋ/", "vi": "dọc theo" },
+      "among": { "word": "among", "pos": "preposition", "ipa": "/əˈmʌŋ/", "vi": "giữa, trong số" },
+      "badly": { "word": "badly", "pos": "adverb", "ipa": "/ˈbæd.li/", "vi": "tệ, dở" }
+    }
+  },
+  {
+    "id": "a2-u052-1",
+    "unit": 52,
+    "topic": "func",
+    "title": "A Helpful Class",
+    "titleVi": "Một lớp học hay giúp đỡ",
+    "sentences": [
+      { "en": "Our class has needed / at [least] one helper / [since] Monday.", "vi": "Lớp chúng tôi đã cần / ít nhất một người giúp đỡ / kể từ thứ Hai." },
+      { "en": "[Sadly|sadly], nobody has offered, / so I [might] ask / my sister.", "vi": "Đáng buồn là, chưa ai đề nghị giúp, / nên có lẽ tôi sẽ hỏi / chị gái tôi." },
+      { "en": "[While|while] we wait, / [shall] we ask / [whose] bag this is?", "vi": "Trong khi chúng ta chờ, / chúng ta có nên hỏi xem / chiếc túi này là của ai không?" },
+      { "en": "My sister might help, / but she has work after school.", "vi": "Chị gái tôi có lẽ sẽ giúp, / nhưng chị ấy phải làm việc sau giờ học." }
+    ],
+    "vocab": {
+      "least": { "word": "least", "pos": "adverb, determiner, pronoun", "ipa": "/list/", "vi": "ít nhất" },
+      "might": { "word": "might", "pos": "modal verb", "ipa": "/maɪt/", "vi": "có thể (khả năng thấp)" },
+      "sadly": { "word": "sadly", "pos": "adverb", "ipa": "/ˈsædli/", "vi": "đáng buồn là" },
+      "shall": { "word": "shall", "pos": "modal verb", "ipa": "/ʃæl/", "vi": "sẽ (xin phép/đề nghị)" },
+      "since": { "word": "since", "pos": "conjunction, preposition", "ipa": "/sɪn(t)s/", "vi": "kể từ khi" },
+      "while": { "word": "while", "pos": "conjunction", "ipa": "/ʍaɪl/", "vi": "trong khi" },
+      "whose": { "word": "whose", "pos": "determiner, pronoun", "ipa": "/huːz/", "vi": "của ai" }
+    }
+  },
+  {
+    "id": "a2-u052-2",
+    "unit": 52,
+    "topic": "func",
+    "title": "A Day at School",
+    "titleVi": "Một ngày ở trường",
+    "sentences": [
+      { "en": "Is this blue notebook / [yours], / or did I take it by mistake?", "vi": "Cuốn sổ màu xanh này / là của bạn, / hay tôi đã cầm nhầm nó?" },
+      { "en": "We [almost] missed the bus, / but it waited for us.", "vi": "Chúng tôi suýt lỡ chuyến xe buýt, / nhưng xe đã đợi chúng tôi." },
+      { "en": "[Anyway], / Mia found the classroom [easily] / after asking a guard.", "vi": "Dù sao đi nữa, / Mia đã dễ dàng tìm thấy lớp học / sau khi hỏi một người bảo vệ." },
+      { "en": "You can take [either] seat, / and both are near the window.", "vi": "Bạn có thể chọn một trong hai chỗ ngồi, / và cả hai đều ở gần cửa sổ." },
+      { "en": "Everyone joined the study group / [except] Ben, / who felt sick.", "vi": "Mọi người đều tham gia nhóm học / ngoại trừ Ben, / người cảm thấy không khỏe." }
+    ],
+    "vocab": {
+      "yours": { "word": "yours", "pos": "pronoun", "ipa": "/jɔː(ɹ)z/", "vi": "của bạn" },
+      "almost": { "word": "almost", "pos": "adverb", "ipa": "/ˈɔː(l)məs/", "vi": "gần như" },
+      "anyway": { "word": "anyway", "pos": "adverb", "ipa": "/ˈɛniweɪ/", "vi": "dù sao đi nữa" },
+      "easily": { "word": "easily", "pos": "adverb", "ipa": "/ˈi.zɪ.li/", "vi": "một cách dễ dàng" },
+      "either": { "word": "either", "pos": "adverb, determiner, pronoun", "ipa": "/ˈaɪ.ðɚ/", "vi": "một trong hai; cũng không" },
+      "except": { "word": "except", "pos": "preposition", "ipa": "/ɪkˈsɛpt/", "vi": "ngoại trừ" }
+    }
+  },
+  {
+    "id": "a2-u053-1",
+    "unit": 53,
+    "topic": "func",
+    "title": "A Rainy Evening",
+    "titleVi": "Một buổi tối mưa",
+    "sentences": [
+      { "en": "Yesterday, we waited [inside] / while the rain hit the roof [loudly].", "vi": "Hôm qua, chúng tôi đợi ở bên trong / trong khi mưa đập ầm ĩ lên mái nhà." },
+      { "en": "The little door [itself] / was hard to open.", "vi": "Chính cánh cửa nhỏ đó / rất khó mở." },
+      { "en": "My brother [mostly] read a book / and drank tea.", "vi": "Anh trai tôi chủ yếu đọc một cuốn sách / và uống trà." },
+      { "en": "I [myself] made dinner / while my mother worked late.", "vi": "Chính tôi đã nấu bữa tối / trong khi mẹ tôi làm việc muộn." },
+      { "en": "She was [nearly] late, / so she walked [rather] quickly.", "vi": "Cô ấy suýt bị muộn, / nên cô ấy đi bộ khá nhanh." }
+    ],
+    "vocab": {
+      "inside": { "word": "inside", "pos": "adjective, adverb, noun, preposition", "ipa": "/ˈɪnsaɪd/", "vi": "bên trong" },
+      "itself": { "word": "itself", "pos": "pronoun", "ipa": "/ɪtˈsɛlf/", "vi": "chính nó" },
+      "loudly": { "word": "loudly", "pos": "adverb", "ipa": "/ˈlaʊdli/", "vi": "ầm ĩ, to tiếng" },
+      "mostly": { "word": "mostly", "pos": "adverb", "ipa": "/ˈmoʊstli/", "vi": "chủ yếu" },
+      "myself": { "word": "myself", "pos": "pronoun", "ipa": "/maɪˈsɛlf/", "vi": "chính tôi" },
+      "nearly": { "word": "nearly", "pos": "adverb", "ipa": "/ˈnɪɹli/", "vi": "gần như" },
+      "rather": { "word": "rather", "pos": "adverb", "ipa": "/ˈɹæðɚ/", "vi": "khá là" }
+    }
+  },
+  {
+    "id": "a2-u053-2",
+    "unit": 53,
+    "topic": "func",
+    "title": "A Class Meeting",
+    "titleVi": "Buổi họp lớp",
+    "sentences": [
+      { "en": "Mia walked [slowly|slowly] / to the class meeting / after school.", "vi": "Mia đi chậm rãi / đến buổi họp lớp / sau giờ học." },
+      { "en": "She had [already|already] heard / about a new phone rule.", "vi": "Cô ấy đã nghe nói / về quy định mới về điện thoại." },
+      { "en": "At the meeting, / she spoke [against|against] the new rule / calmly.", "vi": "Trong cuộc họp, / cô ấy lên tiếng phản đối quy định mới / một cách bình tĩnh." },
+      { "en": "[Anybody|anybody] could hear her [clearly|clearly] / in the quiet room.", "vi": "Bất cứ ai cũng có thể nghe rõ cô ấy / trong căn phòng yên tĩnh." },
+      { "en": "She explained [exactly|exactly] / why students needed phones / after class.", "vi": "Cô ấy giải thích chính xác / vì sao học sinh cần điện thoại / sau giờ học." }
+    ],
+    "vocab": {
+      "slowly": { "word": "slowly", "pos": "adverb", "ipa": "/ˈsloʊli/", "vi": "một cách chậm rãi" },
+      "against": { "word": "against", "pos": "preposition", "ipa": "/əˈɡɛnst/", "vi": "chống lại" },
+      "already": { "word": "already", "pos": "adverb", "ipa": "/ɔlˈɹɛdi/", "vi": "đã, rồi" },
+      "anybody": { "word": "anybody", "pos": "pronoun", "ipa": "/ˈɛn.i.bʌ.di/", "vi": "bất cứ ai" },
+      "clearly": { "word": "clearly", "pos": "adverb", "ipa": "/ˈklɪɚli/", "vi": "rõ ràng" },
+      "exactly": { "word": "exactly", "pos": "adverb", "ipa": "/ɪɡˈzæk(t).li/", "vi": "chính xác" }
+    }
+  },
+  {
+    "id": "a2-u054-1",
+    "unit": 54,
+    "topic": "func",
+    "title": "A Trip to the Market",
+    "titleVi": "Chuyến đi chợ",
+    "sentences": [
+      { "en": "[Firstly|firstly], / Mia opened her notebook / and wrote today's plan.", "vi": "Trước hết, / Mia mở cuốn sổ của mình / và viết kế hoạch hôm nay." },
+      { "en": "Then she pushed / her chair [forward] / and called her brother.", "vi": "Sau đó, cô đẩy / ghế về phía trước / và gọi anh trai mình." },
+      { "en": "Her brother [happily|happily] / carried the bags / to their mother's car.", "vi": "Anh trai cô vui vẻ / mang những chiếc túi / đến xe của mẹ họ." },
+      { "en": "Mia [herself] checked / the shopping list / before they left home.", "vi": "Chính Mia đã kiểm tra / danh sách mua sắm / trước khi họ rời nhà." },
+      { "en": "He fixed the loose wheel / [himself] / so they could leave.", "vi": "Anh ấy sửa chiếc bánh xe bị lỏng / một mình / để họ có thể đi." },
+      { "en": "[Finally|finally], Mia thanked him, / and they drove to the market.", "vi": "Cuối cùng thì Mia cảm ơn anh, / và họ lái xe đến chợ." }
+    ],
+    "vocab": {
+      "finally": { "word": "finally", "pos": "adverb", "ipa": "/ˈfaɪ.nə.li/", "vi": "cuối cùng thì" },
+      "firstly": { "word": "firstly", "pos": "adverb", "ipa": "/ˈfɜɹstli/", "vi": "trước hết" },
+      "forward": { "word": "forward", "pos": "adverb", "ipa": "/ˈfɔɹwəɹd/", "vi": "về phía trước" },
+      "happily": { "word": "happily", "pos": "adverb", "ipa": "/ˈhæp.ə.li/", "vi": "một cách hạnh phúc" },
+      "herself": { "word": "herself", "pos": "pronoun", "ipa": "/hɝˈsɛlf/", "vi": "chính cô ấy" },
+      "himself": { "word": "himself", "pos": "pronoun", "ipa": "/hɪmˈsɛlf/", "vi": "chính anh ấy" }
+    }
+  },
+  {
+    "id": "a2-u054-2",
+    "unit": 54,
+    "topic": "func",
+    "title": "A Search for the Keys",
+    "titleVi": "Cuộc tìm kiếm chìa khóa",
+    "sentences": [
+      { "en": "We had no bread, / so we ate eggs [instead].", "vi": "Chúng tôi không có bánh mì, / nên thay vào đó chúng tôi ăn trứng." },
+      { "en": "I waited for two buses, / but [neither] bus came.", "vi": "Tôi đợi hai chuyến xe buýt, / nhưng cả hai đều không đến." },
+      { "en": "We looked for my keys, / but they were [nowhere] in the house.", "vi": "Chúng tôi tìm chìa khóa của tôi, / nhưng chúng không có ở đâu trong nhà cả." },
+      { "en": "[Perhaps] Dad left them [quietly] / beside the door last night.", "vi": "Có lẽ bố đã lặng lẽ để chúng / cạnh cửa vào tối qua." },
+      { "en": "[Several|several] neighbors helped us search / before dinner, and we found them.", "vi": "Một vài người hàng xóm giúp chúng tôi tìm kiếm / trước bữa tối, và chúng tôi đã tìm thấy chúng." }
+    ],
+    "vocab": {
+      "instead": { "word": "instead", "pos": "adverb", "ipa": "/ɪnˈstɛd/", "vi": "thay vào đó" },
+      "neither": { "word": "neither", "pos": "determiner, pronoun", "ipa": "/ˈnaɪ.ðɚ/", "vi": "không cái nào" },
+      "nowhere": { "word": "nowhere", "pos": "adverb", "ipa": "/ˈnoʊ.(h)wɛɹ/", "vi": "không nơi nào" },
+      "perhaps": { "word": "perhaps", "pos": "adverb", "ipa": "/pɚˈhæps/", "vi": "có lẽ" },
+      "quietly": { "word": "quietly", "pos": "adverb", "ipa": "/ˈkwaɪ.ɪt.li/", "vi": "một cách yên lặng" },
+      "several": { "word": "several", "pos": "determiner, pronoun", "ipa": "/ˈsɛv.(ə.)ɹəl/", "vi": "một vài" }
+    }
+  },
+  {
+    "id": "a2-u055-1",
+    "unit": 55,
+    "topic": "func",
+    "title": "My Bus Ride",
+    "titleVi": "Chuyến Xe Buýt Của Tôi",
+    "sentences": [
+      { "en": "I [normally] walk / [towards] the bus stop / after breakfast.", "vi": "Thông thường tôi đi bộ / về phía trạm xe buýt / sau bữa sáng." },
+      { "en": "[Recently|recently], I can study / [anywhere] with my phone.", "vi": "Gần đây, tôi có thể học / bất cứ nơi đâu bằng điện thoại." },
+      { "en": "[Although|although] the bus / is often late, / I stay calm.", "vi": "Mặc dù xe buýt / thường đến muộn, / tôi vẫn bình tĩnh." },
+      { "en": "[Actually|actually], I enjoy / this quiet time / before work.", "vi": "Thực ra, tôi thích / khoảng thời gian yên tĩnh này / trước giờ làm." }
+    ],
+    "vocab": {
+      "towards": { "word": "towards", "pos": "preposition", "ipa": "/tʊˈwɔɹdz/", "vi": "về phía" },
+      "actually": { "word": "actually", "pos": "adverb", "ipa": "/ˈæk.t͡ʃ(u.)(ə.)li/", "vi": "thực ra" },
+      "although": { "word": "although", "pos": "conjunction", "ipa": "/ɔːlˈðəʊ/", "vi": "mặc dù" },
+      "anywhere": { "word": "anywhere", "pos": "adverb, pronoun", "ipa": "/ˈɛnɪwɛə/", "vi": "bất cứ nơi đâu" },
+      "normally": { "word": "normally", "pos": "adverb", "ipa": "/ˈnɔɹ.mə.li/", "vi": "thông thường" },
+      "recently": { "word": "recently", "pos": "adverb", "ipa": "/ˈɹi.sənt.li/", "vi": "gần đây" }
+    }
+  },
+  {
+    "id": "a2-u055-2",
+    "unit": 55,
+    "topic": "func",
+    "title": "Getting Ready for School",
+    "titleVi": "Chuẩn bị đi học",
+    "sentences": [
+      { "en": "[Secondly|secondly], she [carefully] packed / her books and lunch.", "vi": "Thứ hai, cô ấy cẩn thận cho vào túi / sách vở và bữa trưa của mình." },
+      { "en": "[Suddenly|suddenly], dark clouds covered the sky, / and rain began.", "vi": "Đột nhiên, mây đen phủ kín bầu trời, / và mưa bắt đầu rơi." },
+      { "en": "Her mother checked the bag / and said, / 'You packed everything [correctly].'", "vi": "Mẹ cô kiểm tra chiếc túi / rồi nói, / 'Con đã xếp mọi thứ đúng cách.'" },
+      { "en": "Mai asked if she could leave, / and Mom said, '[Certainly|certainly]!'", "vi": "Mai hỏi liệu mình có thể đi chưa, / và mẹ đáp: 'Chắc chắn rồi!'" },
+      { "en": "She walked [extremely] slowly / to school in the heavy rain.", "vi": "Cô ấy đi cực kỳ chậm / đến trường giữa cơn mưa lớn." }
+    ],
+    "vocab": {
+      "secondly": { "word": "secondly", "pos": "adverb", "ipa": "/ˈsɛk.(ə)ndli/", "vi": "thứ hai là" },
+      "suddenly": { "word": "suddenly", "pos": "adverb", "ipa": "/ˈsʌd.ən.li/", "vi": "đột nhiên" },
+      "carefully": { "word": "carefully", "pos": "adverb", "ipa": "/ˈkɛɹf(ə)li/", "vi": "một cách cẩn thận" },
+      "certainly": { "word": "certainly", "pos": "adverb", "ipa": "/ˈsɝ.tn̩.li/", "vi": "chắc chắn rồi" },
+      "correctly": { "word": "correctly", "pos": "adverb", "ipa": "/kəˈɹɛk(t).li/", "vi": "một cách chính xác" },
+      "extremely": { "word": "extremely", "pos": "adverb", "ipa": "/ɪksˈtɹimli/", "vi": "cực kỳ" }
+    }
+  },
+  {
+    "id": "a2-u056-1",
+    "unit": 56,
+    "topic": "func",
+    "title": "A Picnic by the River",
+    "titleVi": "Buổi dã ngoại bên bờ sông",
+    "sentences": [
+      { "en": "We packed / a small lunch, / [including] fruit and two sandwiches.", "vi": "Chúng tôi chuẩn bị / một bữa trưa nhỏ, / bao gồm cả trái cây và hai chiếc bánh mì kẹp." },
+      { "en": "Then / we found [somewhere] quiet / to eat / near the river.", "vi": "Sau đó / chúng tôi tìm thấy một nơi yên tĩnh / để ăn / gần bờ sông." },
+      { "en": "We prepared everything [ourselves], / [especially] the fresh fruit.", "vi": "Chính chúng tôi đã tự chuẩn bị mọi thứ, / đặc biệt là trái cây tươi." },
+      { "en": "The picnic was [completely] peaceful, / and nobody hurried home.", "vi": "Buổi dã ngoại hoàn toàn yên bình, / và không ai vội về nhà." },
+      { "en": "We will [definitely] return there / next Sunday / with our family.", "vi": "Chúng tôi chắc chắn sẽ quay lại đó / vào Chủ nhật tới / cùng gia đình." }
+    ],
+    "vocab": {
+      "including": { "word": "including", "pos": "preposition", "ipa": "/ɪnˈkluːdɪŋ/", "vi": "bao gồm cả" },
+      "ourselves": { "word": "ourselves", "pos": "pronoun", "ipa": "/aʊɚˈsɛlvz/", "vi": "chính chúng tôi" },
+      "somewhere": { "word": "somewhere", "pos": "adverb, pronoun", "ipa": "/ˈsʌm.wɛɹ/", "vi": "một nơi nào đó" },
+      "completely": { "word": "completely", "pos": "adverb", "ipa": "/kəmˈpliːtli/", "vi": "hoàn toàn" },
+      "definitely": { "word": "definitely", "pos": "adverb", "ipa": "/ˈdɛf.ɪ.nɪt.li/", "vi": "chắc chắn" },
+      "especially": { "word": "especially", "pos": "adverb", "ipa": "/ɪˈspɛʃ.(ə.)li/", "vi": "đặc biệt là" }
+    }
+  },
+  {
+    "id": "a2-u056-2",
+    "unit": 56,
+    "topic": "func",
+    "title": "The Classroom Keys",
+    "titleVi": "Chìa Khóa Lớp Học",
+    "sentences": [
+      { "en": "[Unfortunately|unfortunately], / we looked [everywhere] for the classroom keys / after lunch.", "vi": "Không may là, / chúng tôi đã tìm chìa khóa lớp học khắp nơi / sau giờ ăn trưa." },
+      { "en": "[Fortunately|fortunately], / two students found them [immediately] / near the door.", "vi": "May mắn là, / hai học sinh đã tìm thấy chúng ngay lập tức / gần cửa." },
+      { "en": "They reminded [themselves] / to check the door / before leaving.", "vi": "Họ tự nhắc mình / kiểm tra cửa / trước khi rời đi." },
+      { "en": "They organized the keys [differently], / using colors for each classroom.", "vi": "Họ sắp xếp chìa khóa theo cách khác, / dùng màu sắc riêng cho mỗi lớp học." },
+      { "en": "After that, / everyone found the right key / without any trouble.", "vi": "Sau đó, / mọi người đều tìm được chìa khóa phù hợp / mà không gặp khó khăn gì." }
+    ],
+    "vocab": {
+      "everywhere": { "word": "everywhere", "pos": "adverb", "ipa": "/ˈɛv.ɹi.(h)weə(ɹ)/", "vi": "mọi nơi" },
+      "themselves": { "word": "themselves", "pos": "pronoun", "ipa": "/ðɛmˈsɛlvz/", "vi": "chính họ" },
+      "differently": { "word": "differently", "pos": "adverb", "ipa": "/ˈdɪf.ə.ɹənt.li/", "vi": "một cách khác" },
+      "fortunately": { "word": "fortunately", "pos": "adverb", "ipa": "/ˈfɔɹ.t͡ʃə.nɪt.li/", "vi": "may mắn là" },
+      "immediately": { "word": "immediately", "pos": "adverb", "ipa": "/ɪˈmi.di.ɪt.li/", "vi": "ngay lập tức" },
+      "unfortunately": { "word": "unfortunately", "pos": "adverb", "ipa": "/ʌnˈfɔɹ.t͡ʃə.nɪt.li/", "vi": "không may là" }
+    }
+  },
+  {
+    "id": "a2-u057-1",
+    "unit": 57,
+    "topic": "misc",
+    "title": "A Visit to the Old Wall",
+    "titleVi": "Chuyến thăm bức tường cổ",
+    "sentences": [
+      { "en": "At the [top] of the old wall, / we saw a narrow [gap].", "vi": "Trên đỉnh bức tường cổ, / chúng tôi thấy một khoảng trống hẹp." },
+      { "en": "A [bit] of light / came through it / and lit an old picture.", "vi": "Một chút ánh sáng / lọt qua đó / và chiếu sáng một bức tranh cũ." },
+      { "en": "The picture showed a [god] / beside a soldier with a [gun].", "vi": "Bức tranh có hình một vị thần / bên cạnh một người lính cầm súng." },
+      { "en": "A sign explained the [law] / that once controlled such weapons.", "vi": "Một tấm biển giải thích luật / từng quy định về những vũ khí như vậy." },
+      { "en": "Our guide gave us a [tip] / about the best room to visit.", "vi": "Hướng dẫn viên cho chúng tôi một mẹo / về căn phòng đáng tham quan nhất." }
+    ],
+    "vocab": {
+      "bit": { "word": "bit", "pos": "noun", "ipa": "/ˈbɪt/", "vi": "một chút" },
+      "gap": { "word": "gap", "pos": "noun", "ipa": "/ɡæp/", "vi": "khoảng trống" },
+      "god": { "word": "god", "pos": "noun", "ipa": "/ɡɑd/", "vi": "vị thần, Chúa" },
+      "gun": { "word": "gun", "pos": "noun", "ipa": "/ˈɡʌn/", "vi": "khẩu súng" },
+      "law": { "word": "law", "pos": "noun", "ipa": "/lɔ/", "vi": "luật" },
+      "tip": { "word": "tip", "pos": "noun", "ipa": "/tɪp/", "vi": "mẹo; tiền boa" },
+      "top": { "word": "top", "pos": "adjective, noun", "ipa": "/tɑp/", "vi": "đỉnh, trên cùng" }
+    }
+  },
+  {
+    "id": "a2-u057-2",
+    "unit": 57,
+    "topic": "misc",
+    "title": "A Secret from the Past",
+    "titleVi": "Bí mật từ quá khứ",
+    "sentences": [
+      { "en": "At school, / we learned about the [war] / and the [army].", "vi": "Ở trường, / chúng tôi học về chiến tranh / và quân đội." },
+      { "en": "The soldiers [cared|care] for children / during hard times.", "vi": "Những người lính chăm sóc trẻ em / trong những thời kỳ khó khăn." },
+      { "en": "One old [case] / held a map and a small book.", "vi": "Một chiếc hộp cũ / đựng một tấm bản đồ và một cuốn sách nhỏ." },
+      { "en": "The book showed a [code] / that helped people send messages.", "vi": "Cuốn sách cho thấy một mật mã / giúp mọi người gửi tin." },
+      { "en": "They hid the note / in a [hole] near the wall.", "vi": "Họ giấu mảnh giấy / trong một cái lỗ gần bức tường." }
+    ],
+    "vocab": {
+      "war": { "word": "war", "pos": "noun", "ipa": "/wɔɹ/", "vi": "chiến tranh" },
+      "army": { "word": "army", "pos": "noun", "ipa": "/ˈɑɹ.mi/", "vi": "quân đội" },
+      "care": { "word": "care", "pos": "noun, verb", "ipa": "/kɛɚ/", "vi": "sự chăm sóc" },
+      "case": { "word": "case", "pos": "noun", "ipa": "/keɪs/", "vi": "trường hợp; vỏ hộp" },
+      "code": { "word": "code", "pos": "noun", "ipa": "/koʊd/", "vi": "mã" },
+      "hole": { "word": "hole", "pos": "noun", "ipa": "/hoʊl/", "vi": "cái lỗ" }
+    }
+  },
+  {
+    "id": "a2-u058-1",
+    "unit": 58,
+    "topic": "misc",
+    "title": "A Picture from School",
+    "titleVi": "Một bức tranh ở trường",
+    "sentences": [
+      { "en": "Mia found / one [item] / in her old school bag.", "vi": "Mia tìm thấy / một món đồ / trong chiếc cặp đi học cũ của mình." },
+      { "en": "It showed / a [king] / beside a river.", "vi": "Nó có hình / một vị vua / bên cạnh một dòng sông." },
+      { "en": "A blue line / [linked|link] the picture / to a short note.", "vi": "Một đường màu xanh / nối bức tranh / với một mẩu ghi chú ngắn." },
+      { "en": "The note said / the picture brought / good [luck].", "vi": "Mẩu ghi chú nói rằng / bức tranh mang lại / vận may." },
+      { "en": "At school, / Mia pictured the story / in her [mind] / during a quiz.", "vi": "Ở trường, / Mia hình dung câu chuyện / trong tâm trí / trong lúc làm bài kiểm tra." },
+      { "en": "Her [role] / was to record / the quiz success [rate].", "vi": "Vai trò của cô / là ghi lại / tỷ lệ thành công của bài kiểm tra." }
+    ],
+    "vocab": {
+      "item": { "word": "item", "pos": "noun", "ipa": "/ˈaɪ.təm/", "vi": "món đồ" },
+      "king": { "word": "king", "pos": "noun", "ipa": "/ˈkɪŋ/", "vi": "vua" },
+      "link": { "word": "link", "pos": "noun, verb", "ipa": "/ˈlɪŋk/", "vi": "liên kết" },
+      "luck": { "word": "luck", "pos": "noun", "ipa": "/lʌk/", "vi": "vận may" },
+      "mind": { "word": "mind", "pos": "noun, verb", "ipa": "/maɪnd/", "vi": "tâm trí; phiền" },
+      "rate": { "word": "rate", "pos": "noun", "ipa": "/ɹeɪt/", "vi": "tỷ lệ" },
+      "role": { "word": "role", "pos": "noun", "ipa": "/ɹoʊl/", "vi": "vai trò" }
+    }
+  },
+  {
+    "id": "a2-u058-2",
+    "unit": 58,
+    "topic": "misc",
+    "title": "A Day Around Town",
+    "titleVi": "Một ngày quanh thị trấn",
+    "sentences": [
+      { "en": "We sat / on the [side] / of the small lake.", "vi": "Chúng tôi ngồi / bên / hồ nhỏ." },
+      { "en": "She chose / a [sort] of bread / for lunch today.", "vi": "Cô ấy chọn / một loại bánh mì / cho bữa trưa hôm nay." },
+      { "en": "One [step] / [caused|cause] a loud noise / in the quiet room.", "vi": "Một bước chân / gây ra tiếng động lớn / trong căn phòng yên tĩnh." },
+      { "en": "The [view] / from our window / looked bright / after the rain.", "vi": "Quang cảnh / từ cửa sổ nhà chúng tôi / trông sáng sủa / sau cơn mưa." },
+      { "en": "The police talked about / a [crime] near our school / yesterday.", "vi": "Cảnh sát nói về / một vụ phạm tội gần trường chúng tôi / hôm qua." }
+    ],
+    "vocab": {
+      "side": { "word": "side", "pos": "noun", "ipa": "/ˈsaɪ̯d/", "vi": "bên, phía" },
+      "sort": { "word": "sort", "pos": "noun", "ipa": "/soɹt/", "vi": "loại; sắp xếp" },
+      "step": { "word": "step", "pos": "noun", "ipa": "/stɛp/", "vi": "bước chân" },
+      "view": { "word": "view", "pos": "noun", "ipa": "/vjuː/", "vi": "quang cảnh; quan điểm" },
+      "cause": { "word": "cause", "pos": "noun, verb", "ipa": "/kɔz/", "vi": "nguyên nhân; gây ra" },
+      "crime": { "word": "crime", "pos": "noun", "ipa": "/kɹaɪm/", "vi": "tội phạm" }
+    }
+  },
+  {
+    "id": "a2-u059-1",
+    "unit": 59,
+    "topic": "misc",
+    "title": "A Day Together",
+    "titleVi": "Một ngày bên nhau",
+    "sentences": [
+      { "en": "Our [guest] found / a small [error] in the kitchen list.", "vi": "Khách mời của chúng tôi phát hiện / một lỗi nhỏ trong danh sách nhà bếp." },
+      { "en": "A [crowd] watched / as Ben reached the next [level] / in his game.", "vi": "Đám đông theo dõi / khi Ben đạt cấp độ tiếp theo / trong trò chơi của mình." },
+      { "en": "She has a [habit] of keeping / [metal] keys / in a bowl.", "vi": "Cô ấy có thói quen cất / những chiếc chìa khóa bằng kim loại / trong một cái bát." },
+      { "en": "News of the [death] / made the family quiet / that evening.", "vi": "Tin về cái chết / khiến gia đình im lặng / vào tối hôm đó." }
+    ],
+    "vocab": {
+      "crowd": { "word": "crowd", "pos": "noun", "ipa": "/ˈkɹaʊ̯d/", "vi": "đám đông" },
+      "death": { "word": "death", "pos": "noun", "ipa": "/dɛθ/", "vi": "cái chết" },
+      "error": { "word": "error", "pos": "noun", "ipa": "/ˈɛɹəɹ/", "vi": "lỗi" },
+      "guest": { "word": "guest", "pos": "noun", "ipa": "/ɡɛst/", "vi": "khách mời" },
+      "habit": { "word": "habit", "pos": "noun", "ipa": "/ˈhæb.ɪt/", "vi": "thói quen" },
+      "level": { "word": "level", "pos": "noun", "ipa": "/ˈlɛvəl/", "vi": "cấp độ" },
+      "metal": { "word": "metal", "pos": "noun", "ipa": "/ˈmɛ.təl/", "vi": "kim loại" }
+    }
+  },
+  {
+    "id": "a2-u059-2",
+    "unit": 59,
+    "topic": "misc",
+    "title": "A Story During the Storm",
+    "titleVi": "Câu chuyện trong cơn bão",
+    "sentences": [
+      { "en": "Last night, / a loud [noise] woke me / during a storm.", "vi": "Tối qua, / một tiếng ồn lớn làm tôi tỉnh giấc / trong cơn bão." },
+      { "en": "Then the [power] went out, / and our room became dark.", "vi": "Sau đó điện bị mất, / và phòng chúng tôi trở nên tối." },
+      { "en": "My sister read a story / about a kind [queen].", "vi": "Chị tôi đọc một câu chuyện / về một nữ hoàng nhân hậu." },
+      { "en": "She said / the queen brought [peace] / to her land.", "vi": "Cô ấy nói / nữ hoàng mang lại hòa bình / cho vùng đất của mình." },
+      { "en": "I used my [sense] of touch / to feel / the candle's [shape].", "vi": "Tôi dùng giác quan xúc giác của mình / để cảm nhận / hình dạng của cây nến." }
+    ],
+    "vocab": {
+      "noise": { "word": "noise", "pos": "noun", "ipa": "/ˈnoɪ̯z/", "vi": "tiếng ồn" },
+      "peace": { "word": "peace", "pos": "noun", "ipa": "/ˈpiːs/", "vi": "hòa bình" },
+      "power": { "word": "power", "pos": "noun", "ipa": "/ˈpaʊ̯.ɚ/", "vi": "sức mạnh; điện" },
+      "queen": { "word": "queen", "pos": "noun", "ipa": "/kwiːn/", "vi": "nữ hoàng" },
+      "sense": { "word": "sense", "pos": "noun", "ipa": "/sɛns/", "vi": "giác quan; ý nghĩa" },
+      "shape": { "word": "shape", "pos": "noun", "ipa": "/ˈʃeɪ̯p/", "vi": "hình dạng" }
+    }
+  },
+  {
+    "id": "a2-u060-1",
+    "unit": 60,
+    "topic": "misc",
+    "title": "A Busy Afternoon",
+    "titleVi": "Một buổi chiều bận rộn",
+    "sentences": [
+      { "en": "At the post office, / Mai bought a [stamp] / for her letter.", "vi": "Ở bưu điện, / Mai mua một con tem / cho lá thư của cô ấy." },
+      { "en": "A [thief] tried to [attack] the shop, / but Mai called the police.", "vi": "Một tên trộm đã cố tấn công cửa hàng, / nhưng Mai gọi cảnh sát." },
+      { "en": "A small [amount] of cash / lay at the [bottom] of his bag.", "vi": "Một khoản tiền nhỏ / nằm ở đáy túi của hắn." },
+      { "en": "He pressed the red [button] / and asked for help.", "vi": "Anh ấy nhấn cái nút màu đỏ / và xin giúp đỡ." },
+      { "en": "Then Mai had a [chance] / to help the shop owner.", "vi": "Sau đó, Mai có cơ hội / giúp chủ cửa hàng." }
+    ],
+    "vocab": {
+      "stamp": { "word": "stamp", "pos": "noun", "ipa": "/stæmp/", "vi": "con tem" },
+      "thief": { "word": "thief", "pos": "noun", "ipa": "/ˈθiːf/", "vi": "tên trộm" },
+      "amount": { "word": "amount", "pos": "noun", "ipa": "/əˈmaʊnt/", "vi": "số lượng" },
+      "attack": { "word": "attack", "pos": "noun, verb", "ipa": "/əˈtæk/", "vi": "cuộc tấn công; tấn công" },
+      "bottom": { "word": "bottom", "pos": "adjective, noun", "ipa": "/ˈbɑ.təm/", "vi": "đáy, phần dưới cùng" },
+      "button": { "word": "button", "pos": "noun", "ipa": "/ˈbʌtən/", "vi": "cái nút" },
+      "chance": { "word": "chance", "pos": "noun", "ipa": "/t͡ʃæns/", "vi": "cơ hội" }
+    }
+  },
+  {
+    "id": "a2-u060-2",
+    "unit": 60,
+    "topic": "misc",
+    "title": "A Reading Exercise",
+    "titleVi": "Bài tập đọc",
+    "sentences": [
+      { "en": "The teacher / gave us a [choice] / of two short stories.", "vi": "Cô giáo / cho chúng tôi lựa chọn / giữa hai câu chuyện ngắn." },
+      { "en": "One story had a [circle] / in the first [column].", "vi": "Một câu chuyện có một hình tròn / ở cột đầu tiên." },
+      { "en": "The picture showed [danger], / so we talked about safety.", "vi": "Bức tranh cho thấy mối nguy hiểm, / nên chúng tôi nói về sự an toàn." },
+      { "en": "Then we discussed the [effect] / of each small action.", "vi": "Sau đó, chúng tôi thảo luận về ảnh hưởng / của mỗi hành động nhỏ." },
+      { "en": "At home, I read the [ending] / with my sister.", "vi": "Ở nhà, tôi đọc phần kết / cùng chị gái." }
+    ],
+    "vocab": {
+      "choice": { "word": "choice", "pos": "noun", "ipa": "/tʃɔɪs/", "vi": "sự lựa chọn" },
+      "circle": { "word": "circle", "pos": "noun, verb", "ipa": "/ˈsɜɹkəl/", "vi": "hình tròn" },
+      "column": { "word": "column", "pos": "noun", "ipa": "/ˈkɒləm/", "vi": "cột" },
+      "danger": { "word": "danger", "pos": "noun", "ipa": "/ˈdeɪn.d͡ʒɚ/", "vi": "mối nguy hiểm" },
+      "effect": { "word": "effect", "pos": "noun", "ipa": "/ɪˈfɛkt/", "vi": "ảnh hưởng, hiệu quả" },
+      "ending": { "word": "ending", "pos": "noun", "ipa": "/ˈɛndɪŋ/", "vi": "phần kết" }
+    }
+  },
+  {
+    "id": "a2-u061-1",
+    "unit": 61,
+    "topic": "misc",
+    "title": "A Day of Small Things",
+    "titleVi": "Một ngày với những điều nhỏ bé",
+    "sentences": [
+      { "en": "Good sleep / gives me [energy] / for work and study.", "vi": "Giấc ngủ ngon / giúp tôi có năng lượng / để làm việc và học tập." },
+      { "en": "One important [factor] / is drinking enough water / each day.", "vi": "Một yếu tố quan trọng / là uống đủ nước / mỗi ngày." },
+      { "en": "I wrote / the [figure] six / on my shopping list.", "vi": "Tôi đã viết / con số sáu / lên danh sách mua sắm của tôi." },
+      { "en": "Her calm [manner] / helped us discuss / one small [matter].", "vi": "Cách cư xử bình tĩnh của cô ấy / đã giúp chúng tôi bàn về / một vấn đề nhỏ." },
+      { "en": "That [memory] / made me smile / on the way home.", "vi": "Kỷ niệm ấy / khiến tôi mỉm cười / trên đường về nhà." },
+      { "en": "We used / a simple [method] / to plan dinner together.", "vi": "Chúng tôi đã dùng / một phương pháp đơn giản / để cùng nhau lên kế hoạch cho bữa tối." }
+    ],
+    "vocab": {
+      "energy": { "word": "energy", "pos": "noun", "ipa": "/ˈɛnɚd͡ʒi/", "vi": "năng lượng" },
+      "factor": { "word": "factor", "pos": "noun", "ipa": "/ˈfæk.təɹ/", "vi": "yếu tố" },
+      "figure": { "word": "figure", "pos": "noun", "ipa": "/ˈfɪɡə/", "vi": "con số; hình dáng" },
+      "manner": { "word": "manner", "pos": "noun", "ipa": "/ˈmænɚ/", "vi": "cách thức" },
+      "matter": { "word": "matter", "pos": "noun, verb", "ipa": "/ˈmætɚ/", "vi": "vấn đề" },
+      "memory": { "word": "memory", "pos": "noun", "ipa": "/ˈmɛm.ə.ɹi/", "vi": "trí nhớ; kỷ niệm" },
+      "method": { "word": "method", "pos": "noun", "ipa": "/ˈmɛθəd/", "vi": "phương pháp" }
+    }
+  },
+  {
+    "id": "a2-u061-2",
+    "unit": 61,
+    "topic": "misc",
+    "title": "The Class Game",
+    "titleVi": "Trò chơi của lớp",
+    "sentences": [
+      { "en": "Mia chose this [option] / for the class game.", "vi": "Mia đã chọn lựa chọn này / cho trò chơi của lớp." },
+      { "en": "Tom kept the [secret] / until his team found the clue.", "vi": "Tom giữ bí mật / cho đến khi đội của cậu ấy tìm thấy manh mối." },
+      { "en": "The [system] used a [symbol] / to mark each team's place.", "vi": "Hệ thống đã dùng một biểu tượng / để đánh dấu vị trí của mỗi đội." },
+      { "en": "The [source] of their clue / was a note / from the teacher.", "vi": "Nguồn gốc của manh mối / là một mẩu giấy / từ giáo viên." },
+      { "en": "Each team chose one [target] / before the game began.", "vi": "Mỗi đội chọn một mục tiêu / trước khi trò chơi bắt đầu." }
+    ],
+    "vocab": {
+      "option": { "word": "option", "pos": "noun", "ipa": "/ˈɑpʃən/", "vi": "lựa chọn" },
+      "secret": { "word": "secret", "pos": "adjective, noun", "ipa": "/ˈsiː.kɹɪt/", "vi": "bí mật" },
+      "source": { "word": "source", "pos": "noun", "ipa": "/sɔɹs/", "vi": "nguồn" },
+      "symbol": { "word": "symbol", "pos": "noun", "ipa": "/ˈsɪmbəl/", "vi": "biểu tượng" },
+      "system": { "word": "system", "pos": "noun", "ipa": "/ˈsɪstəm/", "vi": "hệ thống" },
+      "target": { "word": "target", "pos": "noun", "ipa": "/ˈtɑɹ.ɡɪt/", "vi": "mục tiêu" }
+    }
+  },
+  {
+    "id": "a2-u062-1",
+    "unit": 62,
+    "topic": "misc",
+    "title": "Learning Together",
+    "titleVi": "Cùng nhau học",
+    "sentences": [
+      { "en": "Mia improved her [ability] / to guess new words / from [context].", "vi": "Mia đã cải thiện khả năng / đoán từ mới / dựa vào ngữ cảnh." },
+      { "en": "At school, / she found a [benefit] / in reading short stories.", "vi": "Ở trường, / cô ấy nhận thấy lợi ích / của việc đọc truyện ngắn." },
+      { "en": "Her class gave old books / to a local [charity].", "vi": "Lớp cô ấy tặng sách cũ / cho một tổ chức từ thiện địa phương." },
+      { "en": "One [comment] about the book / helped us notice / its main [feature].", "vi": "Một lời bình luận về cuốn sách / giúp chúng tôi nhận ra / đặc điểm chính của nó." }
+    ],
+    "vocab": {
+      "ability": { "word": "ability", "pos": "noun", "ipa": "/əˈbɪl.ə.ti/", "vi": "khả năng" },
+      "benefit": { "word": "benefit", "pos": "noun", "ipa": "/ˈbɛn.ɪˌfɪt/", "vi": "lợi ích" },
+      "charity": { "word": "charity", "pos": "noun", "ipa": "/ˈt͡ʃɛɹəti/", "vi": "tổ chức từ thiện" },
+      "comment": { "word": "comment", "pos": "noun", "ipa": "/ˈkɑmɛnt/", "vi": "lời bình luận" },
+      "context": { "word": "context", "pos": "noun", "ipa": "/ˈkɑn.tɛkst/", "vi": "ngữ cảnh" },
+      "feature": { "word": "feature", "pos": "noun", "ipa": "/ˈfi.t͡ʃɚ/", "vi": "đặc điểm" }
+    }
+  },
+  {
+    "id": "a2-u062-2",
+    "unit": 62,
+    "topic": "misc",
+    "title": "Choosing a Bag",
+    "titleVi": "Chọn một chiếc túi",
+    "sentences": [
+      { "en": "The [pattern] on this [plastic] bag / looks simple and clean.", "vi": "Hoa văn trên chiếc túi nhựa này / trông đơn giản và sạch sẽ." },
+      { "en": "The [process] was quick, / so we finished before lunch.", "vi": "Quá trình diễn ra nhanh, / nên chúng tôi hoàn thành trước bữa trưa." },
+      { "en": "Our [purpose] was / to choose a bag / with good [quality].", "vi": "Mục đích của chúng tôi là / chọn một chiếc túi / có chất lượng tốt." },
+      { "en": "The shop accepted my [request] / for a smaller bag.", "vi": "Cửa hàng đã chấp nhận lời yêu cầu của tôi / về một chiếc túi nhỏ hơn." }
+    ],
+    "vocab": {
+      "pattern": { "word": "pattern", "pos": "noun", "ipa": "/ˈpætɚn/", "vi": "hoa văn; mẫu" },
+      "plastic": { "word": "plastic", "pos": "adjective, noun", "ipa": "/ˈplæstɪk/", "vi": "nhựa" },
+      "process": { "word": "process", "pos": "noun", "ipa": "/ˈpɹɑ.sɛs/", "vi": "quá trình" },
+      "purpose": { "word": "purpose", "pos": "noun", "ipa": "/ˈpɝ.pəs/", "vi": "mục đích" },
+      "quality": { "word": "quality", "pos": "noun", "ipa": "/ˈkwɑləti/", "vi": "chất lượng" },
+      "request": { "word": "request", "pos": "noun", "ipa": "/ɹɪˈkwɛst/", "vi": "lời yêu cầu" }
+    }
+  },
+  {
+    "id": "a2-u063-1",
+    "unit": 63,
+    "topic": "misc",
+    "title": "Everyday Words",
+    "titleVi": "Từ vựng chung",
+    "sentences": [
+      { "en": "Our town / offers a helpful [service] / for older people.", "vi": "Thị trấn chúng tôi / cung cấp một dịch vụ hữu ích / cho người lớn tuổi." },
+      { "en": "[Smoking|smoking] is not allowed / inside this small restaurant.", "vi": "Việc hút thuốc không được phép / bên trong nhà hàng nhỏ này." },
+      { "en": "People in our [society] / often help neighbors / during hard times.", "vi": "Mọi người trong xã hội chúng ta / thường giúp đỡ hàng xóm / trong lúc khó khăn." },
+      { "en": "I had a [thought] / about fixing the broken park bench.", "vi": "Tôi nảy ra một ý nghĩ / về việc sửa chiếc ghế băng hỏng trong công viên." },
+      { "en": "Rain caused [trouble] / for our team during the picnic.", "vi": "Mưa gây ra rắc rối / cho đội chúng tôi trong buổi dã ngoại." },
+      { "en": "Our shop has a [variety] / of fresh fruit every day.", "vi": "Cửa hàng chúng tôi có nhiều loại / trái cây tươi mỗi ngày." }
+    ],
+    "vocab": {
+      "service": { "word": "service", "pos": "noun", "ipa": "/ˈsɝ.vɪs/", "vi": "dịch vụ" },
+      "smoking": { "word": "smoking", "pos": "noun", "ipa": "/ˈsmoʊkɪŋ/", "vi": "việc hút thuốc" },
+      "society": { "word": "society", "pos": "noun", "ipa": "/səˈsaɪ.ə.ti/", "vi": "xã hội" },
+      "thought": { "word": "thought", "pos": "noun", "ipa": "/θɔt/", "vi": "ý nghĩ" },
+      "trouble": { "word": "trouble", "pos": "noun", "ipa": "/ˈt͡ʃɹʌbəl/", "vi": "rắc rối" },
+      "variety": { "word": "variety", "pos": "noun", "ipa": "/vəˈɹaɪ.ə.ti/", "vi": "sự đa dạng" }
+    }
+  },
+  {
+    "id": "a2-u063-2",
+    "unit": 63,
+    "topic": "misc",
+    "title": "A Busy Afternoon",
+    "titleVi": "Một buổi chiều bận rộn",
+    "sentences": [
+      { "en": "After a small [accident], / two neighbors had an [argument] outside.", "vi": "Sau một vụ tai nạn nhỏ, / hai người hàng xóm tranh cãi ở bên ngoài." },
+      { "en": "They made a [decision] / to call the police for help.", "vi": "Họ đưa ra quyết định / gọi cảnh sát giúp đỡ." },
+      { "en": "An officer found [evidence] / beside a bicycle and a bag.", "vi": "Một cảnh sát tìm thấy bằng chứng / bên cạnh một chiếc xe đạp và một cái túi." },
+      { "en": "Then he spoke with a [criminal] / near the shop.", "vi": "Sau đó, anh ấy nói chuyện với một tên tội phạm / gần cửa hàng." },
+      { "en": "Thankfully, nobody was hurt, / and it was not a [disaster].", "vi": "May mắn là, không ai bị thương, / và đó không phải là một thảm họa." }
+    ],
+    "vocab": {
+      "accident": { "word": "accident", "pos": "noun", "ipa": "/ˈæk.sə.dənt/", "vi": "tai nạn" },
+      "argument": { "word": "argument", "pos": "noun", "ipa": "/ˈɑɹɡjʊmənt/", "vi": "cuộc tranh cãi" },
+      "criminal": { "word": "criminal", "pos": "noun", "ipa": "/ˈkɹɪm.ə.nəl/", "vi": "tên tội phạm" },
+      "decision": { "word": "decision", "pos": "noun", "ipa": "/dɪˈsɪʒn̩/", "vi": "quyết định" },
+      "disaster": { "word": "disaster", "pos": "noun", "ipa": "/dəˈzäːs.təː/", "vi": "thảm họa" },
+      "evidence": { "word": "evidence", "pos": "noun", "ipa": "/ˈɛv.ɪ.dəns/", "vi": "bằng chứng" }
+    }
+  },
+  {
+    "id": "a2-u064-1",
+    "unit": 64,
+    "topic": "misc",
+    "title": "A Class Activity",
+    "titleVi": "Một hoạt động trên lớp",
+    "sentences": [
+      { "en": "Our teacher / used this [material] / for a simple class activity.", "vi": "Cô giáo của chúng tôi / đã dùng vật liệu này / cho một hoạt động đơn giản trên lớp." },
+      { "en": "She asked us / to watch the [movement] / of a toy car.", "vi": "Cô ấy yêu cầu chúng tôi / quan sát sự chuyển động / của một chiếc xe đồ chơi." },
+      { "en": "Then we wrote its [position] / on a small paper map.", "vi": "Sau đó, chúng tôi ghi vị trí của nó / lên một tấm bản đồ giấy nhỏ." },
+      { "en": "Each team showed [progress] / after practicing the task twice.", "vi": "Mỗi đội cho thấy sự tiến bộ / sau khi luyện tập nhiệm vụ hai lần." },
+      { "en": "We counted the [quantity] of blocks / and shared our answers.", "vi": "Chúng tôi đếm số lượng các khối đồ chơi / và chia sẻ câu trả lời." },
+      { "en": "The teacher / gave a kind [response] / to every group.", "vi": "Giáo viên / đã đưa ra lời phản hồi tử tế / với từng nhóm." }
+    ],
+    "vocab": {
+      "material": { "word": "material", "pos": "noun", "ipa": "/məˈtɪɹ.i.əl/", "vi": "vật liệu" },
+      "movement": { "word": "movement", "pos": "noun", "ipa": "/ˈmuːv.mənt/", "vi": "sự chuyển động" },
+      "position": { "word": "position", "pos": "noun", "ipa": "/pəˈzɪʃ.ən/", "vi": "vị trí" },
+      "progress": { "word": "progress", "pos": "noun", "ipa": "/ˈpɹɑ.ɡɹɛs/", "vi": "tiến bộ" },
+      "quantity": { "word": "quantity", "pos": "noun", "ipa": "/ˈkwɑn(t)ɪti/", "vi": "số lượng" },
+      "response": { "word": "response", "pos": "noun", "ipa": "/ɹɪˈspɑns/", "vi": "sự phản hồi" }
+    }
+  },
+  {
+    "id": "a2-u064-2",
+    "unit": 64,
+    "topic": "misc",
+    "title": "A Better Classroom",
+    "titleVi": "Một lớp học tốt hơn",
+    "sentences": [
+      { "en": "Our team / needed a [solution] / for the noisy classroom.", "vi": "Nhóm chúng tôi / cần một giải pháp / cho lớp học ồn ào." },
+      { "en": "We made a [strategy] / to finish the work / before lunch.", "vi": "Chúng tôi lập một chiến lược / để hoàn thành công việc / trước bữa trưa." },
+      { "en": "Careful [thinking] / helped us choose / the best plan.", "vi": "Suy nghĩ cẩn thận / đã giúp chúng tôi chọn / kế hoạch tốt nhất." },
+      { "en": "One [advantage] / was that everyone / could share ideas.", "vi": "Một lợi thế / là mọi người / đều có thể chia sẻ ý tưởng." },
+      { "en": "The teacher / asked for our [attention] / and praised our [behaviour].", "vi": "Cô giáo / yêu cầu chúng tôi chú ý / và khen ngợi hành vi của chúng tôi." }
+    ],
+    "vocab": {
+      "solution": { "word": "solution", "pos": "noun", "ipa": "/səˈl(j)uːʃən/", "vi": "giải pháp" },
+      "strategy": { "word": "strategy", "pos": "noun", "ipa": "/ˈstɹæt.ɪ.d͡ʒi/", "vi": "chiến lược" },
+      "thinking": { "word": "thinking", "pos": "noun", "ipa": "/ˈθɪŋkɪŋ/", "vi": "suy nghĩ" },
+      "advantage": { "word": "advantage", "pos": "noun", "ipa": "/ədˈvæn.tɪd͡ʒ/", "vi": "lợi thế" },
+      "attention": { "word": "attention", "pos": "exclamation, noun", "ipa": "/əˈtɛn.ʃn̩/", "vi": "sự chú ý" },
+      "behaviour": { "word": "behaviour", "pos": "noun", "ipa": "", "vi": "hành vi" }
+    }
+  },
+  {
+    "id": "a2-u065-1",
+    "unit": 65,
+    "topic": "misc",
+    "title": "A Garden for Everyone",
+    "titleVi": "Khu vườn cho mọi người",
+    "sentences": [
+      { "en": "Our [community] / started a garden / near the old school.", "vi": "Cộng đồng của chúng tôi / đã bắt đầu một khu vườn / gần trường học cũ." },
+      { "en": "The [condition] of the garden / improved / after weekly care.", "vi": "Tình trạng của khu vườn / đã được cải thiện / sau khi được chăm sóc hằng tuần." },
+      { "en": "One [discovery] / was that flowers brought many bees.", "vi": "Một khám phá / là hoa thu hút nhiều ong." },
+      { "en": "A simple [invention] / helped neighbors / water plants faster.", "vi": "Một phát minh đơn giản / đã giúp những người hàng xóm / tưới cây nhanh hơn." },
+      { "en": "Their [lifestyle] / became healthier, / and nobody smoked / a [cigarette].", "vi": "Lối sống của họ / trở nên lành mạnh hơn, / và không ai hút / một điếu thuốc lá." }
+    ],
+    "vocab": {
+      "cigarette": { "word": "cigarette", "pos": "noun", "ipa": "/ˈsɪɡəɹɛt/", "vi": "điếu thuốc lá" },
+      "community": { "word": "community", "pos": "noun", "ipa": "/k(ə)ˈmju.nə.ti/", "vi": "cộng đồng" },
+      "condition": { "word": "condition", "pos": "noun", "ipa": "/kənˈdɪʃ(ə)n/", "vi": "điều kiện, tình trạng" },
+      "discovery": { "word": "discovery", "pos": "noun", "ipa": "/dɪˈskʌv.ɹi/", "vi": "sự khám phá" },
+      "invention": { "word": "invention", "pos": "noun", "ipa": "/ɪnˈvɛnʃən/", "vi": "phát minh" },
+      "lifestyle": { "word": "lifestyle", "pos": "noun", "ipa": "/ˈlaɪfˌstaɪl/", "vi": "lối sống" }
+    }
+  },
+  {
+    "id": "a2-u065-2",
+    "unit": 65,
+    "topic": "misc",
+    "title": "A Story in Class",
+    "titleVi": "Một câu chuyện trong lớp",
+    "sentences": [
+      { "en": "Our teacher / showed us / the [structure] of a short story.", "vi": "Giáo viên của chúng tôi / cho chúng tôi xem / cấu trúc của một truyện ngắn." },
+      { "en": "She explained / a family [tradition] / from her childhood.", "vi": "Cô ấy giải thích về / một truyền thống gia đình / từ thời thơ ấu của mình." },
+      { "en": "The story's [background] / helped us understand / the main character.", "vi": "Bối cảnh của câu chuyện / giúp chúng tôi hiểu / nhân vật chính." },
+      { "en": "After class, / we had a [discussion] / about the ending.", "vi": "Sau giờ học, / chúng tôi có một cuộc thảo luận / về phần kết." },
+      { "en": "Tom shared his [experience] / and made a funny [expression].", "vi": "Tom chia sẻ kinh nghiệm của mình / và làm một biểu cảm hài hước." }
+    ],
+    "vocab": {
+      "structure": { "word": "structure", "pos": "noun", "ipa": "/ˈstɹʌk(t)ʃə/", "vi": "cấu trúc" },
+      "tradition": { "word": "tradition", "pos": "noun", "ipa": "/tɹəˈdɪʃ.ən/", "vi": "truyền thống" },
+      "background": { "word": "background", "pos": "noun", "ipa": "/ˈbæk.(ɡ)ɹaʊnd/", "vi": "bối cảnh, nền" },
+      "discussion": { "word": "discussion", "pos": "noun", "ipa": "/dɪˈskʌʃ.ən/", "vi": "cuộc thảo luận" },
+      "experience": { "word": "experience", "pos": "noun", "ipa": "/ɪkˈspɪɹ.i.əns/", "vi": "kinh nghiệm" },
+      "expression": { "word": "expression", "pos": "noun", "ipa": "/əkˈspɹɛʃ.n̩/", "vi": "biểu cảm; cách diễn đạt" }
+    }
+  },
+  {
+    "id": "a2-u066-1",
+    "unit": 66,
+    "topic": "misc",
+    "title": "A Park Clean-Up",
+    "titleVi": "Buổi dọn dẹp công viên",
+    "sentences": [
+      { "en": "The [government] / gave us [permission] / to clean the park today.", "vi": "Chính phủ / đã cho phép chúng tôi / dọn dẹp công viên hôm nay." },
+      { "en": "Our teacher / sent an [invitation] / to every family yesterday.", "vi": "Giáo viên của chúng tôi / đã gửi lời mời / đến mọi gia đình hôm qua." },
+      { "en": "Sam brought / one of his most useful [possessions|possession], / a red bucket.", "vi": "Sam mang theo / một trong những tài sản hữu ích nhất của mình, / một chiếc xô màu đỏ." },
+      { "en": "Then Lina / made a [suggestion] / to meet beside the library.", "vi": "Sau đó Lina / đưa ra lời đề nghị / gặp nhau bên cạnh thư viện." },
+      { "en": "If it rains, / the library is / an [alternative] for our meeting.", "vi": "Nếu trời mưa, / thư viện là / một lựa chọn khác cho buổi gặp của chúng tôi." }
+    ],
+    "vocab": {
+      "government": { "word": "government", "pos": "noun", "ipa": "/ˈɡʌv.ɚ(n).mənt/", "vi": "chính phủ" },
+      "invitation": { "word": "invitation", "pos": "noun", "ipa": "/ɪnvɪˈteɪʃən/", "vi": "lời mời" },
+      "permission": { "word": "permission", "pos": "noun", "ipa": "/pəɹˈmɪʃ.ən/", "vi": "sự cho phép" },
+      "possession": { "word": "possession", "pos": "noun", "ipa": "/pəˈzɛʃn̩/", "vi": "tài sản" },
+      "suggestion": { "word": "suggestion", "pos": "noun", "ipa": "/sə(ɡ)ˈd͡ʒɛs.t͡ʃən/", "vi": "lời đề nghị" },
+      "alternative": { "word": "alternative", "pos": "noun", "ipa": "/ɑlˈtɝ.nə.tɪv/", "vi": "lựa chọn khác" }
+    }
+  },
+  {
+    "id": "a2-u066-2",
+    "unit": 66,
+    "topic": "misc",
+    "title": "A Class Project",
+    "titleVi": "Dự án của lớp",
+    "sentences": [
+      { "en": "The [arrangement] / for our class project / was simple and clear.", "vi": "Sự sắp xếp / cho dự án của lớp chúng tôi / rất đơn giản và rõ ràng." },
+      { "en": "She gave / a clear [explanation] / about our jobs in the group.", "vi": "Cô ấy đưa ra / một lời giải thích rõ ràng / về nhiệm vụ của chúng tôi trong nhóm." },
+      { "en": "This gave everyone / an [opportunity] / to share one useful idea.", "vi": "Điều này cho mọi người / một cơ hội / để chia sẻ một ý tưởng hữu ích." },
+      { "en": "There was a [possibility] / that we could finish / before lunch.", "vi": "Có khả năng / là chúng tôi có thể hoàn thành / trước bữa trưa." },
+      { "en": "After a short [introduction], / we started working together.", "vi": "Sau lời giới thiệu ngắn, / chúng tôi bắt đầu làm việc cùng nhau." },
+      { "en": "We got / a better [understanding] / of each other's ideas.", "vi": "Chúng tôi có được / sự thấu hiểu tốt hơn / về ý tưởng của nhau." }
+    ],
+    "vocab": {
+      "arrangement": { "word": "arrangement", "pos": "noun", "ipa": "/əˈɹeɪnd͡ʒmənt/", "vi": "sự sắp xếp" },
+      "explanation": { "word": "explanation", "pos": "noun", "ipa": "/ˌɛkspləˈneɪʃən/", "vi": "lời giải thích" },
+      "opportunity": { "word": "opportunity", "pos": "noun", "ipa": "/ˌɑ.pɚˈt(j)u.nə.ti/", "vi": "cơ hội" },
+      "possibility": { "word": "possibility", "pos": "noun", "ipa": "/ˌpɑ.səˈbɪl.ə.ti/", "vi": "khả năng" },
+      "introduction": { "word": "introduction", "pos": "noun", "ipa": "/ˌɪntɹəˈdʌkʃn̩/", "vi": "lời giới thiệu" },
+      "understanding": { "word": "understanding", "pos": "noun", "ipa": "/ˌʌndɚˈstændɪŋ/", "vi": "sự thấu hiểu" }
+    }
   }
 ]
