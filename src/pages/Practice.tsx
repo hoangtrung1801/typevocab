@@ -7,7 +7,7 @@ import TypingBoard from '../components/TypingBoard'
 import WordPicker from '../components/WordPicker'
 import { getPassage, nextPassage, PASSAGES_BY_LEVEL } from '../data'
 import type { Passage } from '../data/types'
-import { formatTime, parsePassage, revealedWordCount } from '../lib/passage'
+import { formatTime, parsePassage, revealedChunkWords } from '../lib/passage'
 import { play } from '../lib/sound'
 import { saveResult, setLastLevel, setShowTranslation, setSoundOn, useStore } from '../lib/store'
 import { backspace, initTyping, stats, typeChar, type TypingState } from '../lib/typing'
@@ -103,14 +103,19 @@ function PracticeSession({ passage }: { passage: Passage }) {
   const wordsDone = typing.current + (done ? 1 : 0)
   const sentence = parsed.chars[parsed.words[typing.current].chars[0]].sentence
 
-  // Reveal the translation word by word as the English sentence is typed.
+  // Reveal the translation phrase by phrase, word by word, as the English
+  // sentence is typed.
   const currentWord = parsed.words[typing.current]
   const caret = currentWord.chars[0] + Math.min(typing.typed[typing.current].length, currentWord.chars.length)
-  const sentenceStart = parsed.sentenceStarts[sentence]
-  const nextStart = parsed.sentenceStarts[sentence + 1]
-  const sentenceEnd = nextStart === undefined ? parsed.text.length : nextStart - 1
-  const viWords = passage.sentences[sentence].vi.split(' ')
-  const shownWords = done ? viWords.length : revealedWordCount(viWords.length, caret - sentenceStart, sentenceEnd - sentenceStart)
+  const { enChunks, viChunks, vi } = passage.sentences[sentence]
+  const viWords = vi.split(' ')
+  const shownWords = done
+    ? viWords.length
+    : revealedChunkWords(
+        enChunks.map((c) => c.length),
+        viChunks.map((c) => c.split(' ').length),
+        caret - parsed.sentenceStarts[sentence],
+      )
   const mistyped = useMemo(
     () => [...new Set(typing.errorWords.map((i) => parsed.words[i].vocab).filter((v): v is string => v !== null))],
     [typing.errorWords, parsed],

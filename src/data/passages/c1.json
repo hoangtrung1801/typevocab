@@ -3,12 +3,12 @@
     "title": "How Habits Are Formed",
     "titleVi": "Thói quen hình thành như thế nào",
     "sentences": [
-      { "en": "Psychologists argue that much of our daily behaviour is driven not by conscious decisions but by habits.", "vi": "Các nhà tâm lý học cho rằng phần lớn hành vi hằng ngày của chúng ta không xuất phát từ quyết định có ý thức mà từ thói quen." },
-      { "en": "Every habit begins with a [trigger], such as a time of day or a particular place.", "vi": "Mọi thói quen đều bắt đầu từ một yếu tố kích hoạt, chẳng hạn như một thời điểm trong ngày hay một địa điểm cụ thể." },
-      { "en": "Over time, the brain links this signal to a reward, which reduces the [cognitive] effort needed to act.", "vi": "Theo thời gian, bộ não gắn tín hiệu này với một phần thưởng, nhờ đó giảm bớt nỗ lực nhận thức cần thiết để hành động." },
-      { "en": "This is why bad habits [persist] even when we are fully aware of their costs.", "vi": "Đó là lý do thói quen xấu vẫn dai dẳng ngay cả khi chúng ta hoàn toàn ý thức được cái giá của chúng." },
-      { "en": "To build a new routine, experts suggest starting with small steps that are easy to [sustain].", "vi": "Để xây dựng thói quen mới, các chuyên gia khuyên nên bắt đầu bằng những bước nhỏ dễ duy trì." },
-      { "en": "Each success creates [momentum], making the next step feel [straightforward] rather than exhausting.", "vi": "Mỗi thành công tạo ra đà tiến, khiến bước tiếp theo trở nên đơn giản thay vì mệt mỏi." }
+      { "en": "Psychologists argue / that much of our daily behaviour / is driven not by conscious decisions / but by habits.", "vi": "Các nhà tâm lý học cho rằng / phần lớn hành vi hằng ngày của chúng ta / không xuất phát từ quyết định có ý thức / mà từ thói quen." },
+      { "en": "Every habit begins with a [trigger], / such as a time of day / or a particular place.", "vi": "Mọi thói quen đều bắt đầu từ một yếu tố kích hoạt, / chẳng hạn như một thời điểm trong ngày / hay một địa điểm cụ thể." },
+      { "en": "Over time, / the brain links this signal to a reward, / which reduces the [cognitive] effort / needed to act.", "vi": "Theo thời gian, / bộ não gắn tín hiệu này với một phần thưởng, / nhờ đó giảm bớt nỗ lực nhận thức / cần thiết để hành động." },
+      { "en": "This is why / bad habits [persist] / even when we are fully aware of their costs.", "vi": "Đó là lý do / thói quen xấu vẫn dai dẳng / ngay cả khi chúng ta hoàn toàn ý thức được cái giá của chúng." },
+      { "en": "To build a new routine, / experts suggest / starting with small steps / that are easy to [sustain].", "vi": "Để xây dựng thói quen mới, / các chuyên gia khuyên nên / bắt đầu bằng những bước nhỏ / dễ duy trì." },
+      { "en": "Each success creates [momentum], / making the next step feel [straightforward] / rather than exhausting.", "vi": "Mỗi thành công tạo ra đà tiến, / khiến bước tiếp theo trở nên đơn giản / thay vì mệt mỏi." }
     ],
     "vocab": {
       "trigger": { "word": "trigger", "pos": "noun", "ipa": "/ˈtrɪɡə(r)/", "vi": "yếu tố kích hoạt, ngòi nổ" },
@@ -23,12 +23,12 @@
     "title": "Green Spaces in Crowded Cities",
     "titleVi": "Không gian xanh ở đô thị đông đúc",
     "sentences": [
-      { "en": "As cities become increasingly [dense], parks and gardens are often the first things to disappear.", "vi": "Khi các thành phố ngày càng dày đặc, công viên và vườn cây thường là những thứ đầu tiên biến mất." },
-      { "en": "Yet a growing body of research links access to green space with improved mental [well-being].", "vi": "Thế nhưng ngày càng nhiều nghiên cứu liên hệ việc tiếp cận không gian xanh với sức khỏe tinh thần tốt hơn." },
-      { "en": "Even a small park in a [residential] area can lower stress and encourage people to exercise.", "vi": "Ngay cả một công viên nhỏ trong khu dân cư cũng có thể giảm căng thẳng và khuyến khích mọi người tập thể dục." },
-      { "en": "Trees also cool the streets, which is a [substantial] benefit in hot climates.", "vi": "Cây xanh còn làm mát đường phố, một lợi ích đáng kể ở những vùng khí hậu nóng." },
-      { "en": "Some city councils now [allocate] part of their budget specifically to creating new green areas.", "vi": "Một số chính quyền thành phố hiện dành riêng một phần ngân sách để tạo ra các khu xanh mới." },
-      { "en": "Where this happens, neighbourhoods tend to become more [vibrant], and local businesses [thrive].", "vi": "Ở những nơi làm được điều đó, các khu phố thường trở nên sôi động hơn và các doanh nghiệp địa phương phát đạt." }
+      { "en": "As cities become increasingly [dense], / parks and gardens / are often the first things to disappear.", "vi": "Khi các thành phố ngày càng dày đặc, / công viên và vườn cây / thường là những thứ đầu tiên biến mất." },
+      { "en": "Yet a growing body of research / links access to green space / with improved mental [well-being].", "vi": "Thế nhưng ngày càng nhiều nghiên cứu / liên hệ việc tiếp cận không gian xanh / với sức khỏe tinh thần tốt hơn." },
+      { "en": "Even a small park in a [residential] area / can lower stress / and encourage people to exercise.", "vi": "Ngay cả một công viên nhỏ trong khu dân cư / cũng có thể giảm căng thẳng / và khuyến khích mọi người tập thể dục." },
+      { "en": "Trees also cool the streets, / which is a [substantial] benefit / in hot climates.", "vi": "Cây xanh còn làm mát đường phố, / một lợi ích đáng kể / ở những vùng khí hậu nóng." },
+      { "en": "Some city councils now [allocate] part of their budget / specifically to creating new green areas.", "vi": "Một số chính quyền thành phố hiện dành riêng một phần ngân sách / để tạo ra các khu xanh mới." },
+      { "en": "Where this happens, / neighbourhoods tend to become more [vibrant], / and local businesses [thrive].", "vi": "Ở những nơi làm được điều đó, / các khu phố thường trở nên sôi động hơn / và các doanh nghiệp địa phương phát đạt." }
     ],
     "vocab": {
       "dense": { "word": "dense", "pos": "adjective", "ipa": "/dens/", "vi": "dày đặc, đông đúc" },
@@ -44,12 +44,12 @@
     "title": "The Gig Economy",
     "titleVi": "Nền kinh tế việc làm tự do",
     "sentences": [
-      { "en": "Millions of people now earn a living through apps that connect them with short-term jobs, from delivering food to designing websites.", "vi": "Hàng triệu người hiện kiếm sống qua các ứng dụng kết nối họ với những công việc ngắn hạn, từ giao đồ ăn đến thiết kế trang web." },
-      { "en": "Supporters say this kind of work offers [autonomy], since workers can choose when and where they work.", "vi": "Những người ủng hộ cho rằng kiểu công việc này mang lại sự tự chủ, vì người lao động có thể chọn làm việc khi nào và ở đâu." },
-      { "en": "Critics, however, point out that it rarely provides financial [stability].", "vi": "Tuy nhiên, những người phản đối chỉ ra rằng nó hiếm khi mang lại sự ổn định tài chính." },
-      { "en": "[Earnings] can vary widely from week to week, and most workers receive no [compensation] when they are sick.", "vi": "Thu nhập có thể dao động rất lớn giữa các tuần, và phần lớn người lao động không nhận được khoản bù đắp nào khi bị ốm." },
-      { "en": "This leaves them particularly [vulnerable] when demand suddenly drops.", "vi": "Điều này khiến họ đặc biệt dễ bị tổn thương khi nhu cầu đột ngột giảm." },
-      { "en": "Several governments are now debating rules that would protect gig workers [regardless] of how their contracts are written.", "vi": "Một số chính phủ đang tranh luận về các quy định nhằm bảo vệ người làm việc tự do bất kể hợp đồng của họ được soạn thế nào." }
+      { "en": "Millions of people now earn a living / through apps / that connect them with short-term jobs, / from delivering food to designing websites.", "vi": "Hàng triệu người hiện kiếm sống / qua các ứng dụng / kết nối họ với những công việc ngắn hạn, / từ giao đồ ăn đến thiết kế trang web." },
+      { "en": "Supporters say / this kind of work offers [autonomy], / since workers can choose when and where they work.", "vi": "Những người ủng hộ cho rằng / kiểu công việc này mang lại sự tự chủ, / vì người lao động có thể chọn làm việc khi nào và ở đâu." },
+      { "en": "Critics, however, / point out / that it rarely provides financial [stability].", "vi": "Tuy nhiên, những người phản đối / chỉ ra rằng / nó hiếm khi mang lại sự ổn định tài chính." },
+      { "en": "[Earnings] can vary widely from week to week, / and most workers receive no [compensation] / when they are sick.", "vi": "Thu nhập có thể dao động rất lớn giữa các tuần, / và phần lớn người lao động không nhận được khoản bù đắp nào / khi bị ốm." },
+      { "en": "This leaves them particularly [vulnerable] / when demand suddenly drops.", "vi": "Điều này khiến họ đặc biệt dễ bị tổn thương / khi nhu cầu đột ngột giảm." },
+      { "en": "Several governments are now debating rules / that would protect gig workers / [regardless] of how their contracts are written.", "vi": "Một số chính phủ đang tranh luận về các quy định / nhằm bảo vệ người làm việc tự do / bất kể hợp đồng của họ được soạn thế nào." }
     ],
     "vocab": {
       "autonomy": { "word": "autonomy", "pos": "noun", "ipa": "/ɔːˈtɒnəmi/", "vi": "quyền tự chủ, sự tự quyết" },
@@ -64,12 +64,12 @@
     "title": "The Spread of Misinformation",
     "titleVi": "Sự lan truyền thông tin sai lệch",
     "sentences": [
-      { "en": "False and [misleading] stories can now reach millions of people within hours.", "vi": "Những câu chuyện sai sự thật và gây hiểu lầm giờ đây có thể đến với hàng triệu người chỉ trong vài giờ." },
-      { "en": "Some are shared by mistake, while others are designed to [manipulate] public opinion.", "vi": "Một số được chia sẻ do nhầm lẫn, trong khi số khác được tạo ra để thao túng dư luận." },
-      { "en": "Because such content often looks professional, it can be difficult to tell whether a source is [credible].", "vi": "Vì những nội dung này thường trông chuyên nghiệp, rất khó để biết một nguồn tin có đáng tin hay không." },
-      { "en": "Experts recommend that readers [verify] surprising claims by checking several independent sources.", "vi": "Các chuyên gia khuyên người đọc nên xác minh những tuyên bố gây bất ngờ bằng cách kiểm tra nhiều nguồn độc lập." },
-      { "en": "Being [sceptical] is healthy, but too much distrust can [undermine] confidence in reliable journalism as well.", "vi": "Hoài nghi là điều lành mạnh, nhưng ngờ vực quá mức cũng có thể làm suy giảm niềm tin vào báo chí đáng tin cậy." },
-      { "en": "Ultimately, every viral post deserves careful [scrutiny] before we decide to share it.", "vi": "Suy cho cùng, mọi bài đăng lan truyền đều đáng được xem xét kỹ lưỡng trước khi ta quyết định chia sẻ." }
+      { "en": "False and [misleading] stories / can now reach millions of people / within hours.", "vi": "Những câu chuyện sai sự thật và gây hiểu lầm / giờ đây có thể đến với hàng triệu người / chỉ trong vài giờ." },
+      { "en": "Some are shared by mistake, / while others are designed / to [manipulate] public opinion.", "vi": "Một số được chia sẻ do nhầm lẫn, / trong khi số khác được tạo ra / để thao túng dư luận." },
+      { "en": "Because such content often looks professional, / it can be difficult to tell / whether a source is [credible].", "vi": "Vì những nội dung này thường trông chuyên nghiệp, / rất khó để biết / một nguồn tin có đáng tin hay không." },
+      { "en": "Experts recommend / that readers [verify] surprising claims / by checking several independent sources.", "vi": "Các chuyên gia khuyên / người đọc nên xác minh những tuyên bố gây bất ngờ / bằng cách kiểm tra nhiều nguồn độc lập." },
+      { "en": "Being [sceptical] is healthy, / but too much distrust can [undermine] confidence / in reliable journalism as well.", "vi": "Hoài nghi là điều lành mạnh, / nhưng ngờ vực quá mức cũng có thể làm suy giảm niềm tin / vào báo chí đáng tin cậy." },
+      { "en": "Ultimately, / every viral post deserves careful [scrutiny] / before we decide to share it.", "vi": "Suy cho cùng, / mọi bài đăng lan truyền đều đáng được xem xét kỹ lưỡng / trước khi ta quyết định chia sẻ." }
     ],
     "vocab": {
       "misleading": { "word": "misleading", "pos": "adjective", "ipa": "/ˌmɪsˈliːdɪŋ/", "vi": "gây hiểu lầm" },
@@ -85,12 +85,12 @@
     "title": "An Ageing Society",
     "titleVi": "Một xã hội già hóa",
     "sentences": [
-      { "en": "Thanks to better healthcare, people are living longer than ever, which is [undoubtedly] a remarkable achievement.", "vi": "Nhờ y tế tốt hơn, con người đang sống thọ hơn bao giờ hết, đó chắc chắn là một thành tựu đáng kể." },
-      { "en": "At the same time, birth rates in many countries continue to fall, so the working population is beginning to [shrink].", "vi": "Đồng thời, tỷ lệ sinh ở nhiều nước tiếp tục giảm, nên lực lượng lao động bắt đầu thu hẹp." },
-      { "en": "This places a growing financial [burden] on younger generations, who must support more retired people.", "vi": "Điều này đặt gánh nặng tài chính ngày càng lớn lên các thế hệ trẻ, những người phải hỗ trợ nhiều người về hưu hơn." },
-      { "en": "Government [expenditure] on pensions and healthcare is expected to rise sharply.", "vi": "Chi tiêu của chính phủ cho lương hưu và y tế được dự báo sẽ tăng mạnh." },
-      { "en": "Some countries are responding by raising the retirement age or helping older people remain [productive] for longer.", "vi": "Một số quốc gia ứng phó bằng cách nâng tuổi nghỉ hưu hoặc giúp người lớn tuổi tiếp tục làm việc hiệu quả lâu hơn." },
-      { "en": "Others are investing in technology to reduce older people's [dependence] on care workers.", "vi": "Những nước khác đầu tư vào công nghệ để giảm sự phụ thuộc của người cao tuổi vào nhân viên chăm sóc." }
+      { "en": "Thanks to better healthcare, / people are living longer than ever, / which is [undoubtedly] a remarkable achievement.", "vi": "Nhờ y tế tốt hơn, / con người đang sống thọ hơn bao giờ hết, / đó chắc chắn là một thành tựu đáng kể." },
+      { "en": "At the same time, / birth rates in many countries continue to fall, / so the working population is beginning to [shrink].", "vi": "Đồng thời, / tỷ lệ sinh ở nhiều nước tiếp tục giảm, / nên lực lượng lao động bắt đầu thu hẹp." },
+      { "en": "This places a growing financial [burden] / on younger generations, / who must support more retired people.", "vi": "Điều này đặt gánh nặng tài chính ngày càng lớn / lên các thế hệ trẻ, / những người phải hỗ trợ nhiều người về hưu hơn." },
+      { "en": "Government [expenditure] on pensions and healthcare / is expected to rise sharply.", "vi": "Chi tiêu của chính phủ cho lương hưu và y tế / được dự báo sẽ tăng mạnh." },
+      { "en": "Some countries are responding / by raising the retirement age / or helping older people remain [productive] for longer.", "vi": "Một số quốc gia ứng phó / bằng cách nâng tuổi nghỉ hưu / hoặc giúp người lớn tuổi tiếp tục làm việc hiệu quả lâu hơn." },
+      { "en": "Others are investing in technology / to reduce older people's [dependence] on care workers.", "vi": "Những nước khác đầu tư vào công nghệ / để giảm sự phụ thuộc của người cao tuổi vào nhân viên chăm sóc." }
     ],
     "vocab": {
       "undoubtedly": { "word": "undoubtedly", "pos": "adverb", "ipa": "/ʌnˈdaʊtɪdli/", "vi": "chắc chắn, không còn nghi ngờ gì" },
@@ -105,12 +105,12 @@
     "title": "The New Space Race",
     "titleVi": "Cuộc đua không gian mới",
     "sentences": [
-      { "en": "For decades, space exploration was led almost entirely by national governments.", "vi": "Trong nhiều thập kỷ, việc khám phá không gian gần như hoàn toàn do chính phủ các nước dẫn dắt." },
-      { "en": "Today, private companies are investing on an [unprecedented] scale.", "vi": "Ngày nay, các công ty tư nhân đang đầu tư với quy mô chưa từng có." },
-      { "en": "What once seemed a risky [venture] has become a highly competitive industry.", "vi": "Điều từng được xem là một cuộc phiêu lưu kinh doanh mạo hiểm nay đã trở thành một ngành công nghiệp cạnh tranh khốc liệt." },
-      { "en": "Recent [breakthroughs|breakthrough] in reusable rockets have dramatically reduced the cost of reaching space.", "vi": "Những đột phá gần đây về tên lửa tái sử dụng đã giảm mạnh chi phí đưa tàu lên vũ trụ." },
-      { "en": "As a result, ideas such as space tourism are starting to look commercially [viable].", "vi": "Nhờ vậy, những ý tưởng như du lịch vũ trụ bắt đầu có vẻ khả thi về mặt thương mại." },
-      { "en": "Some [pioneers|pioneer] even talk about permanent settlements on Mars, although most scientists remain [cautious].", "vi": "Một số người tiên phong thậm chí nói đến các khu định cư lâu dài trên sao Hỏa, dù phần lớn các nhà khoa học vẫn thận trọng." }
+      { "en": "For decades, / space exploration / was led almost entirely by national governments.", "vi": "Trong nhiều thập kỷ, / việc khám phá không gian / gần như hoàn toàn do chính phủ các nước dẫn dắt." },
+      { "en": "Today, / private companies are investing / on an [unprecedented] scale.", "vi": "Ngày nay, / các công ty tư nhân đang đầu tư / với quy mô chưa từng có." },
+      { "en": "What once seemed a risky [venture] / has become a highly competitive industry.", "vi": "Điều từng được xem là một cuộc phiêu lưu kinh doanh mạo hiểm / nay đã trở thành một ngành công nghiệp cạnh tranh khốc liệt." },
+      { "en": "Recent [breakthroughs|breakthrough] in reusable rockets / have dramatically reduced / the cost of reaching space.", "vi": "Những đột phá gần đây về tên lửa tái sử dụng / đã giảm mạnh / chi phí đưa tàu lên vũ trụ." },
+      { "en": "As a result, / ideas such as space tourism / are starting to look commercially [viable].", "vi": "Nhờ vậy, / những ý tưởng như du lịch vũ trụ / bắt đầu có vẻ khả thi về mặt thương mại." },
+      { "en": "Some [pioneers|pioneer] even talk about / permanent settlements on Mars, / although most scientists remain [cautious].", "vi": "Một số người tiên phong thậm chí nói đến / các khu định cư lâu dài trên sao Hỏa, / dù phần lớn các nhà khoa học vẫn thận trọng." }
     ],
     "vocab": {
       "unprecedented": { "word": "unprecedented", "pos": "adjective", "ipa": "/ʌnˈpresɪdentɪd/", "vi": "chưa từng có" },
@@ -125,12 +125,12 @@
     "title": "Learning in Isolation",
     "titleVi": "Học tập trong cô lập",
     "sentences": [
-      { "en": "When schools closed during the pandemic, millions of students had to learn from home.", "vi": "Khi trường học đóng cửa trong đại dịch, hàng triệu học sinh phải học ở nhà." },
-      { "en": "For some, online lessons worked surprisingly well, especially when teachers used [interactive] tools.", "vi": "Với một số em, học trực tuyến hiệu quả đến bất ngờ, nhất là khi giáo viên dùng các công cụ tương tác." },
-      { "en": "For others, the experience exposed deep [inequality].", "vi": "Với những em khác, trải nghiệm này phơi bày sự bất bình đẳng sâu sắc." },
-      { "en": "Children without reliable [broadband] or a quiet place to study quickly fell behind.", "vi": "Những đứa trẻ không có mạng internet ổn định hoặc chỗ học yên tĩnh nhanh chóng bị tụt lại." },
-      { "en": "Teachers also noticed a sharp drop in student [engagement] after the first few weeks.", "vi": "Giáo viên cũng nhận thấy mức độ tham gia của học sinh giảm mạnh sau vài tuần đầu." },
-      { "en": "Many young people reported feelings of [isolation], a reminder that technology alone is an [inadequate] replacement for a classroom.", "vi": "Nhiều bạn trẻ cho biết cảm thấy cô lập, một lời nhắc rằng chỉ riêng công nghệ không thể thay thế đầy đủ cho lớp học." }
+      { "en": "When schools closed during the pandemic, / millions of students / had to learn from home.", "vi": "Khi trường học đóng cửa trong đại dịch, / hàng triệu học sinh / phải học ở nhà." },
+      { "en": "For some, / online lessons worked surprisingly well, / especially when teachers used [interactive] tools.", "vi": "Với một số em, / học trực tuyến hiệu quả đến bất ngờ, / nhất là khi giáo viên dùng các công cụ tương tác." },
+      { "en": "For others, / the experience exposed deep [inequality].", "vi": "Với những em khác, / trải nghiệm này phơi bày sự bất bình đẳng sâu sắc." },
+      { "en": "Children without reliable [broadband] / or a quiet place to study / quickly fell behind.", "vi": "Những đứa trẻ không có mạng internet ổn định / hoặc chỗ học yên tĩnh / nhanh chóng bị tụt lại." },
+      { "en": "Teachers also noticed / a sharp drop in student [engagement] / after the first few weeks.", "vi": "Giáo viên cũng nhận thấy / mức độ tham gia của học sinh giảm mạnh / sau vài tuần đầu." },
+      { "en": "Many young people reported feelings of [isolation], / a reminder / that technology alone / is an [inadequate] replacement for a classroom.", "vi": "Nhiều bạn trẻ cho biết cảm thấy cô lập, / một lời nhắc / rằng chỉ riêng công nghệ / không thể thay thế đầy đủ cho lớp học." }
     ],
     "vocab": {
       "interactive": { "word": "interactive", "pos": "adjective", "ipa": "/ˌɪntərˈæktɪv/", "vi": "có tính tương tác" },
@@ -145,11 +145,11 @@
     "title": "Protecting Cultural Heritage",
     "titleVi": "Bảo vệ di sản văn hóa",
     "sentences": [
-      { "en": "Hoi An's old town is a [striking] example of how [heritage] can attract visitors from all over the world.", "vi": "Phố cổ Hội An là một ví dụ nổi bật cho thấy di sản có thể thu hút du khách khắp thế giới như thế nào." },
-      { "en": "However, mass tourism also puts pressure on the [preservation] of historic buildings.", "vi": "Tuy nhiên, du lịch đại trà cũng gây áp lực lên việc bảo tồn các công trình lịch sử." },
-      { "en": "Careful [restoration] requires traditional skills and materials, which are becoming harder to find.", "vi": "Việc trùng tu cẩn thận đòi hỏi kỹ năng và vật liệu truyền thống, những thứ ngày càng khó tìm." },
-      { "en": "There is also a risk that local culture turns into a show for tourists rather than an [authentic] way of life.", "vi": "Cũng có nguy cơ văn hóa địa phương biến thành màn trình diễn cho du khách thay vì một lối sống đích thực." },
-      { "en": "Elsewhere, [indigenous] communities are working hard to [revive] songs, crafts and languages that were close to disappearing.", "vi": "Ở những nơi khác, các cộng đồng bản địa đang nỗ lực hồi sinh những bài hát, nghề thủ công và ngôn ngữ từng có nguy cơ biến mất." }
+      { "en": "Hoi An's old town / is a [striking] example / of how [heritage] can attract visitors from all over the world.", "vi": "Phố cổ Hội An / là một ví dụ nổi bật / cho thấy di sản có thể thu hút du khách khắp thế giới như thế nào." },
+      { "en": "However, / mass tourism also puts pressure / on the [preservation] of historic buildings.", "vi": "Tuy nhiên, / du lịch đại trà cũng gây áp lực / lên việc bảo tồn các công trình lịch sử." },
+      { "en": "Careful [restoration] / requires traditional skills and materials, / which are becoming harder to find.", "vi": "Việc trùng tu cẩn thận / đòi hỏi kỹ năng và vật liệu truyền thống, / những thứ ngày càng khó tìm." },
+      { "en": "There is also a risk / that local culture turns into a show for tourists / rather than an [authentic] way of life.", "vi": "Cũng có nguy cơ / văn hóa địa phương biến thành màn trình diễn cho du khách / thay vì một lối sống đích thực." },
+      { "en": "Elsewhere, / [indigenous] communities are working hard / to [revive] songs, crafts and languages / that were close to disappearing.", "vi": "Ở những nơi khác, / các cộng đồng bản địa đang nỗ lực / hồi sinh những bài hát, nghề thủ công và ngôn ngữ / từng có nguy cơ biến mất." }
     ],
     "vocab": {
       "striking": { "word": "striking", "pos": "adjective", "ipa": "/ˈstraɪkɪŋ/", "vi": "nổi bật, gây ấn tượng mạnh" },
@@ -165,12 +165,12 @@
     "title": "Editing Our Genes",
     "titleVi": "Chỉnh sửa gen của chúng ta",
     "sentences": [
-      { "en": "New technologies now allow scientists to edit DNA with remarkable [precision].", "vi": "Các công nghệ mới giờ đây cho phép các nhà khoa học chỉnh sửa DNA với độ chính xác đáng kinh ngạc." },
-      { "en": "In theory, this could prevent serious diseases before a child is even born.", "vi": "Về lý thuyết, điều này có thể ngăn ngừa những căn bệnh nghiêm trọng trước cả khi đứa trẻ chào đời." },
-      { "en": "Yet the idea raises [profound] ethical questions.", "vi": "Thế nhưng ý tưởng này đặt ra những câu hỏi đạo đức sâu sắc." },
-      { "en": "Changes made to an embryo would be passed on to future generations, who cannot give their [consent].", "vi": "Những thay đổi trên phôi thai sẽ được truyền lại cho các thế hệ sau, những người không thể đưa ra sự đồng ý của mình." },
-      { "en": "There is also an [inherent] risk that the technology could be used to select traits such as height or intelligence rather than to cure illness.", "vi": "Cũng tồn tại nguy cơ cố hữu rằng công nghệ này có thể bị dùng để chọn các đặc điểm như chiều cao hay trí thông minh thay vì chữa bệnh." },
-      { "en": "Societies therefore face a difficult [dilemma]: how to [foster] medical progress without crossing moral lines.", "vi": "Vì vậy, xã hội đối mặt với một tình thế khó xử: làm sao thúc đẩy tiến bộ y học mà không vượt qua lằn ranh đạo đức." }
+      { "en": "New technologies now allow scientists / to edit DNA / with remarkable [precision].", "vi": "Các công nghệ mới giờ đây cho phép các nhà khoa học / chỉnh sửa DNA / với độ chính xác đáng kinh ngạc." },
+      { "en": "In theory, / this could prevent serious diseases / before a child is even born.", "vi": "Về lý thuyết, / điều này có thể ngăn ngừa những căn bệnh nghiêm trọng / trước cả khi đứa trẻ chào đời." },
+      { "en": "Yet the idea / raises [profound] ethical questions.", "vi": "Thế nhưng ý tưởng này / đặt ra những câu hỏi đạo đức sâu sắc." },
+      { "en": "Changes made to an embryo / would be passed on to future generations, / who cannot give their [consent].", "vi": "Những thay đổi trên phôi thai / sẽ được truyền lại cho các thế hệ sau, / những người không thể đưa ra sự đồng ý của mình." },
+      { "en": "There is also an [inherent] risk / that the technology could be used / to select traits such as height or intelligence / rather than to cure illness.", "vi": "Cũng tồn tại nguy cơ cố hữu / rằng công nghệ này có thể bị dùng / để chọn các đặc điểm như chiều cao hay trí thông minh / thay vì chữa bệnh." },
+      { "en": "Societies therefore face a difficult [dilemma]: / how to [foster] medical progress / without crossing moral lines.", "vi": "Vì vậy, xã hội đối mặt với một tình thế khó xử: / làm sao thúc đẩy tiến bộ y học / mà không vượt qua lằn ranh đạo đức." }
     ],
     "vocab": {
       "precision": { "word": "precision", "pos": "noun", "ipa": "/prɪˈsɪʒn/", "vi": "độ chính xác" },
@@ -185,12 +185,12 @@
     "title": "Burnout at Work",
     "titleVi": "Kiệt sức nơi công sở",
     "sentences": [
-      { "en": "Burnout is more than simply feeling tired after a long week.", "vi": "Kiệt sức không chỉ đơn giản là cảm thấy mệt sau một tuần dài." },
-      { "en": "It is a state of [chronic] stress that develops when demands at work feel [overwhelming] for months on end.", "vi": "Đó là trạng thái căng thẳng kéo dài, hình thành khi áp lực công việc đè nặng suốt nhiều tháng liền." },
-      { "en": "People affected often lose motivation, and their physical health may begin to [deteriorate].", "vi": "Những người bị ảnh hưởng thường mất động lực, và sức khỏe thể chất có thể bắt đầu suy giảm." },
-      { "en": "[Ironically], the long hours that cause burnout rarely lead to higher [productivity].", "vi": "Trớ trêu thay, những giờ làm việc dài gây ra kiệt sức lại hiếm khi mang lại năng suất cao hơn." },
-      { "en": "Organizations that offer flexible schedules and a [supportive] culture tend to keep their staff healthier and more loyal.", "vi": "Những tổ chức có lịch làm việc linh hoạt và văn hóa hỗ trợ thường giữ được nhân viên khỏe mạnh và gắn bó hơn." },
-      { "en": "Recognizing the early signs is essential, because recovery takes far longer than prevention.", "vi": "Nhận ra các dấu hiệu sớm là điều thiết yếu, vì phục hồi mất nhiều thời gian hơn hẳn so với phòng ngừa." }
+      { "en": "Burnout is more than / simply feeling tired / after a long week.", "vi": "Kiệt sức không chỉ / đơn giản là cảm thấy mệt / sau một tuần dài." },
+      { "en": "It is a state of [chronic] stress / that develops / when demands at work feel [overwhelming] for months on end.", "vi": "Đó là trạng thái căng thẳng kéo dài, / hình thành / khi áp lực công việc đè nặng suốt nhiều tháng liền." },
+      { "en": "People affected often lose motivation, / and their physical health / may begin to [deteriorate].", "vi": "Những người bị ảnh hưởng thường mất động lực, / và sức khỏe thể chất / có thể bắt đầu suy giảm." },
+      { "en": "[Ironically], / the long hours that cause burnout / rarely lead to higher [productivity].", "vi": "Trớ trêu thay, / những giờ làm việc dài gây ra kiệt sức / lại hiếm khi mang lại năng suất cao hơn." },
+      { "en": "Organizations that offer flexible schedules and a [supportive] culture / tend to keep their staff / healthier and more loyal.", "vi": "Những tổ chức có lịch làm việc linh hoạt và văn hóa hỗ trợ / thường giữ được nhân viên / khỏe mạnh và gắn bó hơn." },
+      { "en": "Recognizing the early signs is essential, / because recovery takes far longer / than prevention.", "vi": "Nhận ra các dấu hiệu sớm là điều thiết yếu, / vì phục hồi mất nhiều thời gian hơn hẳn / so với phòng ngừa." }
     ],
     "vocab": {
       "chronic": { "word": "chronic", "pos": "adjective", "ipa": "/ˈkrɒnɪk/", "vi": "mãn tính, kéo dài" },

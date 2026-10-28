@@ -3,10 +3,10 @@
     "title": "Camping by the Sea",
     "titleVi": "Cắm trại bên bờ biển",
     "sentences": [
-      { "en": "Last summer, my friends and I went [camping] near the [coast].", "vi": "Mùa hè năm ngoái, tôi và các bạn đi cắm trại gần bờ biển." },
-      { "en": "Our tent was on a hill with a [lovely] [view] of the sea.", "vi": "Lều của chúng tôi nằm trên một ngọn đồi, nhìn ra biển rất đẹp." },
-      { "en": "At night, the [wind] was strong, but we felt [safe] inside.", "vi": "Ban đêm gió thổi mạnh, nhưng ở bên trong chúng tôi thấy an toàn." },
-      { "en": "In the morning, we saw some [wild] horses running on the beach.", "vi": "Buổi sáng, chúng tôi thấy vài con ngựa hoang chạy trên bãi biển." }
+      { "en": "Last summer, / my friends and I / went [camping] / near the [coast].", "vi": "Mùa hè năm ngoái, / tôi và các bạn / đi cắm trại / gần bờ biển." },
+      { "en": "Our tent was / on a hill / with a [lovely] [view] of the sea.", "vi": "Lều của chúng tôi nằm / trên một ngọn đồi, / nhìn ra biển rất đẹp." },
+      { "en": "At night, / the [wind] was strong, / but we felt [safe] inside.", "vi": "Ban đêm / gió thổi mạnh, / nhưng ở bên trong chúng tôi thấy an toàn." },
+      { "en": "In the morning, / we saw some [wild] horses / running on the beach.", "vi": "Buổi sáng, / chúng tôi thấy vài con ngựa hoang / chạy trên bãi biển." }
     ],
     "vocab": {
       "camping": { "word": "camping", "pos": "noun", "ipa": "/ˈkæmpɪŋ/", "vi": "việc cắm trại" },
@@ -22,11 +22,11 @@
     "title": "Looking for a Place to Live",
     "titleVi": "Tìm chỗ ở",
     "sentences": [
-      { "en": "My cousin has a new job with a good [salary].", "vi": "Chị họ tôi có công việc mới với mức lương tốt." },
-      { "en": "Now she is looking for a [comfortable] place to live.", "vi": "Giờ chị ấy đang tìm một chỗ ở thoải mái." },
-      { "en": "The first flat was in a [crowded] street and was very [noisy].", "vi": "Căn hộ đầu tiên nằm trên một con phố đông đúc và rất ồn." },
-      { "en": "The second one was quiet, but it had no [furniture].", "vi": "Căn thứ hai yên tĩnh, nhưng không có đồ đạc gì." },
-      { "en": "Finally, she found a small flat near the river, and the [owner] said it was [available] next week.", "vi": "Cuối cùng, chị tìm được một căn hộ nhỏ gần sông, và chủ nhà nói tuần sau là có thể vào ở." }
+      { "en": "My cousin has a new job / with a good [salary].", "vi": "Chị họ tôi có công việc mới / với mức lương tốt." },
+      { "en": "Now / she is looking for / a [comfortable] place to live.", "vi": "Giờ / chị ấy đang tìm / một chỗ ở thoải mái." },
+      { "en": "The first flat / was in a [crowded] street / and was very [noisy].", "vi": "Căn hộ đầu tiên / nằm trên một con phố đông đúc / và rất ồn." },
+      { "en": "The second one was quiet, / but it had no [furniture].", "vi": "Căn thứ hai yên tĩnh, / nhưng không có đồ đạc gì." },
+      { "en": "Finally, / she found a small flat / near the river, / and the [owner] said / it was [available] next week.", "vi": "Cuối cùng, / chị tìm được một căn hộ nhỏ / gần sông, / và chủ nhà nói / tuần sau là có thể vào ở." }
     ],
     "vocab": {
       "salary": { "word": "salary", "pos": "noun", "ipa": "/ˈsæləri/", "vi": "tiền lương (theo tháng/năm)" },
@@ -42,11 +42,11 @@
     "title": "A Visit to the Doctor",
     "titleVi": "Đi khám bác sĩ",
     "sentences": [
-      { "en": "Last week, I felt [ill] and stayed at home.", "vi": "Tuần trước, tôi thấy ốm nên ở nhà." },
-      { "en": "I had a terrible [headache] and a high [temperature].", "vi": "Tôi bị đau đầu dữ dội và sốt cao." },
-      { "en": "My mother took me to the doctor [immediately].", "vi": "Mẹ đưa tôi đi bác sĩ ngay lập tức." },
-      { "en": "The doctor said it was only [flu].", "vi": "Bác sĩ nói đó chỉ là cúm." },
-      { "en": "She gave me some [medicine] and told me to [rest] for three days.", "vi": "Bà ấy cho tôi thuốc và dặn tôi nghỉ ngơi ba ngày." }
+      { "en": "Last week, / I felt [ill] / and stayed at home.", "vi": "Tuần trước, / tôi thấy ốm / nên ở nhà." },
+      { "en": "I had a terrible [headache] / and a high [temperature].", "vi": "Tôi bị đau đầu dữ dội / và sốt cao." },
+      { "en": "My mother took me to the doctor / [immediately].", "vi": "Mẹ đưa tôi đi bác sĩ / ngay lập tức." },
+      { "en": "The doctor said / it was only [flu].", "vi": "Bác sĩ nói / đó chỉ là cúm." },
+      { "en": "She gave me some [medicine] / and told me / to [rest] for three days.", "vi": "Bà ấy cho tôi thuốc / và dặn tôi / nghỉ ngơi ba ngày." }
     ],
     "vocab": {
       "ill": { "word": "ill", "pos": "adjective", "ipa": "/ɪl/", "vi": "ốm, bệnh" },
@@ -62,12 +62,12 @@
     "title": "Learning the Guitar",
     "titleVi": "Học đàn guitar",
     "sentences": [
-      { "en": "Last year, I decided to learn a [musical] [instrument].", "vi": "Năm ngoái, tôi quyết định học một loại nhạc cụ." },
-      { "en": "I chose the guitar because my uncle is a [musician].", "vi": "Tôi chọn guitar vì chú tôi là nhạc sĩ." },
-      { "en": "Practising every evening soon became a [habit].", "vi": "Việc tập đàn mỗi tối chẳng mấy chốc trở thành thói quen." },
-      { "en": "After a few months, I made good [progress].", "vi": "Sau vài tháng, tôi đã tiến bộ nhiều." },
-      { "en": "Last Friday, I played in front of an [audience] for the first time.", "vi": "Thứ Sáu tuần trước, lần đầu tiên tôi chơi đàn trước khán giả." },
-      { "en": "I was very [nervous], but everyone clapped at the end.", "vi": "Tôi rất hồi hộp, nhưng cuối buổi mọi người đều vỗ tay." }
+      { "en": "Last year, / I decided / to learn a [musical] [instrument].", "vi": "Năm ngoái, / tôi quyết định / học một loại nhạc cụ." },
+      { "en": "I chose the guitar / because my uncle is a [musician].", "vi": "Tôi chọn guitar / vì chú tôi là nhạc sĩ." },
+      { "en": "Practising every evening / soon became a [habit].", "vi": "Việc tập đàn mỗi tối / chẳng mấy chốc trở thành thói quen." },
+      { "en": "After a few months, / I made good [progress].", "vi": "Sau vài tháng, / tôi đã tiến bộ nhiều." },
+      { "en": "Last Friday, / I played in front of an [audience] / for the first time.", "vi": "Thứ Sáu tuần trước, / tôi chơi đàn trước khán giả / lần đầu tiên." },
+      { "en": "I was very [nervous], / but everyone clapped at the end.", "vi": "Tôi rất hồi hộp, / nhưng cuối buổi mọi người đều vỗ tay." }
     ],
     "vocab": {
       "musical": { "word": "musical", "pos": "adjective", "ipa": "/ˈmjuːzɪkl/", "vi": "thuộc về âm nhạc" },
@@ -83,11 +83,11 @@
     "title": "Buying a Jacket",
     "titleVi": "Mua áo khoác",
     "sentences": [
-      { "en": "There was a big [sale] at the clothes [store] near my house.", "vi": "Cửa hàng quần áo gần nhà tôi có đợt giảm giá lớn." },
-      { "en": "I wanted a warm jacket for the winter.", "vi": "Tôi muốn mua một chiếc áo khoác ấm cho mùa đông." },
-      { "en": "The shop [assistant] helped me find the right [size].", "vi": "Nhân viên bán hàng giúp tôi tìm đúng cỡ." },
-      { "en": "The black jacket [fitted|fit] me perfectly.", "vi": "Chiếc áo khoác màu đen vừa khít với tôi." },
-      { "en": "It was half price, so I paid in [cash].", "vi": "Áo được giảm nửa giá, nên tôi trả bằng tiền mặt." }
+      { "en": "There was a big [sale] / at the clothes [store] near my house.", "vi": "Có một đợt giảm giá lớn / ở cửa hàng quần áo gần nhà tôi." },
+      { "en": "I wanted / a warm jacket / for the winter.", "vi": "Tôi muốn mua / một chiếc áo khoác ấm / cho mùa đông." },
+      { "en": "The shop [assistant] / helped me find the right [size].", "vi": "Nhân viên bán hàng / giúp tôi tìm đúng cỡ." },
+      { "en": "The black jacket / [fitted|fit] me perfectly.", "vi": "Chiếc áo khoác màu đen / vừa khít với tôi." },
+      { "en": "It was half price, / so I paid in [cash].", "vi": "Áo được giảm nửa giá, / nên tôi trả bằng tiền mặt." }
     ],
     "vocab": {
       "sale": { "word": "sale", "pos": "noun", "ipa": "/seɪl/", "vi": "đợt giảm giá; sự bán" },
@@ -102,11 +102,11 @@
     "title": "My Grandparents' Farm",
     "titleVi": "Trang trại của ông bà",
     "sentences": [
-      { "en": "My grandparents live on a farm far from the city.", "vi": "Ông bà tôi sống ở một trang trại xa thành phố." },
-      { "en": "They grow rice in the [fields|field] and keep a few cows.", "vi": "Ông bà trồng lúa ngoài đồng và nuôi vài con bò." },
-      { "en": "[Farming] is hard work, but they love it.", "vi": "Làm nông vất vả, nhưng ông bà rất yêu công việc này." },
-      { "en": "Behind the farm, there is a small [forest] full of birds and [insects|insect].", "vi": "Sau trang trại có một khu rừng nhỏ đầy chim và côn trùng." },
-      { "en": "The air is always [fresh], and I enjoy being close to [nature].", "vi": "Không khí lúc nào cũng trong lành, và tôi thích được gần gũi với thiên nhiên." }
+      { "en": "My grandparents live on a farm / far from the city.", "vi": "Ông bà tôi sống ở một trang trại / xa thành phố." },
+      { "en": "They grow rice in the [fields|field] / and keep a few cows.", "vi": "Ông bà trồng lúa ngoài đồng / và nuôi vài con bò." },
+      { "en": "[Farming] is hard work, / but they love it.", "vi": "Làm nông vất vả, / nhưng ông bà rất yêu công việc này." },
+      { "en": "Behind the farm, / there is a small [forest] / full of birds and [insects|insect].", "vi": "Sau trang trại / có một khu rừng nhỏ / đầy chim và côn trùng." },
+      { "en": "The air is always [fresh], / and I enjoy / being close to [nature].", "vi": "Không khí lúc nào cũng trong lành, / và tôi thích / được gần gũi với thiên nhiên." }
     ],
     "vocab": {
       "field": { "word": "field", "pos": "noun", "ipa": "/fiːld/", "vi": "cánh đồng" },
@@ -121,11 +121,11 @@
     "title": "A Stormy Afternoon",
     "titleVi": "Một buổi chiều giông bão",
     "sentences": [
-      { "en": "In the afternoon, dark [clouds|cloud] covered the sky.", "vi": "Buổi chiều, mây đen phủ kín bầu trời." },
-      { "en": "[Suddenly], a big [storm] arrived.", "vi": "Bất chợt, một cơn bão lớn ập đến." },
-      { "en": "The thunder was so [loud] that my little sister was [scared].", "vi": "Sấm to đến mức em gái tôi sợ hãi." },
-      { "en": "The [power] went off, so we lit some candles.", "vi": "Mất điện, nên chúng tôi thắp vài cây nến." },
-      { "en": "When we went outside later, everything was [wet].", "vi": "Lát sau khi ra ngoài, mọi thứ đều ướt sũng." }
+      { "en": "In the afternoon, / dark [clouds|cloud] covered the sky.", "vi": "Buổi chiều, / mây đen phủ kín bầu trời." },
+      { "en": "[Suddenly], / a big [storm] arrived.", "vi": "Bất chợt, / một cơn bão lớn ập đến." },
+      { "en": "The thunder was so [loud] / that my little sister was [scared].", "vi": "Sấm to đến mức / em gái tôi sợ hãi." },
+      { "en": "The [power] went off, / so we lit some candles.", "vi": "Mất điện, / nên chúng tôi thắp vài cây nến." },
+      { "en": "When we went outside later, / everything was [wet].", "vi": "Lát sau khi ra ngoài, / mọi thứ đều ướt sũng." }
     ],
     "vocab": {
       "cloud": { "word": "cloud", "pos": "noun", "ipa": "/klaʊd/", "vi": "đám mây" },
@@ -141,12 +141,12 @@
     "title": "Cooking for My Parents",
     "titleVi": "Nấu ăn cho bố mẹ",
     "sentences": [
-      { "en": "Tonight, I am cooking dinner for my parents.", "vi": "Tối nay, tôi nấu bữa tối cho bố mẹ." },
-      { "en": "I found an easy [recipe] for pasta online.", "vi": "Tôi tìm được một công thức làm mì Ý dễ trên mạng." },
-      { "en": "First, I [boil] some water and cook the pasta.", "vi": "Đầu tiên, tôi đun sôi nước và luộc mì." },
-      { "en": "Then I make a tomato [sauce] and [taste] it.", "vi": "Sau đó tôi làm sốt cà chua và nếm thử." },
+      { "en": "Tonight, / I am cooking dinner / for my parents.", "vi": "Tối nay, / tôi nấu bữa tối / cho bố mẹ." },
+      { "en": "I found an easy [recipe] for pasta / online.", "vi": "Tôi tìm được một công thức làm mì Ý dễ / trên mạng." },
+      { "en": "First, / I [boil] some water / and cook the pasta.", "vi": "Đầu tiên, / tôi đun sôi nước / và luộc mì." },
+      { "en": "Then / I make a tomato [sauce] / and [taste] it.", "vi": "Sau đó / tôi làm sốt cà chua / và nếm thử." },
       { "en": "It [smells|smell] wonderful!", "vi": "Mùi thơm tuyệt vời!" },
-      { "en": "Finally, I put everything on three [plates|plate].", "vi": "Cuối cùng, tôi bày mọi thứ ra ba chiếc đĩa." }
+      { "en": "Finally, / I put everything / on three [plates|plate].", "vi": "Cuối cùng, / tôi bày mọi thứ / ra ba chiếc đĩa." }
     ],
     "vocab": {
       "recipe": { "word": "recipe", "pos": "noun", "ipa": "/ˈresəpi/", "vi": "công thức nấu ăn" },
@@ -161,11 +161,11 @@
     "title": "Studying English with an App",
     "titleVi": "Học tiếng Anh bằng ứng dụng",
     "sentences": [
-      { "en": "Last month, I [downloaded|download] a language [app] on my phone.", "vi": "Tháng trước, tôi tải một ứng dụng học ngôn ngữ về điện thoại." },
-      { "en": "I study for twenty minutes every day, so it is now a [regular] part of my life.", "vi": "Tôi học hai mươi phút mỗi ngày, nên giờ nó là một phần đều đặn trong cuộc sống của tôi." },
-      { "en": "The app teaches me how to [pronounce] difficult words.", "vi": "Ứng dụng dạy tôi cách phát âm những từ khó." },
-      { "en": "On Fridays, I [chat] with a teacher from London.", "vi": "Vào các ngày thứ Sáu, tôi trò chuyện với một giáo viên đến từ London." },
-      { "en": "Now I can [communicate] much better in English.", "vi": "Giờ tôi có thể giao tiếp bằng tiếng Anh tốt hơn nhiều." }
+      { "en": "Last month, / I [downloaded|download] a language [app] / on my phone.", "vi": "Tháng trước, / tôi tải một ứng dụng học ngôn ngữ / về điện thoại." },
+      { "en": "I study for twenty minutes every day, / so it is now / a [regular] part of my life.", "vi": "Tôi học hai mươi phút mỗi ngày, / nên giờ nó là / một phần đều đặn trong cuộc sống của tôi." },
+      { "en": "The app teaches me / how to [pronounce] difficult words.", "vi": "Ứng dụng dạy tôi / cách phát âm những từ khó." },
+      { "en": "On Fridays, / I [chat] with a teacher / from London.", "vi": "Vào các ngày thứ Sáu, / tôi trò chuyện với một giáo viên / đến từ London." },
+      { "en": "Now I can [communicate] / much better / in English.", "vi": "Giờ tôi có thể giao tiếp / tốt hơn nhiều / bằng tiếng Anh." }
     ],
     "vocab": {
       "download": { "word": "download", "pos": "verb", "ipa": "/ˌdaʊnˈləʊd/", "vi": "tải xuống" },
@@ -180,12 +180,12 @@
     "title": "Protecting Our Planet",
     "titleVi": "Bảo vệ hành tinh của chúng ta",
     "sentences": [
-      { "en": "Our class is learning about the [environment].", "vi": "Lớp chúng tôi đang tìm hiểu về môi trường." },
-      { "en": "[Pollution] is a big problem in many cities.", "vi": "Ô nhiễm là một vấn đề lớn ở nhiều thành phố." },
-      { "en": "Every month, we collect [rubbish] in the park near our school.", "vi": "Mỗi tháng, chúng tôi nhặt rác ở công viên gần trường." },
-      { "en": "At home, my family [recycles|recycle] paper and [plastic].", "vi": "Ở nhà, gia đình tôi tái chế giấy và nhựa." },
-      { "en": "We also turn off the lights to save [energy].", "vi": "Chúng tôi cũng tắt đèn để tiết kiệm năng lượng." },
-      { "en": "Small actions can help [protect] the Earth.", "vi": "Những hành động nhỏ có thể giúp bảo vệ Trái Đất." }
+      { "en": "Our class is learning / about the [environment].", "vi": "Lớp chúng tôi đang tìm hiểu / về môi trường." },
+      { "en": "[Pollution] is a big problem / in many cities.", "vi": "Ô nhiễm là một vấn đề lớn / ở nhiều thành phố." },
+      { "en": "Every month, / we collect [rubbish] / in the park near our school.", "vi": "Mỗi tháng, / chúng tôi nhặt rác / ở công viên gần trường." },
+      { "en": "At home, / my family [recycles|recycle] / paper and [plastic].", "vi": "Ở nhà, / gia đình tôi tái chế / giấy và nhựa." },
+      { "en": "We also turn off the lights / to save [energy].", "vi": "Chúng tôi cũng tắt đèn / để tiết kiệm năng lượng." },
+      { "en": "Small actions / can help [protect] the Earth.", "vi": "Những hành động nhỏ / có thể giúp bảo vệ Trái Đất." }
     ],
     "vocab": {
       "environment": { "word": "environment", "pos": "noun", "ipa": "/ɪnˈvaɪrənmənt/", "vi": "môi trường" },

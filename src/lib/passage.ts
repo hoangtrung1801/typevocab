@@ -1,4 +1,5 @@
-import type { Sentence } from '../data/types'
+/** Only the English text is needed to lay out a passage. */
+type Sentence = { en: string }
 
 export type Char = {
   ch: string
@@ -107,4 +108,21 @@ export function revealedWordCount(totalWords: number, typed: number, length: num
   if (length <= 0 || typed >= length) return totalWords
   if (typed <= 0) return 0
   return Math.min(totalWords, Math.ceil((typed / length) * totalWords))
+}
+
+/**
+ * How many words of a phrase-aligned translation to show after `typed`
+ * characters of the English sentence. Each English phrase reveals its paired
+ * Vietnamese phrase, word by word, while it is being typed. `enLengths` are the
+ * phrase lengths in characters (phrases are joined by single spaces) and
+ * `viWordCounts` the number of words in each paired Vietnamese phrase.
+ */
+export function revealedChunkWords(enLengths: number[], viWordCounts: number[], typed: number): number {
+  let shown = 0
+  let start = 0
+  enLengths.forEach((length, i) => {
+    shown += revealedWordCount(viWordCounts[i], typed - start, length)
+    start += length + 1
+  })
+  return shown
 }

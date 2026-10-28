@@ -1,6 +1,6 @@
 # TypeVocab
 
-Luyện gõ tiếng Anh và học từ vựng cùng lúc. Bạn gõ lại một đoạn văn tiếng Anh. Các từ vựng mục tiêu trong đoạn được tô như bút dạ quang, và khi gõ tới (hoặc rê chuột vào) sẽ hiện nghĩa tiếng Việt, phiên âm và loại từ. Bản dịch tiếng Việt của câu đang gõ hiện dần từng từ ngay bên dưới, theo tiến độ gõ, để đối chiếu. Gõ xong, bạn chọn những từ muốn ôn lại.
+Luyện gõ tiếng Anh và học từ vựng cùng lúc. Bạn gõ lại một đoạn văn tiếng Anh. Các từ vựng mục tiêu trong đoạn được tô như bút dạ quang, và khi gõ tới (hoặc rê chuột vào) sẽ hiện nghĩa tiếng Việt, phiên âm và loại từ. Bản dịch tiếng Việt của câu đang gõ hiện dần ngay bên dưới: gõ xong cụm tiếng Anh nào thì cụm tiếng Việt tương ứng hiện ra. Gõ xong, bạn chọn những từ muốn ôn lại.
 
 - 50 đoạn văn, 10 đoạn cho mỗi trình độ A1, A2, B1, B2, C1.
 - Từ vựng mục tiêu lấy theo cấp độ của danh sách Oxford 3000/5000.
@@ -61,8 +61,8 @@ Mỗi đoạn văn trong `src/data/passages/<level>.json` có dạng:
   "title": "A Meaningful Summer",
   "titleVi": "Một mùa hè ý nghĩa",
   "sentences": [
-    { "en": "I decided to [volunteer] at an animal shelter in my [neighbourhood].", "vi": "…" },
-    { "en": "The [staff] always [encouraged|encourage] me.", "vi": "…" }
+    { "en": "Last summer, / I decided / to [volunteer] / at an animal shelter", "vi": "Mùa hè năm ngoái, / tôi quyết định / làm tình nguyện / ở một trại cứu hộ động vật" },
+    { "en": "However, / the [staff] were kind / and always [encouraged|encourage] me.", "vi": "Tuy nhiên, / các nhân viên rất tốt bụng / và luôn động viên tôi." }
   ],
   "vocab": {
     "volunteer": { "word": "volunteer", "pos": "verb", "ipa": "/ˌvɒlənˈtɪə(r)/", "vi": "tình nguyện" }
@@ -72,6 +72,7 @@ Mỗi đoạn văn trong `src/data/passages/<level>.json` có dạng:
 
 - Từ mục tiêu được đánh dấu là `[từ]`. Nếu trong câu là dạng biến đổi của từ, viết `[dạng trong câu|từ gốc]`, ví dụ `[cages|cage]`.
 - Mỗi từ đánh dấu phải có một mục trong `vocab` với khoá là từ gốc viết thường.
+- ` / ` chia câu thành các cụm. Cụm tiếng Anh thứ n ghép với cụm tiếng Việt thứ n, nên hai vế phải có cùng số cụm và cùng thứ tự; phần nào tiếng Việt đảo trật tự thì gộp vào một cụm. Khi người dùng gõ tới cụm tiếng Anh nào, cụm tiếng Việt tương ứng hiện dần từng từ. Không đặt ` / ` bên trong một từ được đánh dấu.
 - Câu tiếng Anh chỉ dùng ký tự ASCII để gõ được trên mọi bàn phím.
 - `npm test` sẽ báo lỗi nếu cấu trúc sai (thiếu nghĩa, từ đánh dấu không có trong `vocab`, quá ít hoặc quá nhiều từ mục tiêu…).
 

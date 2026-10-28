@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { markupKeys, parsePassage, revealedWordCount, stripMarkup } from '../lib/passage'
+import { markupKeys, parsePassage, revealedChunkWords, revealedWordCount, stripMarkup } from '../lib/passage'
 import { PASSAGES_BY_LEVEL } from '.'
 import { LEVELS } from './types'
 
@@ -23,6 +23,15 @@ describe.each(LEVELS)('%s passages', (level) => {
 
     for (const s of p.sentences) {
       expect(s.vi.trim()).not.toBe('')
+
+      // Phrase alignment: same number of phrases on both sides, no empty
+      // phrase, no markup split across phrases, longer sentences split up.
+      expect(s.viChunks).toHaveLength(s.enChunks.length)
+      expect(s.enChunks.join(' ')).toBe(stripMarkup(s.en))
+      for (const c of [...s.enChunks, ...s.viChunks]) expect(c).toBe(c.trim())
+      for (const c of s.enChunks) expect(c).not.toMatch(/[[\]|/]/)
+      for (const c of s.viChunks) expect(c).not.toMatch(/^$|\//)
+      if (stripMarkup(s.en).split(' ').length > 5) expect(s.enChunks.length).toBeGreaterThan(1)
       const plain = stripMarkup(s.en)
       expect(plain).not.toMatch(/[[\]|]/)
       expect(plain).toBe(plain.trim())
@@ -41,8 +50,8 @@ describe.each(LEVELS)('%s passages', (level) => {
 
 describe('parsePassage', () => {
   const parsed = parsePassage([
-    { en: 'I soon [got used to|get used to] the [cages|cage].', vi: '' },
-    { en: 'Done.', vi: '' },
+    { en: 'I soon [got used to|get used to] the [cages|cage].' },
+    { en: 'Done.' },
   ])
 
   it('joins sentences with single spaces', () => {
@@ -84,5 +93,20 @@ describe('revealedWordCount', () => {
     expect(revealedWordCount(8, 1, 40)).toBe(1)
     expect(revealedWordCount(8, 20, 40)).toBe(4)
     expect(revealedWordCount(8, 39, 40)).toBe(8)
+  })
+})
+
+describe('revealedChunkWords', () => {
+  // "Last month," / "I sent" / "an application"  ->  "Tháng trước," / "tôi gửi" / "đơn ứng tuyển"
+  const en = [11, 6, 14]
+  const vi = [2, 2, 3]
+
+  it('reveals each Vietnamese phrase while its English phrase is typed', () => {
+    expect(revealedChunkWords(en, vi, 0)).toBe(0)
+    expect(revealedChunkWords(en, vi, 11)).toBe(2)
+    expect(revealedChunkWords(en, vi, 12)).toBe(2)
+    expect(revealedChunkWords(en, vi, 13)).toBe(3)
+    expect(revealedChunkWords(en, vi, 18)).toBe(4)
+    expect(revealedChunkWords(en, vi, 32)).toBe(7)
   })
 })
