@@ -1,14 +1,15 @@
-import { useEffect, useMemo, useRef, useState, type ChangeEvent, type KeyboardEvent } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { Navigate, useNavigate, useParams } from 'react-router-dom'
 import BackLink from '../components/BackLink'
 import Page from '../components/Page'
 import Paper from '../components/Paper'
-import TypingText from '../components/TypingText'
+import TypingBoard from '../components/TypingBoard'
 import WordPicker from '../components/WordPicker'
 import { getPassage, nextPassage, PASSAGES_BY_LEVEL } from '../data'
 import type { Passage } from '../data/types'
-import { formatTime, parsePassage, wordsPerMinute } from '../lib/passage'
+import { formatTime, parsePassage } from '../lib/passage'
 import { saveResult, setLastLevel, setShowTranslation, useStore } from '../lib/store'
+import { backspace, initTyping, stats, typeChar } from '../lib/typing'
 
 export default function Practice() {
   const { id = '' } = useParams()
@@ -17,75 +18,60 @@ export default function Practice() {
   return <PracticeSession key={passage.id} passage={passage} />
 }
 
-const INPUT_ID = 'typing-input'
-
 function PracticeSession({ passage }: { passage: Passage }) {
   const navigate = useNavigate()
   const parsed = useMemo(() => parsePassage(passage.sentences), [passage])
+  const words = useMemo(() => parsed.text.split(' '), [parsed])
   const showTranslation = useStore((s) => s.showTranslation)
 
-  const [typed, setTyped] = useState('')
-  const [startedAt, setStartedAt] = useState<number | null>(null)
-  const [finishedAt, setFinishedAt] = useState<number | null>(null)
+  const [typing, setTyping] = useState(() => initTyping(words))
   const [now, setNow] = useState(() => Date.now())
   const [focused, setFocused] = useState(false)
   const [picking, setPicking] = useState(false)
-  const inputRef = useRef<HTMLInputElement>(null)
+  const savedAt = useRef<number | null>(null)
 
-  const { text, chars } = parsed
-  const done = typed.length >= text.length
+  const done = typing.finishedAt !== null
   const next = nextPassage(passage)
+  const total = PASSAGES_BY_LEVEL[passage.level].length
 
   useEffect(() => setLastLevel(passage.level), [passage.level])
 
   useEffect(() => {
-    if (!picking) inputRef.current?.focus()
-  }, [picking])
-
-  useEffect(() => {
-    if (!startedAt || finishedAt) return
-    const t = setInterval(() => setNow(Date.now()), 1000)
+    if (typing.startedAt === null || done) return
+    const t = setInterval(() => setNow(Date.now()), 500)
     return () => clearInterval(t)
-  }, [startedAt, finishedAt])
+  }, [typing.startedAt, done])
 
-  const seconds = startedAt ? Math.max(0, ((finishedAt ?? now) - startedAt) / 1000) : 0
-  const wpm = wordsPerMinute(typed.length, seconds)
-  const sentence = chars[Math.min(typed.length, text.length - 1)].sentence
+  // Save each finished attempt once.
+  useEffect(() => {
+    if (typing.finishedAt === null || savedAt.current === typing.finishedAt) return
+    savedAt.current = typing.finishedAt
+    const s = stats(typing, typing.finishedAt)
+    saveResult(passage.id, {
+      wpm: s.wpm,
+      acc: s.acc,
+      seconds: Math.round(s.seconds),
+      completedAt: new Date(typing.finishedAt).toISOString(),
+    })
+  }, [typing, passage.id])
 
-  const onChange = (e: ChangeEvent<HTMLInputElement>) => {
-    if (done) return
-    const value = e.target.value.slice(0, text.length)
+  const onChar = useCallback((ch: string) => {
     const t = Date.now()
-    const start = startedAt ?? t
-    if (!startedAt) setStartedAt(t)
-    setTyped(value)
-    if (value.length === text.length) {
-      setFinishedAt(t)
-      setNow(t)
-      const secs = (t - start) / 1000
-      saveResult(passage.id, { wpm: wordsPerMinute(value.length, secs), seconds: Math.round(secs), completedAt: new Date(t).toISOString() })
-    }
-  }
-
-  const restart = () => {
-    setTyped('')
-    setStartedAt(null)
-    setFinishedAt(null)
+    setTyping((s) => typeChar(s, ch, t))
+  }, [])
+  const onBackspace = useCallback((whole: boolean) => setTyping((s) => backspace(s, whole)), [])
+  const restart = useCallback(() => {
+    setTyping(initTyping(words))
     setPicking(false)
-    inputRef.current?.focus()
-  }
+  }, [words])
 
-  const onKeyDown = (e: KeyboardEvent<HTMLInputElement>) => {
-    if (e.key === 'Escape') {
-      e.preventDefault()
-      restart()
-    } else if (e.key === 'Enter' && done) {
-      e.preventDefault()
-      setPicking(true)
-    }
-  }
-
-  const total = PASSAGES_BY_LEVEL[passage.level].length
+  const live = stats(typing, typing.finishedAt ?? now)
+  const wordsDone = typing.current + (done ? 1 : 0)
+  const sentence = parsed.chars[parsed.words[typing.current].chars[0]].sentence
+  const mistyped = useMemo(
+    () => [...new Set(typing.errorWords.map((i) => parsed.words[i].vocab).filter((v): v is string => v !== null))],
+    [typing.errorWords, parsed],
+  )
 
   return (
     <Page wide>
@@ -93,16 +79,18 @@ function PracticeSession({ passage }: { passage: Passage }) {
         <BackLink to="/">
           {passage.level} · Đoạn {passage.number}/{total}
         </BackLink>
-        <span className="font-mono text-base text-pencil" aria-live="off">
-          {wpm} wpm · {formatTime(seconds)}
+        <span className="font-mono text-base text-pencil">
+          {wordsDone}/{words.length} từ · {formatTime(live.seconds)}
         </span>
       </div>
 
       {picking ? (
-        <Paper label="Chọn từ cần ôn">
+        <Paper label="Kết quả và chọn từ cần ôn" className="fade-up">
           <WordPicker
             passage={passage}
             vocabOrder={parsed.vocabOrder}
+            mistyped={mistyped}
+            stats={live}
             hasNext={Boolean(next)}
             onRetry={restart}
             onSaved={() => navigate(next ? `/p/${next.id}` : '/')}
@@ -110,36 +98,35 @@ function PracticeSession({ passage }: { passage: Passage }) {
         </Paper>
       ) : (
         <>
-          <Paper label="Trang giấy để gõ" progress={(100 * typed.length) / text.length}>
+          <Paper label="Trang giấy để gõ" progress={(100 * wordsDone) / words.length}>
             <div className="mb-5 flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1">
               <h1 className="m-0 text-[26px] font-semibold tracking-tight sm:text-[28px]">{passage.title}</h1>
               <span className="text-base text-pencil italic">{passage.titleVi}</span>
             </div>
 
-            <input
-              ref={inputRef}
-              id={INPUT_ID}
-              type="text"
-              value={typed}
-              onChange={onChange}
-              onKeyDown={onKeyDown}
-              onFocus={() => setFocused(true)}
-              onBlur={() => setFocused(false)}
-              onPaste={(e) => e.preventDefault()}
-              maxLength={text.length}
-              autoComplete="off"
-              autoCorrect="off"
-              autoCapitalize="off"
-              spellCheck={false}
-              aria-label="Ô nhập: gõ lại đoạn văn tiếng Anh"
-              className="absolute top-24 left-12 size-px border-0 p-0 text-base opacity-0 sm:left-23"
+            <TypingBoard
+              passage={passage}
+              parsed={parsed}
+              state={typing}
+              onChar={onChar}
+              onBackspace={onBackspace}
+              onRestart={restart}
+              onFinishConfirm={() => setPicking(true)}
+              onFocusChange={setFocused}
             />
 
-            <TypingText passage={passage} parsed={parsed} typed={typed} focused={focused} inputId={INPUT_ID} />
-
             <div className="mt-6 flex min-h-14 flex-wrap items-start justify-between gap-4 border-t border-dashed border-rule pt-4">
-              {showTranslation ? (
-                <p lang="vi" className="m-0 min-w-0 flex-[1_1_400px] text-[19px] leading-normal text-ink-soft italic sm:text-[21px]">
+              {done ? (
+                <p className="fade-up m-0 flex flex-[1_1_400px] flex-wrap items-baseline gap-x-6 gap-y-1 font-mono text-pencil">
+                  <span>
+                    <span className="text-[32px] font-bold text-ink">{live.wpm}</span> wpm
+                  </span>
+                  <span>
+                    <span className="text-[32px] font-bold text-ink">{live.acc}%</span> acc
+                  </span>
+                </p>
+              ) : showTranslation ? (
+                <p key={sentence} lang="vi" className="fade-up m-0 min-w-0 flex-[1_1_400px] text-[19px] leading-normal text-ink-soft italic sm:text-[21px]">
                   <span className="mr-2.5 font-mono text-sm text-red not-italic">
                     {sentence + 1}/{passage.sentences.length}
                   </span>
@@ -154,18 +141,16 @@ function PracticeSession({ passage }: { passage: Passage }) {
                 <button
                   type="button"
                   onClick={() => setPicking(true)}
-                  className="inline-flex min-h-11 cursor-pointer items-center rounded-[3px] border-0 bg-ink px-5 font-serif text-[17px] font-medium text-paper hover:bg-ink-soft"
+                  className="fade-up inline-flex min-h-11 cursor-pointer items-center rounded-[3px] border-0 bg-ink px-5 font-serif text-[17px] font-medium text-paper hover:bg-ink-soft"
                 >
-                  Xong, chọn từ cần ôn →
+                  Chọn từ cần ôn →
                 </button>
               ) : (
                 <button
                   type="button"
                   aria-pressed={showTranslation}
-                  onClick={() => {
-                    setShowTranslation(!showTranslation)
-                    inputRef.current?.focus()
-                  }}
+                  onMouseDown={(e) => e.preventDefault()}
+                  onClick={() => setShowTranslation(!showTranslation)}
                   className="min-h-11 cursor-pointer border-0 bg-transparent px-1 font-serif text-base text-pencil underline underline-offset-4"
                 >
                   {showTranslation ? 'Ẩn bản dịch' : 'Hiện bản dịch'}
@@ -178,8 +163,8 @@ function PracticeSession({ passage }: { passage: Passage }) {
             {done
               ? 'Enter để chọn từ cần ôn · Esc để gõ lại'
               : focused
-                ? 'Esc để gõ lại từ đầu'
-                : 'Bấm vào trang giấy để gõ · rê chuột vào từ được tô để xem nghĩa'}
+                ? 'Esc hoặc Tab để gõ lại · rê chuột vào từ được tô để xem nghĩa'
+                : ''}
           </p>
         </>
       )}

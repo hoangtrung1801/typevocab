@@ -3,6 +3,8 @@ import type { Level } from '../data/types'
 
 export type PassageResult = {
   wpm: number
+  /** 0–100; missing for results saved before accuracy was tracked. */
+  acc?: number
   seconds: number
   completedAt: string
 }

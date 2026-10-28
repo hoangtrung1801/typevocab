@@ -6,6 +6,17 @@ Luyện gõ tiếng Anh và học từ vựng cùng lúc. Bạn gõ lại một 
 - Từ vựng mục tiêu lấy theo cấp độ của danh sách Oxford 3000/5000.
 - Không cần tài khoản: tiến độ và danh sách từ cần ôn được lưu trong trình duyệt (localStorage).
 
+## Cách gõ
+
+Logic gõ giống Monkeytype:
+
+- Chữ gõ đúng chuyển sang màu mực, chữ sai hiện màu đỏ (vẫn hiển thị chữ đúng), chữ gõ thừa ở cuối từ hiện màu đỏ sẫm.
+- Dấu cách chuyển sang từ tiếp theo. Từ đã qua mà còn lỗi được gạch chân đỏ.
+- Backspace chỉ quay lại được từ trước nếu từ đó còn lỗi. Ctrl+Backspace (Alt+Backspace trên macOS) xoá cả từ.
+- Esc hoặc Tab để gõ lại từ đầu. Gõ xong nhấn Enter để xem kết quả.
+- Kết quả: **wpm** (chỉ tính các từ gõ đúng), **acc** (phím đúng / tổng số phím), **raw** (mọi ký tự đã gõ) và thời gian.
+- Từ vựng mục tiêu nào bị gõ sai sẽ được chọn sẵn trong danh sách ôn tập.
+
 ## Chạy dự án
 
 ```bash

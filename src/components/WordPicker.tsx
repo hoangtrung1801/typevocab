@@ -1,25 +1,32 @@
 import { useState } from 'react'
 import type { Passage } from '../data/types'
+import { formatTime } from '../lib/passage'
 import { reviewKey, updateReview, useStore, type ReviewWord } from '../lib/store'
+import type { Stats } from '../lib/typing'
 
 type Props = {
   passage: Passage
   vocabOrder: string[]
+  /** Vocab keys of target words that got at least one wrong keystroke. */
+  mistyped: string[]
+  stats: Stats
   onRetry: () => void
   onSaved: () => void
   hasNext: boolean
 }
 
-/** After a passage: tick the words to keep in the review list. */
-export default function WordPicker({ passage, vocabOrder, onRetry, onSaved, hasNext }: Props) {
+/** After a passage: the result, then tick the words to keep in the review list. */
+export default function WordPicker({ passage, vocabOrder, mistyped, stats, onRetry, onSaved, hasNext }: Props) {
   const review = useStore((s) => s.review)
-  const items: Omit<ReviewWord, 'addedAt'>[] = vocabOrder.map((key) => ({
+  const items: (Omit<ReviewWord, 'addedAt'> & { mistyped: boolean })[] = vocabOrder.map((key) => ({
     ...passage.vocab[key],
     level: passage.level,
     passageId: passage.id,
+    mistyped: mistyped.includes(key),
   }))
+  // Start with words already in the review list plus the ones typed wrong.
   const [selected, setSelected] = useState(
-    () => new Set(items.map((w) => reviewKey(w.level, w.word)).filter((k) => review[k])),
+    () => new Set(items.filter((w) => w.mistyped || review[reviewKey(w.level, w.word)]).map((w) => reviewKey(w.level, w.word))),
   )
 
   const allSelected = selected.size === items.length
@@ -32,7 +39,10 @@ export default function WordPicker({ passage, vocabOrder, onRetry, onSaved, hasN
     })
 
   const save = () => {
-    updateReview(items, selected)
+    updateReview(
+      items.map(({ word, pos, ipa, vi, level, passageId }) => ({ word, pos, ipa, vi, level, passageId })),
+      selected,
+    )
     onSaved()
   }
 
@@ -41,10 +51,21 @@ export default function WordPicker({ passage, vocabOrder, onRetry, onSaved, hasN
 
   return (
     <>
-      <div className="mb-5 flex flex-col gap-1.5">
-        <span className="text-base text-pencil italic">Xong “{passage.title}”</span>
-        <h1 className="m-0 text-[26px] font-semibold tracking-tight sm:text-[30px]">Chọn những từ bạn muốn ôn lại</h1>
-      </div>
+      <span className="text-base text-pencil italic">Xong “{passage.title}”</span>
+      <dl className="mt-3 mb-7 flex flex-wrap gap-x-10 gap-y-3 font-mono">
+        {[
+          ['wpm', String(stats.wpm), true],
+          ['acc', `${stats.acc}%`, true],
+          ['raw', String(stats.raw), false],
+          ['time', formatTime(stats.seconds), false],
+        ].map(([label, value, big]) => (
+          <div key={label as string} className="flex flex-col">
+            <dt className="text-sm text-pencil">{label}</dt>
+            <dd className={`m-0 leading-none font-bold text-ink ${big ? 'text-[44px]' : 'text-[26px] text-ink-soft'}`}>{value}</dd>
+          </div>
+        ))}
+      </dl>
+      <h1 className="m-0 mb-5 text-[26px] font-semibold tracking-tight sm:text-[30px]">Chọn những từ bạn muốn ôn lại</h1>
 
       <div className="flex flex-wrap items-center justify-between gap-3 border-b border-rule pb-2">
         <span className="font-mono text-[15px] text-pencil">{items.length} từ trong đoạn</span>
@@ -74,6 +95,7 @@ export default function WordPicker({ passage, vocabOrder, onRetry, onSaved, hasN
                   <span className="flex flex-wrap items-baseline gap-2.5">
                     <span className="text-[22px] font-semibold">{w.word}</span>
                     <span className="text-[15px] text-pencil italic">{w.pos}</span>
+                    {w.mistyped && <span className="font-mono text-[13px] text-red">gõ sai</span>}
                   </span>
                   <span className="font-mono text-sm text-pencil">{w.ipa}</span>
                 </span>
