@@ -19,6 +19,16 @@ Logic gõ giống Monkeytype:
 - Từ vựng mục tiêu nào bị gõ sai sẽ được chọn sẵn trong danh sách ôn tập.
 - Âm thanh kiểu máy đánh chữ (phím, dấu cách, xoá, gõ sai, chuông khi xong) được tạo bằng Web Audio API, không cần file âm thanh. Bật/tắt bằng nút loa ở góc trên.
 
+## Dịch ngược
+
+Chế độ thứ hai, chọn bằng nút **Gõ chép / Dịch ngược** ở trang chủ hoặc trang gõ:
+
+- Câu tiếng Việt hiện ở trên, cụm đang dịch được tô dạ quang. Bạn gõ cụm tiếng Anh tương ứng vào các ô theo số ký tự, mỗi từ một nhóm ô; dấu câu được điền sẵn. Các từ vựng mục tiêu của câu (dạng gốc) hiện bên dưới để gợi nhớ.
+- Nhấn Enter để kiểm tra: đúng thì sang cụm tiếp theo và cụm đó được nối vào bản dịch; sai thì các ô sai viền đỏ để sửa. Có thể bấm "Xem đáp án".
+- Gợi ý (Tab) hiện chữ của từ đang làm theo thứ tự đầu, cuối, giữa, dạng placeholder.
+- Dịch xong mỗi câu, app đọc to câu tiếng Anh. Kết quả: điểm (số cụm đúng ngay lần đầu, không gợi ý), thời gian và danh sách cụm nên xem lại.
+- Tiến độ của mỗi chế độ được lưu riêng.
+
 ## Ôn tập ngắt quãng
 
 Những từ đã chọn ôn được xếp lịch theo thuật toán SM-2 rút gọn (thuật toán của Anki), trong `src/lib/srs.ts`:
@@ -63,6 +73,8 @@ src/
   lib/srs.ts, lib/review.ts         lịch ôn tập ngắt quãng, thẻ ôn có chỗ trống
   components/TypingBoard.tsx        trang giấy để gõ, con trỏ, tooltip từ vựng
   components/WordPicker.tsx         kết quả và chọn từ cần ôn
+  components/TranslateSession.tsx   chế độ dịch ngược theo cụm
+  components/LetterBoxes.tsx        ô nhập theo số ký tự (ôn tập, dịch ngược)
   pages/Home.tsx, Practice.tsx       chọn bộ từ vựng, gõ đoạn văn
   pages/Review.tsx, ReviewSession.tsx  danh sách từ cần ôn, buổi ôn tập
 scripts/generate-passages.mjs       sinh đoạn văn bằng OpenAI API

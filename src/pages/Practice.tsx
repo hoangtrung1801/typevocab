@@ -1,8 +1,10 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { Navigate, useNavigate, useParams } from 'react-router-dom'
 import BackLink from '../components/BackLink'
+import ModeToggle from '../components/ModeToggle'
 import Page from '../components/Page'
 import Paper from '../components/Paper'
+import TranslateSession from '../components/TranslateSession'
 import TypingBoard from '../components/TypingBoard'
 import WordPicker from '../components/WordPicker'
 import { getPassage, pickPassage, PASSAGES_BY_LEVEL } from '../data'
@@ -14,9 +16,14 @@ import { backspace, initTyping, stats, typeChar, type TypingState } from '../lib
 
 export default function Practice() {
   const { id = '' } = useParams()
+  const mode = useStore((s) => s.practiceMode)
   const passage = getPassage(id)
   if (!passage) return <Navigate to="/" replace />
-  return <PracticeSession key={passage.id} passage={passage} />
+  return mode === 'translate' ? (
+    <TranslateSession key={passage.id} passage={passage} />
+  ) : (
+    <PracticeSession key={passage.id} passage={passage} />
+  )
 }
 
 function PracticeSession({ passage }: { passage: Passage }) {
@@ -124,9 +131,10 @@ function PracticeSession({ passage }: { passage: Passage }) {
   return (
     <Page wide>
       <div className="flex flex-wrap items-center justify-between gap-4">
-        <BackLink to="/">
-          Bộ {passage.level}
-        </BackLink>
+        <div className="flex flex-wrap items-center gap-4">
+          <BackLink to="/">Bộ {passage.level}</BackLink>
+          <ModeToggle />
+        </div>
         <div className="flex items-center gap-2">
           <span className="font-mono text-base text-pencil">
             {wordsDone}/{words.length} từ · {formatTime(live.seconds)}

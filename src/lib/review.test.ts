@@ -1,5 +1,14 @@
 import { describe, expect, it } from 'vitest'
-import { answerLetters, answerSlots, clozeFor, hintOrder, isCorrectLetters, nextHintIndex } from './review'
+import {
+  answerLetters,
+  answerWords,
+  clozeFor,
+  hintOrder,
+  isCorrectLetters,
+  nextHintIndex,
+  nextWordHintIndex,
+  wrongPositions,
+} from './review'
 
 const sentences = [
   { en: 'My [uncle] has a farm.', vi: 'Chú tôi có một trang trại.' },
@@ -23,16 +32,18 @@ describe('clozeFor', () => {
 })
 
 describe('letter boxes', () => {
-  it('turns spaces into gaps and numbers the boxes', () => {
+  it('splits into words of boxes, with punctuation filled in rather than typed', () => {
     expect(answerLetters('ice cream')).toBe('icecream')
-    expect(answerSlots('ice cr')).toEqual([
-      { gap: false, index: 0 },
-      { gap: false, index: 1 },
-      { gap: false, index: 2 },
-      { gap: true },
-      { gap: false, index: 3 },
-      { gap: false, index: 4 },
+    expect(answerLetters('On Sunday,')).toBe('OnSunday')
+    expect(answerLetters("my sister's well-being.")).toBe("mysister'swell-being")
+    expect(answerWords('Hi, Al.')).toEqual([
+      [{ kind: 'box', index: 0 }, { kind: 'box', index: 1 }, { kind: 'fixed', ch: ',' }],
+      [{ kind: 'box', index: 2 }, { kind: 'box', index: 3 }, { kind: 'fixed', ch: '.' }],
     ])
+  })
+
+  it('lists the wrong or empty positions', () => {
+    expect([...wrongPositions('cagx', 'cages')]).toEqual([3, 4])
   })
 
   it('checks every box, ignoring case', () => {
@@ -58,5 +69,21 @@ describe('hints', () => {
     expect(nextHintIndex('cages', 'c', new Set())).toBe(4)
     expect(nextHintIndex('cages', 'xages', new Set([4]))).toBe(0)
     expect(nextHintIndex('cages', 'cages', new Set())).toBe(-1)
+  })
+})
+
+describe('nextWordHintIndex', () => {
+  // "On Sunday," -> letters "OnSunday": On = 0-1, Sunday = 2-7
+  it('hints the first unfinished word, first letter then last then middle', () => {
+    expect(nextWordHintIndex('On Sunday,', '', new Set())).toBe(0)
+    expect(nextWordHintIndex('On Sunday,', '', new Set([0]))).toBe(1)
+    expect(nextWordHintIndex('On Sunday,', 'On', new Set())).toBe(2)
+    expect(nextWordHintIndex('On Sunday,', 'On', new Set([2]))).toBe(7)
+    expect(nextWordHintIndex('On Sunday,', 'On', new Set([2, 7]))).toBe(4)
+  })
+
+  it('moves on when a word is fully hinted, and stops when all is correct', () => {
+    expect(nextWordHintIndex('On Sunday,', '', new Set([0, 1]))).toBe(2)
+    expect(nextWordHintIndex('On Sunday,', 'onsunday', new Set())).toBe(-1)
   })
 })

@@ -27,12 +27,18 @@ export function clozeFor(sentences: { en: string; vi: string }[], key: string): 
   return null
 }
 
+/** Letters, digits, apostrophes and hyphens are typed; other punctuation is filled in. */
+export function isTypeable(ch: string): boolean {
+  return /[A-Za-z0-9'-]/.test(ch)
+}
+
 /**
- * The characters to type, one box each. Spaces in a phrase are gaps, not
- * boxes, so "ice cream" is 8 letters typed as "icecream".
+ * The characters to type, one box each. Spaces are gaps and punctuation such
+ * as commas is shown, not typed, so "ice cream" is typed as "icecream" and
+ * "On Sunday," as "OnSunday".
  */
 export function answerLetters(answer: string): string {
-  return answer.replace(/ /g, '')
+  return [...answer].filter(isTypeable).join('')
 }
 
 const same = (a: string | undefined, b: string | undefined) => a?.toLowerCase() === b?.toLowerCase()
@@ -67,8 +73,38 @@ export function nextHintIndex(letters: string, typed: string, hinted: Set<number
   return hintOrder(letters.length).find((i) => !hinted.has(i) && !same(typed[i], letters[i])) ?? -1
 }
 
-/** Splits an answer into boxes and gaps, with each box's index in the letters. */
-export function answerSlots(answer: string): ({ gap: true } | { gap: false; index: number })[] {
+export type Slot = { kind: 'box'; index: number } | { kind: 'fixed'; ch: string }
+
+/** The answer as words, each a list of boxes (with their index in the letters) and fixed punctuation. */
+export function answerWords(answer: string): Slot[][] {
   let index = 0
-  return [...answer].map((c) => (c === ' ' ? { gap: true as const } : { gap: false as const, index: index++ }))
+  return answer
+    .split(' ')
+    .filter(Boolean)
+    .map((word) => [...word].map((ch): Slot => (isTypeable(ch) ? { kind: 'box', index: index++ } : { kind: 'fixed', ch })))
+}
+
+/** Positions typed wrong (or left empty) after checking. */
+export function wrongPositions(typed: string, letters: string): Set<number> {
+  const out = new Set<number>()
+  for (let i = 0; i < letters.length; i++) if (!same(typed[i], letters[i])) out.add(i)
+  return out
+}
+
+/**
+ * For a phrase: the next hint goes to the first word that is not fully typed
+ * correctly, in that word's first-last-middle order. -1 when nothing is left.
+ */
+export function nextWordHintIndex(answer: string, typed: string, hinted: Set<number>): number {
+  const letters = answerLetters(answer)
+  for (const word of answerWords(answer)) {
+    const boxes = word.flatMap((s) => (s.kind === 'box' ? [s.index] : []))
+    const open = boxes.filter((i) => !same(typed[i], letters[i]))
+    if (open.length === 0) continue
+    const next = hintOrder(boxes.length)
+      .map((k) => boxes[k])
+      .find((i) => !hinted.has(i) && !same(typed[i], letters[i]))
+    if (next !== undefined) return next
+  }
+  return -1
 }

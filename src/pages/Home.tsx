@@ -1,4 +1,5 @@
 import { Link, useNavigate } from 'react-router-dom'
+import ModeToggle from '../components/ModeToggle'
 import Page from '../components/Page'
 import Paper from '../components/Paper'
 import { PASSAGES_BY_LEVEL, pickPassage } from '../data'
@@ -10,7 +11,11 @@ import { useNow } from '../lib/useNow'
 export default function Home() {
   const navigate = useNavigate()
   const lastLevel = useStore((s) => s.lastLevel)
-  const progress = useStore((s) => s.progress)
+  const mode = useStore((s) => s.practiceMode)
+  const copyProgress = useStore((s) => s.progress)
+  const translateProgress = useStore((s) => s.translateProgress)
+  // Each mode tracks its own finished passages.
+  const progress: Record<string, unknown> = mode === 'translate' ? translateProgress : copyProgress
   const review = useStore((s) => s.review)
   const now = useNow()
   const dueCount = Object.values(review).filter((w) => isDue(cardOf(w), now)).length
@@ -34,8 +39,15 @@ export default function Home() {
       <p className="m-0 -mt-2 text-base text-pencil">Gõ tiếng Anh, học từ vựng ngay trong đoạn văn.</p>
 
       <Paper label="Chọn bộ từ vựng" className="mt-3">
-        <h2 className="m-0 text-[26px] font-semibold">Chọn bộ từ vựng</h2>
-        <p className="m-0 mt-1 mb-6 text-base text-pencil">Mỗi lần chọn, bạn sẽ gõ một đoạn văn ngẫu nhiên trong bộ đó.</p>
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <h2 className="m-0 text-[26px] font-semibold">Chọn bộ từ vựng</h2>
+          <ModeToggle />
+        </div>
+        <p className="m-0 mt-1 mb-6 text-base text-pencil">
+          {mode === 'translate'
+            ? 'Mỗi lần chọn, bạn sẽ dịch một đoạn văn ngẫu nhiên từ tiếng Việt sang tiếng Anh, từng cụm một.'
+            : 'Mỗi lần chọn, bạn sẽ gõ chép một đoạn văn ngẫu nhiên trong bộ đó.'}
+        </p>
         <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
           {LEVELS.map((level) => {
             const passages = PASSAGES_BY_LEVEL[level]
@@ -58,7 +70,7 @@ export default function Home() {
                 <span className="text-lg font-medium">{LEVEL_NAMES[level]}</span>
                 <span className="mt-auto flex flex-col gap-1.5">
                   <span className="text-sm text-pencil">
-                    {done}/{passages.length} đoạn đã gõ
+                    {done}/{passages.length} {mode === 'translate' ? 'đoạn đã dịch' : 'đoạn đã gõ'}
                   </span>
                   <span className="block h-1.5 w-full overflow-hidden rounded-full bg-line" aria-hidden="true">
                     <span

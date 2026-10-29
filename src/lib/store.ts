@@ -10,6 +10,15 @@ export type PassageResult = {
   completedAt: string
 }
 
+export type PracticeMode = 'copy' | 'translate'
+
+export type TranslateResult = {
+  /** Phrases right on the first try, 0-100. */
+  score: number
+  seconds: number
+  completedAt: string
+}
+
 export type ReviewWord = {
   word: string
   pos: string
@@ -29,6 +38,8 @@ export type State = {
   showTranslation: boolean
   soundOn: boolean
   lastLevel: Level
+  practiceMode: PracticeMode
+  translateProgress: Record<string, TranslateResult>
 }
 
 const STORAGE_KEY = 'typevocab:v1'
@@ -39,6 +50,8 @@ const DEFAULT_STATE: State = {
   showTranslation: true,
   soundOn: true,
   lastLevel: 'A1',
+  practiceMode: 'copy',
+  translateProgress: {},
 }
 
 function load(): State {
@@ -131,6 +144,19 @@ export function setShowTranslation(show: boolean) {
 
 export function setSoundOn(on: boolean) {
   setState((s) => ({ ...s, soundOn: on }))
+}
+
+export function setPracticeMode(mode: PracticeMode) {
+  setState((s) => ({ ...s, practiceMode: mode }))
+}
+
+export function saveTranslateResult(passageId: string, result: TranslateResult) {
+  setState((s) => {
+    const prev = s.translateProgress[passageId]
+    // Keep the best score but always refresh the completion date.
+    const best = prev && prev.score > result.score ? { ...prev, completedAt: result.completedAt } : result
+    return { ...s, translateProgress: { ...s.translateProgress, [passageId]: best } }
+  })
 }
 
 export function setLastLevel(level: Level) {
