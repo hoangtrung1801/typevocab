@@ -4,7 +4,7 @@ import BackLink from '../components/BackLink'
 import Page from '../components/Page'
 import LetterBoxes from '../components/LetterBoxes'
 import Paper from '../components/Paper'
-import { getPassage } from '../data'
+import { getSource } from '../data'
 import { answerLetters, clozeFor, isCorrectLetters, nextHintIndex } from '../lib/review'
 import { play } from '../lib/sound'
 import { canSpeak, speak } from '../lib/speech'
@@ -50,8 +50,8 @@ export default function ReviewSession() {
   const key = queue[index]
   const word = key ? review[key] : undefined
   const done = !word
-  const passage = word ? getPassage(word.passageId) : undefined
-  const cloze = word && passage ? clozeFor(passage.sentences, word.word.toLowerCase()) : null
+  const source = word ? getSource(word.passageId) : undefined
+  const cloze = word && source ? clozeFor(source.sentences, word.word.toLowerCase()) : null
   const answer = cloze?.answer ?? word?.word ?? ''
   const letters = answerLetters(answer)
   // Hints lower the suggested grade; needing every letter counts as forgotten.

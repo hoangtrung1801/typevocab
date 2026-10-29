@@ -1,0 +1,12 @@
+[
+  {"id":"b1-u001-kiss","unit":1,"topic":"fam","en":"She gave her mother a [kiss] goodbye.","vi":"Cô ấy hôn tạm biệt mẹ.","vocab":{"kiss":{"word":"kiss","pos":"noun, verb","ipa":"/kɪs/","vi":"nụ hôn; hôn"}}},
+  {"id":"b1-u001-bride","unit":1,"topic":"fam","en":"The [bride] wore a long white dress.","vi":"Cô dâu mặc một chiếc váy trắng dài.","vocab":{"bride":{"word":"bride","pos":"noun","ipa":"/bɹaɪd/","vi":"cô dâu"}}},
+  {"id":"b1-u001-enemy","unit":1,"topic":"fam","en":"He was the greatest [enemy] of the king.","vi":"Ông ta là kẻ thù lớn nhất của nhà vua.","vocab":{"enemy":{"word":"enemy","pos":"noun","ipa":"/ˈɛnəmi/","vi":"kẻ thù"}}},
+  {"id":"b1-u001-youth","unit":1,"topic":"fam","en":"My grandfather often talks about his [youth].","vi":"Ông tôi thường kể về tuổi trẻ của ông.","vocab":{"youth":{"word":"youth","pos":"noun","ipa":"/juθ/","vi":"tuổi trẻ, thanh niên"}}},
+  {"id":"b1-u001-native","unit":1,"topic":"fam","en":"He speaks English like a [native].","vi":"Anh ấy nói tiếng Anh như người bản xứ.","vocab":{"native":{"word":"native","pos":"adjective, noun","ipa":"/ˈneɪtəv/","vi":"bản địa; người bản xứ"}}},
+  {"id":"b1-u001-prince","unit":1,"topic":"fam","en":"The young [prince] lived in a huge castle.","vi":"Hoàng tử trẻ sống trong một lâu đài rộng lớn.","vocab":{"prince":{"word":"prince","pos":"noun","ipa":"/pɹɪns/","vi":"hoàng tử"}}},
+  {"id":"b1-u001-victim","unit":1,"topic":"fam","en":"The police spoke to the [victim] of the robbery.","vi":"Cảnh sát đã nói chuyện với nạn nhân của vụ cướp.","vocab":{"victim":{"word":"victim","pos":"noun","ipa":"/ˈvɪktɪm/","vi":"nạn nhân"}}},
+  {"id":"b1-u001-engaged","unit":1,"topic":"fam","en":"My brother and his girlfriend got [engaged].","vi":"Anh trai tôi và bạn gái đã đính hôn.","vocab":{"engaged":{"word":"engaged","pos":"adjective","ipa":"/ɪnˈɡeɪd͡ʒd/","vi":"đã đính hôn; bận"}}},
+  {"id":"b1-u001-servant","unit":1,"topic":"fam","en":"The rich family had three [servants|servant].","vi":"Gia đình giàu có đó có ba người hầu.","vocab":{"servant":{"word":"servant","pos":"noun","ipa":"/ˈsɝvənt/","vi":"người hầu"}}},
+  {"id":"b1-u001-marriage","unit":1,"topic":"fam","en":"Their [marriage] lasted more than fifty years.","vi":"Cuộc hôn nhân của họ kéo dài hơn năm mươi năm.","vocab":{"marriage":{"word":"marriage","pos":"noun","ipa":"/ˈmæɹɪd͡ʒ/","vi":"hôn nhân"}}}
+]

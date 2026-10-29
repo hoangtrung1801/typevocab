@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import { markupKeys, parsePassage, revealedChunkWords, revealedWordCount, stripMarkup } from '../lib/passage'
 import { sentenceTiles } from '../lib/scramble'
-import { PASSAGES_BY_LEVEL } from '.'
+import { DRILLS_BY_LEVEL, PASSAGES_BY_LEVEL } from '.'
 import { LEVELS } from './types'
 
 describe.each(LEVELS)('%s passages', (level) => {
@@ -41,8 +41,6 @@ describe.each(LEVELS)('%s passages', (level) => {
       expect(plain).not.toMatch(/ {2}/)
       // Plain ASCII keeps the text typeable on any keyboard.
       expect(plain).toMatch(/^[\x20-\x7e]+$/)
-      // Reverse translation shuffles the words, so each sentence needs a few.
-      expect(sentenceTiles(s.en).length).toBeGreaterThanOrEqual(3)
     }
 
     for (const [key, v] of Object.entries(p.vocab)) {
@@ -50,6 +48,34 @@ describe.each(LEVELS)('%s passages', (level) => {
       expect(v.ipa).toMatch(/^(\/.+\/)?$/)
       expect(v.vi.trim()).not.toBe('')
     }
+  })
+})
+
+describe.each(LEVELS)('%s reverse translation sentences', (level) => {
+  const drills = DRILLS_BY_LEVEL[level]
+
+  it('has sentences with unique ids for this level', () => {
+    expect(drills.length).toBeGreaterThan(0)
+    expect(new Set(drills.map((d) => d.id)).size).toBe(drills.length)
+    for (const d of drills) expect(d.id).toMatch(new RegExp(`^${level.toLowerCase()}-u\\d{3}-[a-z0-9-]+$`))
+  })
+
+  it.each(drills.map((d) => [d.id, d] as const))('%s is well formed', (_, d) => {
+    // One target word, marked once, with its entry.
+    const keys = markupKeys(d.en)
+    expect(keys).toHaveLength(1)
+    expect(Object.keys(d.vocab)).toEqual(keys)
+    expect(d.vocab[keys[0]].vi.trim()).not.toBe('')
+
+    const plain = stripMarkup(d.en)
+    expect(plain).toMatch(/^[\x20-\x7e]+$/)
+    expect(plain).toMatch(/^[A-Z].*[.?!]$/)
+    expect(plain).not.toMatch(/ {2}|[[\]|/]/)
+    // Short enough to rebuild from a shuffled word bank.
+    const words = sentenceTiles(d.en).length
+    expect(words).toBeGreaterThanOrEqual(4)
+    expect(words).toBeLessThanOrEqual(12)
+    expect(d.vi.trim()).not.toBe('')
   })
 })
 

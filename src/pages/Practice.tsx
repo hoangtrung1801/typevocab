@@ -4,26 +4,20 @@ import BackLink from '../components/BackLink'
 import ModeToggle from '../components/ModeToggle'
 import Page from '../components/Page'
 import Paper from '../components/Paper'
-import TranslateSession from '../components/TranslateSession'
 import TypingBoard from '../components/TypingBoard'
 import WordPicker from '../components/WordPicker'
 import { getPassage, pickPassage, PASSAGES_BY_LEVEL } from '../data'
 import type { Passage } from '../data/types'
 import { formatTime, parsePassage, revealedChunkWords } from '../lib/passage'
 import { play } from '../lib/sound'
-import { getState, saveResult, setLastLevel, setShowTranslation, setSoundOn, useStore } from '../lib/store'
+import { getState, saveResult, setLastLevel, setPracticeMode, setShowTranslation, setSoundOn, useStore } from '../lib/store'
 import { backspace, initTyping, stats, typeChar, type TypingState } from '../lib/typing'
 
 export default function Practice() {
   const { id = '' } = useParams()
-  const mode = useStore((s) => s.practiceMode)
   const passage = getPassage(id)
   if (!passage) return <Navigate to="/" replace />
-  return mode === 'translate' ? (
-    <TranslateSession key={passage.id} passage={passage} />
-  ) : (
-    <PracticeSession key={passage.id} passage={passage} />
-  )
+  return <PracticeSession key={passage.id} passage={passage} />
 }
 
 function PracticeSession({ passage }: { passage: Passage }) {
@@ -43,7 +37,10 @@ function PracticeSession({ passage }: { passage: Passage }) {
   const levelPassages = PASSAGES_BY_LEVEL[passage.level]
   const hasNext = levelPassages.length > 1
 
-  useEffect(() => setLastLevel(passage.level), [passage.level])
+  useEffect(() => {
+    setLastLevel(passage.level)
+    setPracticeMode('copy')
+  }, [passage.level])
 
   useEffect(() => {
     if (typing.startedAt === null || done) return
@@ -133,7 +130,7 @@ function PracticeSession({ passage }: { passage: Passage }) {
       <div className="flex flex-wrap items-center justify-between gap-4">
         <div className="flex flex-wrap items-center gap-4">
           <BackLink to="/">Bộ {passage.level}</BackLink>
-          <ModeToggle />
+          <ModeToggle level={passage.level} />
         </div>
         <div className="flex items-center gap-2">
           <span className="font-mono text-base text-pencil">

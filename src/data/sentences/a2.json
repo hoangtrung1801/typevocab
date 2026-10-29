@@ -1,0 +1,13 @@
+[
+  {"id":"a2-u001-guy","unit":1,"topic":"fam","en":"The new [guy] at work is very funny.","vi":"Anh chàng mới ở chỗ làm rất vui tính.","vocab":{"guy":{"word":"guy","pos":"noun","ipa":"/ɡaɪ/","vi":"chàng trai"}}},
+  {"id":"a2-u001-kid","unit":1,"topic":"fam","en":"The [kids|kid] are playing in the garden.","vi":"Bọn trẻ đang chơi trong vườn.","vocab":{"kid":{"word":"kid","pos":"noun","ipa":"/ˈkɪd/","vi":"đứa trẻ"}}},
+  {"id":"a2-u001-sir","unit":1,"topic":"fam","en":"Can I help you, [sir]?","vi":"Tôi có thể giúp gì cho ngài?","vocab":{"sir":{"word":"sir","pos":"noun","ipa":"/sɜɹ/","vi":"ngài, thưa ông"}}},
+  {"id":"a2-u001-lady","unit":1,"topic":"fam","en":"An old [lady] lives next door.","vi":"Một bà cụ sống ở nhà bên cạnh.","vocab":{"lady":{"word":"lady","pos":"noun","ipa":"/ˈleɪ.di/","vi":"quý bà"}}},
+  {"id":"a2-u001-twin","unit":1,"topic":"fam","en":"My sister has a [twin] brother.","vi":"Em gái tôi có một người anh em sinh đôi.","vocab":{"twin":{"word":"twin","pos":"adjective, noun","ipa":"/twɪn/","vi":"sinh đôi"}}},
+  {"id":"a2-u001-birth","unit":1,"topic":"fam","en":"She gave [birth] to a healthy boy.","vi":"Cô ấy đã sinh một bé trai khỏe mạnh.","vocab":{"birth":{"word":"birth","pos":"noun","ipa":"/bɜɹθ/","vi":"sự ra đời"}}},
+  {"id":"a2-u001-human","unit":1,"topic":"fam","en":"Dogs can understand [human] feelings.","vi":"Chó có thể hiểu cảm xúc của con người.","vocab":{"human":{"word":"human","pos":"adjective, noun","ipa":"/ˈhjuː.mən/","vi":"con người"}}},
+  {"id":"a2-u001-couple","unit":1,"topic":"fam","en":"The young [couple] bought a small flat.","vi":"Cặp đôi trẻ đã mua một căn hộ nhỏ.","vocab":{"couple":{"word":"couple","pos":"noun","ipa":"/ˈkʌp.əl/","vi":"cặp đôi"}}},
+  {"id":"a2-u001-wedding","unit":1,"topic":"fam","en":"Their [wedding] was in a beautiful garden.","vi":"Đám cưới của họ diễn ra trong một khu vườn đẹp.","vocab":{"wedding":{"word":"wedding","pos":"noun","ipa":"/ˈwɛdɪŋ/","vi":"đám cưới"}}},
+  {"id":"a2-u001-divorced","unit":1,"topic":"fam","en":"My best friend's parents are [divorced].","vi":"Bố mẹ của bạn thân tôi đã ly hôn.","vocab":{"divorced":{"word":"divorced","pos":"adjective","ipa":"/dɪˈvɔː(ɹ)st/","vi":"đã ly hôn"}}},
+  {"id":"a2-u001-relationship","unit":1,"topic":"fam","en":"They have a good [relationship] with their neighbours.","vi":"Họ có mối quan hệ tốt với hàng xóm.","vocab":{"relationship":{"word":"relationship","pos":"noun","ipa":"/ɹɪˈleɪʃ(ə)nˌʃɪp/","vi":"mối quan hệ"}}}
+]

@@ -1,0 +1,14 @@
+[
+  {"id":"a1-u001-boy","unit":1,"topic":"fam","en":"The [boy] has a red ball.","vi":"Cậu bé có một quả bóng màu đỏ.","vocab":{"boy":{"word":"boy","pos":"noun","ipa":"/bɔɪ/","vi":"cậu bé"}}},
+  {"id":"a1-u001-dad","unit":1,"topic":"fam","en":"My [dad] cooks dinner for us.","vi":"Bố tôi nấu bữa tối cho chúng tôi.","vocab":{"dad":{"word":"dad","pos":"noun","ipa":"/dæd/","vi":"bố"}}},
+  {"id":"a1-u001-man","unit":1,"topic":"fam","en":"That [man] is my teacher.","vi":"Người đàn ông đó là thầy giáo của tôi.","vocab":{"man":{"word":"man","pos":"noun","ipa":"/ˈmæn/","vi":"người đàn ông"}}},
+  {"id":"a1-u001-mum","unit":1,"topic":"fam","en":"My [mum] works in a hospital.","vi":"Mẹ tôi làm việc ở một bệnh viện.","vocab":{"mum":{"word":"mum","pos":"noun","ipa":"/mʌm/","vi":"mẹ"}}},
+  {"id":"a1-u001-son","unit":1,"topic":"fam","en":"Their [son] is ten years old.","vi":"Con trai của họ mười tuổi.","vocab":{"son":{"word":"son","pos":"noun","ipa":"/sʌn/","vi":"con trai"}}},
+  {"id":"a1-u001-aunt","unit":1,"topic":"fam","en":"My [aunt] lives in a big house.","vi":"Dì tôi sống trong một ngôi nhà lớn.","vocab":{"aunt":{"word":"aunt","pos":"noun","ipa":"/ɑːnt/","vi":"dì, cô"}}},
+  {"id":"a1-u001-baby","unit":1,"topic":"fam","en":"The [baby] is sleeping in her bed.","vi":"Em bé đang ngủ trên giường của bé.","vocab":{"baby":{"word":"baby","pos":"noun","ipa":"/ˈbeɪ.bi/","vi":"em bé"}}},
+  {"id":"a1-u001-girl","unit":1,"topic":"fam","en":"The [girl] likes green apples.","vi":"Cô bé thích táo xanh.","vocab":{"girl":{"word":"girl","pos":"noun","ipa":"/ˈɡɜɹl/","vi":"cô bé"}}},
+  {"id":"a1-u001-wife","unit":1,"topic":"fam","en":"His [wife] is a doctor.","vi":"Vợ của anh ấy là bác sĩ.","vocab":{"wife":{"word":"wife","pos":"noun","ipa":"/waɪf/","vi":"vợ"}}},
+  {"id":"a1-u001-adult","unit":1,"topic":"fam","en":"This film is for [adults|adult] only.","vi":"Bộ phim này chỉ dành cho người lớn.","vocab":{"adult":{"word":"adult","pos":"adjective, noun","ipa":"/əˈdʌlt/","vi":"người lớn"}}},
+  {"id":"a1-u001-child","unit":1,"topic":"fam","en":"Every [child] needs love.","vi":"Mọi đứa trẻ đều cần tình yêu thương.","vocab":{"child":{"word":"child","pos":"noun","ipa":"/tʃaɪld/","vi":"đứa trẻ"}}},
+  {"id":"a1-u001-uncle","unit":1,"topic":"fam","en":"My [uncle] has two dogs.","vi":"Chú tôi có hai con chó.","vocab":{"uncle":{"word":"uncle","pos":"noun","ipa":"/ˈʌŋ.kl̩/","vi":"chú, bác, cậu"}}}
+]

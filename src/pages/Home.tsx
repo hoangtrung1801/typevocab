@@ -2,8 +2,9 @@ import { Link, useNavigate } from 'react-router-dom'
 import ModeToggle from '../components/ModeToggle'
 import Page from '../components/Page'
 import Paper from '../components/Paper'
-import { PASSAGES_BY_LEVEL, pickPassage } from '../data'
+import { DRILLS_BY_LEVEL, PASSAGES_BY_LEVEL } from '../data'
 import { LEVEL_NAMES, LEVELS, type Level } from '../data/types'
+import { nextPath } from '../lib/navigation'
 import { isDue } from '../lib/srs'
 import { cardOf, setLastLevel, useStore } from '../lib/store'
 import { useNow } from '../lib/useNow'
@@ -14,18 +15,17 @@ export default function Home() {
   const mode = useStore((s) => s.practiceMode)
   const copyProgress = useStore((s) => s.progress)
   const translateProgress = useStore((s) => s.translateProgress)
-  // Each mode tracks its own finished passages.
+  // Each mode has its own content and tracks its own progress.
   const progress: Record<string, unknown> = mode === 'translate' ? translateProgress : copyProgress
+  const items = mode === 'translate' ? DRILLS_BY_LEVEL : PASSAGES_BY_LEVEL
   const review = useStore((s) => s.review)
   const now = useNow()
   const dueCount = Object.values(review).filter((w) => isDue(cardOf(w), now)).length
 
-  // Picking a set opens a random passage from it, preferring ones not typed yet.
+  // Picking a set opens a random passage or sentence from it, preferring ones not done yet.
   const start = (level: Level) => {
-    const passage = pickPassage(PASSAGES_BY_LEVEL[level], (id) => Boolean(progress[id]))
-    if (!passage) return
     setLastLevel(level)
-    navigate(`/p/${passage.id}`)
+    navigate(nextPath(mode, level))
   }
 
   return (
@@ -45,12 +45,12 @@ export default function Home() {
         </div>
         <p className="m-0 mt-1 mb-6 text-base text-pencil">
           {mode === 'translate'
-            ? 'Mỗi lần chọn, bạn sẽ dịch một đoạn văn ngẫu nhiên sang tiếng Anh: xếp các từ bị xáo trộn thành câu đúng, từng câu một.'
+            ? 'Mỗi lần chọn, bạn sẽ dịch một câu ngắn ngẫu nhiên sang tiếng Anh, dựa vào các từ đã bị xáo trộn.'
             : 'Mỗi lần chọn, bạn sẽ gõ chép một đoạn văn ngẫu nhiên trong bộ đó.'}
         </p>
         <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
           {LEVELS.map((level) => {
-            const passages = PASSAGES_BY_LEVEL[level]
+            const passages = items[level]
             const done = passages.filter((p) => progress[p.id]).length
             const last = level === lastLevel
             return (
@@ -70,7 +70,7 @@ export default function Home() {
                 <span className="text-lg font-medium">{LEVEL_NAMES[level]}</span>
                 <span className="mt-auto flex flex-col gap-1.5">
                   <span className="text-sm text-pencil">
-                    {done}/{passages.length} {mode === 'translate' ? 'đoạn đã dịch' : 'đoạn đã gõ'}
+                    {done}/{passages.length} {mode === 'translate' ? 'câu đã dịch' : 'đoạn đã gõ'}
                   </span>
                   <span className="block h-1.5 w-full overflow-hidden rounded-full bg-line" aria-hidden="true">
                     <span

@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import BackLink from '../components/BackLink'
 import Page from '../components/Page'
 import Paper from '../components/Paper'
-import { getPassage } from '../data'
+import { getSource } from '../data'
 import { LEVELS } from '../data/types'
 import { formatDuration, isDue } from '../lib/srs'
 import { cardOf, removeReview, reviewKey, useStore } from '../lib/store'
@@ -59,7 +59,7 @@ export default function Review() {
           <ul className="m-0 list-none p-0">
             {words.map((w) => {
               const key = reviewKey(w.level, w.word)
-              const passage = getPassage(w.passageId)
+              const source = getSource(w.passageId)
               const card = cardOf(w)
               const due = isDue(card, now)
               return (
@@ -76,9 +76,9 @@ export default function Review() {
                     <span lang="vi" className="text-[19px]">
                       {w.vi}
                     </span>
-                    {passage && (
-                      <Link to={`/p/${passage.id}`} className="text-sm text-pencil italic">
-                        trong “{passage.title}”
+                    {source && (
+                      <Link to={source.path} className="text-sm text-pencil italic">
+                        trong “{source.title}”
                       </Link>
                     )}
                   </span>

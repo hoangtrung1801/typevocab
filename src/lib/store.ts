@@ -13,7 +13,7 @@ export type PassageResult = {
 export type PracticeMode = 'copy' | 'translate'
 
 export type TranslateResult = {
-  /** Phrases right on the first try, 0-100. */
+  /** 100 right on the first try without hints, 50 after fixing or hints, 0 when the answer was shown. */
   score: number
   seconds: number
   completedAt: string
@@ -25,6 +25,7 @@ export type ReviewWord = {
   ipa: string
   vi: string
   level: Level
+  /** The passage or reverse translation sentence the word was saved from. */
   passageId: string
   addedAt: string
   /** Spaced repetition state; missing until the word is first reviewed. */
@@ -150,12 +151,12 @@ export function setPracticeMode(mode: PracticeMode) {
   setState((s) => ({ ...s, practiceMode: mode }))
 }
 
-export function saveTranslateResult(passageId: string, result: TranslateResult) {
+export function saveTranslateResult(sentenceId: string, result: TranslateResult) {
   setState((s) => {
-    const prev = s.translateProgress[passageId]
+    const prev = s.translateProgress[sentenceId]
     // Keep the best score but always refresh the completion date.
     const best = prev && prev.score > result.score ? { ...prev, completedAt: result.completedAt } : result
-    return { ...s, translateProgress: { ...s.translateProgress, [passageId]: best } }
+    return { ...s, translateProgress: { ...s.translateProgress, [sentenceId]: best } }
   })
 }
 

@@ -21,13 +21,12 @@ Logic gõ giống Monkeytype:
 
 ## Dịch ngược
 
-Chế độ thứ hai, chọn bằng nút **Gõ chép / Dịch ngược** ở trang chủ hoặc trang gõ:
+Chế độ thứ hai, chọn bằng nút **Gõ chép / Dịch ngược** ở trang chủ hoặc trang gõ. Chế độ này dùng dữ liệu riêng (`src/data/sentences`): mỗi lần là **một câu ngắn** (4–12 từ) chứa một từ vựng mục tiêu, chọn ngẫu nhiên trong bộ.
 
-- Mỗi câu tiếng Anh được tách thành từng từ và xáo trộn, hiện trong một ô ngay dưới câu tiếng Việt. Bạn dựa vào nghĩa tiếng Việt và các từ đó để gõ lại câu tiếng Anh đúng thứ tự. Các từ vựng mục tiêu được tô dạ quang trong ô từ.
+- Câu tiếng Việt hiện ở trên. Bên dưới là ô chứa các từ của câu tiếng Anh, đã bị xáo trộn (từ vựng mục tiêu tô dạ quang). Bạn dựa vào nghĩa tiếng Việt và các từ đó để gõ lại câu tiếng Anh đúng thứ tự.
 - Khi gõ, từ nào đã dùng sẽ bị gạch trong ô từ; gõ một từ không có trong ô thì app báo ngay. Không cần gõ dấu câu, không phân biệt hoa thường.
-- Nhấn Enter để kiểm tra: đúng thì sang câu tiếp theo; sai thì các từ sai được gạch đỏ (kèm số từ còn thiếu/thừa) để sửa. Có thể bấm "Xem đáp án".
-- Gợi ý (Tab) đánh số thứ tự lên từ cần gõ tiếp theo trong ô từ.
-- Dịch xong mỗi câu, app đọc to câu tiếng Anh. Kết quả: điểm (số câu đúng ngay lần đầu, không gợi ý), thời gian và danh sách câu nên xem lại.
+- Nhấn Enter để kiểm tra: sai thì các từ sai được gạch đỏ (kèm số từ còn thiếu/thừa) để sửa. Gợi ý (Tab) đánh số thứ tự lên từ cần gõ tiếp theo. Có thể bấm "Xem đáp án".
+- Xong câu, app đọc to câu tiếng Anh, hiện thẻ từ vựng (nghĩa, loại từ, IPA) với nút **Lưu từ để ôn**, rồi Enter để sang câu ngẫu nhiên tiếp theo.
 - Tiến độ của mỗi chế độ được lưu riêng.
 
 ## Ôn tập ngắt quãng
@@ -65,7 +64,8 @@ Gợi ý khi dùng: tắt bộ gõ tiếng Việt (Unikey, EVKey...) hoặc chuy
 ```
 data/vocab/a1.csv … c2.csv          bộ từ vựng: unit, từ, loại từ, nghĩa, IPA, chủ đề
 src/
-  data/passages/a1.json … c2.json   đoạn văn theo trình độ (do script sinh ra)
+  data/passages/a1.json … c2.json   đoạn văn để gõ chép (do script sinh ra)
+  data/sentences/a1.json … c2.json  câu ngắn để dịch ngược (do script sinh ra)
   data/topics.ts                    tên các chủ đề
   data/index.ts                     nạp nội dung
   lib/passage.ts                    tách đoạn văn thành ký tự / từ, đánh dấu từ vựng
@@ -75,12 +75,17 @@ src/
   lib/scramble.ts                   tách, xáo và so khớp từ cho chế độ dịch ngược
   components/TypingBoard.tsx        trang giấy để gõ, con trỏ, tooltip từ vựng
   components/WordPicker.tsx         kết quả và chọn từ cần ôn
+  lib/navigation.ts                 chọn đoạn / câu ngẫu nhiên tiếp theo
   components/TranslateSession.tsx   chế độ dịch ngược: xếp từ thành câu
   components/LetterBoxes.tsx        ô nhập theo số ký tự (ôn tập)
   pages/Home.tsx, Practice.tsx       chọn bộ từ vựng, gõ đoạn văn
+  pages/Translate.tsx               một câu dịch ngược
   pages/Review.tsx, ReviewSession.tsx  danh sách từ cần ôn, buổi ôn tập
 scripts/generate-passages.mjs       sinh đoạn văn bằng OpenAI API
-scripts/lib/passage-gen.mjs         prompt, kiểm tra và ghép kết quả của model
+scripts/generate-sentences.mjs      sinh câu dịch ngược bằng OpenAI API
+scripts/lib/runner.mjs              phần chung: gọi API, thử lại, chạy song song, chạy tiếp
+scripts/lib/passage-gen.mjs         prompt, kiểm tra và ghép kết quả (đoạn văn)
+scripts/lib/sentence-gen.mjs        prompt, kiểm tra và ghép kết quả (câu dịch ngược)
 ```
 
 Công nghệ dùng: React 19, Vite, TypeScript, Tailwind CSS 4, React Router, Vitest.
@@ -117,6 +122,23 @@ Mỗi kết quả đều được kiểm tra: đủ mọi từ mục tiêu và �
 | `OPENAI_API` | `responses` (mặc định, Responses API) hoặc `chat` (Chat Completions, cho các provider tương thích OpenAI) |
 
 Sau khi sinh, chạy `npm test` để kiểm tra lại toàn bộ nội dung.
+
+## Sinh câu dịch ngược
+
+```bash
+npm run generate:sentences -- --level a1 --units 2 --dry-run   # xem prompt
+npm run generate:sentences -- --level all                      # sinh toàn bộ (~4.900 câu)
+```
+
+Mỗi unit là một request; model viết **một câu cho mỗi từ** trong unit, kèm bản dịch tiếng Việt. Script kiểm tra: mỗi từ đúng một câu, từ mục tiêu được đánh dấu đúng một lần, câu 4–12 từ, bắt đầu bằng chữ hoa và kết thúc bằng `.`/`?`/`!`, chỉ dùng ASCII, không trùng câu. Prompt cũng yêu cầu câu có một thứ tự từ tự nhiên duy nhất, vì đáp án được so từng từ. Tuỳ chọn và biến môi trường giống hệt `npm run generate`; câu đã có được giữ lại nên có thể chạy tiếp khi bị ngắt.
+
+Repo hiện có sẵn câu cho unit 1 của mỗi bộ (viết tay, đã qua cùng bộ kiểm tra) để dùng thử; chạy lệnh trên để sinh phần còn lại.
+
+Mỗi câu trong `src/data/sentences/<level>.json` nằm trên một dòng:
+
+```json
+{"id":"a1-u001-aunt","unit":1,"topic":"fam","en":"My [aunt] lives in a big house.","vi":"Dì tôi sống trong một ngôi nhà lớn.","vocab":{"aunt":{"word":"aunt","pos":"noun","ipa":"/ɑːnt/","vi":"dì, cô"}}}
+```
 
 ## Định dạng đoạn văn
 

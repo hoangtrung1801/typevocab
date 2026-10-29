@@ -58,3 +58,17 @@ export type Passage = Omit<RawPassage, 'sentences'> & {
   /** 1-based position within its level. */
   number: number
 }
+
+/** A standalone sentence for reverse translation, as written in sentences/<level>.json. */
+export type RawDrill = {
+  /** Stable id such as "b1-u012-marriage" (level, vocabulary unit, target word). */
+  id: string
+  unit: number
+  topic: string
+  /** English sentence with its one target word marked as [surface|key] or [key]. */
+  en: string
+  vi: string
+  vocab: Record<string, VocabEntry>
+}
+
+export type Drill = RawDrill & { level: Level }

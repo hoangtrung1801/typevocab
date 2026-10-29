@@ -8,6 +8,7 @@ import { join } from 'node:path'
 import { afterAll, beforeAll, describe, expect, it } from 'vitest'
 
 const SCRIPT = new URL('./generate-passages.mjs', import.meta.url).pathname
+const SENTENCES_SCRIPT = new URL('./generate-sentences.mjs', import.meta.url).pathname
 
 /** A valid passage for the target words listed in the prompt: one sentence per word. */
 function answerFor(prompt, { skipFirst = false } = {}) {
@@ -17,6 +18,13 @@ function answerFor(prompt, { skipFirst = false } = {}) {
   }))
   while (sentences.length < 3) sentences.push({ chunks: [{ en: 'It is nice.', vi: 'Nó đẹp.' }] })
   return JSON.stringify({ title: 'Test', titleVi: 'Thử', sentences })
+}
+
+/** Valid sentences for the words in the prompt, one each. */
+function sentencesFor(prompt, { skipFirst = false } = {}) {
+  const words = [...prompt.matchAll(/^- (\S+) \(/gm)].map((m) => m[1])
+  const sentences = words.slice(skipFirst ? 1 : 0).map((w) => ({ word: w, en: `We often see the [${w}] here.`, vi: 'Chúng tôi hay thấy nó ở đây.' }))
+  return JSON.stringify({ sentences })
 }
 
 let server
@@ -33,7 +41,10 @@ beforeAll(async () => {
       const messages = json.input ?? json.messages
       const prompt = messages[1].content
       // First attempt for each passage leaves a word out, so the retry path runs.
-      const text = answerFor(prompt, { skipFirst: messages.length === 2 })
+      const skipFirst = messages.length === 2
+      const text = json.text?.format?.name === 'sentence' || json.response_format?.json_schema?.name === 'sentence'
+        ? sentencesFor(prompt, { skipFirst })
+        : answerFor(prompt, { skipFirst })
       res.setHeader('Content-Type', 'application/json')
       if (req.url === '/responses') {
         res.end(JSON.stringify({ status: 'completed', output: [{ type: 'message', content: [{ type: 'output_text', text }] }] }))
@@ -48,9 +59,9 @@ beforeAll(async () => {
 
 afterAll(() => server.close())
 
-function run(args, env) {
+function run(args, env, script = SCRIPT) {
   return new Promise((resolve) => {
-    execFile('node', [SCRIPT, ...args], { env: { ...process.env, OPENAI_API_KEY: 'test', OPENAI_BASE_URL: baseUrl, ...env } }, (err, stdout, stderr) =>
+    execFile('node', [script, ...args], { env: { ...process.env, OPENAI_API_KEY: 'test', OPENAI_BASE_URL: baseUrl, ...env } }, (err, stdout, stderr) =>
       resolve({ code: err?.code ?? 0, stdout, stderr }),
     )
   })
@@ -80,7 +91,7 @@ describe.each(['responses', 'chat'])('generate-passages with the %s API', (api) 
       requests.length = 0
       const second = await run(['--level', 'a1', '--units', '1-2', '--out', out], { OPENAI_API: api })
       expect(second.code).toBe(0)
-      expect(second.stdout).toMatch(/0 passage\(s\) to generate/)
+      expect(second.stdout).toMatch(/0 job\(s\) to generate/)
       expect(requests).toHaveLength(0)
     } finally {
       rmSync(out, { recursive: true, force: true })
@@ -102,5 +113,30 @@ describe('generate-passages options', () => {
     const res = await run(['--level', 'a1'], { OPENAI_API_KEY: '' })
     expect(res.code).toBe(2)
     expect(res.stderr).toMatch(/OPENAI_API_KEY/)
+  })
+})
+
+describe('generate-sentences', () => {
+  it('writes one validated sentence per word and resumes', async () => {
+    const out = mkdtempSync(join(tmpdir(), 'typevocab-'))
+    try {
+      requests.length = 0
+      const first = await run(['--level', 'a1', '--units', '1', '--out', out], {}, SENTENCES_SCRIPT)
+      expect(first.stderr).toBe('')
+      expect(first.code).toBe(0)
+      const items = JSON.parse(readFileSync(join(out, 'a1.json'), 'utf8'))
+      expect(items[0]).toMatchObject({ id: 'a1-u001-boy', unit: 1, en: 'We often see the [boy] here.' })
+      expect(items[0].vocab.boy).toEqual({ word: 'boy', pos: 'noun', ipa: '/bɔɪ/', vi: 'cậu bé' })
+      expect(items).toHaveLength(12)
+      // The first answer left a word out, so a second attempt was needed.
+      expect(requests).toHaveLength(2)
+
+      requests.length = 0
+      const second = await run(['--level', 'a1', '--units', '1', '--out', out], {}, SENTENCES_SCRIPT)
+      expect(second.stdout).toMatch(/0 job\(s\) to generate/)
+      expect(requests).toHaveLength(0)
+    } finally {
+      rmSync(out, { recursive: true, force: true })
+    }
   })
 })
