@@ -5,13 +5,17 @@ import Page from '../components/Page'
 import LetterBoxes from '../components/LetterBoxes'
 import Paper from '../components/Paper'
 import { getPassage } from '../data'
-import { answerLetters, clozeFor, isCorrectLetters, nextHint } from '../lib/review'
+import { answerLetters, clozeFor, isCorrectLetters, nextHintIndex } from '../lib/review'
 import { play } from '../lib/sound'
+import { canSpeak, speak } from '../lib/speech'
 import { formatDuration, GRADES, isDue, previewGrades, type Grade } from '../lib/srs'
 import { cardOf, getState, gradeReview, useStore, type ReviewWord } from '../lib/store'
 
 /** Most cards in one session, so a long backlog stays manageable. */
 const SESSION_SIZE = 30
+
+/** Called from event handlers only; kept outside the component for clarity. */
+const timestamp = () => Date.now()
 
 const GRADE_LABEL: Record<Grade, string> = { again: 'Quên', hard: 'Khó', good: 'Được', easy: 'Dễ' }
 
@@ -59,9 +63,13 @@ export default function ReviewSession() {
     else inputRef.current?.focus()
   }, [revealed, index])
 
+  // Once the word is complete, pronounce it (after a thud if it was wrong).
   const reveal = (correct: boolean) => {
-    setRevealed({ correct, at: Date.now() })
-    if (soundOn) play(correct ? 'bell' : 'error')
+    setRevealed({ correct, at: timestamp() })
+    if (!soundOn) return
+    if (!correct) play('error')
+    if (canSpeak()) setTimeout(() => speak(answer), correct ? 0 : 300)
+    else if (correct) play('bell')
   }
 
   const check = () => {
@@ -69,11 +77,10 @@ export default function ReviewSession() {
     reveal(isCorrectLetters(input, letters))
   }
 
+  const hintAt = nextHintIndex(letters, input, hinted)
   const hint = () => {
-    if (revealed) return
-    const { value, revealed: at } = nextHint(input, letters)
-    setInput(value)
-    if (at >= 0) setHinted((h) => new Set(h).add(at))
+    if (revealed || hintAt < 0) return
+    setHinted((h) => new Set(h).add(hintAt))
     inputRef.current?.focus()
   }
 
@@ -184,7 +191,7 @@ export default function ReviewSession() {
                     type="button"
                     onMouseDown={(e) => e.preventDefault()}
                     onClick={hint}
-                    disabled={hinted.size >= letters.length}
+                    disabled={hintAt < 0}
                     className="inline-flex min-h-11 cursor-pointer items-center gap-2 rounded-[3px] border border-rule bg-card px-4 font-serif text-base text-ink hover:border-ink disabled:cursor-default disabled:opacity-40"
                   >
                     Gợi ý một chữ <span className="font-mono text-xs text-pencil">Tab</span>
@@ -226,6 +233,21 @@ export default function ReviewSession() {
                   </span>
                   <span className="text-[26px] font-semibold">{word.word}</span>
                   {word.ipa && <span className="font-mono text-[15px] text-pencil">{word.ipa}</span>}
+                  {canSpeak() && (
+                    <button
+                      type="button"
+                      onMouseDown={(e) => e.preventDefault()}
+                      onClick={() => speak(answer)}
+                      aria-label={`Nghe phát âm ${answer}`}
+                      title="Nghe lại"
+                      className="inline-flex size-11 cursor-pointer items-center justify-center self-center rounded-[3px] border border-rule bg-card text-ink hover:border-ink"
+                    >
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                        <path d="M11 5 6 9H3v6h3l5 4z" />
+                        <path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13" />
+                      </svg>
+                    </button>
+                  )}
                 </div>
                 <div>
                   <p className="m-0 mb-2 text-[15px] text-pencil">Bạn nhớ từ này thế nào? (phím 1–4)</p>

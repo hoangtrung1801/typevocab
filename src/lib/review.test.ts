@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { answerLetters, answerSlots, clozeFor, isCorrectLetters, nextHint } from './review'
+import { answerLetters, answerSlots, clozeFor, hintOrder, isCorrectLetters, nextHintIndex } from './review'
 
 const sentences = [
   { en: 'My [uncle] has a farm.', vi: 'Chú tôi có một trang trại.' },
@@ -43,17 +43,20 @@ describe('letter boxes', () => {
   })
 })
 
-describe('nextHint', () => {
-  it('adds the next letter after a correct start', () => {
-    expect(nextHint('', 'cages')).toEqual({ value: 'c', revealed: 0 })
-    expect(nextHint('ca', 'cages')).toEqual({ value: 'cag', revealed: 2 })
+describe('hints', () => {
+  it('reveals the first letter, then the last, then evenly spaced middle letters', () => {
+    expect(hintOrder(1)).toEqual([0])
+    expect(hintOrder(2)).toEqual([0, 1])
+    expect(hintOrder(5)).toEqual([0, 4, 2, 1, 3])
+    expect(hintOrder(12)).toEqual([0, 11, 5, 8, 2, 3, 6, 9, 1, 4, 7, 10])
+    for (const n of [3, 7, 20]) expect([...hintOrder(n)].sort((a, b) => a - b)).toEqual([...Array(n).keys()])
   })
 
-  it('fixes the first wrong letter and drops what follows', () => {
-    expect(nextHint('cxges', 'cages')).toEqual({ value: 'ca', revealed: 1 })
-  })
-
-  it('reports nothing left to reveal once the word is complete', () => {
-    expect(nextHint('cages', 'cages')).toEqual({ value: 'cages', revealed: -1 })
+  it('skips letters already hinted or typed correctly', () => {
+    expect(nextHintIndex('cages', '', new Set())).toBe(0)
+    expect(nextHintIndex('cages', '', new Set([0]))).toBe(4)
+    expect(nextHintIndex('cages', 'c', new Set())).toBe(4)
+    expect(nextHintIndex('cages', 'xages', new Set([4]))).toBe(0)
+    expect(nextHintIndex('cages', 'cages', new Set())).toBe(-1)
   })
 })

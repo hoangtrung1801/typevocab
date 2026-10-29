@@ -24,7 +24,8 @@ Logic gõ giống Monkeytype:
 Những từ đã chọn ôn được xếp lịch theo thuật toán SM-2 rút gọn (thuật toán của Anki), trong `src/lib/srs.ts`:
 
 - Thẻ ôn gồm: **nghĩa** tiếng Việt và loại từ; **câu tham khảo** tiếng Anh lấy từ đoạn văn (từ cần ôn để trống) kèm bản dịch; và **ô nhập theo số ký tự**, mỗi chữ cái một ô, dấu cách là khoảng trống. Bạn gõ dạng từ xuất hiện trong câu (*cages*), không phân biệt hoa thường.
-- **Gợi ý** (nút hoặc phím Tab) mở thêm một chữ cái; nếu đã gõ sai, gợi ý sửa chữ sai đầu tiên. Chữ được gợi ý tô vàng. Nhấn Enter để kiểm tra; ô sai hiện màu đỏ cùng đáp án.
+- **Gợi ý** (nút hoặc phím Tab) lần lượt hiện chữ đầu, chữ cuối, rồi các chữ ở giữa cách đều nhau (luôn chọn giữa khoảng trống lớn nhất), bỏ qua chữ đã gõ đúng. Chữ gợi ý hiện mờ như placeholder, không được điền sẵn: bạn vẫn phải gõ đủ các ô. Nhấn Enter để kiểm tra; ô sai hiện màu đỏ cùng đáp án.
+- Khi hoàn thành một từ, app đọc to từ đó bằng giọng tiếng Anh của trình duyệt (Web Speech API); nút loa để nghe lại. Âm thanh tự phát theo nút bật/tắt âm thanh ở trang gõ.
 - Sau khi kiểm tra, chọn mức nhớ bằng nút hoặc phím 1–4: **Quên** (ôn lại sau 10 phút, quay lại cuối buổi ôn), **Khó**, **Được**, **Dễ**. App gợi ý sẵn: đúng không cần gợi ý → "Được"; đúng nhưng có dùng gợi ý → "Khó"; sai hoặc phải gợi ý hết các chữ → "Quên".
 - Khoảng cách giãn dần: 1 ngày, 3 ngày, rồi nhân với hệ số dễ (bắt đầu 2,5; giảm khi chọn Khó/Quên, tăng khi chọn Dễ).
 - Mỗi buổi ôn tối đa 30 từ đến hạn. Trang chủ và trang "Từ cần ôn" hiện số từ đến hạn.

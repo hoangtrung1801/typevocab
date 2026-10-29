@@ -5,7 +5,7 @@ type Props = {
   answer: string
   letters: string
   typed: string
-  /** Positions filled by a hint. */
+  /** Positions whose letter a hint shows, faintly, until the box is typed in. */
   hinted: Set<number>
   /** After checking: boxes show the right letters, wrong ones in red. */
   revealed: boolean
@@ -25,14 +25,20 @@ export default function LetterBoxes({ answer, letters, typed, hinted, revealed, 
     const base =
       'flex h-12 w-9 items-center justify-center rounded-[3px] border-2 font-mono text-2xl sm:h-14 sm:w-11 sm:text-[28px]'
     if (revealed) {
-      if (hinted.has(i)) return `${base} border-marker bg-marker-soft text-ink`
-      if (typed[i]?.toLowerCase() === letters[i].toLowerCase()) return `${base} border-ink bg-card text-ink`
-      return `${base} border-red bg-card text-red`
+      const right = typed[i]?.toLowerCase() === letters[i].toLowerCase()
+      if (!right) return `${base} border-red bg-card text-red`
+      return `${base} border-ink text-ink ${hinted.has(i) ? 'bg-marker-soft' : 'bg-card'}`
     }
-    if (i < typed.length && hinted.has(i)) return `${base} border-marker bg-marker-soft text-ink`
     if (focused && i === Math.min(typed.length, letters.length - 1)) return `${base} border-ink bg-card text-ink`
     if (i < typed.length) return `${base} border-rule bg-card text-ink`
     return `${base} border-rule bg-paper text-ink`
+  }
+
+  const content = (i: number) => {
+    if (revealed) return letters[i]
+    if (typed[i] !== undefined) return typed[i]
+    // A hint is a placeholder: shown faintly, never typed in for the learner.
+    return hinted.has(i) ? <span className="text-untyped">{letters[i]}</span> : ''
   }
 
   return (
@@ -42,7 +48,7 @@ export default function LetterBoxes({ answer, letters, typed, hinted, revealed, 
           <span key={k} className="w-3" aria-hidden="true" />
         ) : (
           <span key={k} className={boxClass(slot.index)} aria-hidden="true">
-            {revealed ? letters[slot.index] : (typed[slot.index] ?? '')}
+            {content(slot.index)}
           </span>
         ),
       )}
