@@ -38,6 +38,19 @@ export function getPassage(id: string): Passage | undefined {
   return BY_ID.get(id)
 }
 
-export function nextPassage(p: Passage): Passage | undefined {
-  return PASSAGES_BY_LEVEL[p.level][p.number]
+/**
+ * A random passage to type next: one not typed yet if any are left, never the
+ * passage just typed (unless it is the only one).
+ */
+export function pickPassage<T extends { id: string }>(
+  passages: T[],
+  done: (id: string) => boolean,
+  excludeId?: string,
+  random: () => number = Math.random,
+): T | undefined {
+  const others = passages.filter((p) => p.id !== excludeId)
+  if (others.length === 0) return passages[0]
+  const fresh = others.filter((p) => !done(p.id))
+  const pool = fresh.length ? fresh : others
+  return pool[Math.floor(random() * pool.length)]
 }

@@ -46,7 +46,7 @@ export default function WordPicker({ passage, vocabOrder, mistyped, stats, onRet
     onSaved()
   }
 
-  const next = hasNext ? 'sang đoạn tiếp →' : 'về danh sách →'
+  const next = hasNext ? 'sang đoạn ngẫu nhiên khác →' : 'về trang chủ →'
   const saveLabel = selected.size ? `Lưu ${selected.size} từ & ${next}` : next.charAt(0).toUpperCase() + next.slice(1)
 
   return (

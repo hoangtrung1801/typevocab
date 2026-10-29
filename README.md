@@ -2,7 +2,8 @@
 
 Luyện gõ tiếng Anh và học từ vựng cùng lúc. Bạn gõ lại một đoạn văn tiếng Anh. Các từ vựng mục tiêu trong đoạn được tô như bút dạ quang, và khi gõ tới (hoặc rê chuột vào) sẽ hiện nghĩa tiếng Việt, phiên âm và loại từ. Bản dịch tiếng Việt của câu đang gõ hiện dần ngay bên dưới: gõ tới cụm tiếng Anh nào thì cụm tiếng Việt tương ứng hiện ra từng từ. Gõ xong, bạn chọn những từ muốn ôn lại.
 
-- 6 trình độ A1–C2, khoảng 4.900 từ vựng chia theo unit và chủ đề (`data/vocab/*.csv`).
+- 6 bộ từ vựng A1–C2, khoảng 4.900 từ chia theo unit và chủ đề (`data/vocab/*.csv`).
+- Chọn một bộ ở trang chủ là bắt đầu gõ một đoạn văn ngẫu nhiên trong bộ đó, ưu tiên đoạn chưa gõ; gõ xong, "sang đoạn ngẫu nhiên khác" tiếp tục như vậy.
 - Mỗi unit từ vựng thành một đoạn văn (hai đoạn nếu unit có hơn 8 từ), sinh bằng script với OpenAI API. Repo hiện chỉ có đoạn mẫu cho unit 1 của mỗi trình độ; chạy script để sinh phần còn lại.
 - Không cần tài khoản: tiến độ và danh sách từ cần ôn được lưu trong trình duyệt (localStorage).
 
@@ -61,7 +62,7 @@ src/
   lib/srs.ts, lib/review.ts         lịch ôn tập ngắt quãng, thẻ ôn có chỗ trống
   components/TypingBoard.tsx        trang giấy để gõ, con trỏ, tooltip từ vựng
   components/WordPicker.tsx         kết quả và chọn từ cần ôn
-  pages/Home.tsx, Practice.tsx       chọn đoạn, gõ đoạn văn
+  pages/Home.tsx, Practice.tsx       chọn bộ từ vựng, gõ đoạn văn
   pages/Review.tsx, ReviewSession.tsx  danh sách từ cần ôn, buổi ôn tập
 scripts/generate-passages.mjs       sinh đoạn văn bằng OpenAI API
 scripts/lib/passage-gen.mjs         prompt, kiểm tra và ghép kết quả của model
