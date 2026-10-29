@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import { markupKeys, parsePassage, revealedChunkWords, revealedWordCount, stripMarkup } from '../lib/passage'
+import { sentenceTiles } from '../lib/scramble'
 import { PASSAGES_BY_LEVEL } from '.'
 import { LEVELS } from './types'
 
@@ -40,6 +41,8 @@ describe.each(LEVELS)('%s passages', (level) => {
       expect(plain).not.toMatch(/ {2}/)
       // Plain ASCII keeps the text typeable on any keyboard.
       expect(plain).toMatch(/^[\x20-\x7e]+$/)
+      // Reverse translation shuffles the words, so each sentence needs a few.
+      expect(sentenceTiles(s.en).length).toBeGreaterThanOrEqual(3)
     }
 
     for (const [key, v] of Object.entries(p.vocab)) {

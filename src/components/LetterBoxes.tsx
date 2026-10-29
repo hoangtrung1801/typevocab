@@ -9,18 +9,9 @@ type Props = {
   hinted: Set<number>
   /** After checking: boxes show the right letters, wrong ones in red. */
   revealed: boolean
-  /** Positions found wrong by the last check, outlined in red while editing. */
-  wrong?: Set<number>
-  /** Smaller boxes for long phrases. */
-  size?: 'lg' | 'md'
   onChange: (value: string) => void
   onKeyDown: (e: KeyboardEvent<HTMLInputElement>) => void
   inputRef: RefObject<HTMLInputElement | null>
-}
-
-const SIZES = {
-  lg: 'h-12 w-9 text-2xl sm:h-14 sm:w-11 sm:text-[28px]',
-  md: 'h-10 w-7 text-xl sm:h-11 sm:w-8 sm:text-[22px]',
 }
 
 /**
@@ -34,8 +25,6 @@ export default function LetterBoxes({
   typed,
   hinted,
   revealed,
-  wrong,
-  size = 'lg',
   onChange,
   onKeyDown,
   inputRef,
@@ -43,13 +32,12 @@ export default function LetterBoxes({
   const [focused, setFocused] = useState(false)
 
   const boxClass = (i: number) => {
-    const base = `flex items-center justify-center rounded-[3px] border-2 font-mono ${SIZES[size]}`
+    const base = `flex items-center justify-center rounded-[3px] border-2 font-mono h-12 w-9 text-2xl sm:h-14 sm:w-11 sm:text-[28px]`
     if (revealed) {
       const right = typed[i]?.toLowerCase() === letters[i].toLowerCase()
       if (!right) return `${base} border-red bg-card text-red`
       return `${base} border-ink text-ink ${hinted.has(i) ? 'bg-marker-soft' : 'bg-card'}`
     }
-    if (wrong?.has(i)) return `${base} border-red bg-card text-ink`
     if (focused && i === Math.min(typed.length, letters.length - 1)) return `${base} border-ink bg-card text-ink`
     if (i < typed.length) return `${base} border-rule bg-card text-ink`
     return `${base} border-rule bg-paper text-ink`
@@ -63,12 +51,12 @@ export default function LetterBoxes({
   }
 
   return (
-    <div className={`relative flex max-w-full flex-wrap items-end gap-y-2 ${size === 'lg' ? 'gap-x-4' : 'gap-x-3'}`}>
+    <div className="relative flex max-w-full flex-wrap items-end gap-x-4 gap-y-2">
       {answerWords(answer).map((word, w) => (
         <span key={w} className="flex items-end gap-1" aria-hidden="true">
           {word.map((slot, k) =>
             slot.kind === 'fixed' ? (
-              <span key={k} className={`font-mono text-pencil ${size === 'lg' ? 'text-[28px]' : 'text-[22px]'}`}>
+              <span key={k} className="font-mono text-[28px] text-pencil">
                 {slot.ch}
               </span>
             ) : (

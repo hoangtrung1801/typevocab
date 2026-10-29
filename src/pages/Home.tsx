@@ -45,7 +45,7 @@ export default function Home() {
         </div>
         <p className="m-0 mt-1 mb-6 text-base text-pencil">
           {mode === 'translate'
-            ? 'Mỗi lần chọn, bạn sẽ dịch một đoạn văn ngẫu nhiên từ tiếng Việt sang tiếng Anh, từng cụm một.'
+            ? 'Mỗi lần chọn, bạn sẽ dịch một đoạn văn ngẫu nhiên sang tiếng Anh: xếp các từ bị xáo trộn thành câu đúng, từng câu một.'
             : 'Mỗi lần chọn, bạn sẽ gõ chép một đoạn văn ngẫu nhiên trong bộ đó.'}
         </p>
         <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">

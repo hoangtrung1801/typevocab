@@ -23,10 +23,11 @@ Logic gõ giống Monkeytype:
 
 Chế độ thứ hai, chọn bằng nút **Gõ chép / Dịch ngược** ở trang chủ hoặc trang gõ:
 
-- Câu tiếng Việt hiện ở trên, cụm đang dịch được tô dạ quang. Bạn gõ cụm tiếng Anh tương ứng vào các ô theo số ký tự, mỗi từ một nhóm ô; dấu câu được điền sẵn. Các từ vựng mục tiêu của câu (dạng gốc) hiện bên dưới để gợi nhớ.
-- Nhấn Enter để kiểm tra: đúng thì sang cụm tiếp theo và cụm đó được nối vào bản dịch; sai thì các ô sai viền đỏ để sửa. Có thể bấm "Xem đáp án".
-- Gợi ý (Tab) hiện chữ của từ đang làm theo thứ tự đầu, cuối, giữa, dạng placeholder.
-- Dịch xong mỗi câu, app đọc to câu tiếng Anh. Kết quả: điểm (số cụm đúng ngay lần đầu, không gợi ý), thời gian và danh sách cụm nên xem lại.
+- Mỗi câu tiếng Anh được tách thành từng từ và xáo trộn, hiện trong một ô ngay dưới câu tiếng Việt. Bạn dựa vào nghĩa tiếng Việt và các từ đó để gõ lại câu tiếng Anh đúng thứ tự. Các từ vựng mục tiêu được tô dạ quang trong ô từ.
+- Khi gõ, từ nào đã dùng sẽ bị gạch trong ô từ; gõ một từ không có trong ô thì app báo ngay. Không cần gõ dấu câu, không phân biệt hoa thường.
+- Nhấn Enter để kiểm tra: đúng thì sang câu tiếp theo; sai thì các từ sai được gạch đỏ (kèm số từ còn thiếu/thừa) để sửa. Có thể bấm "Xem đáp án".
+- Gợi ý (Tab) đánh số thứ tự lên từ cần gõ tiếp theo trong ô từ.
+- Dịch xong mỗi câu, app đọc to câu tiếng Anh. Kết quả: điểm (số câu đúng ngay lần đầu, không gợi ý), thời gian và danh sách câu nên xem lại.
 - Tiến độ của mỗi chế độ được lưu riêng.
 
 ## Ôn tập ngắt quãng
@@ -71,10 +72,11 @@ src/
   lib/typing.ts                     logic gõ kiểu Monkeytype
   lib/store.ts                      trạng thái lưu trong localStorage
   lib/srs.ts, lib/review.ts         lịch ôn tập ngắt quãng, thẻ ôn có chỗ trống
+  lib/scramble.ts                   tách, xáo và so khớp từ cho chế độ dịch ngược
   components/TypingBoard.tsx        trang giấy để gõ, con trỏ, tooltip từ vựng
   components/WordPicker.tsx         kết quả và chọn từ cần ôn
-  components/TranslateSession.tsx   chế độ dịch ngược theo cụm
-  components/LetterBoxes.tsx        ô nhập theo số ký tự (ôn tập, dịch ngược)
+  components/TranslateSession.tsx   chế độ dịch ngược: xếp từ thành câu
+  components/LetterBoxes.tsx        ô nhập theo số ký tự (ôn tập)
   pages/Home.tsx, Practice.tsx       chọn bộ từ vựng, gõ đoạn văn
   pages/Review.tsx, ReviewSession.tsx  danh sách từ cần ôn, buổi ôn tập
 scripts/generate-passages.mjs       sinh đoạn văn bằng OpenAI API

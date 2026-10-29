@@ -83,28 +83,3 @@ export function answerWords(answer: string): Slot[][] {
     .filter(Boolean)
     .map((word) => [...word].map((ch): Slot => (isTypeable(ch) ? { kind: 'box', index: index++ } : { kind: 'fixed', ch })))
 }
-
-/** Positions typed wrong (or left empty) after checking. */
-export function wrongPositions(typed: string, letters: string): Set<number> {
-  const out = new Set<number>()
-  for (let i = 0; i < letters.length; i++) if (!same(typed[i], letters[i])) out.add(i)
-  return out
-}
-
-/**
- * For a phrase: the next hint goes to the first word that is not fully typed
- * correctly, in that word's first-last-middle order. -1 when nothing is left.
- */
-export function nextWordHintIndex(answer: string, typed: string, hinted: Set<number>): number {
-  const letters = answerLetters(answer)
-  for (const word of answerWords(answer)) {
-    const boxes = word.flatMap((s) => (s.kind === 'box' ? [s.index] : []))
-    const open = boxes.filter((i) => !same(typed[i], letters[i]))
-    if (open.length === 0) continue
-    const next = hintOrder(boxes.length)
-      .map((k) => boxes[k])
-      .find((i) => !hinted.has(i) && !same(typed[i], letters[i]))
-    if (next !== undefined) return next
-  }
-  return -1
-}

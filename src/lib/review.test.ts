@@ -6,8 +6,6 @@ import {
   hintOrder,
   isCorrectLetters,
   nextHintIndex,
-  nextWordHintIndex,
-  wrongPositions,
 } from './review'
 
 const sentences = [
@@ -42,10 +40,6 @@ describe('letter boxes', () => {
     ])
   })
 
-  it('lists the wrong or empty positions', () => {
-    expect([...wrongPositions('cagx', 'cages')]).toEqual([3, 4])
-  })
-
   it('checks every box, ignoring case', () => {
     expect(isCorrectLetters('Cages', 'cages')).toBe(true)
     expect(isCorrectLetters('monday', 'Monday')).toBe(true)
@@ -69,21 +63,5 @@ describe('hints', () => {
     expect(nextHintIndex('cages', 'c', new Set())).toBe(4)
     expect(nextHintIndex('cages', 'xages', new Set([4]))).toBe(0)
     expect(nextHintIndex('cages', 'cages', new Set())).toBe(-1)
-  })
-})
-
-describe('nextWordHintIndex', () => {
-  // "On Sunday," -> letters "OnSunday": On = 0-1, Sunday = 2-7
-  it('hints the first unfinished word, first letter then last then middle', () => {
-    expect(nextWordHintIndex('On Sunday,', '', new Set())).toBe(0)
-    expect(nextWordHintIndex('On Sunday,', '', new Set([0]))).toBe(1)
-    expect(nextWordHintIndex('On Sunday,', 'On', new Set())).toBe(2)
-    expect(nextWordHintIndex('On Sunday,', 'On', new Set([2]))).toBe(7)
-    expect(nextWordHintIndex('On Sunday,', 'On', new Set([2, 7]))).toBe(4)
-  })
-
-  it('moves on when a word is fully hinted, and stops when all is correct', () => {
-    expect(nextWordHintIndex('On Sunday,', '', new Set([0, 1]))).toBe(2)
-    expect(nextWordHintIndex('On Sunday,', 'onsunday', new Set())).toBe(-1)
   })
 })
