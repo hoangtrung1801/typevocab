@@ -43,15 +43,28 @@ export function isCorrectLetters(typed: string, letters: string): boolean {
 }
 
 /**
- * One more letter of help: keeps the correct start of what was typed, fixes
- * the first wrong letter or adds the next one, and drops anything after it.
- * Returns the new input and the position that was revealed (-1 when complete).
+ * The order hints reveal positions in: first letter, last letter, then the
+ * middle of the widest unrevealed stretch each time, so revealed letters stay
+ * evenly spread. "octogenarian" -> 0, 11, 5, 8, 2, 3, 6, 9, 1, 4, 7, 10.
  */
-export function nextHint(typed: string, letters: string): { value: string; revealed: number } {
-  let i = 0
-  while (i < letters.length && same(typed[i], letters[i])) i++
-  if (i >= letters.length) return { value: typed.slice(0, letters.length), revealed: -1 }
-  return { value: typed.slice(0, i) + letters[i], revealed: i }
+export function hintOrder(length: number): number[] {
+  if (length <= 0) return []
+  const order = length === 1 ? [0] : [0, length - 1]
+  while (order.length < length) {
+    const sorted = [...order].sort((a, b) => a - b)
+    let best = 0
+    for (let i = 1; i < sorted.length - 1; i++) if (sorted[i + 1] - sorted[i] > sorted[best + 1] - sorted[best]) best = i
+    order.push(Math.floor((sorted[best] + sorted[best + 1]) / 2))
+  }
+  return order
+}
+
+/**
+ * The next position to show as a hint, skipping ones already hinted or already
+ * typed correctly; -1 when there is nothing left to reveal.
+ */
+export function nextHintIndex(letters: string, typed: string, hinted: Set<number>): number {
+  return hintOrder(letters.length).find((i) => !hinted.has(i) && !same(typed[i], letters[i])) ?? -1
 }
 
 /** Splits an answer into boxes and gaps, with each box's index in the letters. */

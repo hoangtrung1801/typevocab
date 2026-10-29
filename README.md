@@ -2,7 +2,8 @@
 
 Luyện gõ tiếng Anh và học từ vựng cùng lúc. Bạn gõ lại một đoạn văn tiếng Anh. Các từ vựng mục tiêu trong đoạn được tô như bút dạ quang, và khi gõ tới (hoặc rê chuột vào) sẽ hiện nghĩa tiếng Việt, phiên âm và loại từ. Bản dịch tiếng Việt của câu đang gõ hiện dần ngay bên dưới: gõ tới cụm tiếng Anh nào thì cụm tiếng Việt tương ứng hiện ra từng từ. Gõ xong, bạn chọn những từ muốn ôn lại.
 
-- 6 trình độ A1–C2, khoảng 4.900 từ vựng chia theo unit và chủ đề (`data/vocab/*.csv`).
+- 6 bộ từ vựng A1–C2, khoảng 4.900 từ chia theo unit và chủ đề (`data/vocab/*.csv`).
+- Chọn một bộ ở trang chủ là bắt đầu gõ một đoạn văn ngẫu nhiên trong bộ đó, ưu tiên đoạn chưa gõ; gõ xong, "sang đoạn ngẫu nhiên khác" tiếp tục như vậy.
 - Mỗi unit từ vựng thành một đoạn văn (hai đoạn nếu unit có hơn 8 từ), sinh bằng script với OpenAI API. Repo hiện chỉ có đoạn mẫu cho unit 1 của mỗi trình độ; chạy script để sinh phần còn lại.
 - Không cần tài khoản: tiến độ và danh sách từ cần ôn được lưu trong trình duyệt (localStorage).
 
@@ -23,7 +24,8 @@ Logic gõ giống Monkeytype:
 Những từ đã chọn ôn được xếp lịch theo thuật toán SM-2 rút gọn (thuật toán của Anki), trong `src/lib/srs.ts`:
 
 - Thẻ ôn gồm: **nghĩa** tiếng Việt và loại từ; **câu tham khảo** tiếng Anh lấy từ đoạn văn (từ cần ôn để trống) kèm bản dịch; và **ô nhập theo số ký tự**, mỗi chữ cái một ô, dấu cách là khoảng trống. Bạn gõ dạng từ xuất hiện trong câu (*cages*), không phân biệt hoa thường.
-- **Gợi ý** (nút hoặc phím Tab) mở thêm một chữ cái; nếu đã gõ sai, gợi ý sửa chữ sai đầu tiên. Chữ được gợi ý tô vàng. Nhấn Enter để kiểm tra; ô sai hiện màu đỏ cùng đáp án.
+- **Gợi ý** (nút hoặc phím Tab) lần lượt hiện chữ đầu, chữ cuối, rồi các chữ ở giữa cách đều nhau (luôn chọn giữa khoảng trống lớn nhất), bỏ qua chữ đã gõ đúng. Chữ gợi ý hiện mờ như placeholder, không được điền sẵn: bạn vẫn phải gõ đủ các ô. Nhấn Enter để kiểm tra; ô sai hiện màu đỏ cùng đáp án.
+- Khi hoàn thành một từ, app đọc to từ đó bằng giọng tiếng Anh của trình duyệt (Web Speech API); nút loa để nghe lại. Âm thanh tự phát theo nút bật/tắt âm thanh ở trang gõ.
 - Sau khi kiểm tra, chọn mức nhớ bằng nút hoặc phím 1–4: **Quên** (ôn lại sau 10 phút, quay lại cuối buổi ôn), **Khó**, **Được**, **Dễ**. App gợi ý sẵn: đúng không cần gợi ý → "Được"; đúng nhưng có dùng gợi ý → "Khó"; sai hoặc phải gợi ý hết các chữ → "Quên".
 - Khoảng cách giãn dần: 1 ngày, 3 ngày, rồi nhân với hệ số dễ (bắt đầu 2,5; giảm khi chọn Khó/Quên, tăng khi chọn Dễ).
 - Mỗi buổi ôn tối đa 30 từ đến hạn. Trang chủ và trang "Từ cần ôn" hiện số từ đến hạn.
@@ -61,7 +63,7 @@ src/
   lib/srs.ts, lib/review.ts         lịch ôn tập ngắt quãng, thẻ ôn có chỗ trống
   components/TypingBoard.tsx        trang giấy để gõ, con trỏ, tooltip từ vựng
   components/WordPicker.tsx         kết quả và chọn từ cần ôn
-  pages/Home.tsx, Practice.tsx       chọn đoạn, gõ đoạn văn
+  pages/Home.tsx, Practice.tsx       chọn bộ từ vựng, gõ đoạn văn
   pages/Review.tsx, ReviewSession.tsx  danh sách từ cần ôn, buổi ôn tập
 scripts/generate-passages.mjs       sinh đoạn văn bằng OpenAI API
 scripts/lib/passage-gen.mjs         prompt, kiểm tra và ghép kết quả của model

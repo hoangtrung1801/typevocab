@@ -5,11 +5,11 @@ import Page from '../components/Page'
 import Paper from '../components/Paper'
 import TypingBoard from '../components/TypingBoard'
 import WordPicker from '../components/WordPicker'
-import { getPassage, nextPassage, PASSAGES_BY_LEVEL } from '../data'
+import { getPassage, pickPassage, PASSAGES_BY_LEVEL } from '../data'
 import type { Passage } from '../data/types'
 import { formatTime, parsePassage, revealedChunkWords } from '../lib/passage'
 import { play } from '../lib/sound'
-import { saveResult, setLastLevel, setShowTranslation, setSoundOn, useStore } from '../lib/store'
+import { getState, saveResult, setLastLevel, setShowTranslation, setSoundOn, useStore } from '../lib/store'
 import { backspace, initTyping, stats, typeChar, type TypingState } from '../lib/typing'
 
 export default function Practice() {
@@ -33,8 +33,8 @@ function PracticeSession({ passage }: { passage: Passage }) {
   const savedAt = useRef<number | null>(null)
 
   const done = typing.finishedAt !== null
-  const next = nextPassage(passage)
-  const total = PASSAGES_BY_LEVEL[passage.level].length
+  const levelPassages = PASSAGES_BY_LEVEL[passage.level]
+  const hasNext = levelPassages.length > 1
 
   useEffect(() => setLastLevel(passage.level), [passage.level])
 
@@ -125,7 +125,7 @@ function PracticeSession({ passage }: { passage: Passage }) {
     <Page wide>
       <div className="flex flex-wrap items-center justify-between gap-4">
         <BackLink to="/">
-          {passage.level} · Đoạn {passage.number}/{total}
+          Bộ {passage.level}
         </BackLink>
         <div className="flex items-center gap-2">
           <span className="font-mono text-base text-pencil">
@@ -155,9 +155,13 @@ function PracticeSession({ passage }: { passage: Passage }) {
             vocabOrder={parsed.vocabOrder}
             mistyped={mistyped}
             stats={live}
-            hasNext={Boolean(next)}
+            hasNext={hasNext}
             onRetry={restart}
-            onSaved={() => navigate(next ? `/p/${next.id}` : '/')}
+            onSaved={() => {
+              const progress = getState().progress
+              const next = hasNext ? pickPassage(levelPassages, (id) => Boolean(progress[id]), passage.id) : undefined
+              navigate(next ? `/p/${next.id}` : '/')
+            }}
           />
         </Paper>
       ) : (
