@@ -1,0 +1,13 @@
+[
+  {"id":"c2-u001-crony","word":"crony","pos":"noun","def":"a close friend of someone powerful, who gets unfair favours"},
+  {"id":"c2-u001-hermit","word":"hermit","pos":"noun","def":"a person who chooses to live completely alone"},
+  {"id":"c2-u001-vandal","word":"vandal","pos":"noun","def":"a person who damages public property on purpose"},
+  {"id":"c2-u001-apostle","word":"apostle","pos":"noun","def":"one of the twelve close followers of Jesus"},
+  {"id":"c2-u001-recluse","word":"recluse","pos":"noun","def":"a person who avoids other people and lives alone"},
+  {"id":"c2-u001-exorcist","word":"exorcist","pos":"noun","def":"a person who drives evil spirits out of someone"},
+  {"id":"c2-u001-neophyte","word":"neophyte","pos":"noun","def":"a person who has just started to learn something or join a group"},
+  {"id":"c2-u001-posterity","word":"posterity","pos":"noun","def":"all the people who will live after you"},
+  {"id":"c2-u001-philistine","word":"philistine","pos":"noun","def":"a person who does not care about art or culture"},
+  {"id":"c2-u001-breadwinner","word":"breadwinner","pos":"noun","def":"the person in a family who earns the money"},
+  {"id":"c2-u001-octogenarian","word":"octogenarian","pos":"noun","def":"a person aged between eighty and eighty-nine"}
+]

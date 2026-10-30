@@ -1,0 +1,15 @@
+[
+  {"id":"b2-u001-lord","word":"lord","pos":"noun","def":"a man of high rank in some countries"},
+  {"id":"b2-u001-self","word":"self","pos":"noun","def":"the person that you really are"},
+  {"id":"b2-u001-slave","word":"slave","pos":"noun","def":"a person who is owned by another and made to work without pay"},
+  {"id":"b2-u001-fellow","word":"fellow","pos":"adjective","def":"sharing the same situation or activity as you"},
+  {"id":"b2-u001-citizen","word":"citizen","pos":"noun","def":"a person who legally belongs to a country"},
+  {"id":"b2-u001-elderly","word":"elderly","pos":"adjective","def":"a polite word for old people"},
+  {"id":"b2-u001-participant","word":"participant","pos":"noun","def":"a person who takes part in an activity"},
+  {"id":"b2-u001-cell","word":"cell","pos":"noun","def":"the smallest living part of a plant or animal"},
+  {"id":"b2-u001-cure","word":"cure","pos":"noun, verb","def":"to make a sick person healthy again"},
+  {"id":"b2-u001-heel","word":"heel","pos":"noun","def":"the back part of your foot, below the ankle"},
+  {"id":"b2-u001-lung","word":"lung","pos":"noun","def":"one of the two organs in your chest that you breathe with"},
+  {"id":"b2-u001-blind","word":"blind","pos":"adjective","def":"not able to see"},
+  {"id":"b2-u001-nerve","word":"nerve","pos":"noun","def":"a thin fibre that carries messages between the brain and the body"}
+]

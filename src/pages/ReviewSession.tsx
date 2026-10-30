@@ -4,7 +4,7 @@ import BackLink from '../components/BackLink'
 import Page from '../components/Page'
 import LetterBoxes from '../components/LetterBoxes'
 import Paper from '../components/Paper'
-import { getSource } from '../data'
+import { getDefinition, getSource } from '../data'
 import { answerLetters, clozeFor, isCorrectLetters, nextHintIndex } from '../lib/review'
 import { play } from '../lib/sound'
 import { canSpeak, speak } from '../lib/speech'
@@ -53,6 +53,7 @@ export default function ReviewSession() {
   const source = word ? getSource(word.passageId) : undefined
   const cloze = word && source ? clozeFor(source.sentences, word.word.toLowerCase()) : null
   const answer = cloze?.answer ?? word?.word ?? ''
+  const definition = word ? getDefinition(word.level, word.word) : undefined
   const letters = answerLetters(answer)
   // Hints lower the suggested grade; needing every letter counts as forgotten.
   const suggested: Grade =
@@ -150,6 +151,11 @@ export default function ReviewSession() {
                 {word.vi}
               </p>
               <span className="text-base text-pencil italic">{word.pos}</span>
+              {definition && (
+                <p lang="en" className="m-0 text-[18px] leading-snug text-ink-soft">
+                  {definition}
+                </p>
+              )}
             </div>
 
             {cloze && (

@@ -1,0 +1,14 @@
+[
+  {"id":"c1-u001-duo","word":"duo","pos":"noun","def":"two people who perform or work together"},
+  {"id":"c1-u001-lad","word":"lad","pos":"noun","def":"a boy or young man, in informal speech"},
+  {"id":"c1-u001-mob","word":"mob","pos":"noun","def":"a large angry crowd"},
+  {"id":"c1-u001-monk","word":"monk","pos":"noun","def":"a man who lives in a religious community away from society"},
+  {"id":"c1-u001-buddy","word":"buddy","pos":"noun","def":"a close friend, in informal speech"},
+  {"id":"c1-u001-donor","word":"donor","pos":"noun","def":"a person who gives money, blood or an organ to help others"},
+  {"id":"c1-u001-elite","word":"elite","pos":"noun","def":"the best or most powerful group in a society"},
+  {"id":"c1-u001-idiot","word":"idiot","pos":"noun","def":"a very stupid person"},
+  {"id":"c1-u001-saint","word":"saint","pos":"noun","def":"a holy person who is honoured by a church after death"},
+  {"id":"c1-u001-widow","word":"widow","pos":"noun","def":"a woman whose husband has died"},
+  {"id":"c1-u001-infant","word":"infant","pos":"noun","def":"a very young baby or child"},
+  {"id":"c1-u001-patron","word":"patron","pos":"noun","def":"a person who supports an artist or a cause with money"}
+]

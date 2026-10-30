@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import BackLink from '../components/BackLink'
 import Page from '../components/Page'
 import Paper from '../components/Paper'
-import { getSource } from '../data'
+import { getDefinition, getSource } from '../data'
 import { LEVELS } from '../data/types'
 import { formatDuration, isDue } from '../lib/srs'
 import { cardOf, removeReview, reviewKey, useStore } from '../lib/store'
@@ -76,6 +76,11 @@ export default function Review() {
                     <span lang="vi" className="text-[19px]">
                       {w.vi}
                     </span>
+                    {getDefinition(w.level, w.word) && (
+                      <span lang="en" className="text-[15px] text-ink-soft">
+                        {getDefinition(w.level, w.word)}
+                      </span>
+                    )}
                     {source && (
                       <Link to={source.path} className="text-sm text-pencil italic">
                         trong “{source.title}”

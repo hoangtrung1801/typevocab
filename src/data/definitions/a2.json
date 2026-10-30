@@ -1,0 +1,13 @@
+[
+  {"id":"a2-u001-guy","word":"guy","pos":"noun","def":"a man, in informal speech"},
+  {"id":"a2-u001-kid","word":"kid","pos":"noun","def":"a child, in informal speech"},
+  {"id":"a2-u001-sir","word":"sir","pos":"noun","def":"a polite word used to speak to a man"},
+  {"id":"a2-u001-lady","word":"lady","pos":"noun","def":"a polite word for a woman"},
+  {"id":"a2-u001-twin","word":"twin","pos":"adjective, noun","def":"one of two children born to the same mother at the same time"},
+  {"id":"a2-u001-birth","word":"birth","pos":"noun","def":"the moment when a baby comes out of its mother"},
+  {"id":"a2-u001-human","word":"human","pos":"adjective, noun","def":"a person, not an animal or a machine"},
+  {"id":"a2-u001-couple","word":"couple","pos":"noun","def":"two people who are together, for example married"},
+  {"id":"a2-u001-wedding","word":"wedding","pos":"noun","def":"a ceremony in which two people get married"},
+  {"id":"a2-u001-divorced","word":"divorced","pos":"adjective","def":"no longer married because a court has ended the marriage"},
+  {"id":"a2-u001-relationship","word":"relationship","pos":"noun","def":"the way two people feel and behave towards each other"}
+]

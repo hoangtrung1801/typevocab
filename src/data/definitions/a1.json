@@ -1,0 +1,14 @@
+[
+  {"id":"a1-u001-boy","word":"boy","pos":"noun","def":"a young male child"},
+  {"id":"a1-u001-dad","word":"dad","pos":"noun","def":"a name for your father"},
+  {"id":"a1-u001-man","word":"man","pos":"noun","def":"an adult male person"},
+  {"id":"a1-u001-mum","word":"mum","pos":"noun","def":"a name for your mother"},
+  {"id":"a1-u001-son","word":"son","pos":"noun","def":"your male child"},
+  {"id":"a1-u001-aunt","word":"aunt","pos":"noun","def":"the sister of your mother or father"},
+  {"id":"a1-u001-baby","word":"baby","pos":"noun","def":"a very young child who cannot walk or talk yet"},
+  {"id":"a1-u001-girl","word":"girl","pos":"noun","def":"a young female child"},
+  {"id":"a1-u001-wife","word":"wife","pos":"noun","def":"the woman a man is married to"},
+  {"id":"a1-u001-adult","word":"adult","pos":"adjective, noun","def":"a person who is fully grown"},
+  {"id":"a1-u001-child","word":"child","pos":"noun","def":"a young person who is not yet an adult"},
+  {"id":"a1-u001-uncle","word":"uncle","pos":"noun","def":"the brother of your mother or father"}
+]

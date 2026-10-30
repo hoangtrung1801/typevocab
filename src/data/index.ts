@@ -10,12 +10,20 @@ import sb1 from './sentences/b1.json'
 import sb2 from './sentences/b2.json'
 import sc1 from './sentences/c1.json'
 import sc2 from './sentences/c2.json'
+import da1 from './definitions/a1.json'
+import da2 from './definitions/a2.json'
+import db1 from './definitions/b1.json'
+import db2 from './definitions/b2.json'
+import dc1 from './definitions/c1.json'
+import dc2 from './definitions/c2.json'
 import { stripMarkup } from '../lib/passage'
-import { LEVELS, type Drill, type Level, type Passage, type RawDrill, type RawPassage, type RawSentence, type Sentence } from './types'
+import { LEVELS, type Definition, type Drill, type Level, type Passage, type RawDrill, type RawPassage, type RawSentence, type Sentence } from './types'
 
 // JSON imports infer a union of literal shapes; the content test checks the real structure.
 const RAW = { A1: a1, A2: a2, B1: b1, B2: b2, C1: c1, C2: c2 } as unknown as Record<Level, RawPassage[]>
 const RAW_DRILLS = { A1: sa1, A2: sa2, B1: sb1, B2: sb2, C1: sc1, C2: sc2 } as unknown as Record<Level, RawDrill[]>
+
+export const DEFINITIONS_BY_LEVEL = { A1: da1, A2: da2, B1: db1, B2: db2, C1: dc1, C2: dc2 } as unknown as Record<Level, Definition[]>
 
 export const CHUNK_SEPARATOR = ' / '
 
@@ -80,4 +88,13 @@ export function pickPassage<T extends { id: string }>(
   const fresh = others.filter((p) => !done(p.id))
   const pool = fresh.length ? fresh : others
   return pool[Math.floor(random() * pool.length)]
+}
+
+const DEFINITIONS = new Map(
+  LEVELS.flatMap((level) => DEFINITIONS_BY_LEVEL[level].map((d) => [`${level}:${d.word.toLowerCase()}`, d.def] as const)),
+)
+
+/** The word explained in English, for guessing it; undefined until definitions are generated for it. */
+export function getDefinition(level: Level, word: string): string | undefined {
+  return DEFINITIONS.get(`${level}:${word.toLowerCase()}`)
 }

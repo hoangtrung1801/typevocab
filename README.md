@@ -66,6 +66,7 @@ data/vocab/a1.csv … c2.csv          bộ từ vựng: unit, từ, loại từ,
 src/
   data/passages/a1.json … c2.json   đoạn văn để gõ chép (do script sinh ra)
   data/sentences/a1.json … c2.json  câu ngắn để dịch ngược (do script sinh ra)
+  data/definitions/a1.json … c2.json  nghĩa tiếng Anh của từng từ, để đoán từ (do script sinh ra)
   data/topics.ts                    tên các chủ đề
   data/index.ts                     nạp nội dung
   lib/passage.ts                    tách đoạn văn thành ký tự / từ, đánh dấu từ vựng
@@ -138,6 +139,23 @@ Mỗi câu trong `src/data/sentences/<level>.json` nằm trên một dòng:
 
 ```json
 {"id":"a1-u001-aunt","unit":1,"topic":"fam","en":"My [aunt] lives in a big house.","vi":"Dì tôi sống trong một ngôi nhà lớn.","vocab":{"aunt":{"word":"aunt","pos":"noun","ipa":"/ɑːnt/","vi":"dì, cô"}}}
+```
+
+## Sinh nghĩa tiếng Anh của từ
+
+```bash
+npm run generate:definitions -- --level a1 --units 2 --dry-run   # xem prompt
+npm run generate:definitions -- --level all                      # sinh cho toàn bộ ~4.900 từ
+```
+
+Mỗi từ có một định nghĩa ngắn kiểu từ điển cho người học (2–18 từ, ví dụ `a young male child`), viết bằng từ đơn giản hơn chính từ đó, để người học đọc và **đoán ra từ**. Mỗi unit là một request. Script kiểm tra: mỗi từ đúng một định nghĩa, chỉ dùng ASCII, không kết thúc bằng dấu chấm, và **không chứa chính từ đó** (kể cả dạng biến đổi như `teaches`, `babies`), nếu không lời giải sẽ lộ ra. Tuỳ chọn và biến môi trường giống `npm run generate`; định nghĩa đã có được giữ lại nên chạy tiếp được khi bị ngắt.
+
+Nghĩa tiếng Anh hiện ở thẻ ôn từ (ngay dưới nghĩa tiếng Việt, trước khi gõ đáp án), ở danh sách "Từ cần ôn" và ở thẻ từ sau mỗi câu dịch ngược. Từ chưa có định nghĩa thì không hiện gì. Repo có sẵn định nghĩa cho unit 1 của mỗi bộ để dùng thử.
+
+Mỗi dòng trong `src/data/definitions/<level>.json`:
+
+```json
+{"id":"a1-u001-boy","word":"boy","pos":"noun","def":"a young male child"}
 ```
 
 ## Định dạng đoạn văn

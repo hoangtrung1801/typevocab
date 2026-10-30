@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "test": "vitest run",
     "generate": "node scripts/generate-passages.mjs",
-    "generate:sentences": "node scripts/generate-sentences.mjs"
+    "generate:sentences": "node scripts/generate-sentences.mjs",
+    "generate:definitions": "node scripts/generate-definitions.mjs"
   },
   "dependencies": {
     "react": "^19.3.1",

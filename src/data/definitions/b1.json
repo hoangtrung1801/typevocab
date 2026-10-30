@@ -1,0 +1,12 @@
+[
+  {"id":"b1-u001-kiss","word":"kiss","pos":"noun, verb","def":"to touch someone with your lips to show love"},
+  {"id":"b1-u001-bride","word":"bride","pos":"noun","def":"a woman on her wedding day"},
+  {"id":"b1-u001-enemy","word":"enemy","pos":"noun","def":"a person who wants to harm or fight you"},
+  {"id":"b1-u001-youth","word":"youth","pos":"noun","def":"the time of life when you are young"},
+  {"id":"b1-u001-native","word":"native","pos":"adjective, noun","def":"born in a particular place or country"},
+  {"id":"b1-u001-prince","word":"prince","pos":"noun","def":"the son of a king or queen"},
+  {"id":"b1-u001-victim","word":"victim","pos":"noun","def":"a person who is hurt or killed by a crime or accident"},
+  {"id":"b1-u001-engaged","word":"engaged","pos":"adjective","def":"having promised to marry someone"},
+  {"id":"b1-u001-servant","word":"servant","pos":"noun","def":"a person paid to work in someone else's home"},
+  {"id":"b1-u001-marriage","word":"marriage","pos":"noun","def":"the legal relationship between a husband and a wife"}
+]

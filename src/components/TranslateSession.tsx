@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState, type KeyboardEvent } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { DRILLS_BY_LEVEL } from '../data'
+import { DRILLS_BY_LEVEL, getDefinition } from '../data'
 import type { Drill } from '../data/types'
 import { nextPath } from '../lib/navigation'
 import { markupKeys, parsePassage, stripMarkup } from '../lib/passage'
@@ -340,6 +340,11 @@ function Done({ drill, answer, outcome, attempts }: { drill: Drill; answer: stri
               <span lang="vi" className="text-[17px] text-ink-soft">
                 {w.vi}
               </span>
+              {getDefinition(drill.level, w.word) && (
+                <span lang="en" className="text-[15px] text-pencil">
+                  {getDefinition(drill.level, w.word)}
+                </span>
+              )}
             </span>
             <button
               type="button"

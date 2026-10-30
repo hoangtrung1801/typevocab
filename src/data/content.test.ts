@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import { markupKeys, parsePassage, revealedChunkWords, revealedWordCount, stripMarkup } from '../lib/passage'
 import { sentenceTiles } from '../lib/scramble'
-import { DRILLS_BY_LEVEL, PASSAGES_BY_LEVEL } from '.'
+import { DEFINITIONS_BY_LEVEL, DRILLS_BY_LEVEL, PASSAGES_BY_LEVEL } from '.'
 import { LEVELS } from './types'
 
 describe.each(LEVELS)('%s passages', (level) => {
@@ -139,5 +139,20 @@ describe('revealedChunkWords', () => {
     expect(revealedChunkWords(en, vi, 13)).toBe(3)
     expect(revealedChunkWords(en, vi, 18)).toBe(4)
     expect(revealedChunkWords(en, vi, 32)).toBe(7)
+  })
+})
+
+describe.each(LEVELS)('%s English definitions', (level) => {
+  it('defines each word once, without giving the word away', () => {
+    const words = DEFINITIONS_BY_LEVEL[level].map((d) => d.word.toLowerCase())
+    expect(new Set(words).size).toBe(words.length)
+    for (const d of DEFINITIONS_BY_LEVEL[level]) {
+      expect(d.id).toMatch(new RegExp(`^${level.toLowerCase()}-u\\d{3}-[a-z0-9-]+$`))
+      expect(d.def, d.id).toMatch(/^[\x20-\x7e]+$/)
+      expect(d.def.split(/\s+/).length, d.id).toBeGreaterThanOrEqual(2)
+      expect(d.def.split(/\s+/).length, d.id).toBeLessThanOrEqual(18)
+      expect(d.def, d.id).not.toMatch(/[.!?[\]|/]$|\s{2}|^\s|\s$/)
+      expect(d.def.toLowerCase().split(/[^a-z]+/), d.id).not.toContain(d.word.toLowerCase())
+    }
   })
 })

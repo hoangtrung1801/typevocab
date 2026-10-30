@@ -72,3 +72,13 @@ export type RawDrill = {
 }
 
 export type Drill = RawDrill & { level: Level }
+
+/** A short English definition of a vocabulary word, as written in definitions/<level>.json. */
+export type Definition = {
+  /** Stable id such as "b1-u012-marriage", the same as the word's reverse translation sentence. */
+  id: string
+  word: string
+  pos: string
+  /** Learner-dictionary style, without the word itself, e.g. "a young male child". */
+  def: string
+}
